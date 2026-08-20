@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Joyce 的播客</title>
+    <title>瑜伽课后</title>
     <link>https://joycenotebook.github.io/joyce-podcast/</link>
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
-    <description>个人知识播客：AI 应用、餐饮/消费行业、阅读与生活方式</description>
+    <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:57:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 13:10:40 +0000</lastBuildDate>
     <generator>Podcast Factory</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
     </itunes:owner>
     <itunes:author>Joyce</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:subtitle>个人知识播客：AI 应用、餐饮/消费行业、阅读与生活方式</itunes:subtitle>
-    <itunes:summary>个人知识播客：AI 应用、餐饮/消费行业、阅读与生活方式</itunes:summary>
+    <itunes:subtitle>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</itunes:subtitle>
+    <itunes:summary>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://joycenotebook.github.io/joyce-podcast/cover.jpg" />
     <item>
