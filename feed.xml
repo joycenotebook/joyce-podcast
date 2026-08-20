@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Joyce 的播客</title>
     <link>https://joycenotebook.github.io/joyce-podcast/</link>
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>个人知识播客：AI 应用、餐饮/消费行业、阅读与生活方式</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Aug 2026 12:45:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 12:57:51 +0000</lastBuildDate>
     <generator>Podcast Factory</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
