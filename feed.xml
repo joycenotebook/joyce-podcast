@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joyce 的播客</title>
+    <link>https://joycenotebook.github.io/joyce-podcast/</link>
+    <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <description>个人知识播客：AI 应用、餐饮/消费行业、阅读与生活方式</description>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 20 Aug 2026 12:29:18 +0000</lastBuildDate>
+    <generator>Podcast Factory</generator>
+    <itunes:owner>
+      <email>lijiexin2010@163.com</email>
+    </itunes:owner>
+    <itunes:author>Joyce</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:subtitle>个人知识播客：AI 应用、餐饮/消费行业、阅读与生活方式</itunes:subtitle>
+    <itunes:summary>个人知识播客：AI 应用、餐饮/消费行业、阅读与生活方式</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://joycenotebook.github.io/joyce-podcast/cover.jpg" />
+    <item>
+      <title>内心确信，才是职业选择的底层逻辑</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/</link>
+      <description>性格与环境错位、信念如何左右选择、岗位抓手缺失，以及两套向内锚定方向的工具。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-001.mp3" type="audio/mpeg" length="15840278" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-001.mp3</guid>
+      <itunes:duration>11:00</itunes:duration>
+      <itunes:title>内心确信，才是职业选择的底层逻辑</itunes:title>
+      <itunes:subtitle>性格与环境错位、信念如何左右选择、岗位抓手缺失，以及两套向内锚定方向的工具。</itunes:subtitle>
+      <itunes:summary>性格与环境错位、信念如何左右选择、岗位抓手缺失，以及两套向内锚定方向的工具。</itunes:summary>
+    </item>
+    <item>
+      <title>AI应用观察 · 试播集</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/</link>
+      <description>试播集：为什么我们越来越依赖 AI 处理信息，以及如何给知识做流水线。</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-000.mp3" type="audio/mpeg" length="642956" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-000.mp3</guid>
+      <itunes:duration>1:01</itunes:duration>
+      <itunes:title>AI应用观察 · 试播集</itunes:title>
+      <itunes:subtitle>试播集：为什么我们越来越依赖 AI 处理信息，以及如何给知识做流水线。</itunes:subtitle>
+      <itunes:summary>试播集：为什么我们越来越依赖 AI 处理信息，以及如何给知识做流水线。</itunes:summary>
+    </item>
+  </channel>
+</rss>
