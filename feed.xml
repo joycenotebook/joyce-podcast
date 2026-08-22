@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 20 Aug 2026 13:10:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 02:45:21 +0000</lastBuildDate>
     <generator>Podcast Factory</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -17,6 +17,18 @@
     <itunes:summary>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</itunes:summary>
     <itunes:type>episodic</itunes:type>
     <itunes:image href="https://joycenotebook.github.io/joyce-podcast/cover.jpg" />
+    <item>
+      <title>Anthropic 产品团队如何做到比别人快</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/</link>
+      <description>透过AI播客学英文课第一期。Cat Wu 谈 AGI pilled、product taste，以及 Anthropic 如何把交付从六个月压到一天。</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-002.mp3" type="audio/mpeg" length="36744924" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-002.mp3</guid>
+      <itunes:duration>25:31</itunes:duration>
+      <itunes:title>Anthropic 产品团队如何做到比别人快</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第一期。Cat Wu 谈 AGI pilled、product taste，以及 Anthropic 如何把交付从六个月压到一天。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第一期。Cat Wu 谈 AGI pilled、product taste，以及 Anthropic 如何把交付从六个月压到一天。</itunes:summary>
+    </item>
     <item>
       <title>内心确信，才是职业选择的底层逻辑</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
