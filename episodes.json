@@ -1,0 +1,36 @@
+{
+  "podcast": {
+    "title": "瑜伽课后",
+    "author": "Joyce",
+    "description": "瑜伽课后：个人知识播客，聊职场、生活与向内的选择。",
+    "language": "zh-cn",
+    "website": "https://joycenotebook.github.io/joyce-podcast/",
+    "feed_url": "https://joycenotebook.github.io/joyce-podcast/feed.xml",
+    "email": "lijiexin2010@163.com",
+    "audio_base_url": "https://joycenotebook.github.io/joyce-podcast/audio",
+    "cover_url": "https://joycenotebook.github.io/joyce-podcast/cover.jpg"
+  },
+  "speaker_id": "voice-clone-6a0326b627c53bd759c30acb",
+  "episodes": [
+    {
+      "id": "ep-002",
+      "title": "Anthropic 产品团队如何做到比别人快",
+      "file": "ep-002.mp3",
+      "duration_sec": 1531,
+      "size_bytes": 36744924,
+      "desc": "透过AI播客学英文课第一期。Cat Wu 谈 AGI pilled、product taste，以及 Anthropic 如何把交付从六个月压到一天。",
+      "pub_date": "2026-08-22",
+      "listed": true
+    },
+    {
+      "id": "ep-001",
+      "title": "内心确信，才是职业选择的底层逻辑",
+      "file": "ep-001.mp3",
+      "duration_sec": 660,
+      "size_bytes": 15840278,
+      "desc": "性格与环境错位、信念如何左右选择、岗位抓手缺失，以及两套向内锚定方向的工具。",
+      "pub_date": "2026-08-20",
+      "listed": true
+    }
+  ]
+}
