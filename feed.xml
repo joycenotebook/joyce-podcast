@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 24 Aug 2026 16:18:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:39:39 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -54,22 +54,23 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（8:12，含约 7 秒片头与 1.2 秒 acrossfade）。字幕轴加 5.8 秒；误差约 ±10 秒。&lt;/p&gt;
+&lt;p&gt;时间对齐线上成片（8:09，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:07&lt;/td&gt;&lt;td&gt;开场&lt;/td&gt;&lt;td&gt;对强大 AI 看涨，是因为曲线已经画出来了&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;0:47&lt;/td&gt;&lt;td&gt;认识 Dario&lt;/td&gt;&lt;td&gt;Claude 常在 benchmark 榜首；更硬的是 outspoken 安全立场&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;2:03&lt;/td&gt;&lt;td&gt;scaling law&lt;/td&gt;&lt;td&gt;变大、加层、放大数据，不是黑魔法&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;2:50&lt;/td&gt;&lt;td&gt;bullish / extrapolate&lt;/td&gt;&lt;td&gt;外推后面几个点，很快到 human level ability&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:44&lt;/td&gt;&lt;td&gt;语言与规模&lt;/td&gt;&lt;td&gt;小网络只抓得住 common stuff&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;4:21&lt;/td&gt;&lt;td&gt;天花板&lt;/td&gt;&lt;td&gt;不问模型封不封顶，问世界有多复杂&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;5:45&lt;/td&gt;&lt;td&gt;安全清单&lt;/td&gt;&lt;td&gt;super autonomous 之后，自建公司是否 aligned&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;6:46&lt;/td&gt;&lt;td&gt;ASL&lt;/td&gt;&lt;td&gt;能力升一档，防护协议跟着升&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;7:05&lt;/td&gt;&lt;td&gt;收束句&lt;/td&gt;&lt;td&gt;with great power comes great responsibility&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;7:32&lt;/td&gt;&lt;td&gt;收尾&lt;/td&gt;&lt;td&gt;不带走 AGI 年份；问能力和安全是不是同一行&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场&lt;/td&gt;&lt;td&gt;对强大 AI 看涨，是因为曲线已经画出来了&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;0:47&lt;/td&gt;&lt;td&gt;认识 Dario（英文整句）&lt;/td&gt;&lt;td&gt;Claude 常在 benchmark 榜首&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;1:26&lt;/td&gt;&lt;td&gt;outspoken（英文整句）&lt;/td&gt;&lt;td&gt;安全是有话直说的立场，不是公关&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;2:10&lt;/td&gt;&lt;td&gt;scale up（英文整句）&lt;/td&gt;&lt;td&gt;变大、加层、放大数据&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;2:48&lt;/td&gt;&lt;td&gt;bullish / extrapolate（英文整句）&lt;/td&gt;&lt;td&gt;外推后面几个点，很快到 human level&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;3:39&lt;/td&gt;&lt;td&gt;language（英文整句）&lt;/td&gt;&lt;td&gt;小网络只抓得住 common stuff&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;4:22&lt;/td&gt;&lt;td&gt;ceiling（英文整句）&lt;/td&gt;&lt;td&gt;不问模型封不封顶，问世界有多复杂&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;5:53&lt;/td&gt;&lt;td&gt;aligned（英文整句）&lt;/td&gt;&lt;td&gt;自建公司之后，目标跟不跟人类一边&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;6:05&lt;/td&gt;&lt;td&gt;ASL（夹杂）&lt;/td&gt;&lt;td&gt;能力升一档，防护协议跟着升&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;7:02&lt;/td&gt;&lt;td&gt;收束句（英文整句）&lt;/td&gt;&lt;td&gt;with great power comes great responsibility&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;7:07&lt;/td&gt;&lt;td&gt;收尾&lt;/td&gt;&lt;td&gt;不带走 AGI 年份；问能力和安全是不是同一行&lt;/td&gt;&lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -90,9 +91,9 @@
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群联系方式：待定&lt;/p&gt;</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-003.mp3" type="audio/mpeg" length="11816108" />
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-003.mp3" type="audio/mpeg" length="11742380" />
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-003.mp3</guid>
-      <itunes:duration>8:12</itunes:duration>
+      <itunes:duration>8:09</itunes:duration>
       <itunes:title>EP 03.从神经网络到 AGI：Dario Amodei 眼中的 AI 未来——访谈精讲</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第二期。Dario Amodei 谈 scaling law、外推到 human level，以及把安全写成和能力同一张工程清单。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第二期。Dario Amodei 谈 scaling law、外推到 human level，以及把安全写成和能力同一张工程清单。</itunes:summary>
