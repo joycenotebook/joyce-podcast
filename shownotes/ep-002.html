@@ -1,0 +1,75 @@
+<p>透过AI播客学英文课第一期。Cat Wu 谈 AGI pilled、product taste，以及 Anthropic 如何把交付从六个月压到一天。</p>
+
+<h2>1. 课程导读 · 公司近况</h2>
+<p>本期讲的是 Anthropic（Claude / Claude Code）。上线后公司仍在按 Cat 说的节奏往外推产品：降承诺、快迭代、让 agent 自己判断何时插手。</p>
+<h3>产品与功能</h3>
+<ul>
+<li>2026-08-13 官方：Claude Tag（Slack 里的 Claude）改为读整段频道上下文 + 记忆 + 站立指令，再决定要不要主动插话；自称判断「何时开口 / 何时闭嘴」约提升 30%。一手：<a href="https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room">Claude Tag now reads even more of the room</a></li>
+<li>2026-08-07 / 08-14：Claude Code 在 Pro / Max / Team 新会话默认打开 auto mode（分类器拦危险命令，少打断人）；Enterprise / API 仍先 opt-in。一手：<a href="https://claude.com/blog/auto-mode-default-in-claude-code">Auto mode is now the default in Claude Code</a></li>
+<li>2026-08-06：Claude Code 自托管环境公测，会话可跑在客户自己的计算上。一手：<a href="https://claude.com/blog/run-claude-code-sessions-on-your-own-compute">Self-hosted environments for Claude Code</a></li>
+</ul>
+<h3>投融资与上市传闻</h3>
+<ul>
+<li>彭博 2026-08-17 援引知情人士：截至 7 月底年化收入 run rate 超过 650 亿美元。未见到公司官方稿。[待核实] <a href="https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo">Bloomberg</a></li>
+<li>CNBC / 彭博 8 月下旬：称公司 6 月已机密递交招股书，正做 test-the-water，可能本月底前后公开递交；私人市场估值报道口径约近 1 万亿美元，公开发行规模对标 SpaceX。[待核实，均为匿名信源] <a href="https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html">CNBC</a></li>
+</ul>
+<p>导读钩子：Cat 讲「扫清每一个 shipping 障碍」时，Claude Code 正在把权限审批也自动化；听这一集，可以对着 auto mode 想一句——快不是取消判断，是把判断从点击里解放出来。</p>
+
+<h2>2. 访谈嘉宾</h2>
+<ul>
+<li>姓名：Cat Wu</li>
+<li>职位：Anthropic，Claude Code 与 Cowork 产品负责人（Head of Product）</li>
+<li>背景：工程师出身，短暂做过 VC；现负责面试大量想进 AI 的 PM，观察角色怎么变。</li>
+<li>搭档：Boris Cherny（Claude Code 创建者 / tech lead，访谈里的 product visionary）</li>
+<li>原访谈：Lenny's Podcast · How Anthropic's product team moves faster than anyone else（约 2026-04-23，约 86 分钟）</li>
+<li>X：<a href="https://x.com/_catwu">https://x.com/_catwu</a></li>
+<li>LinkedIn：<a href="https://www.linkedin.com/in/cat-wu">https://www.linkedin.com/in/cat-wu</a></li>
+<li>Newsletter：<a href="https://catwu.substack.com">https://catwu.substack.com</a></li>
+<li>原集文字版：<a href="https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves">Lenny's Newsletter</a> · YouTube：<a href="https://www.youtube.com/watch?v=PplmzlgE0kg">https://www.youtube.com/watch?v=PplmzlgE0kg</a></li>
+</ul>
+
+<h2>3. 主要话题时间线</h2>
+<p>时间对齐线上成片（24:31，含 7 秒片头）。误差约 ±15 秒。</p>
+<table>
+  <thead>
+    <tr><th>时间</th><th>话题</th><th>带走一句</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0:07</td><td>课程导读</td><td>为什么要听 Cat Wu：速度 + PM 角色变了</td></tr>
+    <tr><td>1:20</td><td>AGI pilled</td><td>要 the right amount：别为还不存在的超强模型做产品</td></tr>
+    <tr><td>2:13</td><td>elicit</td><td>难的是对当前模型引出最大能力</td></tr>
+    <tr><td>3:13</td><td>Anthropic 有多快</td><td>扫清 every single barrier；6 个月 → 1 个月 → 有时 1 天</td></tr>
+    <tr><td>4:01</td><td>PM 角色变化</td><td>AI native 要每周都能发，不能再按季度规划</td></tr>
+    <tr><td>5:40</td><td>product taste</td><td>代码变便宜后，稀缺的是 deciding what to write</td></tr>
+    <tr><td>7:38</td><td>Cat 与 Boris</td><td>愿景家定目的地，PM 绘路径；约 80% mind meld</td></tr>
+    <tr><td>10:40</td><td>三板斧 1：清晰目标</td><td>who / problem / success 说死，消除 LLM 带来的 ambiguity</td></tr>
+    <tr><td>12:58</td><td>三板斧 2：Research Preview</td><td>降承诺才能一周内发出去</td></tr>
+    <tr><td>14:42</td><td>三板斧 3：Evergreen Launch Room</td><td>dogfood 后进常青发布室，文档 / PMM / DevRel 第二天能对外</td></tr>
+    <tr><td>16:56</td><td>PRD 还写不写</td><td>含糊功能写 one pager；重基础设施才写完整 PRD</td></tr>
+    <tr><td>19:08</td><td>团队原则</td><td>用原则替代审批，避免 blocked on PM</td></tr>
+    <tr><td>21:11</td><td>招聘</td><td>优先招有 product taste 的工程师；角色在融合</td></tr>
+    <tr><td>23:13</td><td>收束</td><td>范式转移：瀑布六个月 vs 预览迭代到一天</td></tr>
+  </tbody>
+</table>
+
+<h2>4. 延伸阅读</h2>
+<p>选文原则：不再收本期访谈的复述、精读、姐妹播客。只看<strong>另一条新闻</strong>——同公司或同类公司的产品、管理、财务、投融资。检索日 2026-08-24。</p>
+<h3>产品</h3>
+<ul>
+<li>Anthropic：Claude Cowork 从 Max 扩到全部付费档的网页 / 手机（仍标 beta）。一手：<a href="https://claude.com/blog/cowork-web-mobile">Cowork on web and mobile</a>；产品页 <a href="https://claude.com/product/cowork">claude.com/product/cowork</a>。对位本期「降承诺、先发出去」：Cowork 还挂着 beta，但分发已经铺到 Pro。</li>
+<li>OpenAI：ChatGPT Work（2026-07-09）把 Chat / Work / Codex 收进同一桌面端，做跨应用长任务。一手：<a href="https://openai.com/index/chatgpt-for-your-most-ambitious-work/">ChatGPT is now a partner for your most ambitious work</a>。和 Cowork 抢的是同一类「把活干完」的席位，不是同一场访谈。</li>
+<li>Google：2026-08-13 发布 Gemini 3.7 Flash，定位 coding / agent 役马，年内试用价 $0.75 / $3.75 per 1M tokens。一手：<a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/">Introducing Gemini 3.7 Flash</a>。三周一次发版 + 砍价，是另一套「快」。</li>
+</ul>
+<h3>管理与政策</h3>
+<ul>
+<li>Anthropic 企业数据留存：6 月起 Fable / Mythos 等强模型要求留 30 天；8 月下旬多家媒体称将允许企业把这 30 天数据放在自己的云上，留存窗口本身不取消。Bloomberg 首发，公司对媒体未正式置评。[待核实] <a href="https://www.channelnewsasia.com/business/anthropic-plans-change-enterprise-data-retention-policy-source-says-6331971">CNA / 路透口径</a></li>
+</ul>
+<h3>财务与投融资</h3>
+<ul>
+<li>Anthropic：彭博称 7 月底年化收入 run rate 超 650 亿美元；CNBC 称机密招股书后正在 test-the-water，时间表可能早于 OpenAI。[待核实，匿名信源] <a href="https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html">CNBC IPO 风险披露</a></li>
+<li>OpenAI：CFO Sarah Friar 在全员会上称「2027 年会成为上市公司」，也可以更早；3 月融资 1220 亿美元、估值约 8520 亿美元给了时间弹性。并提到企业收入增速快于消费侧、编码/工作产品周活约 2000 万。[待核实，会后转述] <a href="https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html">CNBC：Friar on IPO timing</a></li>
+</ul>
+<p>听的时候可以对照：Cat 讲 shipping 障碍在产品流程里；这几条新闻里的障碍在数据主权、定价和谁先上市。</p>
+
+<h2>5. 听友群</h2>
+<p>加入听友群联系方式：待定</p>
