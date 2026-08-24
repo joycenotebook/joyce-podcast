@@ -133,6 +133,11 @@ def build_rss(cfg: dict, episodes: list[dict], root: Path) -> str:
     channel.append(E(f"{{{ITUNES}}}type", "episodic"))
     if cfg.get("cover_url"):
         channel.append(E(f"{{{ITUNES}}}image", attrs={"href": cfg["cover_url"]}))
+        image = E("image")
+        image.append(E("url", cfg["cover_url"]))
+        image.append(E("title", cfg["title"]))
+        image.append(E("link", website))
+        channel.append(image)
 
     for ep in episodes:
         item = ET.Element("item")
@@ -163,6 +168,12 @@ def build_rss(cfg: dict, episodes: list[dict], root: Path) -> str:
     return ET.tostring(root, encoding="unicode", xml_declaration=True)
 
 
+def cover_filename(cfg: dict) -> str:
+    url = (cfg.get("cover_url") or "").rstrip("/")
+    name = url.rsplit("/", 1)[-1] if url else ""
+    return name or "cover.jpg"
+
+
 def render_index(cfg: dict, episodes: list[dict], root: Path) -> str:
     items = []
     for ep in episodes:
@@ -190,7 +201,7 @@ def render_index(cfg: dict, episodes: list[dict], root: Path) -> str:
 </head>
 <body>
   <main>
-    <img class="cover" src="./cover.jpg" alt="{cfg["title"]}封面" />
+    <img class="cover" src="./{cover_filename(cfg)}" alt="{cfg["title"]}封面" />
     <h1>{cfg["title"]}</h1>
     <p>{cfg.get("description", "")}</p>
     <p>订阅 RSS：<a href="./feed.xml">feed.xml</a>（可粘贴到小宇宙搜索栏）</p>

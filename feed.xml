@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 24 Aug 2026 14:29:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 14:37:12 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -16,7 +16,12 @@
     <itunes:subtitle>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</itunes:subtitle>
     <itunes:summary>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</itunes:summary>
     <itunes:type>episodic</itunes:type>
-    <itunes:image href="https://joycenotebook.github.io/joyce-podcast/cover.jpg" />
+    <itunes:image href="https://joycenotebook.github.io/joyce-podcast/cover-20260824.jpg" />
+    <image>
+      <url>https://joycenotebook.github.io/joyce-podcast/cover-20260824.jpg</url>
+      <title>瑜伽课后</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/</link>
+    </image>
     <item>
       <title>EP 02.Anthropic 产品团队如何做到比别人快？—— Cat Wu 访谈精讲</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-002.html</link>
