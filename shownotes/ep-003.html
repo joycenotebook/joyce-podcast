@@ -1,0 +1,64 @@
+<p>透过AI播客学英文课第二期。Dario Amodei 谈 scaling law、把曲线外推到 human level，以及把安全写成和能力同一张工程清单。</p>
+
+<h2>1. 课程导读 · 公司近况</h2>
+<p>本期讲的是 Anthropic 与 Claude。Dario 把智能增长当成可外推的曲线，把安全写成和能力同一行。检索日 2026-08-25：公司仍在把 agent 能力铺进生产环境，同时把更强的安全能力只交给受控的防守方。</p>
+<h3>产品与功能</h3>
+<ul>
+<li>2026-08-20 官方：computer use、Skills API、Files API 在 Claude Platform 正式可用；computer use 新加 browser use，一次可多步操作，并进入 HIPAA / BAA 范围。一手：<a href="https://claude.com/blog/computer-use-skills-api-files-api">Build production agents with computer use, the Skills API, and the Files API</a></li>
+<li>2026-08-12 官方：Chrome 侧边栏改成 Claude Cowork 会话，可跨桌面 / 网页 / 手机续上；Max 与 Team 先开，Pro 随后。一手：<a href="https://claude.com/blog/cowork-chrome-side-panel">Claude Cowork comes to the Chrome side panel</a></li>
+<li>2026-08-21 官方：Claude Mythos 5 进入 Claude Security（企业扫描代码、给补丁建议），并扩大 Cyber Verification Program。一手：<a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders">Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</a></li>
+</ul>
+<h3>投融资与上市传闻</h3>
+<ul>
+<li>CNBC 2026-08-21 援引知情人士：招股说明书将把公众对 AI 与数据中心的反感列为风险；6 月已机密递交，正在 test-the-water。私人市场估值报道口径近 1 万亿美元。未见到公司官方稿。[待核实] <a href="https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html">CNBC</a></li>
+</ul>
+<p>导读钩子：Dario 说能力升一档、防护协议跟着升一档。computer use 全面开放是能力；Mythos 5 只给受控防守方，是同一张清单的另一面。</p>
+
+<h2>2. 访谈嘉宾</h2>
+<ul>
+<li>姓名：Dario Amodei</li>
+<li>职位：Anthropic 联合创始人兼 CEO</li>
+<li>背景：此前 OpenAI 研究副总裁，参与 GPT-2 / GPT-3 与 RLHF；2021 年与 Daniela Amodei 等创办 Anthropic。</li>
+<li>原访谈：Lex Fridman Podcast #452 · Anthropic CEO on Claude, AGI &amp; the Future of AI &amp; Humanity（2024-11-11，约 5 小时 22 分）</li>
+<li>个人站：<a href="https://darioamodei.com/">https://darioamodei.com/</a></li>
+<li>X：<a href="https://x.com/DarioAmodei">https://x.com/DarioAmodei</a></li>
+<li>LinkedIn：<a href="https://www.linkedin.com/in/dario-amodei-3934934">https://www.linkedin.com/in/dario-amodei-3934934</a></li>
+<li>原集页：<a href="https://lexfridman.com/dario-amodei/">lexfridman.com/dario-amodei</a> · YouTube：<a href="https://www.youtube.com/watch?v=ugvHCXCOmm4">https://www.youtube.com/watch?v=ugvHCXCOmm4</a></li>
+</ul>
+
+<h2>3. 主要话题时间线</h2>
+<p>时间对齐线上成片（8:12，含约 7 秒片头与 1.2 秒 acrossfade）。字幕轴加 5.8 秒；误差约 ±10 秒。</p>
+<table>
+  <thead>
+    <tr><th>时间</th><th>话题</th><th>带走一句</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0:07</td><td>开场</td><td>对强大 AI 看涨，是因为曲线已经画出来了</td></tr>
+    <tr><td>0:47</td><td>认识 Dario</td><td>Claude 常在 benchmark 榜首；更硬的是 outspoken 安全立场</td></tr>
+    <tr><td>2:03</td><td>scaling law</td><td>变大、加层、放大数据，不是黑魔法</td></tr>
+    <tr><td>2:50</td><td>bullish / extrapolate</td><td>外推后面几个点，很快到 human level ability</td></tr>
+    <tr><td>3:44</td><td>语言与规模</td><td>小网络只抓得住 common stuff</td></tr>
+    <tr><td>4:21</td><td>天花板</td><td>不问模型封不封顶，问世界有多复杂</td></tr>
+    <tr><td>5:45</td><td>安全清单</td><td>super autonomous 之后，自建公司是否 aligned</td></tr>
+    <tr><td>6:46</td><td>ASL</td><td>能力升一档，防护协议跟着升</td></tr>
+    <tr><td>7:05</td><td>收束句</td><td>with great power comes great responsibility</td></tr>
+    <tr><td>7:32</td><td>收尾</td><td>不带走 AGI 年份；问能力和安全是不是同一行</td></tr>
+  </tbody>
+</table>
+
+<h2>4. 延伸阅读</h2>
+<p>选文原则：不再收本期访谈的复述、精读、姐妹播客。只看<strong>另一条新闻</strong>——同公司或同类公司的产品、管理、财务、投融资。检索日 2026-08-25。</p>
+<h3>产品</h3>
+<ul>
+<li>Anthropic：2026-08-21 把 Mythos 5 放进 Claude Security，给企业扫代码、出补丁建议，同时扩大防守方准入。一手：<a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders">Mythos 5 to more defenders</a>。对位本期 ASL：不是停下来，是能力分级、访问跟着分级。</li>
+<li>Anthropic：2026-08-20 computer use / Skills / Files 全面可用，agent 开始真正点界面、交成品。一手：<a href="https://claude.com/blog/computer-use-skills-api-files-api">production agents</a>。这是「超级自主」从访谈走进产品目录的一步。</li>
+</ul>
+<h3>财务与投融资</h3>
+<ul>
+<li>OpenAI：CFO Sarah Friar 在全员会上称「2027 年会成为上市公司」，也可以更早；并说不要焦虑 Anthropic 可能更早上。匿名转述。[待核实] <a href="https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html">CNBC：Friar on IPO timing</a></li>
+<li>Anthropic IPO 时间表与估值仍是匿名信源，见第 1 节，不重复当事实。</li>
+</ul>
+<p>听的时候可以对照：Dario 讲的是曲线和责任；这几条新闻里的障碍在谁先拿到更强能力、谁先上市。</p>
+
+<h2>5. 听友群</h2>
+<p>加入听友群联系方式：待定</p>

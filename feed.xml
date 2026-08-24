@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 24 Aug 2026 14:37:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:18:16 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -22,6 +22,81 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 03.从神经网络到 AGI：Dario Amodei 眼中的 AI 未来——访谈精讲</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-003.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第二期。Dario Amodei 谈 scaling law、把曲线外推到 human level，以及把安全写成和能力同一张工程清单。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期讲的是 Anthropic 与 Claude。Dario 把智能增长当成可外推的曲线，把安全写成和能力同一行。检索日 2026-08-25：公司仍在把 agent 能力铺进生产环境，同时把更强的安全能力只交给受控的防守方。&lt;/p&gt;
+&lt;h3&gt;产品与功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-08-20 官方：computer use、Skills API、Files API 在 Claude Platform 正式可用；computer use 新加 browser use，一次可多步操作，并进入 HIPAA / BAA 范围。一手：&lt;a href="https://claude.com/blog/computer-use-skills-api-files-api"&gt;Build production agents with computer use, the Skills API, and the Files API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-08-12 官方：Chrome 侧边栏改成 Claude Cowork 会话，可跨桌面 / 网页 / 手机续上；Max 与 Team 先开，Pro 随后。一手：&lt;a href="https://claude.com/blog/cowork-chrome-side-panel"&gt;Claude Cowork comes to the Chrome side panel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-08-21 官方：Claude Mythos 5 进入 Claude Security（企业扫描代码、给补丁建议），并扩大 Cyber Verification Program。一手：&lt;a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"&gt;Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CNBC 2026-08-21 援引知情人士：招股说明书将把公众对 AI 与数据中心的反感列为风险；6 月已机密递交，正在 test-the-water。私人市场估值报道口径近 1 万亿美元。未见到公司官方稿。[待核实] &lt;a href="https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"&gt;CNBC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;导读钩子：Dario 说能力升一档、防护协议跟着升一档。computer use 全面开放是能力；Mythos 5 只给受控防守方，是同一张清单的另一面。&lt;/p&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;姓名：Dario Amodei&lt;/li&gt;
+&lt;li&gt;职位：Anthropic 联合创始人兼 CEO&lt;/li&gt;
+&lt;li&gt;背景：此前 OpenAI 研究副总裁，参与 GPT-2 / GPT-3 与 RLHF；2021 年与 Daniela Amodei 等创办 Anthropic。&lt;/li&gt;
+&lt;li&gt;原访谈：Lex Fridman Podcast #452 · Anthropic CEO on Claude, AGI &amp;amp; the Future of AI &amp;amp; Humanity（2024-11-11，约 5 小时 22 分）&lt;/li&gt;
+&lt;li&gt;个人站：&lt;a href="https://darioamodei.com/"&gt;https://darioamodei.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;X：&lt;a href="https://x.com/DarioAmodei"&gt;https://x.com/DarioAmodei&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn：&lt;a href="https://www.linkedin.com/in/dario-amodei-3934934"&gt;https://www.linkedin.com/in/dario-amodei-3934934&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;原集页：&lt;a href="https://lexfridman.com/dario-amodei/"&gt;lexfridman.com/dario-amodei&lt;/a&gt; · YouTube：&lt;a href="https://www.youtube.com/watch?v=ugvHCXCOmm4"&gt;https://www.youtube.com/watch?v=ugvHCXCOmm4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（8:12，含约 7 秒片头与 1.2 秒 acrossfade）。字幕轴加 5.8 秒；误差约 ±10 秒。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;0:07&lt;/td&gt;&lt;td&gt;开场&lt;/td&gt;&lt;td&gt;对强大 AI 看涨，是因为曲线已经画出来了&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;0:47&lt;/td&gt;&lt;td&gt;认识 Dario&lt;/td&gt;&lt;td&gt;Claude 常在 benchmark 榜首；更硬的是 outspoken 安全立场&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;2:03&lt;/td&gt;&lt;td&gt;scaling law&lt;/td&gt;&lt;td&gt;变大、加层、放大数据，不是黑魔法&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;2:50&lt;/td&gt;&lt;td&gt;bullish / extrapolate&lt;/td&gt;&lt;td&gt;外推后面几个点，很快到 human level ability&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;3:44&lt;/td&gt;&lt;td&gt;语言与规模&lt;/td&gt;&lt;td&gt;小网络只抓得住 common stuff&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;4:21&lt;/td&gt;&lt;td&gt;天花板&lt;/td&gt;&lt;td&gt;不问模型封不封顶，问世界有多复杂&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;5:45&lt;/td&gt;&lt;td&gt;安全清单&lt;/td&gt;&lt;td&gt;super autonomous 之后，自建公司是否 aligned&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;6:46&lt;/td&gt;&lt;td&gt;ASL&lt;/td&gt;&lt;td&gt;能力升一档，防护协议跟着升&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;7:05&lt;/td&gt;&lt;td&gt;收束句&lt;/td&gt;&lt;td&gt;with great power comes great responsibility&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;7:32&lt;/td&gt;&lt;td&gt;收尾&lt;/td&gt;&lt;td&gt;不带走 AGI 年份；问能力和安全是不是同一行&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：不再收本期访谈的复述、精读、姐妹播客。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同公司或同类公司的产品、管理、财务、投融资。检索日 2026-08-25。&lt;/p&gt;
+&lt;h3&gt;产品&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic：2026-08-21 把 Mythos 5 放进 Claude Security，给企业扫代码、出补丁建议，同时扩大防守方准入。一手：&lt;a href="https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders"&gt;Mythos 5 to more defenders&lt;/a&gt;。对位本期 ASL：不是停下来，是能力分级、访问跟着分级。&lt;/li&gt;
+&lt;li&gt;Anthropic：2026-08-20 computer use / Skills / Files 全面可用，agent 开始真正点界面、交成品。一手：&lt;a href="https://claude.com/blog/computer-use-skills-api-files-api"&gt;production agents&lt;/a&gt;。这是「超级自主」从访谈走进产品目录的一步。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;财务与投融资&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI：CFO Sarah Friar 在全员会上称「2027 年会成为上市公司」，也可以更早；并说不要焦虑 Anthropic 可能更早上。匿名转述。[待核实] &lt;a href="https://www.cnbc.com/2026/08/19/open-ai-ipo-timing-2027-friar.html"&gt;CNBC：Friar on IPO timing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Anthropic IPO 时间表与估值仍是匿名信源，见第 1 节，不重复当事实。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;听的时候可以对照：Dario 讲的是曲线和责任；这几条新闻里的障碍在谁先拿到更强能力、谁先上市。&lt;/p&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群联系方式：待定&lt;/p&gt;</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-003.mp3" type="audio/mpeg" length="11816108" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-003.mp3</guid>
+      <itunes:duration>8:12</itunes:duration>
+      <itunes:title>EP 03.从神经网络到 AGI：Dario Amodei 眼中的 AI 未来——访谈精讲</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第二期。Dario Amodei 谈 scaling law、外推到 human level，以及把安全写成和能力同一张工程清单。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第二期。Dario Amodei 谈 scaling law、外推到 human level，以及把安全写成和能力同一张工程清单。</itunes:summary>
+    </item>
     <item>
       <title>EP 02.Anthropic 产品团队如何做到比别人快？—— Cat Wu 访谈精讲</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-002.html</link>
