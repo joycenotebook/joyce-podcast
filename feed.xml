@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 27 Aug 2026 02:07:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 02:14:39 +0000</lastBuildDate>
     <generator>Podcast Factory</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -22,9 +22,9 @@
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
       <description>透过AI播客学英文课第四期。fast is fun；intent &gt; typing；human AI programmer。</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-005.mp3" type="audio/mpeg" length="29466476" />
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-005.mp3" type="audio/mpeg" length="28687148" />
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-005.mp3</guid>
-      <itunes:duration>20:28</itunes:duration>
+      <itunes:duration>19:55</itunes:duration>
       <itunes:title>EP 05.Cursor创始团队谈编程的未来—— Lex Fridman #447 访谈精讲</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第四期。fast is fun；intent &gt; typing；human AI programmer。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第四期。fast is fun；intent &gt; typing；human AI programmer。</itunes:summary>
