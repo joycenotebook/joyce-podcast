@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 27 Aug 2026 05:46:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 05:58:03 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -22,6 +22,82 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-006.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第五期。Jaeden Schafer 十五期 Claude 短播客合集：从 MCP 接到真实工具，到 Chrome 插件上手碰网页。intent 比操作更高带宽。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 AI Chat / ListenLeap 十五期 Claude 短片（2026-01 至 2026-08）。检索日 2026-08-28：合集最后一站讲的 Chrome 插件，两天前刚转正。&lt;/p&gt;
+&lt;h3&gt;产品与功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-08-26：Anthropic 宣布 Claude in Chrome 对所有付费计划一般可用；可在浏览器里代为点击、输入、填表，并用安全分类器校验动作是否匹配用户原请求。一手：&lt;a href="https://claude.com/blog/claude-in-chrome-generally-available"&gt;Claude in Chrome is generally available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-08-26：同日还发布 Cowork 内置浏览器（与个人 Chrome 会话隔离）。一手：&lt;a href="https://claude.com/blog/claude-in-chrome-generally-available"&gt;相关帖&lt;/a&gt;（Related: Claude gets its own browser in Cowork）&lt;/li&gt;
+&lt;li&gt;2026-08-25：Claude memory 跨端可用，用户决定写进记忆的内容。一手入口见 Anthropic 博客当日帖。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;本轮（近 1–2 周）未见新一轮融资一手新闻稿。&lt;/li&gt;
+&lt;li&gt;背景：2026-05-28 Anthropic 完成 Series H、投后估值约 9650 亿美元（媒体口径）；此后走保密 S-1 / 上市准备路径。二手：&lt;a href="https://www.wsj.com/tech/ai/anthropic-valuation-openai-80bf2c0a"&gt;WSJ&lt;/a&gt; · 本轮不把五月融资当新新闻。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;导读钩子：插件转正那天，官方自己把标题写成 prompt injection 防御。能力和事故半径一起变大——这就是这一集要从一月讲到八月的原因。&lt;/p&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;主讲材料：Jaeden Schafer · AI Chat Daily / ListenLeap 日更短播客&lt;/li&gt;
+&lt;li&gt;原片：Claude 相关十五期短播客合集（按时间从老到新，2026-01-26 至 2026-08-26）&lt;/li&gt;
+&lt;li&gt;精讲未收录：《Decoding Claude’s Impact on Gym Lists》&lt;/li&gt;
+&lt;li&gt;ListenLeap：&lt;a href="https://listenleap.com"&gt;listenleap.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（33:37，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±15 秒。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;2026 几乎每月变天；Claude 是关键玩家&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;1:18&lt;/td&gt;&lt;td&gt;MCP Apps / precursor&lt;/td&gt;&lt;td&gt;接上真实工具，是 agent 起飞的前奏&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;3:41&lt;/td&gt;&lt;td&gt;Mythos / step change&lt;/td&gt;&lt;td&gt;能力跳档，不是微调&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;5:57&lt;/td&gt;&lt;td&gt;Claude vs Codex&lt;/td&gt;&lt;td&gt;swinging at Claude Code；产出只是数字的一小部分&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;8:18&lt;/td&gt;&lt;td&gt;Dreaming / on a tear&lt;/td&gt;&lt;td&gt;AI 版睡眠记忆巩固&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;10:15&lt;/td&gt;&lt;td&gt;Small Business / top vendor&lt;/td&gt;&lt;td&gt;Ramp：企业付费 AI 第一次 Anthropic 第一&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;12:11&lt;/td&gt;&lt;td&gt;Claude Tag / ship&lt;/td&gt;&lt;td&gt;Slack 里可审计的虚拟员工&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;14:02&lt;/td&gt;&lt;td&gt;蒸馏指控&lt;/td&gt;&lt;td&gt;能做不等于该做；指控而非已定罪&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;16:42&lt;/td&gt;&lt;td&gt;Claude Science&lt;/td&gt;&lt;td&gt;workflow beats raw capacity&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;18:47&lt;/td&gt;&lt;td&gt;Mobile / huge unlock&lt;/td&gt;&lt;td&gt;电脑上 fire off，手机上收尾&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;19:24&lt;/td&gt;&lt;td&gt;GPT-5.6 / undercut&lt;/td&gt;&lt;td&gt;三档定价压 Claude；主权 AI 仍是杯水车薪&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;22:53&lt;/td&gt;&lt;td&gt;印度定价 / localize&lt;/td&gt;&lt;td&gt;本地化 ≠ 更便宜；UPI 是 friction point&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;25:16&lt;/td&gt;&lt;td&gt;Computer use&lt;/td&gt;&lt;td&gt;鼠标键盘很慢，但能存成 skill&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;27:32&lt;/td&gt;&lt;td&gt;MCP = universal adapter&lt;/td&gt;&lt;td&gt;API 是各国插头，MCP 是万能转接头&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;29:41&lt;/td&gt;&lt;td&gt;Chrome / security sirens&lt;/td&gt;&lt;td&gt;插件入场；真正的 agent 该懂 intent&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;30:30&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;把操作交给 AI，把心力留给决策&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：不再收本期短片复述。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同赛道的浏览器智能体，或相邻实验室怎么把「整机浏览器」收成插件/桌面能力。&lt;/p&gt;
+&lt;h3&gt;竞品与赛道&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-08-09：OpenAI 将独立浏览器 ChatGPT Atlas 停用，把浏览型 agent 能力收进 ChatGPT / Codex。一手：&lt;a href="https://help.openai.com/en/articles/20001371-evolving-atlas-into-chatgpt-for-browser-based-agentic-work"&gt;Evolving Atlas into ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;对照听本期最后一站：Anthropic 从一开始就走 Chrome 插件，而不是再做一只整机浏览器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;安全与权限&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic 官方把 Claude in Chrome 的转正理由写成 prompt injection 防御与动作分类器。听的时候可以想：自动批准，是方便，还是把事故半径写进产品默认值？一手：&lt;a href="https://claude.com/blog/claude-in-chrome-generally-available"&gt;Claude in Chrome GA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-006.mp3" type="audio/mpeg" length="48406508" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-006.mp3</guid>
+      <itunes:duration>33:37</itunes:duration>
+      <itunes:title>EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第五期。十五期 Claude 短播客合集：从 MCP 接到真实工具，到 Chrome 插件上手碰网页。intent 比操作更高带宽。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第五期。十五期 Claude 短播客合集：从 MCP 接到真实工具，到 Chrome 插件上手碰网页。intent 比操作更高带宽。</itunes:summary>
+    </item>
     <item>
       <title>EP 05.Cursor创始团队谈编程的未来—— Lex Fridman #447 访谈精讲</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-005.html</link>

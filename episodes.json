@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-006",
+      "title": "EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲",
+      "file": "ep-006.mp3",
+      "duration_sec": 2017,
+      "size_bytes": 48406508,
+      "desc": "透过AI播客学英文课第五期。十五期 Claude 短播客合集：从 MCP 接到真实工具，到 Chrome 插件上手碰网页。intent 比操作更高带宽。",
+      "pub_date": "2026-08-28",
+      "listed": true
+    },
+    {
       "id": "ep-005",
       "title": "EP 05.Cursor创始团队谈编程的未来—— Lex Fridman #447 访谈精讲",
       "file": "ep-005.mp3",
@@ -46,7 +56,7 @@
       "id": "ep-002",
       "title": "EP 02.Anthropic 产品团队如何做到比别人快？—— Cat Wu 访谈精讲",
       "file": "ep-002.mp3",
-      "duration_sec": 1471,
+      "duration_sec": 1471.0,
       "size_bytes": 35323244,
       "desc": "透过AI播客学英文课第一期。Cat Wu 谈 AGI pilled、product taste，以及 Anthropic 如何把交付从六个月压到一天。",
       "pub_date": "2026-08-22",
@@ -56,7 +66,7 @@
       "id": "ep-001",
       "title": "内心确信，才是职业选择的底层逻辑",
       "file": "ep-001.mp3",
-      "duration_sec": 660,
+      "duration_sec": 660.0,
       "size_bytes": 15840278,
       "desc": "性格与环境错位、信念如何左右选择、岗位抓手缺失，以及两套向内锚定方向的工具。",
       "pub_date": "2026-08-20",
