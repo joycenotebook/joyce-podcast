@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Aug 2026 05:58:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 08:36:52 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -51,28 +51,28 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（33:37，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±15 秒。&lt;/p&gt;
+&lt;p&gt;时间对齐线上成片（33:23，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±15 秒。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;2026 几乎每月变天；Claude 是关键玩家&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:18&lt;/td&gt;&lt;td&gt;MCP Apps / precursor&lt;/td&gt;&lt;td&gt;接上真实工具，是 agent 起飞的前奏&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:41&lt;/td&gt;&lt;td&gt;Mythos / step change&lt;/td&gt;&lt;td&gt;能力跳档，不是微调&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;5:57&lt;/td&gt;&lt;td&gt;Claude vs Codex&lt;/td&gt;&lt;td&gt;swinging at Claude Code；产出只是数字的一小部分&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;8:18&lt;/td&gt;&lt;td&gt;Dreaming / on a tear&lt;/td&gt;&lt;td&gt;AI 版睡眠记忆巩固&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;10:15&lt;/td&gt;&lt;td&gt;Small Business / top vendor&lt;/td&gt;&lt;td&gt;Ramp：企业付费 AI 第一次 Anthropic 第一&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;12:11&lt;/td&gt;&lt;td&gt;Claude Tag / ship&lt;/td&gt;&lt;td&gt;Slack 里可审计的虚拟员工&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;14:02&lt;/td&gt;&lt;td&gt;蒸馏指控&lt;/td&gt;&lt;td&gt;能做不等于该做；指控而非已定罪&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;16:42&lt;/td&gt;&lt;td&gt;Claude Science&lt;/td&gt;&lt;td&gt;workflow beats raw capacity&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;18:47&lt;/td&gt;&lt;td&gt;Mobile / huge unlock&lt;/td&gt;&lt;td&gt;电脑上 fire off，手机上收尾&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;19:24&lt;/td&gt;&lt;td&gt;GPT-5.6 / undercut&lt;/td&gt;&lt;td&gt;三档定价压 Claude；主权 AI 仍是杯水车薪&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;22:53&lt;/td&gt;&lt;td&gt;印度定价 / localize&lt;/td&gt;&lt;td&gt;本地化 ≠ 更便宜；UPI 是 friction point&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;25:16&lt;/td&gt;&lt;td&gt;Computer use&lt;/td&gt;&lt;td&gt;鼠标键盘很慢，但能存成 skill&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;27:32&lt;/td&gt;&lt;td&gt;MCP = universal adapter&lt;/td&gt;&lt;td&gt;API 是各国插头，MCP 是万能转接头&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;29:41&lt;/td&gt;&lt;td&gt;Chrome / security sirens&lt;/td&gt;&lt;td&gt;插件入场；真正的 agent 该懂 intent&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;30:30&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;把操作交给 AI，把心力留给决策&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;二零二六几乎每月变天；Claude 是关键玩家&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;1:17&lt;/td&gt;&lt;td&gt;MCP Apps / precursor&lt;/td&gt;&lt;td&gt;接上真实工具，是 agent 起飞的前奏&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;3:39&lt;/td&gt;&lt;td&gt;Mythos / step change&lt;/td&gt;&lt;td&gt;能力跳档，不是微调&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;5:47&lt;/td&gt;&lt;td&gt;Claude vs Codex&lt;/td&gt;&lt;td&gt;swinging at Claude Code；产出只是数字的一小部分&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;8:11&lt;/td&gt;&lt;td&gt;Dreaming / on a tear&lt;/td&gt;&lt;td&gt;AI 版睡眠记忆巩固&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;10:09&lt;/td&gt;&lt;td&gt;Small Business / top vendor&lt;/td&gt;&lt;td&gt;Ramp：企业付费 AI 第一次 Anthropic 第一&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;12:04&lt;/td&gt;&lt;td&gt;Claude Tag / ship&lt;/td&gt;&lt;td&gt;Slack 里可审计的虚拟员工&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;14:01&lt;/td&gt;&lt;td&gt;蒸馏指控&lt;/td&gt;&lt;td&gt;能做不等于该做；指控而非已定罪&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;16:40&lt;/td&gt;&lt;td&gt;Claude Science&lt;/td&gt;&lt;td&gt;workflow beats raw capacity&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;18:45&lt;/td&gt;&lt;td&gt;Mobile / huge unlock&lt;/td&gt;&lt;td&gt;电脑上 fire off，手机上收尾&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;20:42&lt;/td&gt;&lt;td&gt;GPT-5.6 / undercut&lt;/td&gt;&lt;td&gt;三档定价压 Claude；主权 AI 仍是杯水车薪&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;22:51&lt;/td&gt;&lt;td&gt;印度定价 / localize&lt;/td&gt;&lt;td&gt;本地化 ≠ 更便宜；UPI 是 friction point&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;25:12&lt;/td&gt;&lt;td&gt;Computer use&lt;/td&gt;&lt;td&gt;鼠标键盘很慢，但能存成 skill&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;27:26&lt;/td&gt;&lt;td&gt;MCP = universal adapter&lt;/td&gt;&lt;td&gt;API 是各国插头，MCP 是万能转接头&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;29:35&lt;/td&gt;&lt;td&gt;Chrome / security sirens&lt;/td&gt;&lt;td&gt;插件入场；真正的 agent 该懂 intent&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;30:24&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;把操作交给 AI，把心力留给决策&lt;/td&gt;&lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -91,9 +91,9 @@
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-006.mp3" type="audio/mpeg" length="48406508" />
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-006.mp3" type="audio/mpeg" length="48064364" />
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-006.mp3</guid>
-      <itunes:duration>33:37</itunes:duration>
+      <itunes:duration>33:23</itunes:duration>
       <itunes:title>EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第五期。十五期 Claude 短播客合集：从 MCP 接到真实工具，到 Chrome 插件上手碰网页。intent 比操作更高带宽。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第五期。十五期 Claude 短播客合集：从 MCP 接到真实工具，到 Chrome 插件上手碰网页。intent 比操作更高带宽。</itunes:summary>
