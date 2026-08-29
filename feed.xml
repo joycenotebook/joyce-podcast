@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Aug 2026 08:36:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 14:24:50 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -22,6 +22,72 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 07.产品工作的新形态—— OpenAI Codex 负责人谈品味与判断力</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-007.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第五期。OpenAI Codex 负责人 Andrew Ambrosino：taste and judgment；get married to outcomes；dogfooding loop。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 Lenny's Podcast 与 OpenAI Codex 负责人 Andrew Ambrosino 对谈。检索日 2026-08-29：Codex 终端与 agent 工作流仍在高频发版，产品叙事继续往「全员可用」推。&lt;/p&gt;
+&lt;h3&gt;产品与功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-08-26：Codex CLI &lt;code&gt;0.150.0&lt;/code&gt;——终端里可用 &lt;code&gt;@&lt;/code&gt; 引用其他任务、自动给终端任务起名、&lt;code&gt;/copy&lt;/code&gt; 可选整段或代码块、Interrupt hooks。一手：&lt;a href="https://github.com/openai/codex/releases/tag/rust-v0.150.0"&gt;GitHub Release 0.150.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-08-27：&lt;code&gt;0.150.1&lt;/code&gt; 修远程 compaction 对保留图片计入 token 预算。一手：&lt;a href="https://github.com/openai/codex/releases/tag/rust-v0.150.1"&gt;GitHub Release 0.150.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-08-20：&lt;code&gt;0.149.0&lt;/code&gt; 上线 interactive agents dashboard 与 &lt;code&gt;codex queue&lt;/code&gt;。一手：&lt;a href="https://github.com/openai/codex/releases/tag/rust-v0.149.0"&gt;GitHub Release 0.149.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;本轮（近 1–2 周）未见 OpenAI / Codex 产品线单独融资一手新闻稿。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;导读钩子：工具一周发一版，流程会被淘汰；Andrew 说的 taste and judgment，才是不会跟着 changelog 过期的那一层。&lt;/p&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;嘉宾：Andrew Ambrosino（OpenAI Codex 负责人）&lt;/li&gt;
+&lt;li&gt;原访谈：Lenny's Podcast · OpenAI Codex lead on the new shape of product work&lt;/li&gt;
+&lt;li&gt;主题：AI 如何重塑产品工作、taste、dogfooding 与判断力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（8:54，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;价值从 how to build 转向 taste and judgment&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;1:13&lt;/td&gt;&lt;td&gt;90% of OpenAI（英文整句）&lt;/td&gt;&lt;td&gt;不是工程师的九成，是全公司九成&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;2:07&lt;/td&gt;&lt;td&gt;quality bar（英文整句）&lt;/td&gt;&lt;td&gt;打开应用时毫无犹豫&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;2:47&lt;/td&gt;&lt;td&gt;taste / design（英文整句）&lt;/td&gt;&lt;td&gt;设计难评分，因为品味在反馈环里&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;3:46&lt;/td&gt;&lt;td&gt;get married to outcomes（英文整句）&lt;/td&gt;&lt;td&gt;对成果忠诚，对流程灵活&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;4:31&lt;/td&gt;&lt;td&gt;Figma / spout（英文整句）&lt;/td&gt;&lt;td&gt;工具技巧会被 AI 超过&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;5:22&lt;/td&gt;&lt;td&gt;dogfooding loop（英文整句）&lt;/td&gt;&lt;td&gt;做不了→修好→能做更多&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;7:11&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;不可替代的是判断力和品味&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：不再收本期访谈复述。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同赛道 AI 编程工具怎么改人机协作节奏。检索日 2026-08-29。&lt;/p&gt;
+&lt;h3&gt;产品 / 人机协作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The New Stack：Codex 合并异步发消息能力，agent 提问后可继续干活，而不必干等回复——也带来 timing conflict。二手：&lt;a href="https://thenewstack.io/codex-async-developer-messaging/"&gt;Codex can now keep coding while it waits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;听的时候可以对照本期 dogfooding：工具越能自己往下跑，越考验你 get married to 的是 outcome，还是「让 agent 忙着」。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;竞品与赛道&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;对照已上线的 Cursor 期：一边是编辑器 fork，一边是 Codex 全员渗透——taste 稀缺，两端都在抢。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-007.mp3" type="audio/mpeg" length="12825260" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-007.mp3</guid>
+      <itunes:duration>8:54</itunes:duration>
+      <itunes:title>EP 07.产品工作的新形态—— OpenAI Codex 负责人谈品味与判断力</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第五期。taste and judgment；get married to outcomes；dogfooding loop。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第五期。taste and judgment；get married to outcomes；dogfooding loop。</itunes:summary>
+    </item>
     <item>
       <title>EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-006.html</link>
