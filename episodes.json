@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-007",
+      "title": "EP 07.产品工作的新形态—— OpenAI Codex 负责人谈品味与判断力",
+      "file": "ep-007.mp3",
+      "duration_sec": 534,
+      "size_bytes": 12825260,
+      "desc": "透过AI播客学英文课第五期。taste and judgment；get married to outcomes；dogfooding loop。",
+      "pub_date": "2026-08-29",
+      "listed": true
+    },
+    {
       "id": "ep-006",
       "title": "EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲",
       "file": "ep-006.mp3",
