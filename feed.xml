@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 29 Aug 2026 14:24:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 07:19:41 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -22,6 +22,76 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 08.智能体 AI 如何重塑创业格局—— 吴恩达谈规模、人才与创业真相</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-008.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第六期。吴恩达：能力增长不止 scale；agentic AI 落地瓶颈是人才；创业更像网球，多是 two-way doors。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 No Priors 与 Andrew Ng（吴恩达）对谈。检索日 2026-09-01：吴恩达本人把 agentic AI 叙事推进到新公司 LearnVector——一对一学习智能体。&lt;/p&gt;
+&lt;h3&gt;产品与功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-07-28：吴恩达创办 LearnVector，做基于 agentic AI 的一对一学习体验（规划路径、陪练、直到掌握）；计划与 Coursera、Udemy 协作，产品目标约 2027 年初。一手：&lt;a href="https://learnvector.ai/"&gt;LearnVector&lt;/a&gt; · &lt;a href="https://blog.coursera.org/coursera-invests-in-learnvector-to-build-the-future-of-ai-native-learning/"&gt;Coursera Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本轮近 1–2 周未见新的 DeepLearning.AI / AI Fund 产品一手稿；本期听感可对照：他口头上的 agentic，正在变成可交付的学习 agent。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-07-28：Coursera 战略投资 LearnVector &lt;strong&gt;一亿美元&lt;/strong&gt;，约占三分之一股权（关联交易经独立委员会审批）。一手：&lt;a href="https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx"&gt;Coursera IR&lt;/a&gt; · SEC 8-K 口径见同日披露&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;导读钩子：公关机器爱讲 scale；他自己下场做的公司，押的是 agent + 人才侧的教与学——和本期「瓶颈是 talent」是同一条线。&lt;/p&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;嘉宾：Andrew Ng（吴恩达）· Google Brain / Coursera 联合创始人；AI Fund；DeepLearning.AI；亚马逊董事；LearnVector 创始人兼 CEO&lt;/li&gt;
+&lt;li&gt;原访谈：No Priors · How Agentic AI is Transforming The Startup Landscape&lt;/li&gt;
+&lt;li&gt;主题：能力增长来源、agentic AI、创业生态与创始人画像&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（21:33，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±15 秒。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;进步不止 scale；瓶颈常是人才&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;1:20&lt;/td&gt;&lt;td&gt;标题 landscape（英文整句）&lt;/td&gt;&lt;td&gt;智能体 AI 如何改变创业格局&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;1:58&lt;/td&gt;&lt;td&gt;godfather（英文整句）&lt;/td&gt;&lt;td&gt;AI 革命教父之一&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;3:08&lt;/td&gt;&lt;td&gt;scalability lemon（英文整句）&lt;/td&gt;&lt;td&gt;规模还能榨一点，但越来越难&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;4:20&lt;/td&gt;&lt;td&gt;PR machinery（英文整句）&lt;/td&gt;&lt;td&gt;别被公关机器带偏&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;5:53&lt;/td&gt;&lt;td&gt;agentic AI it stuck（英文整句）&lt;/td&gt;&lt;td&gt;世界不需要新词——结果它火了&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;7:35&lt;/td&gt;&lt;td&gt;degrees of agency（英文整句）&lt;/td&gt;&lt;td&gt;看能动性光谱，别争是不是 agent&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;10:38&lt;/td&gt;&lt;td&gt;talent / evals（英文整句）&lt;/td&gt;&lt;td&gt;落地最大障碍是人才与 error analysis&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;13:08&lt;/td&gt;&lt;td&gt;vibe coding（英文整句）&lt;/td&gt;&lt;td&gt;不是跟着感觉走&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;14:43&lt;/td&gt;&lt;td&gt;PM bottleneck（英文整句）&lt;/td&gt;&lt;td&gt;写代码变快后瓶颈移到产品判断&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;16:17&lt;/td&gt;&lt;td&gt;tech-oriented founders（英文整句）&lt;/td&gt;&lt;td&gt;技术导向创始人更可能成功&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;18:14&lt;/td&gt;&lt;td&gt;tennis / two-way doors（英文整句）&lt;/td&gt;&lt;td&gt;创业像网球；多数决策可逆&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;18:33&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;判断力与双向门，比堆规模更稀缺&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：不再收本期访谈复述。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同人/同赛道怎么把 agentic 落到产品和资本结构。检索日 2026-09-01。&lt;/p&gt;
+&lt;h3&gt;产品 / 组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LearnVector 官网与 Coursera 投资稿：一对一学习 agent，而不是「搜索框给答案就走」。一手：&lt;a href="https://learnvector.ai/"&gt;learnvector.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;对照已上线 Dianne 期（延后发布队列里）：evals are the new PRDs——和吴恩达「会不会做 error analysis + evals」是同一条工程肌肉。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;财务与投融资&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Coursera 一亿美元入股 LearnVector（约 33%）。听的时候可以想：他嘴上说人才瓶颈，资本上把钱砸进「教人用 AI」——叙事自洽吗？一手：&lt;a href="https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx"&gt;Coursera IR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-008.mp3" type="audio/mpeg" length="31026284" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-008.mp3</guid>
+      <itunes:duration>21:33</itunes:duration>
+      <itunes:title>EP 08.智能体 AI 如何重塑创业格局—— 吴恩达谈规模、人才与创业真相</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第六期。agentic AI；talent bottleneck；tennis not calculus；two-way doors。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第六期。agentic AI；talent bottleneck；tennis not calculus；two-way doors。</itunes:summary>
+    </item>
     <item>
       <title>EP 07.产品工作的新形态—— OpenAI Codex 负责人谈品味与判断力</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-007.html</link>
