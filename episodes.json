@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-009",
+      "title": "EP 09.让 B2B 产品也被热爱的秘密—— Linear 产品负责人谈速度、质量与产品品味",
+      "file": "ep-009.mp3",
+      "duration_sec": 790,
+      "size_bytes": 18954476,
+      "desc": "透过AI播客学英文课第八期。speed vs quality；second nature；schlep blindness；startup 养活 startup。",
+      "pub_date": "2026-09-02",
+      "listed": true
+    },
+    {
       "id": "ep-008",
       "title": "EP 08.智能体 AI 如何重塑创业格局—— 吴恩达谈规模、人才与创业真相",
       "file": "ep-008.mp3",
