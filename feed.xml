@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 02 Sep 2026 04:15:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 07:58:17 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -36,7 +36,7 @@
 &lt;/ul&gt;
 &lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;2026-07-28：Coursera 战略投资 LearnVector &lt;strong&gt;一亿美元&lt;/strong&gt;，约占三分之一股权（关联交易经独立委员会审批）。一手：&lt;a href="https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx"&gt;Coursera IR&lt;/a&gt; · SEC 8-K 口径见同日披露&lt;/li&gt;
+&lt;li&gt;2026-07-28：Coursera 战略投资 LearnVector &lt;strong&gt;一亿美元&lt;/strong&gt;，约占三分之一股权（关联交易经独立委员会审批）。一手：&lt;a href="https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx"&gt;Coursera IR&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;导读钩子：公关机器爱讲 scale；他自己下场做的公司，押的是 agent + 人才侧的教与学——和本期「瓶颈是 talent」是同一条线。&lt;/p&gt;
 
@@ -48,26 +48,28 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（21:28，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±15 秒。&lt;/p&gt;
+&lt;p&gt;时间对齐线上成片（16:29，含约 7 秒片头；2026-09-02 利落口播替代版）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±15 秒。&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;进步不止 scale；瓶颈常是人才&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:15&lt;/td&gt;&lt;td&gt;标题 landscape（英文整句）&lt;/td&gt;&lt;td&gt;智能体 AI 如何改变创业格局&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:53&lt;/td&gt;&lt;td&gt;godfather（英文整句）&lt;/td&gt;&lt;td&gt;AI 革命教父之一&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:04&lt;/td&gt;&lt;td&gt;scalability lemon（英文整句）&lt;/td&gt;&lt;td&gt;规模还能榨一点，但越来越难&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;4:15&lt;/td&gt;&lt;td&gt;PR machinery（英文整句）&lt;/td&gt;&lt;td&gt;别被公关机器带偏&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;5:48&lt;/td&gt;&lt;td&gt;agentic AI it stuck（英文整句）&lt;/td&gt;&lt;td&gt;世界不需要新词——结果它火了&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;7:30&lt;/td&gt;&lt;td&gt;degrees of agency（英文整句）&lt;/td&gt;&lt;td&gt;看能动性光谱，别争是不是 agent&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;10:33&lt;/td&gt;&lt;td&gt;talent / evals（英文整句）&lt;/td&gt;&lt;td&gt;落地最大障碍是人才与 error analysis&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;13:03&lt;/td&gt;&lt;td&gt;vibe coding（英文整句）&lt;/td&gt;&lt;td&gt;不是跟着感觉走&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;14:38&lt;/td&gt;&lt;td&gt;PM bottleneck（英文整句）&lt;/td&gt;&lt;td&gt;写代码变快后瓶颈移到产品判断&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;16:12&lt;/td&gt;&lt;td&gt;tech-oriented founders（英文整句）&lt;/td&gt;&lt;td&gt;技术导向创始人更可能成功&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;18:09&lt;/td&gt;&lt;td&gt;tennis / two-way doors（英文整句）&lt;/td&gt;&lt;td&gt;创业像网球；多数决策可逆&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;18:29&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;判断力与双向门，比堆规模更稀缺&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;进步不止 scale；瓶颈常是人才&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:02&lt;/td&gt;&lt;td&gt;标题 landscape（英文整句）&lt;/td&gt;&lt;td&gt;智能体 AI 如何改变创业格局&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:35&lt;/td&gt;&lt;td&gt;godfather（英文整句）&lt;/td&gt;&lt;td&gt;AI 革命教父之一&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:57&lt;/td&gt;&lt;td&gt;capability growth（英文整句）&lt;/td&gt;&lt;td&gt;能力增长从哪来？是规模吗？&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:33&lt;/td&gt;&lt;td&gt;scalability lemon（英文整句）&lt;/td&gt;&lt;td&gt;规模还能榨一点，但越来越难&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:29&lt;/td&gt;&lt;td&gt;PR machinery（英文整句）&lt;/td&gt;&lt;td&gt;别被公关机器带偏&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:46&lt;/td&gt;&lt;td&gt;agentic AI it stuck（英文整句）&lt;/td&gt;&lt;td&gt;世界不需要新词——结果它火了&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:57&lt;/td&gt;&lt;td&gt;degrees of agency（英文整句）&lt;/td&gt;&lt;td&gt;看能动性光谱，别争是不是 agent&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:28&lt;/td&gt;&lt;td&gt;sticker / took off（英文整句）&lt;/td&gt;&lt;td&gt;术语被营销当贴纸乱贴&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:20&lt;/td&gt;&lt;td&gt;talent / evals（英文整句）&lt;/td&gt;&lt;td&gt;落地最大障碍是人才与 error analysis&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:47&lt;/td&gt;&lt;td&gt;economic value（英文整句）&lt;/td&gt;&lt;td&gt;编程经济价值 clear and massive&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:29&lt;/td&gt;&lt;td&gt;vibe coding（英文整句）&lt;/td&gt;&lt;td&gt;不是跟着感觉走&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:43&lt;/td&gt;&lt;td&gt;PM bottleneck（英文整句）&lt;/td&gt;&lt;td&gt;写代码变快后瓶颈移到产品判断&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:59&lt;/td&gt;&lt;td&gt;tech-oriented founders（英文整句）&lt;/td&gt;&lt;td&gt;技术导向创始人更可能成功&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:56&lt;/td&gt;&lt;td&gt;can and cannot（英文整句）&lt;/td&gt;&lt;td&gt;要对技术边界有感觉&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:33&lt;/td&gt;&lt;td&gt;tennis / two-way doors（英文整句）&lt;/td&gt;&lt;td&gt;创业像网球；多数决策可逆&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:52&lt;/td&gt;&lt;td&gt;主题收束&lt;/td&gt;&lt;td&gt;判断力与双向门，比堆规模更稀缺&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
@@ -85,9 +87,9 @@
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-008.mp3" type="audio/mpeg" length="30910508" />
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-008.mp3" type="audio/mpeg" length="23732972" />
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-008.mp3</guid>
-      <itunes:duration>21:28</itunes:duration>
+      <itunes:duration>16:29</itunes:duration>
       <itunes:title>EP 08.智能体 AI 如何重塑创业格局—— 吴恩达谈规模、人才与创业真相</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第七期。agentic AI；talent bottleneck；tennis not calculus；two-way doors。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第七期。agentic AI；talent bottleneck；tennis not calculus；two-way doors。</itunes:summary>
