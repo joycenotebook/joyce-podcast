@@ -6,7 +6,7 @@
     <atom:link href="https://joycenotebook.github.io/joyce-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <description>瑜伽课后：个人知识播客，聊职场、生活与向内的选择。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 02 Sep 2026 07:58:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 10:17:08 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -22,6 +22,76 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 09.让 B2B 产品也被热爱的秘密—— Linear 产品负责人谈速度、质量与产品品味</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-009.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第八期。Linear 产品负责人 Nan Yu：速度与质量不是权衡；second nature；schlep blindness；startup 养活 startup。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 Lenny's Newsletter 对当时 Linear 产品负责人 Nan Yu 的访谈。检索日 2026-09-02：两条近况叠在一起——Nan Yu 加入 OpenAI 做 Codex / ChatGPT 产品；Linear 自身估值叙事从 Series C 的十二点五亿美元，走到二零二六年八月员工股权回购（tender）的二十五亿美元口径。&lt;/p&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear：面向现代产品团队的 issue / project / roadmap 工具，常被拿来对标 Atlassian Jira 一类项目管理软件。一手：&lt;a href="https://linear.app/"&gt;linear.app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-09-01 前后：前 Linear Head of Product Nan Yu 加入 OpenAI，参与 Codex 与 ChatGPT 产品工作（二手汇总口径，以本人公开声明为准）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2025-06-10：Linear 宣布 Accel 领投的 Series C，八千二百万美元，估值十二点五亿美元。一手：&lt;a href="https://linear.app/now/building-our-way"&gt;Linear · Building our way&lt;/a&gt; · &lt;a href="https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/"&gt;TechCrunch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-08-26：完成九千九百万美元员工 tender，估值二十五亿美元；公司称现金流为正、未再融 primary。一手：&lt;a href="https://linear.app/now/sharing-growth-with-the-people-building-linear"&gt;Linear · Sharing Linear’s growth&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;导读钩子：海外 startup 互相用 Linear / Canny / Mixpanel 这类工具——「startup 养活 startup」。要理解这条供给链，就得看 Linear 怎么把 B2B 做成 beloved。&lt;/p&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;嘉宾：Nan Yu · 访谈时为 Linear 产品负责人；现已加入 OpenAI（Codex / ChatGPT 产品）&lt;/li&gt;
+&lt;li&gt;原访谈：Lenny's Newsletter · Linear's secret to building beloved B2B products&lt;/li&gt;
+&lt;li&gt;主题：速度与质量、迭代、臃肿、情绪钩子、schlep blindness、mental model、求职定位&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（13:10，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±15 秒。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;connecting the dots；startup 养活 startup&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:48&lt;/td&gt;&lt;td&gt;标题 beloved（英文整句）&lt;/td&gt;&lt;td&gt;B2B 也能被热爱&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:19&lt;/td&gt;&lt;td&gt;tradeoff（英文整句）&lt;/td&gt;&lt;td&gt;速度与质量不是权衡&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:58&lt;/td&gt;&lt;td&gt;speed / competent（英文整句）&lt;/td&gt;&lt;td&gt;别把快理解成马虎&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:03&lt;/td&gt;&lt;td&gt;pinnacle of craft（英文整句）&lt;/td&gt;&lt;td&gt;顶尖工匠又快又好&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:47&lt;/td&gt;&lt;td&gt;second nature（英文整句）&lt;/td&gt;&lt;td&gt;熟练到本能&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:18&lt;/td&gt;&lt;td&gt;iterations（英文整句）&lt;/td&gt;&lt;td&gt;快是为了更多迭代&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:04&lt;/td&gt;&lt;td&gt;bloated / say no（英文整句）&lt;/td&gt;&lt;td&gt;拒绝才能防臃肿&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:55&lt;/td&gt;&lt;td&gt;emotional hooks（英文整句）&lt;/td&gt;&lt;td&gt;找工作日里感觉糟糕的时刻&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:10&lt;/td&gt;&lt;td&gt;schlep blindness（英文整句）&lt;/td&gt;&lt;td&gt;琐事盲点要靠局外人看见&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:17&lt;/td&gt;&lt;td&gt;mental model（英文整句）&lt;/td&gt;&lt;td&gt;调研修模型，不照抄原话&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:31&lt;/td&gt;&lt;td&gt;burning problem（英文整句）&lt;/td&gt;&lt;td&gt;面试把自己做成解法&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:45&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;带走三句判断&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:57&lt;/td&gt;&lt;td&gt;收束原句（英文整句）&lt;/td&gt;&lt;td&gt;There's not actually a tradeoff…&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：不复述本期访谈。看同赛道 / 同人怎么把「被热爱的 B2B」落到资本与组织。检索日 2026-09-02。&lt;/p&gt;
+&lt;h3&gt;产品 / 组织与人才&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Nan Yu 从 Linear 到 OpenAI：把「人人愿天天打开」的工作流能力，迁到 Codex / ChatGPT——和本期 beloved B2B 同一条能力线。&lt;/li&gt;
+&lt;li&gt;对照已上线的 Codex 负责人期：taste and judgment；再对照本期 competent / second nature——品味与熟练，是同一稀缺品的两面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;财务与投融资&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Series C（十二点五亿美元）与 2026 年 tender（二十五亿美元）：一手见上节。听的时候可以想：估值翻倍之后，产品还有没有勇气继续 say no。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-009.mp3" type="audio/mpeg" length="18954476" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-009.mp3</guid>
+      <itunes:duration>13:10</itunes:duration>
+      <itunes:title>EP 09.让 B2B 产品也被热爱的秘密—— Linear 产品负责人谈速度、质量与产品品味</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第八期。speed vs quality；second nature；schlep blindness；startup 养活 startup。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第八期。speed vs quality；second nature；schlep blindness；startup 养活 startup。</itunes:summary>
+    </item>
     <item>
       <title>EP 08.智能体 AI 如何重塑创业格局—— 吴恩达谈规模、人才与创业真相</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-008.html</link>
