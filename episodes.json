@@ -13,11 +13,21 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-011",
+      "title": "EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读",
+      "file": "ep-011.mp3",
+      "duration_sec": 1096,
+      "size_bytes": 26305388,
+      "desc": "透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。",
+      "pub_date": "2026-09-05",
+      "listed": true
+    },
+    {
       "id": "ep-010",
       "title": "EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事",
-      "file": "ep-010.mp3",
-      "duration_sec": 841,
-      "size_bytes": 20185388,
+      "file": "",
+      "duration_sec": 812,
+      "size_bytes": 19494188,
       "desc": "透过AI播客学英文课第九期。persistent AI coworkers；overhang；steering vs rowing；Mocks not docs。",
       "pub_date": "2026-09-03",
       "listed": true
@@ -48,7 +58,7 @@
       "file": "ep-007.mp3",
       "duration_sec": 534,
       "size_bytes": 12825260,
-      "desc": "透过AI播客学英文课第六期。taste and judgment；get married to outcomes；dogfooding loop。",
+      "desc": "透过AI播客学英文课第六期。taste and judgment；dogfooding；get married to outcomes。",
       "pub_date": "2026-08-29",
       "listed": true
     },
