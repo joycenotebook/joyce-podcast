@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 04 Sep 2026 08:24:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 05:27:02 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -139,6 +139,98 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-011.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle / Economics of Generative AI》第一讲。讲师 Apoorv Agrawal（口播稿写作 Apoorva）：Altimeter Capital Partner，前 Palantir 工程。检索日 2026-09-05。&lt;/p&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;课程：Stanford MS&amp;amp;E 435 · Economics of the AI Supercycle。一手录像：&lt;a href="https://www.youtube.com/watch?v=ODj7ndsKnts"&gt;YouTube · Session 开场讲&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;分析更新：Apoorv 个人站 &lt;a href="https://apoorv03.com/p/the-economics-of-generative-ai-two"&gt;The Economics of Generative AI: Two Years Later&lt;/a&gt;——生态从约九百亿增到约四千三百五十亿量级，形态仍倒三角，增量收入约七成五进 Semis。&lt;/li&gt;
+&lt;li&gt;Altimeter：AI / software 向投资；公开材料提及 OpenAI、Glean 等布局（以机构披露为准）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;本轮未见 Altimeter / 本讲直接关联的新 primary 融资一手；近况以课程开课与「两年后」经济栈更新为主。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;导读钩子：接 ep-010 Tara 谈 Work/Codex 产品形态——这期把镜头拉到整条价值栈：钱现在卡在哪一层、消费 AI 的 ARPU 怎么补上。&lt;/p&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;讲师：Apoorv Agrawal · Altimeter Capital Partner；Stanford MS&amp;amp;E Adjunct&lt;/li&gt;
+&lt;li&gt;背景：前 Palantir 工程；NUS CS + Stanford MBA&lt;/li&gt;
+&lt;li&gt;原课：Stanford · Economics of Generative AI / AI Supercycle Session 1&lt;/li&gt;
+&lt;li&gt;主题：倒三角、CapEx、burn GPUs、feature vs platform、用户数×ARPU、ads unlock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（18:16，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间硬拼接（无 acrossfade 叠音）。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;Where's the money?&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:08&lt;/td&gt;&lt;td&gt;wrestle&lt;/td&gt;&lt;td&gt;wrestling with&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:12&lt;/td&gt;&lt;td&gt;开场讲解&lt;/td&gt;&lt;td&gt;钱在哪里&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:37&lt;/td&gt;&lt;td&gt;CapEx蛋糕&lt;/td&gt;&lt;td&gt;5-layer cake&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:56&lt;/td&gt;&lt;td&gt;蛋糕讲解&lt;/td&gt;&lt;td&gt;蛋糕讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:33&lt;/td&gt;&lt;td&gt;倒三角&lt;/td&gt;&lt;td&gt;vs cloud 正三角&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:55&lt;/td&gt;&lt;td&gt;倒三角讲解&lt;/td&gt;&lt;td&gt;倒三角讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:37&lt;/td&gt;&lt;td&gt;三种猜测&lt;/td&gt;&lt;td&gt;upside / monopoly&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:53&lt;/td&gt;&lt;td&gt;猜测讲解&lt;/td&gt;&lt;td&gt;猜测讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:34&lt;/td&gt;&lt;td&gt;software ate&lt;/td&gt;&lt;td&gt;marginal cost≈0&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:54&lt;/td&gt;&lt;td&gt;软件讲解&lt;/td&gt;&lt;td&gt;软件讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:39&lt;/td&gt;&lt;td&gt;burn GPUs&lt;/td&gt;&lt;td&gt;增量用户不免费&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:56&lt;/td&gt;&lt;td&gt;GPU讲解&lt;/td&gt;&lt;td&gt;GPU讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:32&lt;/td&gt;&lt;td&gt;铁路周期&lt;/td&gt;&lt;td&gt;CapEx cycles&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:53&lt;/td&gt;&lt;td&gt;周期讲解&lt;/td&gt;&lt;td&gt;周期讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:41&lt;/td&gt;&lt;td&gt;feature/platform&lt;/td&gt;&lt;td&gt;jury's still out&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:02&lt;/td&gt;&lt;td&gt;Infra讲解&lt;/td&gt;&lt;td&gt;Infra讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:51&lt;/td&gt;&lt;td&gt;3500亿&lt;/td&gt;&lt;td&gt;75%→Semis&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:21&lt;/td&gt;&lt;td&gt;价值聚集&lt;/td&gt;&lt;td&gt;价值聚集&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:14&lt;/td&gt;&lt;td&gt;75%毛利&lt;/td&gt;&lt;td&gt;by a long shot&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:36&lt;/td&gt;&lt;td&gt;毛利讲解&lt;/td&gt;&lt;td&gt;毛利讲解&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:21&lt;/td&gt;&lt;td&gt;40亿用户&lt;/td&gt;&lt;td&gt;Alphabet 对标&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:27&lt;/td&gt;&lt;td&gt;用户讲解1&lt;/td&gt;&lt;td&gt;用户讲解1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:33&lt;/td&gt;&lt;td&gt;100美元&lt;/td&gt;&lt;td&gt;Meta 入场&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:42&lt;/td&gt;&lt;td&gt;用户讲解2&lt;/td&gt;&lt;td&gt;用户讲解2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:48&lt;/td&gt;&lt;td&gt;70与10美元&lt;/td&gt;&lt;td&gt;ChatGPT ARPU&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:01&lt;/td&gt;&lt;td&gt;用户讲解3&lt;/td&gt;&lt;td&gt;用户讲解3&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:11&lt;/td&gt;&lt;td&gt;做到40亿&lt;/td&gt;&lt;td&gt;规模轴&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:15&lt;/td&gt;&lt;td&gt;拆账&lt;/td&gt;&lt;td&gt;用户数×ARPU&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:12&lt;/td&gt;&lt;td&gt;ads判断&lt;/td&gt;&lt;td&gt;subscription不够&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:39&lt;/td&gt;&lt;td&gt;广告讲解&lt;/td&gt;&lt;td&gt;intent/归因/信任&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:14&lt;/td&gt;&lt;td&gt;手机广告&lt;/td&gt;&lt;td&gt;found the space&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:46&lt;/td&gt;&lt;td&gt;历史讲解&lt;/td&gt;&lt;td&gt;big unlock&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17:52&lt;/td&gt;&lt;td&gt;收束原句&lt;/td&gt;&lt;td&gt;where's the money&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17:57&lt;/td&gt;&lt;td&gt;收束&lt;/td&gt;&lt;td&gt;站在哪一层&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：不复述本期口播。看同栈经济怎么更新。检索日 2026-09-05。&lt;/p&gt;
+&lt;h3&gt;经济栈与投资视角&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://apoorv03.com/p/the-economics-of-generative-ai-two"&gt;Apoorv · Two Years Later&lt;/a&gt;：增长 5x，形态几乎不变。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stanfordreview.org/inverting-the-stack-apoorv-agrawal-on-the-economics-of-ai/"&gt;Stanford Review · Inverting the Stack&lt;/a&gt;：课堂访谈摘要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;对照已上线&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ep-010 Tara：Work/Codex 产品面；本期：整条栈的钱在哪一层——同一条 AI 商业叙事的上下游。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-011.mp3" type="audio/mpeg" length="26305388" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-011.mp3</guid>
+      <itunes:duration>18:16</itunes:duration>
+      <itunes:title>EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。</itunes:summary>
+    </item>
     <item>
       <title>EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-010.html</link>
