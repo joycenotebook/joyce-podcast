@@ -1,0 +1,112 @@
+1
+00:00:06,000 --> 00:01:27,000
+课程导读 大家好，欢迎回来透过AI播客学英文。 今天我们读的不是播客访谈，而是一份很有分量的课程讲稿——斯坦福的《生成式 AI 经济学》（Economics of Generative AI）第一讲。讲师 Apoorva 是投资公司 Altimeter 的负责人，他曾在 Palantir 带过工程团队，后来转向投资。这门课的第一堂，他就抛出了全课程最大…
+
+2
+00:01:27,000 --> 00:01:33,000
+And the biggest question that we've all been wrestling with—where's the money in AI?
+
+3
+00:01:33,000 --> 00:02:19,000
+而那个我们所有人都在苦苦纠结的最大问题——AI 的钱在哪里？ wrestle with（与……搏斗、苦苦思考）是本期第一个要重点学习的动词短语。wrestle 本义是"摔跤、扭打"，wrestle with a problem 就是"和某个难题缠斗"，非常形象地表达"被一个问题困扰、反复思考"。这句用破折号引出核心问题：where's the mone…
+
+4
+00:02:19,000 --> 00:02:39,000
+We are investing so much into the CapEx. We're investing so much into building these data centers. It's a 5-layer cake, as Jensen calls it. Energy, chips, power, interconnects, …
+
+5
+00:02:39,000 --> 00:03:48,000
+我们在投入巨额的资本支出。我们投入巨资建设这些数据中心。正如 Jensen 所说，这是一块五层蛋糕——能源、芯片、算力、互联、内存，所有这些加在一起，才构成一个数据中心。 CapEx（capital expenditure 资本支出）是投资术语，指企业用于购买、维护长期资产（如厂房设备）的大额支出。AI 时代的巨额 CapEx，主要花在建设 data …
+
+6
+00:03:48,000 --> 00:04:11,000
+What is going on here is actually probably the biggest question in generative AI right now. And to make an analog of the biggest technology revolutions that I have seen—internet…
+
+7
+00:04:11,000 --> 00:05:12,000
+这里发生的事情，实际上是当下生成式 AI 中最大的问题。为了类比我所见过的最大的技术革命——二十五年前的互联网、二十年前的移动互联网、以及大约 十年前的云计算——云生态系统与 AI 生态系统的形态截然不同。 make an analog of（与……做类比）是这里的关键表达，analog（类比）也可以写作 analogue。Apoorva 用过去三次技…
+
+8
+00:05:12,000 --> 00:05:30,000
+Is it because it's still early in the upside for AI? … Or maybe because NVIDIA has a monopoly, so they can charge whatever. … is it the cloud sectors seem to be able to leverage…
+
+9
+00:05:30,000 --> 00:06:40,000
+是因为 AI 的上行空间还处于早期阶段吗？……还是因为 NVIDIA 有垄断地位，所以可以随意定价？……是不是云服务商能利用硬件来产生收益，而 AI 还没真正达到那个阶段？ 这里连续出现了几个值得记的表达： the upside for AI——upside（上行空间、潜在好处）是投资高频词，常指"上涨潜力和积极的一面"。 has a monopoly…
+
+10
+00:06:40,000 --> 00:07:03,000
+We know how software ate the world. As Marc Andreessen said, software ate the world because I could build software, and I could distribute it to millions of people. And the marg…
+
+11
+00:07:03,000 --> 00:08:12,000
+我们知道软件如何吞噬了世界。正如 Marc Andreessen 所说，软件吞噬世界，是因为我可以开发软件，而且能把它分发给数百万人，而运行该软件的边际成本接近于 零。这些软件业务的毛利率高达 百分之八十，有些甚至达到 百分之九十。 software ate the world（软件吞噬了世界）是硅谷名言，出自 a16z 创始人 Marc Andree…
+
+12
+00:08:12,000 --> 00:08:30,000
+That is not the case with this new economic model of AI. The incremental user of an AI application is not free. It's not marginally free. It's actually quite a bit more expensiv…
+
+13
+00:08:30,000 --> 00:09:40,000
+但 AI 的这种新经济模式并非如此。AI 应用的增量用户并不是免费的。这可不是边际免费。实际上，AI 用户的成本要高得多，因为事实证明你得烧掉那些 GPU。 这是全篇最重要的一个转折，也是理解"钱在哪里"的核心。that is not the case（情况并非如此）是地道表达，用来否定前文。incremental user（增量用户）中，increm…
+
+14
+00:09:40,000 --> 00:10:00,000
+And that's what makes the lower half of this triangle somewhat cyclical. You go through phases of CapEx cycles. Think of it as like laying down the railroads. Eight years from b…
+
+15
+00:10:00,000 --> 00:11:09,000
+而这正是倒三角的下半部分具有某种周期性的原因。你会经历一轮轮的资本支出周期。可以把它想象成铺设铁路。从破土动工算起八年，从第一轮资本支出投资周期算起也是八年，亚马逊才全面转向 AWS。 Apoorva 提出了一个重要的"周期错配"观点：你建半导体和数据中心，是按 五–六年的周期来规划；而应用的收入却是"当下"的。他用了 laying down the …
+
+16
+00:11:09,000 --> 00:11:28,000
+The inference layer is the most competitive part of the whole ecosystem. There's a lot of startups that are doing really well. But you've also got the hyperscalers who want to h…
+
+17
+00:11:28,000 --> 00:12:53,000
+推理层是整个生态系统中竞争最激烈的部分。有很多创业公司做得相当不错，但你也看到超大规模云服务商想在这一层拥有主导话语权。说实话，结果还悬而未决。那里最大的问题是：你是一个功能，还是一个平台？ 这里出现了几个重要概念： inference layer（推理层）——模型训练好之后，实际给用户跑任务的环节叫"推理"（inference），这个中间层是竞争最激…
+
+18
+00:12:53,000 --> 00:13:22,000
+I did the same exercise that I did about two years ago. And what it looked like two years ago was this thing on the left, where the ecosystem was obviously a lot smaller—about f…
+
+19
+00:13:22,000 --> 00:14:43,000
+我重复了两年前做过的同样的测算。两年前，生态系统明显小得多——大约只有现在五分之一。令人震惊的是，它的形态几乎没有变化。尽管增长十分惊人。看看新增的收入：大约增加了 三千五百亿美元，而其中足有 百分之七十五 直接流向了半导体层。 value is accruing（价值正在聚集）是这段的主题。accrue（聚集、累积）是金融英语里很重要的动词。Apoo…
+
+20
+00:14:43,000 --> 00:15:05,000
+The most profitable part of the stack is the Semis layer by a long shot. NVIDIA's data center revenues are on a gross margin of about 75%. Whereas, I estimate some of the Applic…
+
+21
+00:15:05,000 --> 00:16:14,000
+整个技术栈里利润最丰厚的是半导体层，遥遥领先。NVIDIA 的数据中心收入毛利率约为 百分之七十五。而我估计应用层的部分收入，则根据你问谁，大概在 百分之零 到 百分之三十 之间。所以这个差距相当大。 by a long shot（差得远、远远地）是英语中常见的强调短语，常出现在否定句（not by a long shot 远非如此），这里用在肯定句中…
+
+22
+00:16:14,000 --> 00:16:42,000
+The rough economics of consumer applications—Alphabet has about 4 billion users. They monetize them at about $100 a user a year. Meta's got about 3.5 billion users that monetize…
+
+23
+00:16:42,000 --> 00:18:22,000
+消费者应用的大致经济账是这样的——Alphabet 大约有 四十亿用户，每人每年带来约 一百美元的变现。Meta 大约有 三十五亿用户，每人每年约 七十美元。而领先的 AI 服务商 ChatGPT 大约有 十亿用户，每人每年只变现约 十美元。所以问题在于：如何把这 十亿用户做到 四十亿？ monetize（变现）是这部分的绝对核心词——指"把用户和流量…
+
+24
+00:18:22,000 --> 00:18:48,000
+I'm not sure subscription is the answer. I suspect we'll have to go into ads. I suspect the ads that ChatGPT will be able to serve—or Claude will be able to serve—will have a lo…
+
+25
+00:18:48,000 --> 00:20:14,000
+我不确定订阅是答案。我怀疑我们不得不转向广告。我推测 ChatGPT 或 Claude 将来能投放的广告会有好得多的定价，因为它们能理解你的意图、你会登录、有非常好的归因、还有更多信任。我认为那将是今年的另一个重磅头条。你们最先在这儿听到。它会是一件大事。 这是 Apoorva 关于 AI 变现最核心的判断：订阅（subscription）可能不够，广…
+
+26
+00:20:14,000 --> 00:20:46,000
+10 years ago, at the Facebook IPO, there was a lot of short reports on Facebook because people said, hey, these ads worked on a computer, they're not going to work on a phone. W…
+
+27
+00:20:46,000 --> 00:22:05,000
+十年前 Facebook 上市时，市场上有很多看空报告，因为人们说：这些广告在电脑上有效，但在手机上不会有效。为什么？因为手机上没地方放广告。真没想到，我们竟然在手机上找到了地方。同样的事情正在发生——我不想被广告打断。但我乐观地认为我们会找到办法。而我认为那将是巨大的解锁，是这个经济模型的巨大解锁。 这是一个很有说服力的历史类比。short repo…
+
+28
+00:22:05,000 --> 00:24:29,000
+主题升华 这期斯坦福课程讲稿，其实回答的就是题目里那个直白的问题——AI 的钱在哪里？ Apoorva 给的答案很清晰，也多少有些出人意料：钱在"底部"，不在"顶部"。 至少目前，AI 生态的价值高度聚集在最底层的半导体——NVIDIA 一家就吃掉了大量利润，毛利高达 百分之七十五；而大家眼里最热闹的应用层，收入虽在十倍增长，却迟迟没能"砸出一个坑"。…
+

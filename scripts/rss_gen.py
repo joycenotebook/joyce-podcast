@@ -10,6 +10,7 @@ from xml.sax.saxutils import escape as xml_escape
 
 RSS_NS = "http://www.w3.org/2005/Atom"
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+PODCAST = "https://podcastindex.org/namespace/1.0"
 
 
 def _rfc2822(dt_str: str) -> str:
@@ -100,9 +101,21 @@ def render_episode_page(cfg: dict, ep: dict, notes: str) -> str:
 """
 
 
+def transcript_urls(cfg: dict, ep: dict, root: Path) -> list[tuple[str, str]]:
+    """Return (absolute_url, mime) for hosted captions if present."""
+    website = (cfg.get("website") or "").rstrip("/")
+    out: list[tuple[str, str]] = []
+    for ext, mime in (("srt", "application/srt"), ("vtt", "text/vtt")):
+        p = root / "transcripts" / f"{ep['id']}.{ext}"
+        if p.exists() and p.stat().st_size > 0:
+            out.append((f"{website}/transcripts/{ep['id']}.{ext}", mime))
+    return out
+
+
 def build_rss(cfg: dict, episodes: list[dict], root: Path) -> str:
     ET.register_namespace("itunes", ITUNES)
     ET.register_namespace("atom", RSS_NS)
+    ET.register_namespace("podcast", PODCAST)
 
     def E(tag, text=None, attrs=None):
         el = ET.Element(tag, attrs or {})
@@ -154,12 +167,19 @@ def build_rss(cfg: dict, episodes: list[dict], root: Path) -> str:
             "url": audio_url, "type": "audio/mpeg",
             "length": str(ep.get("size_bytes", 0))
         }))
-        item.append(E("guid", audio_url, attrs={"isPermaLink": "true"}))
+        # Default guid stays audio URL (legacy). Set ep["guid"] when rerecording so
+        # enclosure can change without inventing a second identity—or to force refresh.
+        guid = ep.get("guid") or audio_url
+        item.append(E("guid", guid, attrs={"isPermaLink": "true"}))
         item.append(E(f"{{{ITUNES}}}duration", _fmt_duration(ep.get("duration_sec"))))
         item.append(E(f"{{{ITUNES}}}title", ep["title"]))
         item.append(E(f"{{{ITUNES}}}subtitle", short[:120]))
         # Apple 限制 itunes:summary 4000 字；完整 Show Notes 放 description
         item.append(E(f"{{{ITUNES}}}summary", short or desc[:4000]))
+        for turl, mime in transcript_urls(cfg, ep, root):
+            item.append(E(f"{{{PODCAST}}}transcript", attrs={
+                "url": turl, "type": mime, "rel": "captions",
+            }))
         channel.append(item)
 
     root = ET.Element("rss", {"version": "2.0"})

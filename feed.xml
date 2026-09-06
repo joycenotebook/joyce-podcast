@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>瑜伽课后</title>
     <link>https://joycenotebook.github.io/joyce-podcast/</link>
@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 06 Sep 2026 08:53:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 09:54:04 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -144,6 +144,8 @@
       <link>https://joycenotebook.github.io/joyce-podcast/ep-011.html</link>
       <description>&lt;p&gt;透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。&lt;/p&gt;
 
+&lt;p&gt;完整口播稿（与成片对齐）：&lt;a href="https://my.feishu.cn/docx/XH6hdgc3koRjWOx5AekcqXYdnwh"&gt;飞书确认稿&lt;/a&gt; · 跟播字幕：&lt;a href="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.srt"&gt;SRT&lt;/a&gt; / &lt;a href="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.vtt"&gt;VTT&lt;/a&gt;。&lt;/p&gt;
+
 &lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
 &lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle / Economics of Generative AI》第一讲。讲师 Apoorv Agrawal（口播稿写作 Apoorva）：Altimeter Capital Partner，前 Palantir 工程。检索日 2026-09-05。&lt;/p&gt;
 &lt;h3&gt;产品与组织&lt;/h3&gt;
@@ -167,7 +169,7 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（24:26，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间硬拼接（无 acrossfade 叠音）。重录自讲解稿覆盖版（跳过生词好句）。&lt;/p&gt;
+&lt;p&gt;时间对齐线上成片（24:29，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间硬拼接（无 acrossfade 叠音）。重录自讲解稿覆盖版（跳过生词好句）。&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
@@ -216,13 +218,15 @@
 
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-011.mp3" type="audio/mpeg" length="35250092" />
-      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-011.mp3</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-011-v2.mp3" type="audio/mpeg" length="35250092" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-011-v2.mp3</guid>
       <itunes:duration>24:29</itunes:duration>
       <itunes:title>EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。</itunes:summary>
+      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.srt" type="application/srt" rel="captions" />
+      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.vtt" type="text/vtt" rel="captions" />
     </item>
     <item>
       <title>EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事</title>
