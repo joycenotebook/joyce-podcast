@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 07 Sep 2026 07:03:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 07:11:13 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -701,26 +701,20 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（20:29，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;代码编辑器是为了什么？编程未来会变成什么样？&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:11&lt;/td&gt;&lt;td&gt;What's the point（英文整句）&lt;/td&gt;&lt;td&gt;代码编辑器的意义何在&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;2:26&lt;/td&gt;&lt;td&gt;souped up word processor&lt;/td&gt;&lt;td&gt;编辑器是被强化过的文字处理器&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:38&lt;/td&gt;&lt;td&gt;Fast is fun（英文整句）&lt;/td&gt;&lt;td&gt;快就是爽——响应快才是乐趣&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;5:30&lt;/td&gt;&lt;td&gt;fork VS Code / killer app&lt;/td&gt;&lt;td&gt;Copilot 是 LLM 第一个杀手级应用&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;8:41&lt;/td&gt;&lt;td&gt;scaling laws / GPT-4&lt;/td&gt;&lt;td&gt;scaling laws 让进步可预见；GPT-4 是一切串起来的时刻&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;11:00&lt;/td&gt;&lt;td&gt;fork 而非插件 / obsolete&lt;/td&gt;&lt;td&gt;一年后的 Cursor 要让今天的 Cursor 显得过时&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;13:05&lt;/td&gt;&lt;td&gt;staff engineer / calibration&lt;/td&gt;&lt;td&gt;资深工程师记得哪段 sketchy 代码曾把 server 打挂&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;15:35&lt;/td&gt;&lt;td&gt;spec / bandwidth&lt;/td&gt;&lt;td&gt;typing 低带宽，communicating intent 高带宽&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;18:19&lt;/td&gt;&lt;td&gt;human AI programmer&lt;/td&gt;&lt;td&gt;人机协作工程师，比一个数量级更有效&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;20:12&lt;/td&gt;&lt;td&gt;收尾金句（英文整句）&lt;/td&gt;&lt;td&gt;Nothing is as permanent as a temporary solution that works&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
+&lt;p&gt;时间对齐线上成片（20:29，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。每行说明该时段在讲什么。&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场导读：代码编辑器是为了什么？编程未来会变成什么样？&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:11&lt;/td&gt;&lt;td&gt;英文金句：What's the point of a code editor——编辑器的意义何在。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:26&lt;/td&gt;&lt;td&gt;讲解 souped up word processor：编辑器本质是被强化过的文字处理器。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:38&lt;/td&gt;&lt;td&gt;英文金句：Fast is fun——快就是爽，响应快才是乐趣。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:30&lt;/td&gt;&lt;td&gt;fork VS Code 与杀手级应用：Copilot 是 LLM 第一个 killer app。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:41&lt;/td&gt;&lt;td&gt;scaling laws 与 GPT-4：进步可预见；GPT-4 是一切串起来的时刻。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:00&lt;/td&gt;&lt;td&gt;fork 而非插件：一年后的 Cursor 要让今天的 Cursor 显得过时。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:05&lt;/td&gt;&lt;td&gt;staff engineer 的校准：资深工程师记得哪段 sketchy 代码曾把 server 打挂。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:35&lt;/td&gt;&lt;td&gt;spec 与带宽：typing 是低带宽，communicating intent 才是高带宽。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:19&lt;/td&gt;&lt;td&gt;人机协作工程师：human AI programmer 比单人一个数量级更有效。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:12&lt;/td&gt;&lt;td&gt;收尾金句：Nothing is as permanent as a temporary solution that works。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
 &lt;p&gt;选文原则：不再收本期访谈复述。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同赛道或相邻工具链。检索日 2026-08-27。&lt;/p&gt;
 &lt;h3&gt;AI 编程工具&lt;/h3&gt;
@@ -774,25 +768,19 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（14:39，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;黑客松开场 + 课程导读&lt;/td&gt;&lt;td&gt;这周做 AI 软件黑客松，所以特别听 PM 未来怎么走&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:56&lt;/td&gt;&lt;td&gt;regret（英文整句）&lt;/td&gt;&lt;td&gt;We regret that product management exists&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;2:40&lt;/td&gt;&lt;td&gt;infantilize / babysit（夹杂）&lt;/td&gt;&lt;td&gt;过多 PM 不是赋能，是把工程师当小孩&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:48&lt;/td&gt;&lt;td&gt;HR ratio / pod（英文整句）&lt;/td&gt;&lt;td&gt;六个工程师配一个设计师、一个 PM，从未被论证&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;6:14&lt;/td&gt;&lt;td&gt;31,832 / hire one（英文整句）&lt;/td&gt;&lt;td&gt;两年三万人申请，只雇一个&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;6:36&lt;/td&gt;&lt;td&gt;trade / muscle（英文整句）&lt;/td&gt;&lt;td&gt;PM 是手艺和肌肉，不是资历&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;8:11&lt;/td&gt;&lt;td&gt;trending down（英文整句）&lt;/td&gt;&lt;td&gt;面试只谈对齐和政治，在走下坡&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;9:31&lt;/td&gt;&lt;td&gt;检验清单（英文整句）&lt;/td&gt;&lt;td&gt;自己拉数据、和工程设计坐一起、查代码库&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;11:45&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;协调不再稀缺；判断和动手是护城河&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;12:32&lt;/td&gt;&lt;td&gt;收束&lt;/td&gt;&lt;td&gt;互文播客第二期 Cat Wu：product taste 与亲自动手&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
+&lt;p&gt;时间对齐线上成片（14:39，含约 7 秒片头）。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。每行说明该时段在讲什么。&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;黑客松开场与导读：这周做 AI 软件黑客松，特别关心 PM 未来怎么走。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:56&lt;/td&gt;&lt;td&gt;英文金句：We regret that product management exists——后悔产品管理这个职能的存在。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:40&lt;/td&gt;&lt;td&gt;讲解 infantilize / babysit：过多 PM 不是赋能，是把工程师当小孩照看。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:48&lt;/td&gt;&lt;td&gt;讲解 HR ratio / pod：六个工程师配一个设计师和一个 PM，从未被论证过。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:14&lt;/td&gt;&lt;td&gt;招聘极端：两年三万多人申请，只雇一个人。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:36&lt;/td&gt;&lt;td&gt;讲解 trade / muscle：PM 是手艺和肌肉，不是资历头衔。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:11&lt;/td&gt;&lt;td&gt;讲解 trending down：面试只谈对齐和政治，整条职能在走下坡。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:31&lt;/td&gt;&lt;td&gt;检验清单：自己拉数据、和工程设计坐一起、会查代码库。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:45&lt;/td&gt;&lt;td&gt;主题升华：协调不再稀缺；判断和动手才是护城河。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:32&lt;/td&gt;&lt;td&gt;收束互文：对照第二期 Cat Wu——product taste 与亲自动手。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
 &lt;p&gt;选文原则：不再收本期访谈复述。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同赛道或相邻组织形态。检索日 2026-08-26。&lt;/p&gt;
 &lt;h3&gt;组织与人才&lt;/h3&gt;
@@ -846,27 +834,21 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（10:42，含约 7 秒片头）。按飞书精讲全文重录。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;对强大 AI 看涨，是因为曲线已经画出来了&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:32&lt;/td&gt;&lt;td&gt;认识 Dario（英文整句）&lt;/td&gt;&lt;td&gt;Claude 常在 benchmark 榜首&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;2:17&lt;/td&gt;&lt;td&gt;outspoken（英文整句）&lt;/td&gt;&lt;td&gt;安全是有话直说的立场，不是公关&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:33&lt;/td&gt;&lt;td&gt;scale up（英文整句）&lt;/td&gt;&lt;td&gt;变大、加层、放大数据&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;4:08&lt;/td&gt;&lt;td&gt;bullish / extrapolate（英文整句）&lt;/td&gt;&lt;td&gt;外推后面几个点，很快到 human level&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;5:16&lt;/td&gt;&lt;td&gt;language（英文整句）&lt;/td&gt;&lt;td&gt;小网络只抓得住 common stuff&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;6:03&lt;/td&gt;&lt;td&gt;ceiling（英文整句）&lt;/td&gt;&lt;td&gt;不问模型封不封顶，问世界有多复杂&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;6:33&lt;/td&gt;&lt;td&gt;天花板翻转（夹杂）&lt;/td&gt;&lt;td&gt;天花板不在天上，取决于世界有多复杂&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;8:00&lt;/td&gt;&lt;td&gt;aligned（英文整句）&lt;/td&gt;&lt;td&gt;自建公司之后，目标跟不跟人类一边&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;8:12&lt;/td&gt;&lt;td&gt;ASL（夹杂）&lt;/td&gt;&lt;td&gt;能力升一档，防护协议跟着升&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;9:12&lt;/td&gt;&lt;td&gt;收束句（英文整句）&lt;/td&gt;&lt;td&gt;with great power comes great responsibility&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;9:17&lt;/td&gt;&lt;td&gt;主题升华&lt;/td&gt;&lt;td&gt;智能增长是可理解的科学现象；能力与安全同一张工程清单&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
+&lt;p&gt;时间对齐线上成片（10:42，含约 7 秒片头）。按飞书精讲全文重录。英文整句用 Joyce-en 克隆，中文与中英夹杂句用 Joyce-zh 克隆。误差约 ±10 秒。每行说明该时段在讲什么。&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场导读：对强大 AI 看涨，是因为能力曲线已经画出来了。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:32&lt;/td&gt;&lt;td&gt;认识 Dario：Claude 常在 benchmark 榜首，他是 Anthropic 的公开代言人之一。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:17&lt;/td&gt;&lt;td&gt;讲解 outspoken：安全是有话直说的立场，不是公关话术。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:33&lt;/td&gt;&lt;td&gt;讲解 scale up：变大、加层、放大数据——缩放仍是主路径。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:08&lt;/td&gt;&lt;td&gt;讲解 bullish / extrapolate：外推后面几个点，很快到 human level。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:16&lt;/td&gt;&lt;td&gt;讲解 language：小网络只抓得住 common stuff，装不下世界的复杂。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:03&lt;/td&gt;&lt;td&gt;讲解 ceiling：不问模型封不封顶，先问世界有多复杂。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:33&lt;/td&gt;&lt;td&gt;天花板翻转：天花板不在天上，取决于世界复杂程度。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:00&lt;/td&gt;&lt;td&gt;讲解 aligned：自建公司之后，目标跟不跟人类一边。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:12&lt;/td&gt;&lt;td&gt;讲解 ASL：能力升一档，防护协议跟着升一档。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:12&lt;/td&gt;&lt;td&gt;收束金句：with great power comes great responsibility。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:17&lt;/td&gt;&lt;td&gt;主题升华：智能增长是可理解的科学现象；能力与安全是同一张工程清单。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
 &lt;p&gt;选文原则：不再收本期访谈的复述、精读、姐妹播客。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同公司或同类公司的产品、管理、财务、投融资。检索日 2026-08-25。&lt;/p&gt;
 &lt;h3&gt;产品&lt;/h3&gt;
@@ -925,29 +907,23 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（24:31，含 7 秒片头）。误差约 ±15 秒。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:07&lt;/td&gt;&lt;td&gt;课程导读&lt;/td&gt;&lt;td&gt;为什么要听 Cat Wu：速度 + PM 角色变了&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:20&lt;/td&gt;&lt;td&gt;AGI pilled&lt;/td&gt;&lt;td&gt;要 the right amount：别为还不存在的超强模型做产品&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;2:13&lt;/td&gt;&lt;td&gt;elicit&lt;/td&gt;&lt;td&gt;难的是对当前模型引出最大能力&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:13&lt;/td&gt;&lt;td&gt;Anthropic 有多快&lt;/td&gt;&lt;td&gt;扫清 every single barrier；6 个月 → 1 个月 → 有时 1 天&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;4:01&lt;/td&gt;&lt;td&gt;PM 角色变化&lt;/td&gt;&lt;td&gt;AI native 要每周都能发，不能再按季度规划&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;5:40&lt;/td&gt;&lt;td&gt;product taste&lt;/td&gt;&lt;td&gt;代码变便宜后，稀缺的是 deciding what to write&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;7:38&lt;/td&gt;&lt;td&gt;Cat 与 Boris&lt;/td&gt;&lt;td&gt;愿景家定目的地，PM 绘路径；约 80% mind meld&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;10:40&lt;/td&gt;&lt;td&gt;三板斧 1：清晰目标&lt;/td&gt;&lt;td&gt;who / problem / success 说死，消除 LLM 带来的 ambiguity&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;12:58&lt;/td&gt;&lt;td&gt;三板斧 2：Research Preview&lt;/td&gt;&lt;td&gt;降承诺才能一周内发出去&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;14:42&lt;/td&gt;&lt;td&gt;三板斧 3：Evergreen Launch Room&lt;/td&gt;&lt;td&gt;dogfood 后进常青发布室，文档 / PMM / DevRel 第二天能对外&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;16:56&lt;/td&gt;&lt;td&gt;PRD 还写不写&lt;/td&gt;&lt;td&gt;含糊功能写 one pager；重基础设施才写完整 PRD&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;19:08&lt;/td&gt;&lt;td&gt;团队原则&lt;/td&gt;&lt;td&gt;用原则替代审批，避免 blocked on PM&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;21:11&lt;/td&gt;&lt;td&gt;招聘&lt;/td&gt;&lt;td&gt;优先招有 product taste 的工程师；角色在融合&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;23:13&lt;/td&gt;&lt;td&gt;收束&lt;/td&gt;&lt;td&gt;范式转移：瀑布六个月 vs 预览迭代到一天&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
+&lt;p&gt;时间对齐线上成片（24:31，含 7 秒片头）。误差约 ±15 秒。每行说明该时段在讲什么。&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:07&lt;/td&gt;&lt;td&gt;开场导读：为什么要听 Cat Wu——产品速度变了，PM 角色也在变。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:20&lt;/td&gt;&lt;td&gt;讲解 AGI pilled：要 the right amount，别为还不存在的超强模型做产品。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:13&lt;/td&gt;&lt;td&gt;讲解 elicit：难的不是模型本身，而是对当前模型引出最大能力。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:13&lt;/td&gt;&lt;td&gt;Anthropic 有多快：扫清 every single barrier，发布周期从六个月压到一个月甚至一天。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:01&lt;/td&gt;&lt;td&gt;PM 角色变化：AI native 产品要能每周发版，不能再按季度规划。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:40&lt;/td&gt;&lt;td&gt;product taste：代码变便宜后，稀缺的是 deciding what to write。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:38&lt;/td&gt;&lt;td&gt;Cat 与 Boris：愿景家定目的地、PM 绘路径，约八成时间要 mind meld。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:40&lt;/td&gt;&lt;td&gt;三板斧之一：把 who / problem / success 说死，消除 LLM 带来的歧义。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:58&lt;/td&gt;&lt;td&gt;三板斧之二：Research Preview 降承诺，才能一周内发出去。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:42&lt;/td&gt;&lt;td&gt;三板斧之三：Evergreen Launch Room——dogfood 后进常青发布室，文档与对外第二天能跟上。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:56&lt;/td&gt;&lt;td&gt;PRD 还写不写：含糊功能写 one pager，重基础设施才写完整 PRD。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:08&lt;/td&gt;&lt;td&gt;团队原则：用原则替代审批，避免事事 blocked on PM。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;21:11&lt;/td&gt;&lt;td&gt;招聘：优先招有 product taste 的工程师，角色边界在融合。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;23:13&lt;/td&gt;&lt;td&gt;收束：范式从瀑布六个月，转向预览迭代到一天。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
 &lt;p&gt;选文原则：不再收本期访谈的复述、精读、姐妹播客。只看&lt;strong&gt;另一条新闻&lt;/strong&gt;——同公司或同类公司的产品、管理、财务、投融资。检索日 2026-08-24。&lt;/p&gt;
 &lt;h3&gt;产品&lt;/h3&gt;
@@ -984,22 +960,16 @@
 &lt;p&gt;本期判断：职业选择的底层不是能力或薪资，是内心是否真正确信。主讲 Joyce，无外邀嘉宾。时长 11:00（含 7 秒片头）。&lt;/p&gt;
 
 &lt;h2&gt;时间线&lt;/h2&gt;
-&lt;p&gt;对齐线上成片。按口播字数估算，误差约 ±20 秒。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;th&gt;带走一句&lt;/th&gt;&lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;&lt;td&gt;0:07&lt;/td&gt;&lt;td&gt;开场&lt;/td&gt;&lt;td&gt;悬浮感：这份工作是不是你发自内心想坚守的&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;1:09&lt;/td&gt;&lt;td&gt;性格与环境&lt;/td&gt;&lt;td&gt;「浓人」碰上「淡」环境，内耗不一定是能力问题&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;3:32&lt;/td&gt;&lt;td&gt;信念 / 牛津&lt;/td&gt;&lt;td&gt;真正的确信才会推着潜意识找路&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;5:09&lt;/td&gt;&lt;td&gt;岗位抓手&lt;/td&gt;&lt;td&gt;看得见战略方向，手上没有孵化抓手&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;6:37&lt;/td&gt;&lt;td&gt;理想与现实&lt;/td&gt;&lt;td&gt;把两条路的收益和代价摊开，别非黑即白&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;8:01&lt;/td&gt;&lt;td&gt;两套工具&lt;/td&gt;&lt;td&gt;自我记录 + 愿景板，把模糊感受变成可评估选项&lt;/td&gt;&lt;/tr&gt;
-    &lt;tr&gt;&lt;td&gt;9:59&lt;/td&gt;&lt;td&gt;收束&lt;/td&gt;&lt;td&gt;向内看：你真正愿意笃定相信的是什么&lt;/td&gt;&lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
+&lt;p&gt;对齐线上成片。每行说明该时段在讲什么。误差约 ±20 秒。&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:07&lt;/td&gt;&lt;td&gt;开场：这份工作是不是你发自内心想坚守的——悬浮感从何而来。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:09&lt;/td&gt;&lt;td&gt;性格与环境：浓人碰上淡环境，内耗不一定是能力问题。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:32&lt;/td&gt;&lt;td&gt;信念与牛津故事：真正的确信才会推着潜意识找路。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:09&lt;/td&gt;&lt;td&gt;岗位抓手：看得见战略方向，手上却没有孵化抓手。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:37&lt;/td&gt;&lt;td&gt;理想与现实：把两条路的收益和代价摊开，别非黑即白。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:01&lt;/td&gt;&lt;td&gt;两套工具：自我记录与愿景板，把模糊感受变成可评估选项。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:59&lt;/td&gt;&lt;td&gt;收束：向内看——你真正愿意笃定相信的是什么。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;h2&gt;提到&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;稻盛和夫：发自内心坚定一个信念，潜意识会推着你找到路。前提是确信，不是口头向往。&lt;/li&gt;
