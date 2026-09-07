@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-016",
+      "title": "EP 16.如何自然地把热爱变现—— My First Million 谈唯一、护城河与生活方式",
+      "file": "ep-016.mp3",
+      "duration_sec": 858,
+      "size_bytes": 20585708,
+      "desc": "透过AI播客学英文课第十五期。be the only；enthusiasm moat；tours are just content；sell lifestyle not product。",
+      "pub_date": "2026-09-07",
+      "listed": true
+    },
+    {
       "id": "ep-011",
       "title": "EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读",
       "file": "ep-011-v2.mp3",
