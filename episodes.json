@@ -28,7 +28,7 @@
       "file": "ep-012.mp3",
       "duration_sec": 858,
       "size_bytes": 20585708,
-      "desc": "透过AI播客学英文课第十五期。be the only；enthusiasm moat；tours are just content；sell lifestyle not product。",
+      "desc": "透过AI播客学英文课第十五期。怎么把真心热爱的东西自然变成事业——做唯一、让热情当护城河、卖的是生活方式。",
       "pub_date": "2026-09-07",
       "listed": true
     },
@@ -38,7 +38,7 @@
       "file": "ep-011-v2.mp3",
       "duration_sec": 1469,
       "size_bytes": 35250092,
-      "desc": "透过AI播客学英文课第十期。倒三角；burn GPUs；feature vs platform；用户数×ARPU；ads unlock。",
+      "desc": "透过AI播客学英文课第十期。从半导体到应用的倒三角、为什么 AI 应用必须烧掉 GPU，以及消费 AI 的变现逻辑。",
       "pub_date": "2026-09-06",
       "listed": true
     },
@@ -48,7 +48,7 @@
       "file": "",
       "duration_sec": 812,
       "size_bytes": 19494188,
-      "desc": "透过AI播客学英文课第九期。persistent AI coworkers；overhang；steering vs rowing；Mocks not docs。",
+      "desc": "透过AI播客学英文课第九期。AI 产品第三时代——能长期共事的常驻 AI 同事。",
       "pub_date": "2026-09-03",
       "listed": true
     },
@@ -58,7 +58,7 @@
       "file": "ep-009.mp3",
       "duration_sec": 793,
       "size_bytes": 19022444,
-      "desc": "透过AI播客学英文课第八期。speed vs quality；second nature；schlep blindness；startup 养活 startup。",
+      "desc": "透过AI播客学英文课第八期。B2B 产品如何被热爱：速度与质量不是权衡。",
       "pub_date": "2026-09-02",
       "listed": true
     },
@@ -68,7 +68,7 @@
       "file": "ep-008.mp3",
       "duration_sec": 989,
       "size_bytes": 23732972,
-      "desc": "透过AI播客学英文课第七期。agentic AI；talent bottleneck；tennis not calculus；two-way doors。",
+      "desc": "透过AI播客学英文课第七期。AI 能力增长是不是只靠堆规模、智能体落地为什么卡在人才、创业为什么更像打网球。",
       "pub_date": "2026-09-01",
       "listed": true
     },
@@ -78,7 +78,7 @@
       "file": "ep-007.mp3",
       "duration_sec": 534,
       "size_bytes": 12825260,
-      "desc": "透过AI播客学英文课第六期。taste and judgment；dogfooding；get married to outcomes。",
+      "desc": "透过AI播客学英文课第六期。当全公司百分之九十的人都在用 Codex，产品工作的价值转向品味与判断力。",
       "pub_date": "2026-08-29",
       "listed": true
     },
@@ -88,7 +88,7 @@
       "file": "ep-006.mp3",
       "duration_sec": 2003,
       "size_bytes": 48064364,
-      "desc": "透过AI播客学英文课第五期。十五期 Claude 短播客合集：从 MCP 接到真实工具，到 Chrome 插件上手碰网页。intent 比操作更高带宽。",
+      "desc": "透过AI播客学英文课第五期。Claude 八个月如何从接到工具、走进组织，到动手碰电脑。",
       "pub_date": "2026-08-28",
       "listed": true
     },
@@ -98,7 +98,7 @@
       "file": "ep-005.mp3",
       "duration_sec": 1195,
       "size_bytes": 28687148,
-      "desc": "透过AI播客学英文课第四期。fast is fun；intent > typing；human AI programmer。",
+      "desc": "透过AI播客学英文课第四期。代码编辑器到底为了什么、编程带宽如何从打字转向意图。",
       "pub_date": "2026-08-27",
       "listed": true
     },
@@ -108,7 +108,7 @@
       "file": "ep-004.mp3",
       "duration_sec": 882,
       "size_bytes": 21176684,
-      "desc": "透过AI播客学英文课第三期。Tom Verrilli 反对默认堆 PM；31,832 人申请只雇 1 个；trade/muscle 与一线动手。",
+      "desc": "透过AI播客学英文课第三期。反对默认堆产品经理；协调中间层在贬值，一线动手才是护城河。",
       "pub_date": "2026-08-26",
       "listed": true
     },
@@ -118,7 +118,7 @@
       "file": "ep-003.mp3",
       "duration_sec": 642,
       "size_bytes": 15416108,
-      "desc": "透过AI播客学英文课第二期。按飞书精讲重录：Dario Amodei 谈 scaling law、外推到 human level，以及把安全写成和能力同一张工程清单。",
+      "desc": "透过AI播客学英文课第二期。为什么对强大 AI 看涨，以及如何把安全写成和能力同一张工程清单。",
       "pub_date": "2026-08-25",
       "listed": true
     },
@@ -128,7 +128,7 @@
       "file": "ep-002.mp3",
       "duration_sec": 1471.0,
       "size_bytes": 35323244,
-      "desc": "透过AI播客学英文课第一期。Cat Wu 谈 AGI pilled、product taste，以及 Anthropic 如何把交付从六个月压到一天。",
+      "desc": "透过AI播客学英文课第一期。产品团队如何把交付从六个月压到一天，以及代码变便宜之后，真正稀缺的是决定写什么。",
       "pub_date": "2026-08-22",
       "listed": true
     },
@@ -138,7 +138,7 @@
       "file": "ep-001.mp3",
       "duration_sec": 660.0,
       "size_bytes": 15840278,
-      "desc": "性格与环境错位、信念如何左右选择、岗位抓手缺失，以及两套向内锚定方向的工具。",
+      "desc": "职业选择的底层不是能力或薪资，是内心是否真正确信。",
       "pub_date": "2026-08-20",
       "listed": true
     }
