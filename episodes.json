@@ -14,11 +14,11 @@
   "episodes": [
     {
       "id": "ep-013",
-      "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第 9 讲精读",
+      "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读",
       "file": "ep-013.mp3",
-      "duration_sec": 1401,
-      "size_bytes": 33635564,
-      "desc": "透过AI播客学英文课第十六期。token atomic unit；inference 降九成；power and memory；IQ commoditized。",
+      "duration_sec": 1395,
+      "size_bytes": 33492140,
+      "desc": "透过AI播客学英文课第十二讲。token atomic unit；inference 降九成；power and memory；IQ commoditized。",
       "pub_date": "2026-09-08",
       "listed": true
     },
