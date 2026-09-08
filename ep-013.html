@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第 9 讲精读 · 瑜伽课后</title>
+  <link rel="alternate" type="application/rss+xml" title="瑜伽课后" href="./feed.xml" />
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; background: #1c1917; color: #fafaf9; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    img.cover { width: 100%; max-width: 360px; border-radius: 16px; display: block; }
+    h1 { font-weight: 600; font-size: 28px; margin: 24px 0 8px; }
+    h2 { font-weight: 600; font-size: 18px; margin: 32px 0 12px; }
+    h3 { font-weight: 600; font-size: 15px; margin: 20px 0 8px; color: #e7e5e4; }
+    p, li { color: #a8a29e; line-height: 1.65; }
+    a { color: #c4a574; }
+    .ep { margin-top: 28px; padding-top: 20px; border-top: 1px solid #292524; }
+    audio { width: 100%; margin-top: 8px; }
+    .notes ul { padding-left: 1.2em; }
+    .notes li { margin: 0.45em 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0 24px; }
+    th, td { border-bottom: 1px solid #292524; padding: 8px 6px; text-align: left; vertical-align: top; color: #a8a29e; }
+    th { color: #fafaf9; font-weight: 600; }
+    .back { font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="back"><a href="./">← 瑜伽课后</a></p>
+    <h1>EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第 9 讲精读</h1>
+    <audio controls preload="none" src="./audio/ep-013.mp3"></audio>
+    <div class="notes">
+<p>透过AI播客学英文课第十六期。token atomic unit；inference 降九成；power and memory；IQ commoditized。</p>
+<p>完整口播稿（与成片对齐）：<a href="https://my.feishu.cn/docx/IQTPd6sZ2oE6SPxLIkecWFaunog">飞书确认稿</a>。</p>
+<h2>1. 课程导读 · 公司近况</h2>
+<p>本期精讲 Stanford MS&amp;E 435（Spring 2026）《Economics of the AI Supercycle》第 9 讲 The GPU Economy。嘉宾 Brad Gerstner（Altimeter 创始人）与推理芯片专家 Sunny。检索日 2026-09-08。</p>
+<h3>产品与组织</h3>
+<ul>
+<li>课程：Stanford MS&amp;E 435 · Session 9 · The GPU Economy。接 ep-011 第一讲「Where's the money」。</li>
+<li>Altimeter：Brad Gerstner 创办；公开材料提及 OpenAI、Anthropic、NVIDIA 等布局（以机构披露为准）。</li>
+<li>概念锚点：token 作为智能原子单位；inference 成本一年降约九成；电力与内存是真约束。</li>
+</ul>
+<h3>投融资与上市传闻</h3>
+<ul><li>本轮未见与本讲直接相关的新 primary 融资一手；近况以课程观点与算力/电力约束为主。</li></ul>
+<p>导读钩子：ep-011 问钱在哪一层；这期把镜头拧到工厂内部——电进 token 出，谁能用同样的电挤出更多智能。</p>
+<h2>2. 访谈嘉宾</h2>
+<ul>
+<li>Brad Gerstner · Altimeter Capital 创始人</li>
+<li>Sunny · 推理芯片专家（口播中其团队后被并入 NVIDIA；稿内 Grok 指该团队，非 xAI 模型）</li>
+<li>课程：Stanford MS&amp;E 435 · Economics of the AI Supercycle · Session 9</li>
+<li>本期关键词：atomic unit；flops；inference deflation；power footprint；IQ commoditized</li>
+</ul>
+<h2>3. 主要话题时间线</h2>
+<p>时间对齐线上成片（23:21，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间硬拼接。每行说明该时段在讲什么。</p>
+<table><thead><tr><th>时间</th><th>话题</th></tr></thead><tbody>
+<tr><td>0:06</td><td>开场导读：接第十期「钱在哪里」，本期读斯坦福第 9 讲 GPU 经济——AI 为什么这么贵、贵又为何崩了九成。</td></tr>
+<tr><td>1:51</td><td>进入精讲：先立 token 是智能的原子单位。</td></tr>
+<tr><td>1:56</td><td>英文金句：AI / intelligence 的 atomic unit 是 token。</td></tr>
+<tr><td>2:02</td><td>讲解原子单位：产出智能就是造 token，每造一个都要烧算力，不是廉价复制。</td></tr>
+<tr><td>2:48</td><td>英文对照：从数据库取一条记录很便宜，生成一个 token 的 flops 令人目瞪口呆。</td></tr>
+<tr><td>3:00</td><td>讲解量级鸿沟：Snowflake 式检索 vs 生成 token，算力差出几个数量级。</td></tr>
+<tr><td>3:52</td><td>英文公式：算力大约是参数规模乘以 context length 的平方。</td></tr>
+<tr><td>4:12</td><td>讲解平方级膨胀：模型变大、上下文拉长，成本就疯涨；这是另一种计算范式。</td></tr>
+<tr><td>5:18</td><td>英文：摩尔定律不够用了，只能把芯片做得更大来 exceed。</td></tr>
+<tr><td>5:31</td><td>讲解摩尔定律见顶：晶体管做小逼近极限，改走做大芯片。</td></tr>
+<tr><td>6:14</td><td>英文比喻：Cerebras 的芯片大概有披萨盒那么大。</td></tr>
+<tr><td>6:20</td><td>讲解三管齐下：芯片更大、工程更巧、量化更省（如 NVFP4）。</td></tr>
+<tr><td>7:23</td><td>英文：inference 成本过去一年降约九成，两年半接近降九成九。</td></tr>
+<tr><td>7:35</td><td>讲解技术通缩：推理才是日常烧钱处；一年降九成是后面所有商业逻辑的起点。</td></tr>
+<tr><td>8:18</td><td>英文：黄仁勋判断 inference 即将增长十亿倍，不是十倍、一百倍。</td></tr>
+<tr><td>8:31</td><td>讲解反常识：从预训练走到推理期思考，需求暴涨比成本下跌还快，租卡价格甚至在涨。</td></tr>
+<tr><td>9:52</td><td>英文工厂比喻：一头进电和芯片，另一头出 token；约束是电力和内存。</td></tr>
+<tr><td>10:18</td><td>讲解电进 token 出：固定功耗 footprint 下，谁能用同样的电产出更多 token，谁就赢。</td></tr>
+<tr><td>11:35</td><td>英文：买下 Grok 后，同样功耗与建筑能产出约两倍半 token。</td></tr>
+<tr><td>11:44</td><td>讲解化敌为友：Sunny 的推理芯片与 NVIDIA 合在一起，同样的电多产智能，后来并入 NVIDIA。</td></tr>
+<tr><td>12:57</td><td>英文：OpenAI 和 Anthropic 起步时毛利率高度为负——一美元造、两毛卖。</td></tr>
+<tr><td>13:14</td><td>讲解负毛利豪赌：每单都在亏，传统商业近乎自杀。</td></tr>
+<tr><td>13:52</td><td>英文：赌 inference 成本大降、智能变贵后付费意愿上升。</td></tr>
+<tr><td>14:05</td><td>讲解两步赌注：今天亏着卖，赌明天成本合上、用户愿付更多。</td></tr>
+<tr><td>14:49</td><td>英文：AI 第一局只是能给出答案——代码补全、更好一点的搜索。</td></tr>
+<tr><td>15:06</td><td>讲解 first inning：只能回答，所以值不了太多钱。</td></tr>
+<tr><td>15:41</td><td>英文：进入 agents 做事阶段——建应用、做客服、订酒店。</td></tr>
+<tr><td>16:00</td><td>讲解智能体：做成一件事要读、写、试错，每一步都烧 token。</td></tr>
+<tr><td>16:34</td><td>英文：做事时 token 消耗涨一个数量级，单位智能价值涨一百倍。</td></tr>
+<tr><td>16:48</td><td>讲解消耗与价值：token 涨十倍，交付价值涨一百倍。</td></tr>
+<tr><td>17:00</td><td>继续讲解：所以压低智能成本，能被 AI 做事的场景才会爆炸。</td></tr>
+<tr><td>17:37</td><td>转入人怎么办：IQ 被商品化，EQ 才值钱。</td></tr>
+<tr><td>17:42</td><td>英文：IQ gets commoditized，EQ 是说服、组队、带人。</td></tr>
+<tr><td>18:06</td><td>讲解护城河：纯智商解题被做成标准商品；人际与领导力更稀缺。</td></tr>
+<tr><td>19:03</td><td>英文：让自己变成 bionic，用尽工具去创造 alpha。</td></tr>
+<tr><td>19:15</td><td>讲解人机合一：把 AI 当外骨骼，不是躲它。</td></tr>
+<tr><td>19:58</td><td>英文：不必再等苹果砸到牛顿头上，才能让发现曲线变垂直。</td></tr>
+<tr><td>20:13</td><td>讲解创新加速：agent 24 小时去试、去发现，重点是发现原本发现不了的新事。</td></tr>
+<tr><td>21:05</td><td>主题升华：AI 每次使用都烧真实算力；瓶颈是电和内存，不是芯片本身。</td></tr>
+<tr><td>22:42</td><td>英文收束：这是不可思议的技术，但也极其吃算力，比以往任何范式高出几个数量级。</td></tr>
+<tr><td>22:55</td><td>收束判断：看见「AI 多聪明」先问烧了多少电；抢芯片抢电抢的是印钞机。</td></tr>
+</tbody></table>
+<h2>4. 延伸阅读</h2>
+<p>选文原则：不复述本期口播。看算力、电力与推理成本怎么更新。检索日 2026-09-08。</p>
+<h3>经济栈与对照已上线</h3>
+<ul>
+<li>对照 ep-011：倒三角问钱在哪一层；本期问同样一层里，电怎么变成 token。</li>
+<li>Altimeter / 课程公开材料：以机构与斯坦福课程页为准，不把转写里的未核实并购当既定事实。</li>
+</ul>
+<h3>算力与电力约束</h3>
+<ul>
+<li>关注 inference 成本曲线、数据中心用电与内存带宽，而不是单看「模型更聪明」新闻。</li>
+<li>口播中的 Grok 按确认稿脚注处理为 Sunny 推理芯片团队，避免与 xAI 同名模型混淆。</li>
+</ul>
+<h2>5. 听友群</h2>
+<p>加入听友群获取播客相关学习素材。</p>
+    </div>
+  </main>
+</body>
+</html>
