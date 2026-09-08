@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 08 Sep 2026 08:37:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 15:30:58 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -151,6 +151,7 @@
 &lt;ul&gt;
 &lt;li&gt;课程：Stanford MS&amp;amp;E 435 · 第十二讲 · The GPU Economy。接 ep-011 第一讲「Where's the money」。&lt;/li&gt;
 &lt;li&gt;Altimeter：Brad Gerstner 创办；公开材料提及 OpenAI、Anthropic、NVIDIA 等布局（以机构披露为准）。&lt;/li&gt;
+&lt;li&gt;Groq：主营推理芯片（不是 xAI 的 Grok 模型）。与 NVIDIA、Cerebras 同属推理芯片赛道、互为竞争；路线是 Data Flow Architecture（数据流架构）的推理芯片，强调确定性、低延迟。口播里 Sunny 团队后并入 / 与 NVIDIA 连接合作：在同样电力成本与机房 footprint 下，可产出约两到三倍 token。&lt;/li&gt;
 &lt;li&gt;概念锚点：token 作为智能原子单位；inference 成本一年降约九成；电力与内存是真约束。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
@@ -158,7 +159,7 @@
 &lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Brad Gerstner · Altimeter Capital 创始人&lt;/li&gt;
-&lt;li&gt;Sunny · 推理芯片专家（口播中其团队后被并入 NVIDIA；稿内 Grok 指该团队，非 xAI 模型）&lt;/li&gt;
+&lt;li&gt;Sunny · 推理芯片专家（口播中其团队 / Groq 路线后与 NVIDIA 连接合作并并入；稿内 Grok 读音指 Groq 芯片团队，非 xAI 模型）&lt;/li&gt;
 &lt;li&gt;课程：Stanford MS&amp;amp;E 435 · Economics of the AI Supercycle · 第十二讲&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
@@ -174,7 +175,7 @@
 &lt;h3&gt;算力与电力约束&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;关注 inference 成本曲线、数据中心用电与内存带宽，而不是单看「模型更聪明」新闻。&lt;/li&gt;
-&lt;li&gt;口播中的 Grok 指 Sunny 的推理芯片团队，不是 xAI 的同名模型。&lt;/li&gt;
+&lt;li&gt;口播中的 Grok 指 Groq（Sunny 的推理芯片团队），不是 xAI 的同名模型；与 NVIDIA、Cerebras 竞争，Data Flow 路线；同电约 2–3 倍 token 产出见第 1 节。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
