@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 08 Sep 2026 06:38:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 08:27:02 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -142,8 +142,9 @@
     <item>
       <title>EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-013.html</link>
-      <description>&lt;p&gt;透过AI播客学英文课第十二讲。token atomic unit；inference 降九成；power and memory；IQ commoditized。&lt;/p&gt;
-&lt;p&gt;完整口播稿（与成片对齐）：&lt;a href="https://my.feishu.cn/docx/IQTPd6sZ2oE6SPxLIkecWFaunog"&gt;飞书确认稿&lt;/a&gt;。&lt;/p&gt;
+      <description>&lt;p&gt;透过AI播客学英文课第十二讲。原文：The GPU Economy（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》第十二讲）。定位：AI 为什么吃算力、成本为何暴跌而需求爆炸、真正的瓶颈是电力与内存。&lt;/p&gt;
+&lt;p&gt;这期斯坦福课程讲清楚了一件事：AI 是一台吃算力的机器，经济逻辑和我们熟悉的软件时代完全不同。软件是「复制成本趋近于零」——写一遍代码就能廉价复制。AI 不是：每次使用都在消耗真实的算力、电力与内存。所以无论问钱在哪里，还是问 GPU 经济，答案都指向同一层——算力是 AI 世界的真金白银。&lt;/p&gt;
+&lt;p&gt;三条反常识：AI 不因为贵而没人用，因为它的成本在以每年一个数量级崩塌；成本越低，需求反而爆炸，因为从「给答案」走向「替你做事」，单位智能的价值涨得比成本跌得还快；于是瓶颈不再是芯片本身，而是电和内存——谁能用同样一瓦电产出更多 token，谁就掌握命门。落到人身上：当纯智商被机器商品化，价值转向说服、组队、带人，以及把 AI 当外骨骼去做创造。看见「AI 多聪明」时，先问这句话背后烧了多少算力、多少电。&lt;/p&gt;
 &lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
 &lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle》第十二讲 The GPU Economy。嘉宾 Brad Gerstner（Altimeter 创始人）与推理芯片专家 Sunny。检索日 2026-09-08。&lt;/p&gt;
 &lt;h3&gt;产品与组织&lt;/h3&gt;
@@ -154,13 +155,11 @@
 &lt;/ul&gt;
 &lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
 &lt;ul&gt;&lt;li&gt;本轮未见与本讲直接相关的新 primary 融资一手；近况以课程观点与算力/电力约束为主。&lt;/li&gt;&lt;/ul&gt;
-&lt;p&gt;导读钩子：ep-011 问钱在哪一层；这期把镜头拧到工厂内部——电进 token 出，谁能用同样的电挤出更多智能。&lt;/p&gt;
 &lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Brad Gerstner · Altimeter Capital 创始人&lt;/li&gt;
 &lt;li&gt;Sunny · 推理芯片专家（口播中其团队后被并入 NVIDIA；稿内 Grok 指该团队，非 xAI 模型）&lt;/li&gt;
 &lt;li&gt;课程：Stanford MS&amp;amp;E 435 · Economics of the AI Supercycle · 第十二讲&lt;/li&gt;
-&lt;li&gt;本期关键词：atomic unit；flops；inference deflation；power footprint；IQ commoditized&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
 &lt;p&gt;时间对齐线上成片（23:18，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间硬拼接。每行说明该时段在讲什么。&lt;/p&gt;
@@ -175,7 +174,7 @@
 &lt;h3&gt;算力与电力约束&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;关注 inference 成本曲线、数据中心用电与内存带宽，而不是单看「模型更聪明」新闻。&lt;/li&gt;
-&lt;li&gt;口播中的 Grok 按确认稿脚注处理为 Sunny 推理芯片团队，避免与 xAI 同名模型混淆。&lt;/li&gt;
+&lt;li&gt;口播中的 Grok 指 Sunny 的推理芯片团队，不是 xAI 的同名模型。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
@@ -184,8 +183,8 @@
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-013.mp3</guid>
       <itunes:duration>23:18</itunes:duration>
       <itunes:title>EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读</itunes:title>
-      <itunes:subtitle>透过AI播客学英文课第十二讲。token atomic unit；inference 降九成；power and memory；IQ commoditized。</itunes:subtitle>
-      <itunes:summary>透过AI播客学英文课第十二讲。token atomic unit；inference 降九成；power and memory；IQ commoditized。</itunes:summary>
+      <itunes:subtitle>透过AI播客学英文课第十二讲。AI 为什么吃算力、成本为何暴跌而需求爆炸、真正的瓶颈是电力与内存。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第十二讲。AI 为什么吃算力、成本为何暴跌而需求爆炸、真正的瓶颈是电力与内存。</itunes:summary>
     </item>
     <item>
       <title>EP 12.如何自然地把热爱变现—— My First Million 谈唯一性、护城河与生活方式</title>
