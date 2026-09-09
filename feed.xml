@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Sep 2026 09:14:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 09:18:18 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -140,8 +140,8 @@
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
     <item>
-      <title>EP 17.建 AI 工厂：数字劳动第一次能被买出来——斯坦福《AI 超周期经济学》第十三讲精读</title>
-      <link>https://joycenotebook.github.io/joyce-podcast/ep-017.html</link>
+      <title>EP 14.建 AI 工厂：数字劳动第一次能被买出来——斯坦福《AI 超周期经济学》第十三讲精读</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-014.html</link>
       <description>&lt;p&gt;透过AI播客学英文课第十三讲。原文：Building AI Factories（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》Session 10）。定位：AI 工厂产业链怎么切开；digital labor 为什么值钱；以及每兆瓦的年营业收入、CapEx 投入和回本周期怎么测算。&lt;/p&gt;
 &lt;p&gt;GDP 增长约等于劳动变化加资本变化加技术变化。过去要增加劳动（ΔL），只能生人、养二十年。人类第一次可以通过买数据中心、买 GPU，把 ΔL 数字化地改掉——雇的是 digital labor。让一个 agent 去建 CRM，那就是一份被带进现实的数字劳动。所以五家超级云的 AI 开支能大到仅次于美国国防预算：不是在盖很贵的机房，是在加速数字劳动力。&lt;/p&gt;
 &lt;p&gt;产业链要左右分开看。左边是智能配方：数据、算法、架构。右边是物理工厂：算力、机房、电。Crusoe 竖切右边三层再接到 token，不造芯片、也不做基础模型。财务按每兆瓦记一张利润表：前期 CapEx 约五千九百万美元，纯出租年营业收入约一千五百万、约四年回本；往上做托管模型，乐观年营收约三千万、约两年回本。回本是 CapEx 除以年营业收入，不是净利润。&lt;/p&gt;
@@ -235,10 +235,10 @@
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-017.mp3" type="audio/mpeg" length="27081836" />
-      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-017.mp3</guid>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-014.mp3" type="audio/mpeg" length="27081836" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-014.mp3</guid>
       <itunes:duration>18:48</itunes:duration>
-      <itunes:title>EP 17.建 AI 工厂：数字劳动第一次能被买出来——斯坦福《AI 超周期经济学》第十三讲精读</itunes:title>
+      <itunes:title>EP 14.建 AI 工厂：数字劳动第一次能被买出来——斯坦福《AI 超周期经济学》第十三讲精读</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第十三讲。AI 工厂产业链；digital labor 改 ΔL；每兆瓦年营收、CapEx 与回本。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第十三讲。AI 工厂产业链；digital labor 改 ΔL；每兆瓦年营收、CapEx 与回本。</itunes:summary>
     </item>
