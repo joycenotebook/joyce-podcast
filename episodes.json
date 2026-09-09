@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-017",
+      "title": "EP 17.建 AI 工厂：数字劳动第一次能被买出来——斯坦福《AI 超周期经济学》第十三讲精读",
+      "file": "ep-017.mp3",
+      "duration_sec": 1128,
+      "size_bytes": 27081836,
+      "desc": "透过AI播客学英文课第十三讲。token 是数字劳动；一千九百万不是 IT；阿比林二点一吉瓦，Oracle 和微软是买家。",
+      "pub_date": "2026-09-09",
+      "listed": true
+    },
+    {
       "id": "ep-013",
       "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读",
       "file": "ep-013.mp3",
