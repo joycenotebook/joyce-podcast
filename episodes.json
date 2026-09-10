@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-015",
+      "title": "EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读",
+      "file": "ep-015.mp3",
+      "duration_sec": 1416,
+      "size_bytes": 33975980,
+      "desc": "透过AI播客学英文课第十四讲。精读讲解稿直出。AGI 已到但企业缺组织上下文；软件没死，价值上移到应用层。",
+      "pub_date": "2026-09-10",
+      "listed": true
+    },
+    {
       "id": "ep-014",
       "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
       "file": "ep-014.mp3",

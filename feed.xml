@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Sep 2026 12:12:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 04:02:25 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -139,6 +139,97 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-015.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第十四讲。原文：Infrastructure, Enterprise AI, SaaS（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》）。定位：一位从数据、湖仓一路做到 AI 业务的创始人 CEO，谈企业里真正难的事，和软件层未来的钱在哪。&lt;/p&gt;
+&lt;p&gt;这期斯坦福课讲的不是模型层的算力比拼，而是把镜头转向企业——请来 Databricks 掌门人 Ali Ghodsi，用一手约两万家客户的经验，给「AI 到底能不能进企业」泼了盆冷静、但极有分量的水。&lt;/p&gt;
+&lt;p&gt;论证可压成三句：AGI 早就到了，可企业接不住，真正瓶颈是组织里的隐性上下文；软件没有死，只是不再独占护城河，进入壁垒与切换成本双双下降；价值一路向上压向应用层，模型层终将像亚马逊卖书一样薄利规模化。发电机当年花了约四十年才改写世界，AI 也要经历一场「重新接线」式的流程重造。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle》Enterprise AI &amp;amp; SaaS。嘉宾 Ali Ghodsi（Databricks 联合创始人兼 CEO）。检索日 2026-09-10。成片按精读讲解稿直出（跳过生词好句）；备课财务框架：护城河变化 + 价值上移，不硬套每兆瓦利润表。&lt;/p&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;课程：Stanford MS&amp;amp;E 435 · 栏目第十四讲 · Enterprise AI &amp;amp; SaaS。接 ep-014 第十三讲 Building AI Factories。&lt;/li&gt;
+&lt;li&gt;公司主线：数据 → 湖仓（lakehouse）→ AI 平台；课上反复强调「AI 战略始于数据战略」与组织上下文注入。&lt;/li&gt;
+&lt;li&gt;产品语境（公开材料口径，非本期口播展开）：Unity Catalog / AI Gateway、Lakebase、Genie 等企业数据与 AI 产品面；此前收购收购 MosaicML 强化训练能力。一手融资与产品表述以公司与主流财经报道为准。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;近 1–2 周未见 Databricks 新的官方融资或上市一手。&lt;/li&gt;
+&lt;li&gt;背景（早于近两周）：2026-08-13 前后报道完成约五十亿美元融资、估值约一千九百亿美元；CEO 称需求很猛，但公开市场干扰大，二零二六年未必是合适 IPO 窗口。&lt;a href="https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html"&gt;CNBC · Databricks $5B / $190B&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ali Ghodsi · Databricks 联合创始人兼 CEO&lt;/li&gt;
+&lt;li&gt;课程：Stanford MS&amp;amp;E 435 · Economics of the AI Supercycle · Enterprise AI &amp;amp; SaaS&lt;/li&gt;
+&lt;li&gt;主题：AGI 已到、组织上下文、软件护城河、锯齿前沿、rewiring、价值上移应用层&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（23:36，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间硬拼接。跳过生词好句音标表。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场导读：第十四讲企业 AI 与 SaaS。Ali Ghodsi / Databricks；主线是 AGI 已到、瓶颈在组织上下文、价值上移应用层。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:45&lt;/td&gt;&lt;td&gt;英文金句：放轻松，时代疯狂但基本没必要紧张。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:52&lt;/td&gt;&lt;td&gt;讲解开场降温：chill out / not warranted。转入超级智能崇拜。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:51&lt;/td&gt;&lt;td&gt;英文金句：对超级智能的追求没有根据，因为连定义都没有。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:00&lt;/td&gt;&lt;td&gt;讲解 quest / unwarranted：先定义再谈追求。转入现场举手。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:00&lt;/td&gt;&lt;td&gt;英文金句：觉得已有 AGI 的人，总是只有大约一成。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:07&lt;/td&gt;&lt;td&gt;讲解 move the goalposts：标准被悄悄抬高。转入企业里 agent 很少真正干活。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:12&lt;/td&gt;&lt;td&gt;英文金句：企业仍在倒腾 TPS 报表；连 AI 公司内部也这样运作。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:21&lt;/td&gt;&lt;td&gt;讲解官僚忙碌与 agent 缺席。转入病因：缺组织上下文。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:27&lt;/td&gt;&lt;td&gt;英文金句：agent 没有人类在组织里才有的上下文，因此会犯蠢错误。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:39&lt;/td&gt;&lt;td&gt;讲解 context 是题眼：隐性知识、口头默契。转入把 John/Jane 的脑子装进模型。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:44&lt;/td&gt;&lt;td&gt;英文金句：把上下文转入组织内的 AI，就会有巨大影响，因为 AGI 已经在这里。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:56&lt;/td&gt;&lt;td&gt;讲解 transfer / figure out / massive impact。转入软件已死是伪命题。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:00&lt;/td&gt;&lt;td&gt;英文金句：若软件都死了，OpenAI、Anthropic 乃至英伟达不也该死？所以软件显然没死。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:13&lt;/td&gt;&lt;td&gt;讲解归谬法拆穿 Software is dead。转入真正的结构变化。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:26&lt;/td&gt;&lt;td&gt;英文金句：进入壁垒大幅下降，切换成本也大幅下降。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:34&lt;/td&gt;&lt;td&gt;讲解 barrier to entry 与 switching cost / lock-in 松动。转入护城河不止软件。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:41&lt;/td&gt;&lt;td&gt;英文金句：护城河还有规模经济、法拉利劳力士式品牌、以及数据。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:53&lt;/td&gt;&lt;td&gt;讲解 moat 多元：规模、品牌、专利、数据。转入锯齿前沿。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:01&lt;/td&gt;&lt;td&gt;英文金句：这是锯齿状前沿——有的事极强，有的事极烂。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:08&lt;/td&gt;&lt;td&gt;讲解 jagged frontier：用约两万客户做抽样。转入客服反直觉。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:26&lt;/td&gt;&lt;td&gt;英文金句：客服处理的往往是人类也不知道怎么办的事，很难自动化。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:35&lt;/td&gt;&lt;td&gt;讲解 support 难自动化。转入 AI 战略始于数据战略。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:36&lt;/td&gt;&lt;td&gt;英文金句：AI 战略始于数据战略；先把路铺好，让数据流起来。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:46&lt;/td&gt;&lt;td&gt;讲解 pave the roads / data flowing。转入技术扩散四十年与重新接线。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:52&lt;/td&gt;&lt;td&gt;英文金句：电动机从一八八零到一九二零才见影响；扩散四十年；现在也会 rewiring。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17:03&lt;/td&gt;&lt;td&gt;讲解 diffusion 与 rewiring：换工具不够，要重造流程。转入连接器案例。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:23&lt;/td&gt;&lt;td&gt;英文金句：生产级连接器原要三个季度；第一性原理团队一季交付七个——与更聪明模型无关。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:38&lt;/td&gt;&lt;td&gt;讲解流程重造与 bus factor。转入钱往哪去。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:55&lt;/td&gt;&lt;td&gt;英文金句：应用层会是赢家；价值一路上移；前沿模型将像亚马逊卖书一样薄利规模化。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:13&lt;/td&gt;&lt;td&gt;讲解 move up the stack / commoditize。转入主题升华。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;21:26&lt;/td&gt;&lt;td&gt;主题升华：AGI 已到但企业缺上下文；软件没死但护城河改写；价值压向应用层。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:46&lt;/td&gt;&lt;td&gt;英文收束：一八八零到一九二零的电动机时滞——现在也会发生，Rewiring。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:56&lt;/td&gt;&lt;td&gt;收束追问：数据铺路了吗？流程重新接线了吗？John/Jane 的隐性知识装进模型了吗？&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：不再收本期访谈复述。只看另一条新闻——同公司或同类公司的产品、管理、财务、投融资。检索日 2026-09-10。&lt;/p&gt;
+&lt;h3&gt;融资与上市窗口&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html"&gt;CNBC · Databricks wraps $5 billion funding round at $190 billion valuation&lt;/a&gt;：对照课上「应用层/数据平台为何仍能吸金」，不要把估值写成口播事实。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;对照已上线&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ep-014 Building AI Factories：算力工厂的每兆瓦账；本期：企业接住 AI 与软件层价值上移——同一条超周期叙事的上下游。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-015.mp3" type="audio/mpeg" length="33975980" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-015.mp3</guid>
+      <itunes:duration>23:36</itunes:duration>
+      <itunes:title>EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第十四讲。精读讲解稿直出。AGI 已到但企业缺组织上下文；软件没死，价值上移到应用层。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第十四讲。精读讲解稿直出。AGI 已到但企业缺组织上下文；软件没死，价值上移到应用层。</itunes:summary>
+    </item>
     <item>
       <title>EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-014.html</link>
