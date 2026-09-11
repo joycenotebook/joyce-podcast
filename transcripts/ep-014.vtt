@@ -1,0 +1,89 @@
+WEBVTT
+
+00:00:05.800 --> 00:01:38.280
+课程导读 大家好，欢迎回来透过AI播客学英文。 前面那期我们讲了 GPU 经济——AI 为什么天生这么能吃算力。这一期我们往前走一步，看那个真正在"烧钱"的东西：数据中心（data centers）。 今天这堂课请到的嘉宾很有分量——Chase Lochmiller，AI 算力基建公司 Crusoe 的创始人兼 CEO。Crusoe 做的事情，从名字就能猜出一半：数据中心的能源选址、电厂、机房、GPU 集群，一路做到帮你托管模型、serve token。他自己把这套生意概括成一个演讲标题，叫做 from electrons to tokens——从电子到 token：底层接的是电，顶层交出去的是 token。 一句话主线先给你放这儿：五家 hyperscaler 在 AI 上的资本开支，规模已经仅次于美国国防预算。为什么全世界愿意砸这么多钱？因为这是人类历史上第一次，可以用投资的方式"数字化地制造劳动力"、直接加速 GDP。 而钱具体怎么花、多久能赚回来，就是 Chase 今天要拆给我们看的东西。 英文原文与讲解 开场：这条曲线，比太空、高速公路、曼哈顿计划都大
+
+00:01:38.320 --> 00:01:57.510
+As you can tell, this is going up and to the right, and it's going up and to the right fast. To put this in context, this is one of the biggest investments that we are making — bigger than space, bigger than our highway system, the Manhattan Project, second only to the US Defense budget.
+
+00:01:57.550 --> 00:03:08.650
+正如你看到的，这条曲线一路上行，而且涨得飞快。放在背景里看，这是我们在做的最大的投资之一——比太空项目、比高速公路系统、比曼哈顿计划都大，仅次于美国国防预算。 going up and to the right 是科技圈形容增长曲线的俚语：图表往上、往右，就是"一路上行、只涨不跌"。这里连说两遍，强调涨势之快。 to put this in context（把它放进背景里看）是口语里很实用的开场：你想强调一个数字有多夸张，就说"to put this in context"。 second only to（仅次于）比 *only behind* 更正式、更书面，值得记。注意主讲人 Chase 本人是狂热的登山者，七大洲最高峰已登五座，所以他后面讲公司战略，也带着"登山思维"——有 plan A、有 plan B、还有给 plan B 的 plan C。 数据中心是 AI 采用潮的"物理显现"
+
+00:03:08.690 --> 00:03:36.480
+I think, in certain ways, the data center itself is like this physical manifestation of this boom that we're seeing in AI adoption. It's the physical infrastructure that's required to power the GPUs, to operate the GPUs, to run these big compute workloads — the data center is the physical infrastructure component that really enables all of this technology to proliferate and change people's lives.
+
+00:03:36.520 --> 00:04:48.590
+我认为某种程度上，数据中心本身就是我们正在看到的 AI 采用热潮的"物理显现"。它是给 GPU 供电、运营 GPU、运行那些大规模训练与推理工作负载所需的实体基础设施——正是让所有这些技术扩散开来、改变人们生活的那个物理组件。 physical manifestation（物理显现） 是本段最漂亮的表达：把"采用潮（boom in AI adoption）"这个抽象趋势，落到"一栋栋能插电的楼"这种看得见摸得着的东西上。仿写时可以用 *a physical manifestation of X*。 proliferate（动词，迅速扩散、增殖）是正式词，常用来描述技术或观念"到处长出来"。 注意他在一串并列里反复用 to power to run，这是在用排比强调：数据中心不是一间"放电脑的屋子"，而是一整套给 GPU 供能、运维、跑大任务的基础设施。 AI 有个"基本公式"，而 token 值钱是因为它能改变 ΔL
+
+00:04:48.630 --> 00:05:16.390
+The growth in GDP is fundamentally the sum of three key components: the change in labor, the change in capital, and the change in technology. ... For the first time in history, what we're able to do is actually change this delta L digitally, through the investment in buying data centers and buying GPUs, and really accelerating the growth in the economy by actually accelerating the growth in the digital labor force.
+
+00:05:16.430 --> 00:06:51.400
+GDP 的增长，本质上等于三个关键部分之和：劳动的变化、资本的变化，以及技术的变化。……而人类历史上第一次，我们能通过投资购买数据中心和 GPU，去数字化地改变这个"ΔL"，真正靠加速数字劳动力增长，来加速整个经济的增长。 Chase 搬出经济学里经典的 Cobb-Douglas（柯布-道格拉斯）生产函数，用来给观众一个框架：GDP 增长 ≈ 劳动力变化 + 资本变化 + 技术变化。 关键是这个 delta L（ΔL）：delta 就是希腊字母 Δ，表示"一个量的变化量"。他真正的洞察是——过去想增加劳动力，只能靠出生率，从生下来养到能工作要二十年；但现在你可以"买 GPU = 雇数字劳动力"，把 ΔL 数字化地改变掉。 digital labor（数字劳动） 是他反复强调的核心词：你给一个 agent 下达"帮我刚上线的产品建个 CRM"这种任务，那其实就是一份被带进现实的数字劳动。所以砸钱买算力，本质是加速 GDP，这就是为什么投资这么"宽、这么大"。 瓶颈会"跑"：四年前是算力，今天是"通电的机房"
+
+00:06:51.440 --> 00:07:13.580
+We hear the bottleneck in AI being compute four years ago, to power, memory ... labor ... Like today, the core bottleneck is energized data centers, like powered shells where you can plug in chips and start operating a big GPU compute cluster. That today is the bottleneck. But the bottleneck moves around a lot.
+
+00:07:13.620 --> 00:08:31.310
+我们听说，AI 的瓶颈四年前是算力，然后是电力、是存储、是劳动力……而今天，核心瓶颈是"已经通电（energized）的数据中心"——也就是那种能插上芯片、马上开始跑大规模 GPU 集群的"通电外壳"。今天卡在这，但瓶颈会到处移动。 bottleneck（瓶颈） 指制约整体增长的那个最窄环节。整堂课都在讲瓶颈，因为它到处跑。 energized（已通电的）由 en- + energy 构成，正是呼应演讲标题里 "from electrons" 那头的"电"。今天缺的不是芯片，而是通上电、能插芯片就开机的地方——Chase 管这叫 powered shells（通电外壳）。 他做垂直整合（后面会讲）的原因也在这句话里：因为瓶颈会移动，只有同时握住整条链上的多种能力，才不会被某个突然卡住的环节拖死。 energy-first：为什么把数据搬去西德克萨斯，而不是把电搬来
+
+00:08:31.350 --> 00:08:57.380
+Power prices were actually negative, because there was no marginal buyer for this power, and there wasn't enough transmission to get the power to somewhere where it actually was useful. ... A gigawatt is basically what powers the whole city of Denver. ... Can we find areas that aren't historical data center markets and go there and build data centers, where instead of having to move the energy, we're actually moving data?
+
+00:08:57.420 --> 00:10:20.650
+那里的电价其实是负的，因为这电没有边际买家，也没有足够的输电线路把它送到真正有用的地方。……一吉瓦，基本上就是给整个丹佛市供电的量。……我们能不能去那些并非传统数据中心市场的地方建数据中心——我们不搬能源，而是把数据搬过去？ Chase 的选址哲学叫 energy-first（能源优先）：先找又充足又便宜的能源，再考虑建机房，而不是反过来。他挑了 Abilene（阿比林），在德州西部。 为什么？西德州常年又刮风又出太阳，靠生产税抵免（production tax credit，政府按清洁电力产量付钱），当地一度过度投资了可再生能源，导致 电价甚至为负——因为电没有边际买家（no marginal buyer）、又送不出去。 他给的一吉瓦（gigawatt）参照特别直观：一吉瓦 ≈ 整个丹佛市的用电量。所以他做的事不是"把电搬来"，而是 move the data, not the energy——把数据搬去有电的地方，跟当地电网"同址（co-locate）"。 拆开这栋楼：每兆瓦的账，能算到"人"头上
+
+00:10:20.690 --> 00:10:47.440
+The bottom piece here is labor. So this is $4.7 million per megawatt. So that ends up being, for a gigawatt, that becomes $4.7 billion. ... We don't have enough tradespeople. We don't have enough electricians. We don't have enough welders. We don't have enough plumbers. We don't have enough construction workers. And there's actually a huge competition for labor.
+
+00:10:47.480 --> 00:12:03.400
+底部这一块是劳动力，每兆瓦是 四百七十万美元；对一吉瓦来说，那就是 四十七亿美元。……我们没有足够的技工，没有足够的电工，没有足够的焊工，没有足够的水管工，没有足够的建筑工人——实际上，劳动力市场的竞争极其激烈。 他把建数据中心的成本按每兆瓦（per megawatt）归一化，方便横向比较。电厂加建筑这块，大约每兆瓦 两千万美元。 注意 tradespeople / trades：这里的 trade 不是"贸易"，而是"手艺、工种"。电工（electrician）、焊工（welder）、水管工（plumber）都属于 skilled trades。 他最想强调的一点是：人本身就是瓶颈。Abilene 那一个园区每天现场就有约九千人施工，而很多这样的项目同时在冒出来，于是电工会涨工资、工期会拖——这是被很多人忽略的"蓝领劳动（blue collar labor）"账。 为什么发电的燃气轮机越来越贵
+
+00:12:03.440 --> 00:12:29.400
+There's a small set of gas turbine manufacturers: you basically have GE Vernova, Siemens, Mitsubishi Heavy Industries, Pratt & Whitney; Caterpillar has a company called Solar. ... A gas turbine that used to cost $1 million a megawatt now costs $3 million a megawatt. ... if you look at the stock price of GE Vernova — it's been good to be a shareholder of GE Vernova.
+
+00:12:29.440 --> 00:13:33.920
+燃气轮机制造商就那么几家：基本就是 GE Vernova、西门子、三菱重工、普惠；卡特彼勒旗下还有一家叫 Solar 的公司。……曾经每兆瓦 一百万美元的燃气轮机，现在涨到每兆瓦 三百万美元。……如果你去看 GE Vernova 的股价——当它的股东，日子一直挺好过。 数据中心是"电老虎"，所以很多地方要靠天然气发电厂（GE Vernova 等就是燃气轮机的供应商）来顶上。 Chase 点出一个很简单的供需道理：厂商就那么几家，产能又有限，可需求在一瞬间全涌上来，于是价格大涨——每兆瓦从 一百万美元涨到 三百万美元。 shareholder（股东） 和那句 it's been good to be a shareholder（当股东一直赚）带点调侃：产业链上"卖铲子"的上游，反而是确定性最高的赢家。 真正的"大头"在这层：一兆瓦 4000 万，GPU 占 三千万
+
+00:13:33.960 --> 00:14:02.800
+This is roughly 40 million per megawatt. 30 million of that is going to the GPUs. ... four million roughly to the networking. ... there's 72 GPUs in that rack, they're all interconnected on the same NVLink domain. ... typically InfiniBand, or sometimes RoCE, which is RDMA over Converged Ethernet. So about 3 million a megawatt for CPUs and storage.
+
+00:14:02.840 --> 00:15:30.750
+IT 设备这块大约每兆瓦 四千万美元，其中约 三千万花在 GPU 上，约 400 万在互联网络上——一个机柜里有 七十二块 GPU，全都连在同一个 NVLink 域里，机柜之间通常用 InfiniBand、有时用 RoCE。另外约每兆瓦 300 万给 CPU 和存储。 前面电厂加建筑才 两千万美元每兆瓦，可真正的大头是里面的 IT 设备（IT CapEx）：约 四千万美元每兆瓦，其中 三千万美元是 GPU。所以他说 Jensen（黄仁勋）总是笑得那么开心——GPU 是整条链上最贵的一环。 networking（网络互联） 约 四百万美元每兆瓦：GPU 不是孤军奋战，要靠高速网络连成一台大机器。NVIDIA 现在一个机柜（rack）就是 七十二块 GPU 全连在一个 NVLink domain 里；机柜与机柜之间再用 InfiniBand 或 RoCE 这类后端网络打通。 他顺带提了个反直觉的现象：CPU 现在也缺货——因为 agentic workflow（智能体工作流）爆发后，你需要大量 CPU 去"编排（orchestrate）"那些计算任务。 回本模型：纯出租四年，托管服务两年
+
+00:15:30.790 --> 00:16:10.210
+You're making this upfront capital investment of $60 million a megawatt. You're getting $15 million a megawatt in annualized revenue for just renting access to the infrastructure. ... call it a four-year payback period. ... When you add in this managed services layer, where you're actually serving the model ... you end up improving the margins quite a bit, adding call it another 15 ... So you end up with, in a very optimistic case, call it 30 million per megawatt per year. So you end up with a two-year payback. That's a dramatically better outcome.
+
+00:16:10.250 --> 00:17:52.810
+你做了每兆瓦 六千万美元的前期资本投入；光是出租这套基础设施的使用权，每年每兆瓦就能拿到约 一千五百万收入，所以大约四年回本。而当你加上托管服务这一层、真正去 serve 模型、给客户提供 API 端点时，利润率会大幅改善，再多出约 一千五百万——很乐观地算，每年每兆瓦约 三千万，于是你得到两年回本。那是一个戏剧性更好的结果。 把前面几段加总：电厂+建筑 两千万加 IT 设备四千万，约每兆瓦六千万美元 的前期投入。建一个一吉瓦集群，那就是 六百亿美元。 upfront capital investment（前期资本投入）、annualized revenue（年化收入） 都是算账的常用词。纯出租芯片：每年 一千五百万美元每兆瓦 → 四年回本（four-year payback）。 但 Chase 真正想说的是"往上走一层"：从只租 GPU，到托管模型、直接 serve token、提供 API endpoint——也就是演讲标题那句 from electrons to tokens 的"tokens"那头。把价值再往上抬，年收入能到 三千万美元每兆瓦 → 两年回本（two-year payback）。这是 dramatically better（戏剧性更好）的结果，也是他垂直整合生意的核心逻辑。 芯片会不会"过期"？答案藏在折旧和"抽象"里
+
+00:17:52.850 --> 00:18:23.310
+Right now most public companies depreciate their compute over five years. ... Part of our strategy has been building services that abstract away the layers of compute. So you don't know if you're using an A100, an H100, an MI300, nor should you care. ... Just like when you log in to Zoom or Google Meet or Teams, you're not thinking about what chip is running. You care about the service you're getting.
+
+00:18:23.350 --> 00:19:32.720
+目前多数上市公司把计算设备按五年折旧。而我们策略的一部分，是构建能"抽象掉"计算层的服务——你不知道、也不该在乎底下跑的是 A100、H100 还是 MI300。就像你登录 Zoom、Google Meet 或 Teams 时，根本不会去想背后是 Intel 还是 AMD——你在乎的是你得到的服务。 数据中心是重资产，所以有个尖锐问题：这堆设备多少年算"过期"？ 上市公司普遍按五年折旧（depreciate），有人认为五年是标准。 Chase 不慌，因为他搬出 abstract away（抽象掉） 这个技术词：把芯片这层细节对客户藏起来。就像你用 Zoom 不会关心底下是 Intel 还是 AMD——你只在乎服务，不在乎跑在哪块芯片上。这样即便某代 GPU 老了，只要服务还有价值，它就不"死"。 算力会不会变成"大白菜"？规模永远不是 commodity
+
+00:19:32.760 --> 00:19:56.920
+If you look at older compute, it's kind of commoditized, like the H100 further back. ... I think one of the things that's absolutely not a commodity is scale. ... over time, margins do probably come down to more standard, stabilized silicon margins, call it 60% gross margin, which today NVIDIA is commanding like 80% gross margin.
+
+00:19:56.960 --> 00:21:35.240
+你看老一代算力，比如再早一点的 H100，某种程度上已经被商品化了。但我认为有一点绝对不算 commodity，那就是"规模"。……长期看，利润率大概会回落到更标准、更稳定的硅片利润率，差不多 百分之六十毛利率——而今天 NVIDIA 拿的是 百分之八十左右的毛利率。 commodity（大宗商品、同质化商品） 是关键词：当一样东西失去差异化、只能拼价格，它就"被商品化（commoditized）"了。有人担心 GPU 会像大白菜一样。 Chase 的观点是：旧一代算力会商品化，但"规模（scale）"绝不是 commodity——你真要做世界上最大的集群，极难复制，永远会有 cutting edge（最前沿）的东西能拿溢价。 他承认长期 margins（利润率） 会从 NVIDIA 如今的约 百分之八十毛利，回落到约 百分之六十的更"标准硅片"水平——这是对美股"AI 卖铲人"定价的一个冷静提醒。他看空的逻辑也在这：电气设备商（如 Eaton、Schneider）现在在关键路径（critical path）上短期会很好，但一百年没怎么创新的公司，长期会被固态电子和 九百伏直流的新方案冲击。 太空里建数据中心？很酷，但五年内别当真
+
+00:21:35.280 --> 00:21:59.830
+You're not sending an astronaut into space to take a chip and send it back to Jensen. ... Does payload cost come down by two orders of magnitude? ... Probably not material in the next five years, and probably not material for 10 years. But I do think, over a longer period of time, data centers in space are going to play a major role in the future of intelligent infrastructure.
+
+00:21:59.870 --> 00:23:20.400
+你不会派宇航员进太空，去取一颗芯片送回给 Jensen 吧。……关键在于，载荷成本能不能下降两个数量级？我认为未来五年大概不会产生实质影响，十年也未必。但我确实相信，放到更长的时间尺度，太空数据中心会在智能基础设施的未来里扮演重要角色。 被问到"Elon 的太空数据中心"时，Chase 半开玩笑：地面上那些地基、许可、光纤的麻烦，在太空里都不存在，还能靠光学把一切都连起来。 但现实很骨感——他立刻泼冷水：GPU 会坏、要 reseat、要返厂，你总不可能让宇航员上天送修；而且一切都押在 Starship 的载荷成本（payload cost）能不能降两个数量级（two orders of magnitude，一百倍） 上。 material（实质性的） 这里是形容词"重要的、足以改变格局的"。他的判断是：未来五到十年 not material（不构成实质影响），但更长期会是主要角色。 最后，他给 Stanford 学生的一句话建议
+
+00:23:20.440 --> 00:23:48.020
+One of our core values at Crusoe is thinking like a mountaineer; another core value is living on the infinite growth loop — this notion that nobody's a finished product, everybody's a work in progress. ... over time you get this exponential compounding, which is really the most valuable asset that any of us can have. ... I would focus less on the what, and focus more on the how, and leveraging AI tools to run and live your life.
+
+00:23:48.060 --> 00:26:44.860
+Crusoe 的核心价值观之一是"像登山者一样思考"；另一个是"活在无限增长的循环里"——没有人是成品，每个人都是进行中的作品。……若你能每天变好一点，随时间你会得到指数级的复利，那才是我们任何人能拥有的最有价值的资产。……所以我会少纠结"做什么"，多去关注"怎么做"，并善用 AI 工具去经营和过好你的生活。 nobody's a finished product, everybody's a work in progress 是很漂亮的一句：finished product（成品） 对 work in progress（进行中的作品），提醒你别把自己当"已经定型"的人。 exponential compounding（指数复利）：每天提升一点点，长期是复利而非加法——他把"成长"本身讲成了最值钱的资产。 给学生的话收在 focus less on the what, more on the how：别总纠结"我要做什么"，多琢磨"我要怎么做"，并把 AI 工具变成指尖上的一支团队。 主题升华 这期斯坦福课程，表面讲的是"怎么盖一栋数据中心"，骨子里讲的是一个时代把钱花在了哪里。 如果你只记住一个数字，记住这个：五家 hyperscaler 在 AI 上的资本开支，已经仅次于美国国防预算——比太空项目、比高速公路、比曼哈顿计划都大。而 Chase 给这笔天量投资找到了一个经济学理由：我们正处在一个能用"买算力"来数字化地制造劳动力、直接改变 GDP 的时刻。买数据中心、买 GPU，本质上是在给这个时代"雇员工"。 真正精彩的，是 Chase 把"每兆瓦多少钱"这套账算得极其清楚： 电厂 + 建筑：每兆瓦约 两千万美元，其中人——那些电工、焊工、水管工——就是最大的瓶颈之一； IT 设备：每兆瓦约 四千万美元，GPU 独占 三千万； 合计每兆瓦 六千万的前期投入。纯出租芯片，年入 一千五百万，四年回本；可一旦把生意从"租 GPU"往上抬到"托管模型、serve token"——从 electrons 走到 tokens——就能到两年回本。 这三段账合起来，其实是一套理解整个 AI 时代的世界观：最贵的不是想法，是算力；算力里最贵的不是芯片本身，是喂饱芯片的电、盖起芯片的楼、还有把这一切造出来的人。 那句最值得带走的话，我们再看一遍：
+
+00:26:44.900 --> 00:26:54.940
+For the first time in history, what we're able to do is actually change this delta L digitally, through the investment in buying data centers and buying GPUs.
+
+00:26:54.980 --> 00:27:35.480
+人类历史上第一次，我们能通过投资购买数据中心和 GPU，去数字化地改变劳动力这个"ΔL"。 愿你再看到"AI 要改变世界"的新闻时，也多看一眼它的另一面：这笔钱砸向了哪里、哪一层在赚钱、多久能回本、瓶颈又移到了哪。 当你能顺着"电子 → token → 钱"这条线把账算通，你就真正看懂了，为什么数据中心是这个时代最烧钱、也最被疯抢的"印钞机"。 好，这期关于"建 AI 工厂"的精读，我们就先讲到这。
+
