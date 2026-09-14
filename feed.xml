@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 11 Sep 2026 14:28:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 07:09:51 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -139,6 +139,99 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 16.算力不是芯片，是整条供应链——斯坦福《AI 超周期经济学》Infrastructure Capstone 精读</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-016.html</link>
+      <description>&lt;p&gt;透过AI播客学英文课第十五讲。原文：Infrastructure, Capstone Case（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》）。定位：一个从「美国制造」管到「前沿实验室算力」的人，怎么看 AI 超级周期的最后一道大题——算力不是芯片，而是整条供应链的咬合落地。&lt;/p&gt;
+&lt;p&gt;这期是收束全课程的综合案例课。请来的人是 Sachin Katti：斯坦福教授、曾任 Intel CTO、如今在 OpenAI 负责工业计算。他横跨芯片、制造、云、算力与智能体，正好把「从电子到智能体」整条路串起来。&lt;/p&gt;
+&lt;p&gt;带走三句判断：算力从来不只是芯片，而是芯片、内存、网络、电力、散热、机房、发电配电与土地加在一起；利润正押在计算供应链最底层，做空模型套壳、做多变压器电池发电配电散热；真正的单点瓶颈少到令人不安，挖到底是 ASML 这一处咽喉。当你再读到「某某公司又融资买芯片」时，试着用供应链之眼追问——它缺的到底是芯片，还是电、地、散热？它押在最底层，还是在套壳？&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle》Infrastructure Capstone。嘉宾 Sachin Katti（斯坦福教授 / 前 Intel CTO / OpenAI 工业计算）。检索日 2026-09-14。成片按精读讲解稿直出（跳过生词好句）；备课财务框架：供应链账单（九项加总）。&lt;/p&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;课程：Stanford MS&amp;amp;E 435 · 栏目第十五讲 · Infrastructure Capstone。接 ep-015 第十四讲 Enterprise AI &amp;amp; SaaS。&lt;/li&gt;
+&lt;li&gt;人物主线：Intel 制造与供应侧视角 → OpenAI 工业计算 / Stargate 类巨型算力落地。&lt;/li&gt;
+&lt;li&gt;课上点名的关键层：芯片、内存、网络、电力、散热、数据中心建筑、发电配电、土地；以及 ASML 作为光刻咽喉点。[待小Jo 补近两周产品动态]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;近 1–2 周未见与本期主线直接相关的 Intel / OpenAI 官方融资一手；30 吉瓦等数字为主讲人课上自述的抱负目标，非已签订单。[待小Jo 补]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sachin Katti · 斯坦福 EE/CS 教授；曾任 Intel CTO；现 OpenAI 工业计算（industrial compute）负责人&lt;/li&gt;
+&lt;li&gt;课程：Stanford MS&amp;amp;E 435 · Economics of the AI Supercycle · Infrastructure, Capstone Case&lt;/li&gt;
+&lt;li&gt;主题：算力=整条供应链、推理占绝大多数、agent 闭环与计算图、做空套壳做多底层、晶圆产能与 ASML 咽喉点&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;p&gt;时间对齐线上成片（23:02，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间约 40ms 静音软接；跳过生词好句音标表。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场导读：第十五讲综合案例。Sachin Katti 串起从电子到智能体；主线是算力等于整条供应链。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:32&lt;/td&gt;&lt;td&gt;英文金句：他看过从电子基底一直到智能体的整条 soup to nuts。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:40&lt;/td&gt;&lt;td&gt;讲解 soup to nuts / substrate。转入 Intel 两大顺风。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:32&lt;/td&gt;&lt;td&gt;英文金句：供应端受限，加上 agent 任务让 CPU 卷土重来。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:46&lt;/td&gt;&lt;td&gt;讲解 tailwind 与 make a comeback。转入算力翻三倍、收入也翻三倍。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:42&lt;/td&gt;&lt;td&gt;英文金句：收入是滞后指标；算力年翻三倍，收入也翻三倍。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:56&lt;/td&gt;&lt;td&gt;讲解 lagging indicator / frontier lab。转入三十吉瓦抱负目标。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:55&lt;/td&gt;&lt;td&gt;英文金句：三十吉瓦是抱负目标，但不存在算力用不完的世界。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:07&lt;/td&gt;&lt;td&gt;讲解 aspirational 与吉瓦标尺（约五十万颗 GPU）。转入扩展法则覆盖全生命周期。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:20&lt;/td&gt;&lt;td&gt;英文金句：扩展法则覆盖预训练、后训练、合成数据与产品推理负载。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:32&lt;/td&gt;&lt;td&gt;讲解 inference workload。转入推理将占绝大多数。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:33&lt;/td&gt;&lt;td&gt;英文金句：超多数将是推理算力；让 token 更便宜、更聪明、每任务更少。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:47&lt;/td&gt;&lt;td&gt;讲解降本增效公式。转入算力不是芯片而是供应链。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:51&lt;/td&gt;&lt;td&gt;英文金句：芯片、内存、网络、电、散热、机房、发电配电与土地——加在一起才等于算力。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:06&lt;/td&gt;&lt;td&gt;讲解全场定义句与 orchestrate。转入签合同好玩、签完之后才难。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:04&lt;/td&gt;&lt;td&gt;英文金句：好玩的是签合同；难的是签完之后一切在规模下协同。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:16&lt;/td&gt;&lt;td&gt;讲解 at scale 与 brittle 芯片。转入吉瓦级数据中心对社会冲击。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:19&lt;/td&gt;&lt;td&gt;英文金句：吉瓦级数据中心是电网大户，行为不当可能拖垮整州。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:30&lt;/td&gt;&lt;td&gt;讲解 grid / derisk。转入人人一块 GPU 的愿景。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:28&lt;/td&gt;&lt;td&gt;英文金句：人人有块 GPU 并不疯狂，那比今天谈的规模还高两个数量级。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:37&lt;/td&gt;&lt;td&gt;讲解数量级与功率单位链。转入 agent 本质是闭环。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:30&lt;/td&gt;&lt;td&gt;英文金句：agent 一词编码了能动性，关键是闭环。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:46&lt;/td&gt;&lt;td&gt;讲解 agency 与 iterate。转入计算图从单点到 DAG。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:58&lt;/td&gt;&lt;td&gt;英文金句：聊天机器人是单节点；现在是复杂得多的有向无环图。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:11&lt;/td&gt;&lt;td&gt;讲解异构计算图。转入边缘计算短期为何赢不了。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:15&lt;/td&gt;&lt;td&gt;英文金句：首 token 仍要四百到五百毫秒预填，边缘省下的延迟不够看。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:33&lt;/td&gt;&lt;td&gt;讲解 prefill 与 latency。转入做空套壳、做多最底层。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17:45&lt;/td&gt;&lt;td&gt;英文金句：看空模型套壳；做多变压器、电池、发电配电与散热。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:01&lt;/td&gt;&lt;td&gt;讲解 long short 与 underserved。转入晶圆产能与 ASML 咽喉点。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:13&lt;/td&gt;&lt;td&gt;英文金句：结构性问题是晶圆产能；再往深挖，ASML 是唯一咽喉点。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:30&lt;/td&gt;&lt;td&gt;讲解 fab capacity 与 choke point。转入主题升华。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:38&lt;/td&gt;&lt;td&gt;主题升华：毕业大题压在哪一层；用供应链之眼读融资新闻；订阅收尾。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;p&gt;选文原则：补课上点到的供应链层与公开一手，不复述口播金句。&lt;/p&gt;
+&lt;h3&gt;算力基建与供应链&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;接读本栏目 ep-013 GPU 经济、ep-014 建 AI 工厂：同一超级周期里「芯片 → 电与机房 → 整条供应链」的递进。&lt;/li&gt;
+&lt;li&gt;[待小Jo 补] Intel / 先进封装 / 晶圆产能近况一手。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;前沿实验室与工业计算&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[待小Jo 补] OpenAI 工业计算 / Stargate 相关官方表述（与课上 30 吉瓦抱负目标对照，区分愿景与订单）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;光刻与咽喉点&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[待小Jo 补] ASML EUV 产能与交期公开口径，用作 choke point 背景，不替代主讲人课上判断。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取播客相关学习素材。&lt;/p&gt;</description>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-016.mp3" type="audio/mpeg" length="33169004" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-016.mp3</guid>
+      <itunes:duration>23:02</itunes:duration>
+      <itunes:title>EP 16.算力不是芯片，是整条供应链——斯坦福《AI 超周期经济学》Infrastructure Capstone 精读</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第十五讲。精读讲解稿直出。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第十五讲。精读讲解稿直出。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。</itunes:summary>
+    </item>
     <item>
       <title>EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-015.html</link>
