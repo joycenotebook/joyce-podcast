@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Sep 2026 07:35:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 07:37:50 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -152,11 +152,7 @@
 &lt;ul&gt;
 &lt;li&gt;课程：Stanford MS&amp;amp;E 435 · 栏目第十五讲 · Infrastructure Capstone。接 ep-015 第十四讲 Enterprise AI &amp;amp; SaaS。&lt;/li&gt;
 &lt;li&gt;人物主线：Intel 制造与供应侧视角 → OpenAI 工业计算 / Stargate 类巨型算力落地。&lt;/li&gt;
-&lt;li&gt;课上点名的关键层：芯片、内存、网络、电力、散热、数据中心建筑、发电配电、土地；以及 ASML 作为光刻咽喉点。[待小Jo 补近两周产品动态]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;近 1–2 周未见与本期主线直接相关的 Intel / OpenAI 官方融资一手；30 吉瓦等数字为主讲人课上自述的抱负目标，非已签订单。[待小Jo 补]&lt;/li&gt;
+&lt;li&gt;课上点名的关键层：芯片、内存、网络、电力、散热、数据中心建筑、发电配电、土地；以及 ASML 作为光刻咽喉点。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
@@ -211,15 +207,6 @@
 &lt;h3&gt;算力基建与供应链&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;接读本栏目 ep-013 GPU 经济、ep-014 建 AI 工厂：同一超级周期里「芯片 → 电与机房 → 整条供应链」的递进。&lt;/li&gt;
-&lt;li&gt;[待小Jo 补] Intel / 先进封装 / 晶圆产能近况一手。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;前沿实验室与工业计算&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;[待小Jo 补] OpenAI 工业计算 / Stargate 相关官方表述（与课上 30 吉瓦抱负目标对照，区分愿景与订单）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;光刻与咽喉点&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;[待小Jo 补] ASML EUV 产能与交期公开口径，用作 choke point 背景，不替代主讲人课上判断。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;5. 听友群&lt;/h2&gt;
