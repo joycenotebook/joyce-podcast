@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Sep 2026 08:18:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 08:26:21 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -152,6 +152,7 @@
 &lt;ul&gt;
 &lt;li&gt;课程：Stanford MS&amp;amp;E 435 · 栏目第十五讲 · Infrastructure Capstone。接 ep-015 第十四讲 Enterprise AI &amp;amp; SaaS。&lt;/li&gt;
 &lt;li&gt;人物主线：Intel 制造与供应侧视角 → OpenAI 工业计算 / Stargate 类巨型算力落地；课上点名芯片、内存、网络、电力、散热、机房、发电配电、土地，以及 ASML 光刻咽喉点。&lt;/li&gt;
+&lt;li&gt;ASML（阿斯麦）是荷兰半导体设备公司，主营光刻机——把电路图案「印」到硅晶圆上的核心设备。产品覆盖深紫外（DUV）与极紫外（EUV）等光刻系统；先进制程依赖的 EUV 几乎由其独家供应，也是课上「挖到底是 ASML」的咽喉点所在。&lt;/li&gt;
 &lt;li&gt;2026-09-07 Intel Foundry 与 ASML 官方：High-NA EUV 已用于量产相关流程，累计处理超一百万片晶圆；部分层用于 Core Ultra Series 3（Panther Lake）；近阶段重点是 6 英寸掩模（含 stitching）与向更大掩模格式过渡。一手：&lt;a href="https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry/intel-foundry-asml-accelerate-industry-readiness-for-high-na-euv.html"&gt;Intel Newsroom · High-NA EUV&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
