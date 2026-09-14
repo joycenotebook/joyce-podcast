@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Sep 2026 07:09:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 07:35:35 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -147,7 +147,7 @@
 &lt;p&gt;带走三句判断：算力从来不只是芯片，而是芯片、内存、网络、电力、散热、机房、发电配电与土地加在一起；利润正押在计算供应链最底层，做空模型套壳、做多变压器电池发电配电散热；真正的单点瓶颈少到令人不安，挖到底是 ASML 这一处咽喉。当你再读到「某某公司又融资买芯片」时，试着用供应链之眼追问——它缺的到底是芯片，还是电、地、散热？它押在最底层，还是在套壳？&lt;/p&gt;
 
 &lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
-&lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle》Infrastructure Capstone。嘉宾 Sachin Katti（斯坦福教授 / 前 Intel CTO / OpenAI 工业计算）。检索日 2026-09-14。成片按精读讲解稿直出（跳过生词好句）；备课财务框架：供应链账单（九项加总）。&lt;/p&gt;
+&lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle》Infrastructure Capstone。嘉宾 Sachin Katti（斯坦福教授 / 前 Intel CTO / OpenAI 工业计算）。检索日 2026-09-14。&lt;/p&gt;
 &lt;h3&gt;产品与组织&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;课程：Stanford MS&amp;amp;E 435 · 栏目第十五讲 · Infrastructure Capstone。接 ep-015 第十四讲 Enterprise AI &amp;amp; SaaS。&lt;/li&gt;
@@ -167,7 +167,7 @@
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
-&lt;p&gt;时间对齐线上成片（23:02，含约 7 秒片头）。英文整句 Joyce-en；中文 Joyce-zh。误差约 ±15 秒。段间约 40ms 静音软接；跳过生词好句音标表。&lt;/p&gt;
+&lt;p&gt;时间对齐线上成片（23:02，含约 7 秒片头）。误差约 ±15 秒。&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
@@ -229,8 +229,8 @@
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-016.mp3</guid>
       <itunes:duration>23:02</itunes:duration>
       <itunes:title>EP 16.算力不是芯片，是整条供应链——斯坦福《AI 超周期经济学》Infrastructure Capstone 精读</itunes:title>
-      <itunes:subtitle>透过AI播客学英文课第十五讲。精读讲解稿直出。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。</itunes:subtitle>
-      <itunes:summary>透过AI播客学英文课第十五讲。精读讲解稿直出。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。</itunes:summary>
+      <itunes:subtitle>透过AI播客学英文课第十五讲。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第十五讲。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。</itunes:summary>
     </item>
     <item>
       <title>EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读</title>
