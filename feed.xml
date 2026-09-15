@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 15 Sep 2026 14:32:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 16:48:03 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -140,7 +140,7 @@
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
     <item>
-      <title>EP 17.企业自己的 AI：为什么聪明模型不"懂"你的生意？——斯坦福《AI 超周期经济学》第十一讲精读</title>
+      <title>EP 17.企业自己的 AI：为什么聪明模型不"懂"你的生意？——斯坦福《AI 超周期经济学》第十五讲精读</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-017.html</link>
       <description>&lt;p&gt;透过 AI 播客学英文课第十六讲。原文：&lt;em&gt;Enterprise Internal Knowledge&lt;/em&gt;（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》）。本期从模型层一路讲到企业专门化：通用模型为什么越来越强，却仍然不“懂”一家公司的业务。&lt;/p&gt;
 
@@ -175,10 +175,10 @@
 &lt;h2&gt;听友群&lt;/h2&gt;
 &lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-017.mp3" type="audio/mpeg" length="44152748" />
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-017-r2.mp3" type="audio/mpeg" length="45069740" />
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-017.mp3</guid>
-      <itunes:duration>30:40</itunes:duration>
-      <itunes:title>EP 17.企业自己的 AI：为什么聪明模型不"懂"你的生意？——斯坦福《AI 超周期经济学》第十一讲精读</itunes:title>
+      <itunes:duration>31:18</itunes:duration>
+      <itunes:title>EP 17.企业自己的 AI：为什么聪明模型不"懂"你的生意？——斯坦福《AI 超周期经济学》第十五讲精读</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第十六讲。通用模型给能力地板，企业上下文、Evals 与持续反馈决定能力天花板。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第十六讲。通用模型给能力地板，企业上下文、Evals 与持续反馈决定能力天花板。</itunes:summary>
     </item>
