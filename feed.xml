@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>瑜伽课后</title>
     <link>https://joycenotebook.github.io/joyce-podcast/</link>
@@ -45,7 +45,7 @@
 在AI信息爆炸的时代，不做信息的搬运工，做优质长内容的提炼者。
 把冗长访谈的精华交付给你，把节省下来的时间，留给你的工作、思考与实践。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Sep 2026 08:26:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 14:32:48 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -139,6 +139,49 @@
       <title>瑜伽课后</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 17.企业自己的 AI：为什么聪明模型不"懂"你的生意？——斯坦福《AI 超周期经济学》第十一讲精读</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-017.html</link>
+      <description>&lt;p&gt;透过 AI 播客学英文课第十六讲。原文：&lt;em&gt;Enterprise Internal Knowledge&lt;/em&gt;（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》）。本期从模型层一路讲到企业专门化：通用模型为什么越来越强，却仍然不“懂”一家公司的业务。&lt;/p&gt;
+
+&lt;p&gt;带走三句判断：通用模型提供能力地板，企业上下文决定能力天花板；&lt;em&gt;Eval sets the roadmap&lt;/em&gt;，企业要先定义什么叫“好”；生产里的采纳、纠错与回滚，是持续学习最有价值的反馈。&lt;/p&gt;
+
+&lt;h2&gt;本期主线&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;从 AlexNet、Transformer、Scaling Laws 到 GPT：模型如何靠数据与算力逐步扩展能力。&lt;/li&gt;
+  &lt;li&gt;Pre-training 建立广泛知识；Post-training 通过 SFT、RLHF、RLVR 与 Evals 把原始能力变成可用行为。&lt;/li&gt;
+  &lt;li&gt;推理模型把 test-time compute、Chain of Thought 与工具调用带进产品，进一步形成可执行的 Agent / Co-worker。&lt;/li&gt;
+  &lt;li&gt;企业 AI 的核心不是换一个更大的通用模型，而是把内部知识、业务标准、Evals 与反馈闭环做成专门化系统。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;关键术语&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;&lt;tr&gt;&lt;th&gt;术语&lt;/th&gt;&lt;th&gt;本期含义&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;Pre-training&lt;/td&gt;&lt;td&gt;用大规模互联网文本、代码与多模态数据预测下一个 token，形成通用知识和模式识别能力。&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Post-training&lt;/td&gt;&lt;td&gt;通过示范、偏好、可验证奖励和安全训练，把基础模型变成更有帮助、可控的助手或 Agent。&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;RLVR&lt;/td&gt;&lt;td&gt;Reinforcement Learning with Verifiable Rewards：当答案可被程序或验证器判断时，用可验证奖励优化模型。&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Evals&lt;/td&gt;&lt;td&gt;评估集与质量标准。它决定企业让模型朝什么方向持续优化。&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Out of distribution&lt;/td&gt;&lt;td&gt;公开互联网中没有、却对企业最关键的内部规则、例外和业务上下文。&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;给 FDE 与 Solution Architect&lt;/h2&gt;
+&lt;p&gt;求职外企 FDE、Solution Architect 的听友，值得回到课程原文逐句通读，甚至背诵。做企业方案前先问四个问题：什么叫正确？谁能提供纠错？反馈能否量化？它能否回流到下一轮 Eval 与更新？&lt;/p&gt;
+
+&lt;h2&gt;本期来源&lt;/h2&gt;
+&lt;p&gt;Stanford MS&amp;amp;E 435《Economics of the AI Supercycle》· Session 11 &lt;em&gt;Enterprise Internal Knowledge&lt;/em&gt;，嘉宾 Yash Patil（Applied Compute）。&lt;/p&gt;
+
+&lt;h2&gt;听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-017.mp3" type="audio/mpeg" length="44152748" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-017.mp3</guid>
+      <itunes:duration>30:40</itunes:duration>
+      <itunes:title>EP 17.企业自己的 AI：为什么聪明模型不"懂"你的生意？——斯坦福《AI 超周期经济学》第十一讲精读</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课第十六讲。通用模型给能力地板，企业上下文、Evals 与持续反馈决定能力天花板。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课第十六讲。通用模型给能力地板，企业上下文、Evals 与持续反馈决定能力天花板。</itunes:summary>
+    </item>
     <item>
       <title>EP 16.算力不是芯片，是整条供应链——斯坦福《AI 超周期经济学》Infrastructure Capstone 精读</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-016.html</link>
@@ -432,8 +475,6 @@
       <itunes:title>EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第十三讲。精读讲解稿直出（v3 跟播字幕同步）。资本开支花在哪、每兆瓦怎么拆、四年还是两年回本。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第十三讲。精读讲解稿直出（v3 跟播字幕同步）。资本开支花在哪、每兆瓦怎么拆、四年还是两年回本。</itunes:summary>
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-014.srt" type="application/srt" rel="captions" />
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-014.vtt" type="text/vtt" rel="captions" />
     </item>
     <item>
       <title>EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读</title>
@@ -642,8 +683,6 @@
       <itunes:title>EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第十期。从半导体到应用的倒三角、为什么 AI 应用必须烧掉 GPU，以及消费 AI 的变现逻辑。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第十期。从半导体到应用的倒三角、为什么 AI 应用必须烧掉 GPU，以及消费 AI 的变现逻辑。</itunes:summary>
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.srt" type="application/srt" rel="captions" />
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.vtt" type="text/vtt" rel="captions" />
     </item>
     <item>
       <title>EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事</title>

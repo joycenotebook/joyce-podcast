@@ -13,6 +13,17 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-017",
+      "title": "EP 17.企业自己的 AI：为什么聪明模型不\"懂\"你的生意？——斯坦福《AI 超周期经济学》第十一讲精读",
+      "file": "ep-017.mp3",
+      "duration_sec": 1840,
+      "size_bytes": 44152748,
+      "desc": "透过AI播客学英文课第十六讲。通用模型给能力地板，企业上下文、Evals 与持续反馈决定能力天花板。",
+      "pub_date": "2026-09-15",
+      "listed": true,
+      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-017.mp3"
+    },
+    {
       "id": "ep-016",
       "title": "EP 16.算力不是芯片，是整条供应链——斯坦福《AI 超周期经济学》Infrastructure Capstone 精读",
       "file": "ep-016.mp3",
