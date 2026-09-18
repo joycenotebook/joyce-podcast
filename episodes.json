@@ -13,6 +13,17 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-018",
+      "title": "EP 18.二十亿买下，几周后撤回：Meta 收购 Manus 的大逆转——AI 新闻播客三集连读",
+      "file": "ep-018.mp3",
+      "duration_sec": 1334,
+      "size_bytes": 32011820,
+      "desc": "透过AI播客学英文课插队新闻精讲。三集连读追完 Meta 收购 Manus：coup、unwind、divest；比的是谁真赚钱。",
+      "pub_date": "2026-09-18",
+      "listed": true,
+      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-018.mp3"
+    },
+    {
       "id": "ep-017",
       "title": "EP 17.企业自己的 AI：为什么聪明模型不\"懂\"你的生意？——斯坦福《AI 超周期经济学》精读",
       "file": "ep-017-r2.mp3",
