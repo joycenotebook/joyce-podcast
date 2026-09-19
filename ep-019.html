@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EP 19.从网页到智能体：AI 编程如何重写软件经济学？——斯坦福《AI 超周期经济学》Coding AI 精读 · 瑜伽课后</title>
+  <link rel="alternate" type="application/rss+xml" title="瑜伽课后" href="./feed.xml" />
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; background: #1c1917; color: #fafaf9; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    img.cover { width: 100%; max-width: 360px; border-radius: 16px; display: block; }
+    h1 { font-weight: 600; font-size: 28px; margin: 24px 0 8px; }
+    h2 { font-weight: 600; font-size: 18px; margin: 32px 0 12px; }
+    h3 { font-weight: 600; font-size: 15px; margin: 20px 0 8px; color: #e7e5e4; }
+    p, li { color: #a8a29e; line-height: 1.65; }
+    a { color: #c4a574; }
+    .ep { margin-top: 28px; padding-top: 20px; border-top: 1px solid #292524; }
+    audio { width: 100%; margin-top: 8px; }
+    .notes ul { padding-left: 1.2em; }
+    .notes li { margin: 0.45em 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0 24px; }
+    th, td { border-bottom: 1px solid #292524; padding: 8px 6px; text-align: left; vertical-align: top; color: #a8a29e; }
+    th { color: #fafaf9; font-weight: 600; }
+    .back { font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="back"><a href="./">← 瑜伽课后</a></p>
+    <h1>EP 19.从网页到智能体：AI 编程如何重写软件经济学？——斯坦福《AI 超周期经济学》Coding AI 精读</h1>
+    <audio controls preload="none" src="./audio/ep-019.mp3"></audio>
+    <div class="notes">
+<p>透过AI播客学英文课。原文：Applications, Coding AI（斯坦福 MS&amp;E 435《Economics of the AI Supercycle》）。定位：一个从十一岁远程接单、做到全球开发者云平台的创始人，看 AI 编程把软件世界的重心搬到了哪里——从网页到智能体，从席位到 token。</p>
+<p>带走三句判断：写代码并不让你特别，把代码部署出去、放到客户面前才特别；云的本质正在从卖服务器转向卖会办事的 agent；token 成了新的硬通货，席位定价要让路。下次再听到「AI 要取代程序员」，可以先问：门槛归零之后，送到客户面前的能力会不会反而更稀缺？</p>
+
+<h2>1. 课程导读 · 公司近况</h2>
+<p>本期精讲 Stanford MS&amp;E 435（Spring 2026）《Economics of the AI Supercycle》应用专题 Coding AI。嘉宾 Guillermo Rauch（Vercel 创始人兼 CEO、Next.js 作者）。检索日 2026-09-19。</p>
+<h3>产品与组织</h3>
+<ul>
+<li>2026-09-17 Vercel 官方：AI Gateway Production Index（统计至 2026-08）称开源权重模型首次占网关 token 量多数（八月约 56%）；单 token 均价连续第三个月下降。一手：<a href="https://vercel.com/blog/ai-gateway-production-index-september-2026">Vercel Blog · AI Gateway Production Index</a></li>
+<li>2026-09-18 Vercel 官方：与 Hacktron 复现并披露 libheif 远程代码执行，漏洞在上游解码库而非 Next.js 本体；平台侧已做图片优化缓解，并推动 Next.js 安全发布关闭 AVIF 优化。一手：<a href="https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers">Vercel Blog · libheif</a></li>
+<li>课上主线对照：AI 网关被讲成 token 世界的 CDN；沙盒被讲成 agent 的虚拟服务器。近期官方产品叙事仍落在 Gateway 与 Sandbox 这条「智能体基础设施」上。</li>
+</ul>
+
+<h2>2. 访谈嘉宾</h2>
+<ul>
+<li>Guillermo Rauch · Vercel 创始人兼 CEO；Next.js 作者</li>
+<li>课程：Stanford MS&amp;E 435 · Economics of the AI Supercycle · Applications, Coding AI</li>
+<li>主题：从 pages 到 agents、部署比写代码更稀缺、AAS、token 计价、AI 网关、沙盒、积木经济、vibe coding、agent 对 agent</li>
+</ul>
+
+<h2>3. 主要话题时间线</h2>
+<table>
+<thead><tr><th>时间</th><th>话题</th></tr></thead>
+<tbody>
+<tr><td>0:06</td><td>课程导读：Coding AI 专题请来 Vercel 掌门人；主线是软件重心从网页搬向智能体，从席位走向 token。</td></tr>
+<tr><td>2:01</td><td>英文金句：他靠读软件手册自学英语，十一岁就做远程 JavaScript 外包。</td></tr>
+<tr><td>2:11</td><td>讲解 teach oneself、manual、contracting。转入开源与赚钱并不矛盾。</td></tr>
+<tr><td>3:17</td><td>英文金句：开源对他毫不费力；难的是在开源之上做出一门 contrarian 的生意。</td></tr>
+<tr><td>3:27</td><td>讲解 open source、on top of、contrarian。转入部署网站的顿悟。</td></tr>
+<tr><td>4:30</td><td>英文金句：用当时最先进的技术部署一个破网站，不该那么难。</td></tr>
+<tr><td>4:42</td><td>讲解 epiphany、freaking、deploy。转入能造软件的人扩了数量级。</td></tr>
+<tr><td>5:50</td><td>英文金句：AI 与编码智能体让能造软件的人扩大十倍、二十倍乃至一百倍。</td></tr>
+<tr><td>6:04</td><td>讲解 expansion 与 TAM。转入花生酱配果冻。</td></tr>
+<tr><td>7:04</td><td>英文金句：写代码不特别；把代码放到客户面前才特别。Vercel 成了编码智能体的 PB&amp;J。</td></tr>
+<tr><td>7:17</td><td>讲解 peanut butter and jelly 与「到达才值钱」。转入云该叫 AAS。</td></tr>
+<tr><td>8:21</td><td>英文金句：若亚马逊今天才创立 AWS，它八成会叫 Amazon Agent Services。</td></tr>
+<tr><td>8:32</td><td>讲解 essence、primitives。转入 agent 不再随叫随到。</td></tr>
+<tr><td>9:37</td><td>英文金句：响应从几秒拉到几分钟、几小时，有的 agent 会干上一整天。</td></tr>
+<tr><td>9:50</td><td>讲解 long-thinking streams；电商每慢一百毫秒转化率掉约百分之一。转入 token 硬通货。</td></tr>
+<tr><td>10:53</td><td>英文金句：token 成了新的热门商品；席位定价要让路给按智能消耗计价。</td></tr>
+<tr><td>11:08</td><td>讲解 commodity、seat-based vs token-based。转入 AI 网关。</td></tr>
+<tr><td>12:09</td><td>英文金句：AI 网关像 token 版 CDN，要故障转移、加固、加速与缓存。</td></tr>
+<tr><td>12:21</td><td>讲解 category-defining、fail over、semantic cache。转入给 agent 一台电脑。</td></tr>
+<tr><td>13:26</td><td>英文金句：给 agent 一台电脑它更强；训练后阶段模型被放进带沙盒的容器里练手。</td></tr>
+<tr><td>13:36</td><td>讲解 sandbox 像 agent 的 EC2。转入 agent 也会被钓鱼。</td></tr>
+<tr><td>14:46</td><td>英文金句：个人电脑带来病毒与钓鱼；agent 也可能外泄数据。</td></tr>
+<tr><td>14:54</td><td>讲解 phishing、exfiltrate。转入积木经济。</td></tr>
+<tr><td>16:00</td><td>英文金句：HashiCorp 创始人说这是积木经济，积木要符合智能体人体工学。</td></tr>
+<tr><td>16:10</td><td>讲解 block economy、agentic ergonomics、composability。转入 vibe coding。</td></tr>
+<tr><td>17:15</td><td>英文金句：他们 CEO 用 V0 现场写码，换掉了停车场管理软件。</td></tr>
+<tr><td>17:23</td><td>讲解 vibe coding、throwaway、软件几乎免费。转入真正的变化在受众。</td></tr>
+<tr><td>18:32</td><td>英文金句：大变化是受众；终将走向 agent 对 agent 沟通。</td></tr>
+<tr><td>18:40</td><td>讲解 audience、DM、evals。转入价值汇聚到前门。</td></tr>
+<tr><td>19:54</td><td>英文金句：价值会在哪一层积聚？执念是成为地球上每个新兴想法的前门。</td></tr>
+<tr><td>20:03</td><td>讲解 accrue、front door、guardrails、KYC 与放开速率限制。转入主题升华。</td></tr>
+<tr><td>21:26</td><td>主题升华：从个人稀缺、到部署才值钱、再到 front door 平台。</td></tr>
+<tr><td>22:42</td><td>英文金句：Writing code doesn't make you special. Deploying code and putting it in front of a customer does.</td></tr>
+<tr><td>22:50</td><td>讲解收尾：写代码门槛归零后，送到客户面前的能力更稀缺；订阅收尾。</td></tr>
+</tbody>
+</table>
+
+<h2>4. 延伸阅读</h2>
+<h3>产品与基础设施</h3>
+<ul>
+<li>Vercel AI Gateway 生产指数（开源权重模型首次占多数 token 量）。一手：<a href="https://vercel.com/blog/ai-gateway-production-index-september-2026">vercel.com/blog · 2026-09-17</a></li>
+<li>Vercel Sandbox 正式可用：给 agent 隔离的 Linux 微虚机。一手：<a href="https://vercel.com/blog/vercel-sandbox-is-now-generally-available">Vercel Blog · Sandbox GA</a></li>
+</ul>
+<h3>安全</h3>
+<ul>
+<li>libheif / Next.js 图片优化链路的上游 RCE 披露与修复。一手：<a href="https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers">Vercel Blog · 2026-09-18</a></li>
+</ul>
+<h3>定价与分发</h3>
+<ul>
+<li>Flat Rate CDN：Pro 团队可预测的 CDN 月费。一手：<a href="https://vercel.com/blog/introducing-flat-rate-cdn">Vercel Blog · 2026-09-08</a></li>
+</ul>
+
+<h2>5. 听友群</h2>
+<p>加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。</p>
+    </div>
+  </main>
+</body>
+</html>
