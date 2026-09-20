@@ -29,9 +29,9 @@
   <main>
     <p class="back"><a href="./">← 瑜伽课后</a></p>
     <h1>EP 19.从网页到智能体：AI 编程如何重写软件经济学？——斯坦福《AI 超周期经济学》Coding AI 精读</h1>
-    <audio controls preload="none" src="./audio/ep-019.mp3"></audio>
+    <audio controls preload="none" src="./audio/ep-019-v2.mp3"></audio>
     <div class="notes">
-<p>透过AI播客学英文课。原文：Applications, Coding AI（斯坦福 MS&amp;E 435《Economics of the AI Supercycle》）。定位：一个从十一岁远程接单、做到全球开发者云平台的创始人，看 AI 编程把软件世界的重心搬到了哪里——从网页到智能体，从席位到 token。</p>
+<p>原文：Applications, Coding AI（斯坦福 MS&amp;E 435《Economics of the AI Supercycle》）。定位：一个从十一岁远程接单、做到全球开发者云平台的创始人，看 AI 编程把软件世界的重心搬到了哪里——从网页到智能体，从席位到 token。</p>
 <p>带走三句判断：写代码并不让你特别，把代码部署出去、放到客户面前才特别；云的本质正在从卖服务器转向卖会办事的 agent；token 成了新的硬通货，席位定价要让路。下次再听到「AI 要取代程序员」，可以先问：门槛归零之后，送到客户面前的能力会不会反而更稀缺？</p>
 
 <h2>1. 课程导读 · 公司近况</h2>
@@ -54,40 +54,40 @@
 <table>
 <thead><tr><th>时间</th><th>话题</th></tr></thead>
 <tbody>
-<tr><td>0:06</td><td>课程导读：Coding AI 专题请来 Vercel 掌门人；主线是软件重心从网页搬向智能体，从席位走向 token。</td></tr>
-<tr><td>2:01</td><td>英文金句：他靠读软件手册自学英语，十一岁就做远程 JavaScript 外包。</td></tr>
-<tr><td>2:11</td><td>讲解 teach oneself、manual、contracting。转入开源与赚钱并不矛盾。</td></tr>
-<tr><td>3:17</td><td>英文金句：开源对他毫不费力；难的是在开源之上做出一门 contrarian 的生意。</td></tr>
-<tr><td>3:27</td><td>讲解 open source、on top of、contrarian。转入部署网站的顿悟。</td></tr>
-<tr><td>4:30</td><td>英文金句：用当时最先进的技术部署一个破网站，不该那么难。</td></tr>
-<tr><td>4:42</td><td>讲解 epiphany、freaking、deploy。转入能造软件的人扩了数量级。</td></tr>
-<tr><td>5:50</td><td>英文金句：AI 与编码智能体让能造软件的人扩大十倍、二十倍乃至一百倍。</td></tr>
-<tr><td>6:04</td><td>讲解 expansion 与 TAM。转入花生酱配果冻。</td></tr>
-<tr><td>7:04</td><td>英文金句：写代码不特别；把代码放到客户面前才特别。Vercel 成了编码智能体的 PB&amp;J。</td></tr>
-<tr><td>7:17</td><td>讲解 peanut butter and jelly 与「到达才值钱」。转入云该叫 AAS。</td></tr>
-<tr><td>8:21</td><td>英文金句：若亚马逊今天才创立 AWS，它八成会叫 Amazon Agent Services。</td></tr>
-<tr><td>8:32</td><td>讲解 essence、primitives。转入 agent 不再随叫随到。</td></tr>
-<tr><td>9:37</td><td>英文金句：响应从几秒拉到几分钟、几小时，有的 agent 会干上一整天。</td></tr>
-<tr><td>9:50</td><td>讲解 long-thinking streams；电商每慢一百毫秒转化率掉约百分之一。转入 token 硬通货。</td></tr>
-<tr><td>10:53</td><td>英文金句：token 成了新的热门商品；席位定价要让路给按智能消耗计价。</td></tr>
-<tr><td>11:08</td><td>讲解 commodity、seat-based vs token-based。转入 AI 网关。</td></tr>
-<tr><td>12:09</td><td>英文金句：AI 网关像 token 版 CDN，要故障转移、加固、加速与缓存。</td></tr>
-<tr><td>12:21</td><td>讲解 category-defining、fail over、semantic cache。转入给 agent 一台电脑。</td></tr>
-<tr><td>13:26</td><td>英文金句：给 agent 一台电脑它更强；训练后阶段模型被放进带沙盒的容器里练手。</td></tr>
-<tr><td>13:36</td><td>讲解 sandbox 像 agent 的 EC2。转入 agent 也会被钓鱼。</td></tr>
-<tr><td>14:46</td><td>英文金句：个人电脑带来病毒与钓鱼；agent 也可能外泄数据。</td></tr>
-<tr><td>14:54</td><td>讲解 phishing、exfiltrate。转入积木经济。</td></tr>
-<tr><td>16:00</td><td>英文金句：HashiCorp 创始人说这是积木经济，积木要符合智能体人体工学。</td></tr>
-<tr><td>16:10</td><td>讲解 block economy、agentic ergonomics、composability。转入 vibe coding。</td></tr>
-<tr><td>17:15</td><td>英文金句：他们 CEO 用 V0 现场写码，换掉了停车场管理软件。</td></tr>
-<tr><td>17:23</td><td>讲解 vibe coding、throwaway、软件几乎免费。转入真正的变化在受众。</td></tr>
-<tr><td>18:32</td><td>英文金句：大变化是受众；终将走向 agent 对 agent 沟通。</td></tr>
-<tr><td>18:40</td><td>讲解 audience、DM、evals。转入价值汇聚到前门。</td></tr>
-<tr><td>19:54</td><td>英文金句：价值会在哪一层积聚？执念是成为地球上每个新兴想法的前门。</td></tr>
-<tr><td>20:03</td><td>讲解 accrue、front door、guardrails、KYC 与放开速率限制。转入主题升华。</td></tr>
-<tr><td>21:26</td><td>主题升华：从个人稀缺、到部署才值钱、再到 front door 平台。</td></tr>
-<tr><td>22:42</td><td>英文金句：Writing code doesn't make you special. Deploying code and putting it in front of a customer does.</td></tr>
-<tr><td>22:50</td><td>讲解收尾：写代码门槛归零后，送到客户面前的能力更稀缺；订阅收尾。</td></tr>
+<tr><td>0:06</td><td>开场：发声；和希望低阻力输入、高质感表达的朋友打磨输入输出系统。今天读斯坦福 Coding AI / Guillermo Rauch。</td></tr>
+<tr><td>2:22</td><td>英文金句：他靠读软件手册自学英语，十一岁就做远程 JavaScript 外包。</td></tr>
+<tr><td>2:32</td><td>讲解 teach oneself、manual、contracting。转入开源与赚钱并不矛盾。</td></tr>
+<tr><td>3:38</td><td>英文金句：开源对他毫不费力；难的是在开源之上做出一门 contrarian 的生意。</td></tr>
+<tr><td>3:48</td><td>讲解 open source、on top of、contrarian。转入部署网站的顿悟。</td></tr>
+<tr><td>4:51</td><td>英文金句：用当时最先进的技术部署一个破网站，不该那么难。</td></tr>
+<tr><td>5:03</td><td>讲解 epiphany、freaking、deploy。转入能造软件的人扩了数量级。</td></tr>
+<tr><td>6:11</td><td>英文金句：AI 与编码智能体让能造软件的人扩大十倍、二十倍乃至一百倍。</td></tr>
+<tr><td>6:26</td><td>讲解 expansion 与 TAM。转入花生酱配果冻。</td></tr>
+<tr><td>7:25</td><td>英文金句：写代码不特别；把代码放到客户面前才特别。Vercel 成了编码智能体的 PB&amp;J。</td></tr>
+<tr><td>7:38</td><td>讲解 peanut butter and jelly 与「到达才值钱」。转入云该叫 AAS。</td></tr>
+<tr><td>8:42</td><td>英文金句：若亚马逊今天才创立 AWS，它八成会叫 Amazon Agent Services。</td></tr>
+<tr><td>8:54</td><td>讲解 essence、primitives。转入 agent 不再随叫随到。</td></tr>
+<tr><td>9:59</td><td>英文金句：响应从几秒拉到几分钟、几小时，有的 agent 会干上一整天。</td></tr>
+<tr><td>10:11</td><td>讲解 long-thinking streams；电商每慢一百毫秒转化率掉约百分之一。转入 token 硬通货。</td></tr>
+<tr><td>11:15</td><td>英文金句：token 成了新的热门商品；席位定价要让路给按智能消耗计价。</td></tr>
+<tr><td>11:29</td><td>讲解 commodity、seat-based vs token-based。转入 AI 网关。</td></tr>
+<tr><td>12:30</td><td>英文金句：AI 网关像 token 版 CDN，要故障转移、加固、加速与缓存。</td></tr>
+<tr><td>12:42</td><td>讲解 category-defining、fail over、semantic cache。转入给 agent 一台电脑。</td></tr>
+<tr><td>13:48</td><td>英文金句：给 agent 一台电脑它更强；训练后阶段模型被放进带沙盒的容器里练手。</td></tr>
+<tr><td>13:57</td><td>讲解 sandbox 像 agent 的 EC2。转入 agent 也会被钓鱼。</td></tr>
+<tr><td>15:07</td><td>英文金句：个人电脑带来病毒与钓鱼；agent 也可能外泄数据。</td></tr>
+<tr><td>15:15</td><td>讲解 phishing、exfiltrate。转入积木经济。</td></tr>
+<tr><td>16:21</td><td>英文金句：HashiCorp 创始人说这是积木经济，积木要符合智能体人体工学。</td></tr>
+<tr><td>16:31</td><td>讲解 block economy、agentic ergonomics、composability。转入 vibe coding。</td></tr>
+<tr><td>17:36</td><td>英文金句：他们 CEO 用 V0 现场写码，换掉了停车场管理软件。</td></tr>
+<tr><td>17:44</td><td>讲解 vibe coding、throwaway、软件几乎免费。转入真正的变化在受众。</td></tr>
+<tr><td>18:53</td><td>英文金句：大变化是受众；终将走向 agent 对 agent 沟通。</td></tr>
+<tr><td>19:01</td><td>讲解 audience、DM、evals。转入价值汇聚到前门。</td></tr>
+<tr><td>20:15</td><td>英文金句：价值会在哪一层积聚？执念是成为地球上每个新兴想法的前门。</td></tr>
+<tr><td>20:24</td><td>讲解 accrue、front door、guardrails、KYC 与放开速率限制。转入主题升华。</td></tr>
+<tr><td>21:48</td><td>主题升华：从个人稀缺、到部署才值钱、再到 front door 平台。</td></tr>
+<tr><td>23:04</td><td>英文金句：Writing code doesn't make you special. Deploying code and putting it in front of a customer does.</td></tr>
+<tr><td>23:11</td><td>讲解收尾：写代码门槛归零后，送到客户面前的能力更稀缺；订阅收尾。</td></tr>
 </tbody>
 </table>
 
