@@ -1,4 +1,4 @@
-# 瑜伽课后
+# 发声 Taste, Out loud
 
 GitHub Pages 托管的播客站点：节目页、封面、音频、RSS。
 
