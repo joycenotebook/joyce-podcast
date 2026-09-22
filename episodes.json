@@ -13,6 +13,26 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-020",
+      "title": "EP 20.十八问去访谈两位卖铲人：AI 生命科学专场重读——斯坦福《AI 超周期经济学》",
+      "file": "ep-020.mp3",
+      "duration_sec": 3180,
+      "size_bytes": 76316012,
+      "desc": "透过AI播客学英文课。十八问重读生命科学专场；卖工具的 Josh 与卖模型的 Eric 对打价值落在哪一层。",
+      "pub_date": "2026-09-22",
+      "listed": true
+    },
+    {
+      "id": "ep-019",
+      "title": "EP 19.从网页到智能体：AI 编程如何重写软件经济学？——斯坦福《AI 超周期经济学》Coding AI 精读",
+      "file": "ep-019-v3.mp3",
+      "duration_sec": 1445,
+      "size_bytes": 34674668,
+      "desc": "透过AI播客学英文课。写代码不特别，部署到客户面前才特别；席位走向 token。",
+      "pub_date": "2026-09-19",
+      "listed": true
+    },
+    {
       "id": "ep-018",
       "title": "EP 18.二十亿买下，几周后撤回：Meta 收购 Manus 的大逆转——AI 新闻播客三集连读",
       "file": "ep-018-v2.mp3",
@@ -20,8 +40,7 @@
       "size_bytes": 31940972,
       "desc": "透过AI播客学英文课插队新闻精讲。三集连读追完 Meta 收购 Manus：coup、unwind、divest；比的是谁真赚钱。",
       "pub_date": "2026-09-18",
-      "listed": true,
-      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-018-v2.mp3"
+      "listed": true
     },
     {
       "id": "ep-017",
@@ -40,10 +59,9 @@
       "file": "ep-016.mp3",
       "duration_sec": 1383,
       "size_bytes": 33193196,
-      "desc": "透过AI播客学英文课第十五讲。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。",
+      "desc": "透过AI播客学英文课第十五讲。精读讲解稿直出。算力等于整条供应链；利润押在最底层；ASML 是咽喉点。",
       "pub_date": "2026-09-14",
-      "listed": true,
-      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-016.mp3"
+      "listed": true
     },
     {
       "id": "ep-015",
@@ -58,13 +76,12 @@
     {
       "id": "ep-014",
       "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
-      "file": "ep-014-v3.mp3",
-      "duration_sec": 1656,
-      "size_bytes": 39732524,
-      "desc": "透过AI播客学英文课第十三讲。精读讲解稿直出（v3 跟播字幕同步）。资本开支花在哪、每兆瓦怎么拆、四年还是两年回本。",
+      "file": "ep-014.mp3",
+      "duration_sec": 1654,
+      "size_bytes": 39706028,
+      "desc": "透过AI播客学英文课第十三讲。精读讲解稿直出。资本开支花在哪、每兆瓦怎么拆、四年还是两年回本。",
       "pub_date": "2026-09-09",
-      "listed": true,
-      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-014-v3.mp3"
+      "listed": true
     },
     {
       "id": "ep-013",
@@ -99,13 +116,12 @@
     {
       "id": "ep-010",
       "title": "EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事",
-      "file": "ep-010.mp3",
+      "file": "",
       "duration_sec": 812,
-      "size_bytes": 20185388,
+      "size_bytes": 19494188,
       "desc": "透过AI播客学英文课第九期。AI 产品第三时代——能长期共事的常驻 AI 同事。",
       "pub_date": "2026-09-03",
-      "listed": true,
-      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-010.mp3?resync=2026-09-10"
+      "listed": true
     },
     {
       "id": "ep-009",
@@ -195,17 +211,6 @@
       "size_bytes": 15840278,
       "desc": "职业选择的底层不是能力或薪资，是内心是否真正确信。",
       "pub_date": "2026-08-20",
-      "listed": true
-    },
-    {
-      "id": "ep-019",
-      "title": "EP 19.从网页到智能体：AI 编程如何重写软件经济学？——斯坦福《AI 超周期经济学》Coding AI 精读",
-      "desc": "透过AI播客学英文课。写代码不特别，部署到客户面前才特别；席位走向 token。",
-      "pub_date": "2026-09-19",
-      "file": "ep-019-v3.mp3",
-      "duration_sec": 1445,
-      "size_bytes": 34674668,
-      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-019-v3.mp3",
       "listed": true
     }
   ]
