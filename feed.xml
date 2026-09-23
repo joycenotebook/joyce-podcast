@@ -41,7 +41,7 @@
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
     <item>
-      <title>EP 21.十八问重读一场访谈：卖推理的人 · Baseten 专场——斯坦福《AI 超周期经济学》</title>
+      <title>EP 21.十八问重构访谈AI推理公司：一块 GPU 的租金翻倍，还租得起吗？Baseten 专场</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-026.html</link>
       <description>&lt;p&gt;原文：Applications, Applied AI（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》）。定位：Baseten 联合创始人兼 CEO Tuhin Srivastava，一个卖生产推理的人，坐在同一套十八问对面；上一期生命科学几乎答不满「钱怎么算」，这一期答得最狠的恰恰是单价、续约和卡从哪来。&lt;/p&gt;
 &lt;p&gt;带走三句判断：基建这层已经有会计科目，所以能被追问毛利率；生命科学那层还在卖概率。他认为软件才是栈里黏的那块，云会说拿到 GPU 才是。他把自己放在西印度公司一侧——武装叛军，让智能不被两家前沿实验室独占。如果算力单价两年内翻倍、开源运行成本又便宜七成到九成，自建算力和押注开源，哪一件更能决定这家公司十年后的样子？&lt;/p&gt;
@@ -161,7 +161,7 @@
       <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-026.mp3" type="audio/mpeg" length="54618668" />
       <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-026.mp3</guid>
       <itunes:duration>37:56</itunes:duration>
-      <itunes:title>EP 21.十八问重读一场访谈：卖推理的人 · Baseten 专场——斯坦福《AI 超周期经济学》</itunes:title>
+      <itunes:title>EP 21.十八问重构访谈AI推理公司：一块 GPU 的租金翻倍，还租得起吗？Baseten 专场</itunes:title>
       <itunes:subtitle>透过AI播客学英文课。同一套十八问重读 Baseten；钱和算力的题几乎全被答满。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课。同一套十八问重读 Baseten；钱和算力的题几乎全被答满。</itunes:summary>
     </item>
