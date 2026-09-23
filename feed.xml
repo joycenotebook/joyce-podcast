@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Sep 2026 05:55:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 11:45:04 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,131 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 21.十八问重读一场访谈：卖推理的人 · Baseten 专场——斯坦福《AI 超周期经济学》</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-026.html</link>
+      <description>&lt;p&gt;原文：Applications, Applied AI（斯坦福 MS&amp;amp;E 435《Economics of the AI Supercycle》）。定位：Baseten 联合创始人兼 CEO Tuhin Srivastava，一个卖生产推理的人，坐在同一套十八问对面；上一期生命科学几乎答不满「钱怎么算」，这一期答得最狠的恰恰是单价、续约和卡从哪来。&lt;/p&gt;
+&lt;p&gt;带走三句判断：基建这层已经有会计科目，所以能被追问毛利率；生命科学那层还在卖概率。他认为软件才是栈里黏的那块，云会说拿到 GPU 才是。他把自己放在西印度公司一侧——武装叛军，让智能不被两家前沿实验室独占。如果算力单价两年内翻倍、开源运行成本又便宜七成到九成，自建算力和押注开源，哪一件更能决定这家公司十年后的样子？&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲 Stanford MS&amp;amp;E 435（Spring 2026）《Economics of the AI Supercycle》应用专题 Applied AI。嘉宾 Tuhin Srivastava（Baseten 联合创始人兼 CEO）。检索日 2026-09-23。&lt;/p&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-09-10 Baseten 官方：法国 agent 基础设施公司 Blaxel 并入 Baseten，补沙箱、持久存储和智能体执行层，和现有推理栈放在一起。一手：&lt;a href="https://www.baseten.co/blog/blaxel-is-joining-baseten-to-build-the-future-of-agentic-cloud/"&gt;Baseten · Blaxel is joining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-09-16 Baseten 推出 Hosted Tools，第一项是服务端联网搜索 Grounded Inference，官方称端到端延迟大约降百分之十五。一手：&lt;a href="https://www.baseten.co/blog/introducing-baseten-hosted-tools/"&gt;Baseten · Hosted Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;课上主线对照：他反复讲推理栈黏在软件、客户会在上面长大；这两则产品动作，是把工具调用和智能体运行也收进同一套栈。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tuhin Srivastava · Baseten 联合创始人兼 CEO；从澳洲投行私有化收费公路起步，后做生产推理基础设施&lt;/li&gt;
+&lt;li&gt;课程：Stanford MS&amp;amp;E 435 · Economics of the AI Supercycle · Applications, Applied AI&lt;/li&gt;
+&lt;li&gt;主题：标准化算力单位、生产推理、GPU 小时租金翻倍、软件黏性 vs 拿到卡、自建算力、开源与激励函数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；同一套十八问，从生命科学专场换到卖推理的人。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:49&lt;/td&gt;&lt;td&gt;进入英文原文与讲解：看这位卖推理的人接住了哪些题。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:11&lt;/td&gt;&lt;td&gt;英文金句：大学毕业后回澳洲麦格理，第一天被问要不要去纽约做公路和机场私有化。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:25&lt;/td&gt;&lt;td&gt;讲解 privatize：把公共资产做成可定价、可融资的现金流。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:00&lt;/td&gt;&lt;td&gt;英文金句：他无聊到发疯，决定回到本科读的工程。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:06&lt;/td&gt;&lt;td&gt;讲解 bored out of my mind：路径不是金融转科技，是回到自己本来学的东西。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:00&lt;/td&gt;&lt;td&gt;英文金句：他爱上早期科技、小团队，以及没人真正在意的地方。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:07&lt;/td&gt;&lt;td&gt;讲解：2019 年跟老同事一起做了 Baseten。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:54&lt;/td&gt;&lt;td&gt;英文金句：如果今天不干这件，他会更走 Crusoe 那条路，去投能源和电。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:01&lt;/td&gt;&lt;td&gt;讲解：真正值钱的想法来自奥克兰港口的集装箱。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:18&lt;/td&gt;&lt;td&gt;英文金句：集装箱是历史上最大的经济驱动力之一，因为它把贸易单位标准化了。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:25&lt;/td&gt;&lt;td&gt;讲解：他要给算力做一个能到处插上的接口，不是只标准化卖出去的 token。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:10&lt;/td&gt;&lt;td&gt;英文金句：学生该学什么？他说学什么都行。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:14&lt;/td&gt;&lt;td&gt;讲解：理由是他自己换过职业。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:21&lt;/td&gt;&lt;td&gt;英文金句：你可以在六个月内成为任何一件事的专家。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:26&lt;/td&gt;&lt;td&gt;讲解：他仍给了一条实在建议——去看数据中心怎么融资。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:37&lt;/td&gt;&lt;td&gt;英文金句：做融资模型的人，正在花大量时间想怎么给数据中心融资。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:47&lt;/td&gt;&lt;td&gt;讲解 project financing：不以公司信用借钱，以项目现金流借钱。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:33&lt;/td&gt;&lt;td&gt;英文金句：过去四年他们做的是生产推理，给增长最快的 AI 公司供能。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:41&lt;/td&gt;&lt;td&gt;讲解 production inference：模型训完之后，真正把智能交到用户手里的那一层。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:16&lt;/td&gt;&lt;td&gt;英文金句：推理是 AI 价值被交付时那组咬合的齿轮。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:21&lt;/td&gt;&lt;td&gt;讲解 cogs：齿轮不产生动力，但没有它动力到不了车轮。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:42&lt;/td&gt;&lt;td&gt;英文金句：今天推理支出大约九成到九成五流向前沿模型，只有百分之五流向定制模型。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:52&lt;/td&gt;&lt;td&gt;讲解：他买的不是现在的百分之五，是这条曲线长大的那一段。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:34&lt;/td&gt;&lt;td&gt;英文金句：B200 现在每小时 2.63 美元，十月续约，对方五月已报明年 5.10 美元。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:53&lt;/td&gt;&lt;td&gt;讲解：一块卡的地租一年里几乎翻倍，这是后面所有账的底。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:43&lt;/td&gt;&lt;td&gt;英文金句：照此外推，两年后大约需要十五万张 B200 等价算力。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:55&lt;/td&gt;&lt;td&gt;讲解：十五万张卡乘每小时 5.1 美元再乘一年小时数，大约七十亿美元；自建大约能便宜百分之三十。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:08&lt;/td&gt;&lt;td&gt;英文金句：Abridge 一类客户要跑大约二十个模型，从语音一直接到电子病历。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:19&lt;/td&gt;&lt;td&gt;讲解 ambient scribe：付费的人要的是整条产品，不是一张卡。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:18&lt;/td&gt;&lt;td&gt;英文金句：客户留下的原因是性能、可靠性和开发者平台，不只是便宜。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:32&lt;/td&gt;&lt;td&gt;讲解 observability：要能看见模型在生产里怎么跑。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:02&lt;/td&gt;&lt;td&gt;英文金句：很多人先去更便宜的开源，才发现在算力上把推理栈立起来有多痛。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:10&lt;/td&gt;&lt;td&gt;讲解：Baseten 卖的是这层疼，不是更便宜的模型。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:59&lt;/td&gt;&lt;td&gt;英文金句：客户是从找到产品市场契合，走向要把毛利率从零做到四成、六成、七成。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17:12&lt;/td&gt;&lt;td&gt;讲解 why now：先有人用，才谈得上毛利结构。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17:56&lt;/td&gt;&lt;td&gt;英文金句：面对前沿模型你守得住的，大概是工作流和只有你有的用户信号。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:13&lt;/td&gt;&lt;td&gt;讲解：一直把数据和信号交给实验室，护城河会被抽走。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:26&lt;/td&gt;&lt;td&gt;英文金句：我们是西印度公司，是叛军，我们在试图武装叛军。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:33&lt;/td&gt;&lt;td&gt;讲解：一句话把中间商改成供给方，站到开源和应用层那边。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:23&lt;/td&gt;&lt;td&gt;英文金句：他觉得推理需求永远不会恢复正常。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:26&lt;/td&gt;&lt;td&gt;讲解：agent 会自己循环调用，模型更大，推理量只会暴涨。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:46&lt;/td&gt;&lt;td&gt;英文金句：肯尼迪机场五点没队、八点排到门外；他们现在就在门外，而且没有机场那种关闭重置。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;21:05&lt;/td&gt;&lt;td&gt;讲解：供给没有夜晚，需求却一直在排队。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:04&lt;/td&gt;&lt;td&gt;英文金句：他们对算力加价，公司大体上还算有相关性。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:08&lt;/td&gt;&lt;td&gt;讲解 mark up：客户选卡，Baseten 在成本上加一层软件栈。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:32&lt;/td&gt;&lt;td&gt;英文金句：这是拿裸算力的昂贵方式，多付的钱理想情况下换的是软件栈。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:39&lt;/td&gt;&lt;td&gt;讲解 raw compute：不含服务的纯粹算力。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;23:01&lt;/td&gt;&lt;td&gt;英文金句：叙事正在从为算力付多少，变成为每个 token 付多少。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;23:13&lt;/td&gt;&lt;td&gt;讲解：计费还相当不成熟；同一堂课里智能单价在跌、地租在翻倍。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;25:37&lt;/td&gt;&lt;td&gt;英文金句：栈里黏的到底是软件，还是拿到 GPU？&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;25:51&lt;/td&gt;&lt;td&gt;讲解 sticky：他们认为黏的是软件；竞争的云会说黏的是卡。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;26:18&lt;/td&gt;&lt;td&gt;英文金句：两边大概都挺傲慢。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;26:21&lt;/td&gt;&lt;td&gt;讲解：推理对客户如此之黏，是因为它就是产品本身。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:00&lt;/td&gt;&lt;td&gt;英文金句：这像过去买数据库——选一次，然后就在那儿长大。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:07&lt;/td&gt;&lt;td&gt;讲解：转入供给与瓶颈。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:39&lt;/td&gt;&lt;td&gt;英文金句：三个风险是开源、应用层，以及拿不到足够算力。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:47&lt;/td&gt;&lt;td&gt;讲解：三条里任何一条塌了，这门生意就不成立。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;28:18&lt;/td&gt;&lt;td&gt;英文金句：别人告诉你供给有问题，实际情况要糟十倍。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;28:25&lt;/td&gt;&lt;td&gt;讲解：下单一千张卡，交货已经排到十二到十五个月之后。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:00&lt;/td&gt;&lt;td&gt;英文金句：他们跑在大约二十家云、八十七个集群上，把算力缝在一起。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:08&lt;/td&gt;&lt;td&gt;讲解 stitch together：不同来源的卡，对客户要像同一块布。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:35&lt;/td&gt;&lt;td&gt;英文金句：把各地 GPU 拼到一处，让卡变得可互换。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:44&lt;/td&gt;&lt;td&gt;讲解 fungible：把算力做成标准化商品，才不被一家云绑死。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;30:39&lt;/td&gt;&lt;td&gt;英文金句：现在租卡是为了速度，也因为他们没本事建数据中心。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;30:45&lt;/td&gt;&lt;td&gt;讲解：两年后量太大租不到；自建大约便宜百分之三十；算力交易现在像毒品市场，靠角落里的 Ed 打电话要卡。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;32:23&lt;/td&gt;&lt;td&gt;英文金句：GPU 之上的推理栈很有价值，他们欢迎云自己做，也会和对手合作。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;32:32&lt;/td&gt;&lt;td&gt;讲解：底气来自推理非常黏，客户把产品跑上去就不肯轻易动。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;33:17&lt;/td&gt;&lt;td&gt;英文金句：两大赌注是独立应用层，以及开源好到能持续做后训练。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;33:28&lt;/td&gt;&lt;td&gt;讲解：没有开源、没有应用层，Baseten 的位置就空了。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;33:42&lt;/td&gt;&lt;td&gt;英文金句：过去两年美国做不出最好的开源模型，今天最好的来自中国。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;33:55&lt;/td&gt;&lt;td&gt;讲解：如果东方的智能成本便宜七成到九成，对美国不是好结果。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;34:52&lt;/td&gt;&lt;td&gt;英文金句：发表观点之前，先把自己的偏见和激励函数说清楚。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;35:00&lt;/td&gt;&lt;td&gt;讲解：Anthropic 早上那篇中美帖建议关掉追赶通道以免冲突；他不信两家有利润动机的公司该当其余人的道德仲裁者。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;36:01&lt;/td&gt;&lt;td&gt;主题升华：缺席与答满是产业成熟度的差异；他站西印度公司一侧武装叛军；订阅：把表达练成肌肉记忆。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blaxel 并入 Baseten：把沙箱和智能体执行层接到推理栈上。一手：&lt;a href="https://www.baseten.co/blog/blaxel-is-joining-baseten-to-build-the-future-of-agentic-cloud/"&gt;Baseten · 2026-09-10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hosted Tools 上线，第一项是服务端搜索 Grounded Inference。一手：&lt;a href="https://www.baseten.co/blog/introducing-baseten-hosted-tools/"&gt;Baseten · 2026-09-16&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;政策与赛道&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthropic《2028: Two scenarios for global AI leadership》：美国领先并收紧芯片与蒸馏通道，或与中国并驾齐驱。一手：&lt;a href="https://www.anthropic.com/research/2028-ai-leadership"&gt;Anthropic · 2026-05-14&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-026.mp3" type="audio/mpeg" length="54618668" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-026.mp3</guid>
+      <itunes:duration>37:56</itunes:duration>
+      <itunes:title>EP 21.十八问重读一场访谈：卖推理的人 · Baseten 专场——斯坦福《AI 超周期经济学》</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。同一套十八问重读 Baseten；钱和算力的题几乎全被答满。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。同一套十八问重读 Baseten；钱和算力的题几乎全被答满。</itunes:summary>
+    </item>
     <item>
       <title>EP 20.十八问去访谈两位卖铲人：AI 生命科学专场重读——斯坦福《AI 超周期经济学》</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-020.html</link>

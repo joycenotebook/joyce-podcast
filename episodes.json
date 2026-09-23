@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-026",
+      "title": "EP 21.十八问重读一场访谈：卖推理的人 · Baseten 专场——斯坦福《AI 超周期经济学》",
+      "file": "ep-026.mp3",
+      "duration_sec": 2276,
+      "size_bytes": 54618668,
+      "desc": "透过AI播客学英文课。同一套十八问重读 Baseten；钱和算力的题几乎全被答满。",
+      "pub_date": "2026-09-23",
+      "listed": true
+    },
+    {
       "id": "ep-020",
       "title": "EP 20.十八问去访谈两位卖铲人：AI 生命科学专场重读——斯坦福《AI 超周期经济学》",
       "file": "ep-020-v2.mp3",
