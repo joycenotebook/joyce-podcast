@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EP 22.十八问重构一场访谈，用物理世界AI与机器人自我颠覆的外卖平台：十年后骑手会变多还是变少？DoorDash 专场 · 发声 Taste, Out loud</title>
+  <link rel="alternate" type="application/rss+xml" title="发声 Taste, Out loud" href="./feed.xml" />
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; background: #1c1917; color: #fafaf9; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    img.cover { width: 100%; max-width: 360px; border-radius: 16px; display: block; }
+    h1 { font-weight: 600; font-size: 28px; margin: 24px 0 8px; }
+    h2 { font-weight: 600; font-size: 18px; margin: 32px 0 12px; }
+    h3 { font-weight: 600; font-size: 15px; margin: 20px 0 8px; color: #e7e5e4; }
+    p, li { color: #a8a29e; line-height: 1.65; }
+    a { color: #c4a574; }
+    .ep { margin-top: 28px; padding-top: 20px; border-top: 1px solid #292524; }
+    audio { width: 100%; margin-top: 8px; }
+    .notes ul { padding-left: 1.2em; }
+    .notes li { margin: 0.45em 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0 24px; }
+    th, td { border-bottom: 1px solid #292524; padding: 8px 6px; text-align: left; vertical-align: top; color: #a8a29e; }
+    th { color: #fafaf9; font-weight: 600; }
+    .back { font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="back"><a href="./">← 发声 Taste, Out loud</a></p>
+    <h1>EP 22.十八问重构一场访谈，用物理世界AI与机器人自我颠覆的外卖平台：十年后骑手会变多还是变少？DoorDash 专场</h1>
+    <audio controls preload="none" src="./audio/ep-029.mp3"></audio>
+    <div class="notes">
+<p>原文：Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang（播客《No Priors》）。定位：外卖平台联合创始人 Andy Fang 与 Stanley Tang，坐在同一套十八问对面；这一层不做模型，做的是应用与履约，让智能变成一次点餐、一次派单、一次把袋子放到门口。</p>
+<p>带走三句判断：十年后骑手会更多，不是更少，因为卡的是产能天花板，不是少雇人。五年前大家觉得硬件是标准品，现在硬件开始变成瓶颈。C 端成交助手已经改了新店和食杂购物篮，内部写代码才有 DashBench 可打分，白领任务仍是三千万美元的「还行」。</p>
+
+<h2>1. 课程导读 · 公司近况</h2>
+<p>本期精讲《No Priors》对 DoorDash 联合创始人的访谈。检索日 2026-09-28。</p>
+<h3>产品与组织</h3>
+<ul>
+<li>2026-07-06 DoorDash 工程博客公开 DashBench：回放真实 PR，评测代码评审 agent 的召回、精度和单次成本。一手：<a href="https://careersatdoordash.com/blog/how-we-learned-to-trust-our-ai-code-reviewer-at-doordash/">DoorDash · DashBench</a></li>
+<li>访谈中已上线的产品对照：Ask DoorDash（自然语言点餐）、凤凰城配送机器人 Dot、DoorDash CLI、骑手 Tasks 采集世界模型数据。</li>
+</ul>
+<h3>投融资与上市传闻</h3>
+<ul>
+<li>2026 年一季度营收 40.36 亿美元，同比增 33%；二季度营收 44.54 亿美元，同比增 36%。一手见 DoorDash 投资人关系季报：<a href="https://ir.doordash.com/">DoorDash IR</a></li>
+</ul>
+
+<h2>2. 访谈嘉宾</h2>
+<ul>
+<li>Andy Fang · DoorDash 联合创始人；访谈里主讲 Ask DoorDash、内部 AI 支出与 DashBench</li>
+<li>Stanley Tang · DoorDash 联合创始人；访谈里主讲 2018 年起的机器人项目、Dot 与制造合作</li>
+<li>节目：《No Priors》· Building an Autonomous Delivery Experience · 约 2026 年 7 月</li>
+<li>主题：承接模型的履约层、十年后骑手更多、硬件从标准品变成瓶颈、C 端成交 vs 内部知识工作</li>
+</ul>
+
+<h2>3. 主要话题时间线</h2>
+<table>
+<thead><tr><th>时间</th><th>话题</th></tr></thead>
+<tbody>
+<tr><td>0:06</td><td>开场：发声；今天读 No Priors 对 DoorDash 两位联合创始人的访谈，这一层做的是应用与履约。</td></tr>
+<tr><td>1:35</td><td>进入英文原文与讲解：同一套十八问，听他们讲三十亿次配送里的账、车和人。</td></tr>
+<tr><td>2:09</td><td>英文金句：关注机器人自主比大家以为的早，大概从 2018 年就开始了。</td></tr>
+<tr><td>2:22</td><td>讲解 autonomy：机器自己决策、不需要人接管；一家外卖公司在「能不能成」都没影时就开始投。</td></tr>
+<tr><td>4:21</td><td>英文金句：DoorDash 很多事都始于实验，这就是公司的创业故事。</td></tr>
+<tr><td>4:33</td><td>讲解：先做小实验，弄明白「这里有点东西」，再决定变成一家公司。</td></tr>
+<tr><td>4:46</td><td>英文金句：公司曾是斯坦福宿舍实验，网站上只有八份 PDF 菜单和一个 Google Voice 号码。</td></tr>
+<tr><td>5:04</td><td>讲解：最初几百单是四位创始人自己骑车送的；这套哲学他们用了十三年。</td></tr>
+<tr><td>5:58</td><td>英文金句：2018 年起步并不是要搞庞大机器人项目，投入只是他加半个工程师的时间。</td></tr>
+<tr><td>6:16</td><td>讲解 skunkworks：臭鼬工厂；十亿级配送规模的公司，机器人项目起步人力是一点五人。</td></tr>
+<tr><td>8:01</td><td>英文金句：招人时的说辞是——你想搞原型演示，还是想把东西交到现实世界。</td></tr>
+<tr><td>8:15</td><td>讲解 pitch 与 ship：来这儿能把东西交付上线，不是待在博士实验室里做十年演示。</td></tr>
+<tr><td>11:17</td><td>英文金句：外面很多自主技术公司先做技术，再倒回去找能塞进去的问题。</td></tr>
+<tr><td>11:33</td><td>讲解 retroactively：软件世界被教的是先做人们想要的东西，硬件和机器人常常反着来。</td></tr>
+<tr><td>12:24</td><td>英文金句：人行道机器人像轮子上的饮水机，时速撑不起三到五英里的平均配送。</td></tr>
+<tr><td>12:43</td><td>讲解：扣掉做餐大约十五分钟的窗口，两三英里每小时的人行道机器人数学上就不成立。</td></tr>
+<tr><td>13:33</td><td>英文金句：robotaxi 是四千磅带座椅空调的车，用来运几个墨西哥卷饼。</td></tr>
+<tr><td>13:57</td><td>讲解：人可以走完 Waymo 放下的最后一百英尺，包裹不会自己走；所以要自己定义形态。</td></tr>
+<tr><td>16:08</td><td>英文金句：Dot 完全内部自研，三百磅、最高二十英里每小时，体积是一辆车的十分之一。</td></tr>
+<tr><td>16:26</td><td>讲解：恰当的隐喻是自动驾驶摩托车或自行车形制；Dot 跑在马路上，但尽量表现得像自行车。</td></tr>
+<tr><td>18:03</td><td>英文金句：六月的 AI 支出比起一月涨了大约二十倍。</td></tr>
+<tr><td>18:13</td><td>讲解：收购 Metis 是为了注入 AI 原生思考；主持人追问这条曲线后来怎么走。</td></tr>
+<tr><td>18:52</td><td>英文金句：We're seeing a flat line.</td></tr>
+<tr><td>18:54</td><td>讲解：翻了二十倍之后曲线走平；贵任务用闭源、便宜任务用开源，支出大头仍在工程席位。</td></tr>
+<tr><td>21:18</td><td>英文金句：长期是不是干掉所有骑手、到处都是 Dot？</td></tr>
+<tr><td>21:25</td><td>讲解 get rid of：听众会往取代人力上推，所以这题难。</td></tr>
+<tr><td>21:49</td><td>英文金句：他的预测是十年后骑手更多，不是更少。</td></tr>
+<tr><td>22:02</td><td>讲解：超过九百万骑手、业务同比增百分之二十五，这是一条算术不是安抚。</td></tr>
+<tr><td>22:42</td><td>英文金句：再涨五倍、十倍，供给从哪来？难道让半个美国每个月来送货？</td></tr>
+<tr><td>22:55</td><td>讲解：九百万的五倍是四千五百万，人口学不允许；新供给必须来自非人力，需求还会因更便宜而激增。</td></tr>
+<tr><td>24:51</td><td>英文金句：整个自动驾驶栈内部自研，为配送特制，不能把 Waymo 复制粘贴进 Dot。</td></tr>
+<tr><td>25:07</td><td>讲解 purpose built：车上的智能自己做，因为涉及物理资产和安全边界。</td></tr>
+<tr><td>26:00</td><td>英文金句：为什么不找一个真正懂得怎么把车做到规模的人合作？</td></tr>
+<tr><td>26:04</td><td>讲解：车辆制造找 Also；大模型按贵贱混用开源和闭源，不是自研一个底座。</td></tr>
+<tr><td>28:13</td><td>英文金句：对顾客还是同一个 app，对商家只是一次对接，突然就有了骑手、无人机和自动驾驶。</td></tr>
+<tr><td>28:34</td><td>讲解：机器人不需要用户和商家做新决定；实验室还通过骑手 Tasks 买真实世界数据点。</td></tr>
+<tr><td>30:37</td><td>英文金句：优势是别人没有的东西，它叫 DoorDash。</td></tr>
+<tr><td>30:46</td><td>讲解：不是客户名单，是上百亿次配送踩出来的物理细节。</td></tr>
+<tr><td>31:17</td><td>英文金句：人能自己搞明白公寓该往哪走。</td></tr>
+<tr><td>31:22</td><td>讲解：机器人做不到「你自己想办法」。</td></tr>
+<tr><td>31:28</td><td>英文金句：人类骑手历史上到底把东西放在哪，这份数据不在谷歌地图里，只在 DoorDash。</td></tr>
+<tr><td>31:39</td><td>讲解：为什么是你们、为什么是现在——数据沉淀了九年，机器人和模型最近才变得可行。</td></tr>
+<tr><td>32:45</td><td>英文金句：Ask DoorDash 找餐厅的轨迹里，一半是从没点过的店。</td></tr>
+<tr><td>32:57</td><td>讲解：这是历史上最难撬的指标；食杂侧拍冰箱补货，购物篮大百分之四十。</td></tr>
+<tr><td>34:39</td><td>英文金句：问团队模型怎么样，回答还行，那就是三千万美元的还行。</td></tr>
+<tr><td>34:49</td><td>讲解：实验室洗过的数据模型能碾压，接回真实企业数据就掉下来。</td></tr>
+<tr><td>35:43</td><td>英文金句：到底是 harness 还没配对，还是这些事根本不在模型的数据分布里？</td></tr>
+<tr><td>35:53</td><td>讲解：前一句是工具接口没接好，后一句是训练时压根没见过这类企业内部的题。</td></tr>
+<tr><td>37:07</td><td>英文金句：有意思的是，autonomy 越来越不再是卡点。</td></tr>
+<tr><td>37:15</td><td>讲解：去年跑通 L4，五年前的问题已经被回答。</td></tr>
+<tr><td>38:01</td><td>英文金句：现在越来越变成运营、商业化、硬件和制造。</td></tr>
+<tr><td>38:08</td><td>讲解：把制造和商业化排进瓶颈清单，说明技术不确定性已经退到第二线。</td></tr>
+<tr><td>38:36</td><td>英文金句：五年前大家都觉得硬件是标准品，现在硬件开始变成瓶颈。</td></tr>
+<tr><td>38:47</td><td>讲解：五年前以为车随便买、难的是自己开；现在自己开通了，难的是造对的车、造够数。</td></tr>
+<tr><td>39:54</td><td>英文金句：一半轮子压在落叶上，传给车轮的扭矩突然完全不一样。</td></tr>
+<tr><td>40:05</td><td>讲解：演示环境里永远想不到；急刹时动能回收还会冲击电池。</td></tr>
+<tr><td>41:42</td><td>英文金句：开机脚本乘以五百台机器人，突然变成巨大的生产力问题。</td></tr>
+<tr><td>41:50</td><td>讲解：瓶颈不是被发现的，是被乘出来的。</td></tr>
+<tr><td>42:31</td><td>英文金句：不是空谈假设，你们在凤凰城是真的在做配送。</td></tr>
+<tr><td>42:36</td><td>讲解：可核实的是凤凰城、快两年、去年 L4；DashBench 评的是内部写代码，不是 C 端成交。</td></tr>
+<tr><td>44:53</td><td>英文金句：必须比人们今天能做到的更好，要么质量更好，要么成本更低。</td></tr>
+<tr><td>45:05</td><td>讲解：搜索词变长、网上智能体流量已多于人类流量；DoorDash CLI 让摄像头对着零食架就能补货。</td></tr>
+<tr><td>47:27</td><td>主题升华：十年后骑手更多是产能账；AI 支出二十倍后走平；瓶颈是乘出来的；订阅，把表达练成肌肉记忆。</td></tr>
+</tbody>
+</table>
+
+<h2>4. 延伸阅读</h2>
+<h3>产品与组织</h3>
+<ul>
+<li>DashBench：用真实 PR 评测代码评审 agent，而不是只看评论接受率。一手：<a href="https://careersatdoordash.com/blog/how-we-learned-to-trust-our-ai-code-reviewer-at-doordash/">DoorDash Careers · 2026-07-06</a></li>
+<li>Dot 配送机器人产品页：<a href="https://www.doordash.com/">DoorDash</a></li>
+</ul>
+<h3>财务与投融资</h3>
+<ul>
+<li>上市公司季报与新闻稿入口：<a href="https://ir.doordash.com/">DoorDash Investor Relations</a></li>
+</ul>
+
+<h2>5. 听友群</h2>
+<p>加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。</p>
+    </div>
+  </main>
+</body>
+</html>
