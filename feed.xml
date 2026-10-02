@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
   <channel>
     <title>发声 Taste, Out loud</title>
@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 28 Sep 2026 14:00:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 03:01:33 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,119 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 23.Instinct 创始人想让这东西永远免费：钱从商家那一端收，算力每周翻一倍</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-035.html</link>
+      <description>&lt;p&gt;原文：Noah Shinn - Building Instinct: The Personal Agent（播客《Invest Like the Best》第 493 期）。定位：个人助理不是一个 app，是一次通过短信、电话、邮箱发生的交互；对用户不收钱，钱从商家那一端收。真正稀缺的不是模型，是算力的提前量。&lt;/p&gt;
+&lt;p&gt;带走三句判断：收钱的方向，就是它站的方向——先决定必须站在用户这边，再倒推出只能从商家收钱。需求大约每周翻一倍、采购交付要几个月，买晚了价格罚三到四倍；风险投资在他嘴里的唯一用途是买时间。靠用户懒惰或惯性赚钱的生意都完了；替用户把事办完的东西，只需要拿到一次授权。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲《Invest Like the Best》对 Instinct 创始人 Noah Shinn 的访谈。检索日 2026-10-02。&lt;/p&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Instinct 是邀请制个人助理：没有新界面，训练它用电话和电脑，用户发短信或打电话即可。官网口径是接上邮件、消息、屏幕、音频、定位，替你跟进丢掉的线程、叫车、约工人。一手：&lt;a href="https://instinct.com/"&gt;instinct.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026 年 8 月上线邀请制服务。TechCrunch 记近期新能力包括 concierge（给没有在线预约的地方打电话订位）和 trusted person network（两个人的助手直接协调行程）。公司暂无独立 App，也未披露用户数。一手：&lt;a href="https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"&gt;TechCrunch · 2026-09-28&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;同期对手是 Meta 的 Muse：有独立 App、能接上 Instagram / Facebook 产品，下载量已冲到美区商店前列。一手：&lt;a href="https://www.businessinsider.com/noah-shinn-instinct-ai-competes-meta-muse-2026-9"&gt;Business Insider · Meet Noah Shinn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;投融资与上市传闻&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-09-28 Instinct 确认 C 轮融资 10 亿美元、估值 100 亿美元，投资方包括 Sequoia Capital、Benchmark、Coatue。一个月前 B 轮是 2.5 亿美元、估值 25 亿美元。一手：&lt;a href="https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"&gt;TechCrunch · Series C&lt;/a&gt;；Sequoia 公司页：&lt;a href="https://sequoiacap.com/companies/instinct"&gt;Sequoia · Instinct&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Noah Shinn · Instinct 创始人。约 23 岁，东北大学退学；2023 年 Reflexion 论文进 NeurIPS；Sierra 早期研究科学家，后创办 Instinct&lt;/li&gt;
+&lt;li&gt;节目：《Invest Like the Best》第 493 期 · Building Instinct: The Personal Agent · 2026-09-28&lt;/li&gt;
+&lt;li&gt;原访谈：&lt;a href="https://colossus.com/episode/instinct-the-personal-agent/"&gt;Colossus · Instinct: The Personal Agent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：对用户免费、商家抽成；信任要三周；算力每周翻倍对上几个月交付；软件塌成一个界面&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；今天读 Invest Like the Best 对 Instinct 创始人 Noah Shinn 的访谈。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0:17&lt;/td&gt;&lt;td&gt;课程导读：对用户不收钱、钱从商家收；每天百分之十增长；算力大约每周翻一倍。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:41&lt;/td&gt;&lt;td&gt;走进录音棚：听他为什么想让这个产品永远免费，以及每周要面对的那道算术题。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:11&lt;/td&gt;&lt;td&gt;英文金句：为什么把整副身家押在这一块上？&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:20&lt;/td&gt;&lt;td&gt;英文金句：从这里会长出这个星球上大多数人跟技术打交道的新方式。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:45&lt;/td&gt;&lt;td&gt;英文金句：我经营 Instinct，大约一年前创办，做一个私人助理，不打算包装得花里胡哨。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:57&lt;/td&gt;&lt;td&gt;讲解 spice it up：融资场里有人会把私人助理说成通用人工智能的第一具身体，他拒绝了。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:59&lt;/td&gt;&lt;td&gt;英文金句：这是非常不同的造产品时刻，从二零二三年第一次用 ChatGPT 起，大家已经有「AI 该什么样」的概念。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:15&lt;/td&gt;&lt;td&gt;讲解：用户的期待不是被教育出来的；别人要先造市场再说服用户，他不用。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:57&lt;/td&gt;&lt;td&gt;英文金句：它有电话和电脑，你可以给它发短信、打电话，它也能反过来打给你。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:40&lt;/td&gt;&lt;td&gt;英文金句：它不是应用，不是设备，是通过 WhatsApp、iMessage 等现有渠道发生的交互。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:14&lt;/td&gt;&lt;td&gt;英文金句：把做任何一件事的摩擦压到几乎为零；有主动行为时，就是字面意义上的零。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:00&lt;/td&gt;&lt;td&gt;英文金句：到用户所在的地方去接他们。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:23&lt;/td&gt;&lt;td&gt;英文金句：能交付和 Opus 5 一样的互动率与评测，但成本非常低。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:01&lt;/td&gt;&lt;td&gt;英文金句：前沿 API 按一视同仁的 blanket cost 收费；很多主动工作其实需要几分钟甚至几小时。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:43&lt;/td&gt;&lt;td&gt;进入谁买单：真正付钱的是商家，用户免费。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:18&lt;/td&gt;&lt;td&gt;英文金句：不想让 Instinct 以不对准用户利益的方式影响行为。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:40&lt;/td&gt;&lt;td&gt;英文金句：想象 Instinct 总体上比用户更聪明，那会是一个非常危险的世界。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:20&lt;/td&gt;&lt;td&gt;英文金句：if you're not paying, you're the product；作为建造者，他拒绝这句话。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:51&lt;/td&gt;&lt;td&gt;英文金句：像 Apple Pay：用户拿到免费的好体验，钱从交易那一端收。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:24&lt;/td&gt;&lt;td&gt;英文金句：Shopify 大约两到三个点，亚马逊十几个点，苹果大约三十个点。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:30&lt;/td&gt;&lt;td&gt;英文金句：非常实际的是，平台流水里大约一半是旅行。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:42&lt;/td&gt;&lt;td&gt;英文金句：It just works。那种我们一直在等着的、等 AI 替我们动手的好用。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:02&lt;/td&gt;&lt;td&gt;英文金句：Instinct 不是任务执行器，它跟随更高层的目标，学习跟用户建立信任。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:47&lt;/td&gt;&lt;td&gt;英文金句：数据里建起信任要好几周。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:10&lt;/td&gt;&lt;td&gt;英文金句：三周后，大约四成用户交出过一张个人信用卡。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:38&lt;/td&gt;&lt;td&gt;英文金句：接上至少一项敏感信息之后，留存大约八成。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;21:59&lt;/td&gt;&lt;td&gt;英文金句：Any product that's dependent on consumer laziness or inertia is toast.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:05&lt;/td&gt;&lt;td&gt;进入收入怎么构成：接近十亿美元年化流水，每天大约百分之十。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;23:26&lt;/td&gt;&lt;td&gt;英文金句：现在每年有超过十亿美元从平台流过。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;24:08&lt;/td&gt;&lt;td&gt;英文金句：交易额也在按每天百分之十复利。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;24:20&lt;/td&gt;&lt;td&gt;进入怎么锁定算力：一道关于提前量的算术题。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;25:03&lt;/td&gt;&lt;td&gt;英文金句：他大概有四成时间只花在担心这件事上。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;25:24&lt;/td&gt;&lt;td&gt;英文金句：你需要拿到的算力，现在大约每周翻一倍，这意味着什么？&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;26:29&lt;/td&gt;&lt;td&gt;英文金句：这种资源的交付周期是几个月，不能明天就去市场上现买。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:13&lt;/td&gt;&lt;td&gt;英文金句：按每天百分之五到八复利几个月，那是一亿用户量级的提前量，不是现在的用户数。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:19&lt;/td&gt;&lt;td&gt;进入成本：单位成本在掉，总量会涨一个数量级。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;32:28&lt;/td&gt;&lt;td&gt;英文金句：核心是你要提前买多远。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;33:01&lt;/td&gt;&lt;td&gt;英文金句：If you're wrong, you're very wrong.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;34:24&lt;/td&gt;&lt;td&gt;进入竞争：最大的替代对象是 app 本身，不是另一家助手。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;34:59&lt;/td&gt;&lt;td&gt;英文金句：他很少花时间想竞争，因为真正的对手是用户已经打开的那些界面。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;35:45&lt;/td&gt;&lt;td&gt;英文金句：WhatsApp 上可能被关掉，那是 Facebook 的产品。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;36:48&lt;/td&gt;&lt;td&gt;进入长期价值：注意力搬到交易，软件塌成一个界面。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;38:08&lt;/td&gt;&lt;td&gt;英文金句：如果你的生意受益于更多交易、即使用户打开 App 的时间变少。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;38:37&lt;/td&gt;&lt;td&gt;英文金句：如果近百分之百的收入来自用户的注意力，你站在对面。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;39:33&lt;/td&gt;&lt;td&gt;英文金句：I actually think it'll go up：摩擦变小之后，用户跟商家的互动次数会变多，不是在 App 里待更久。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;40:48&lt;/td&gt;&lt;td&gt;英文金句：所有软件最终会塌缩成一个非常简单的界面。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;42:02&lt;/td&gt;&lt;td&gt;题库之外：很早守着一条原则，不要盯着能力，只盯着可理解性。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;45:16&lt;/td&gt;&lt;td&gt;英文金句：营销支出为零；每一天大约百分之十的用户，愿意交出五个邀请名额里的一个。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;46:25&lt;/td&gt;&lt;td&gt;英文金句：他想要的是顺滑、安静、能干、可靠，不是带点调皮个性的东西。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;46:56&lt;/td&gt;&lt;td&gt;英文金句：建立关系那一类事，不是他们希望 Instinct 去做或去追求的。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;48:11&lt;/td&gt;&lt;td&gt;英文金句：它是一个有创造力、能干的行动者，人和它之间要有相互尊重和信任。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;49:00&lt;/td&gt;&lt;td&gt;主题升华：收钱的方向就是站的方向；真正稀缺的是提前量；靠惯性赚钱的生意完了。订阅，把表达练成肌肉记忆。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;官网产品定义：无新界面、用电话和电脑办事。一手：&lt;a href="https://instinct.com/"&gt;instinct.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;C 轮稿里记下的 concierge 代打电话、trusted person network，以及尚无独立 App。一手：&lt;a href="https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"&gt;TechCrunch · 2026-09-28&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;竞品与赛道&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Noah Shinn 与 Meta Muse 的对位：邀请制短信助手对上有社交图谱的独立 App。一手：&lt;a href="https://www.businessinsider.com/noah-shinn-instinct-ai-competes-meta-muse-2026-9"&gt;Business Insider&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;财务与投融资&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一个月内估值从 25 亿到 100 亿：B 轮 2.5 亿美元之后接 C 轮 10 亿美元。一手：&lt;a href="https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"&gt;TechCrunch · Series C&lt;/a&gt;；&lt;a href="https://www.pymnts.com/news/artificial-intelligence/2026/personal-ai-agent-instinct-quadruples-valuation-to-10-billion-in-1-month/"&gt;PYMNTS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-035.mp3" type="audio/mpeg" length="75768236" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-035.mp3</guid>
+      <itunes:duration>52:37</itunes:duration>
+      <itunes:title>EP 23.Instinct 创始人想让这东西永远免费：钱从商家那一端收，算力每周翻一倍</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。Instinct 对用户免费、钱从商家收；真正稀缺的是算力提前量。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。Instinct 对用户免费、钱从商家收；真正稀缺的是算力提前量。</itunes:summary>
+    </item>
     <item>
       <title>EP 22.十八问重构一场访谈，用物理世界AI与机器人自我颠覆的外卖平台：十年后骑手会变多还是变少？DoorDash 专场</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-029.html</link>

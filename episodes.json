@@ -13,6 +13,17 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-035",
+      "title": "EP 23.Instinct 创始人想让这东西永远免费：钱从商家那一端收，算力每周翻一倍",
+      "file": "ep-035.mp3",
+      "duration_sec": 3157,
+      "size_bytes": 75768236,
+      "desc": "透过AI播客学英文课。Instinct 对用户免费、钱从商家收；真正稀缺的是算力提前量。",
+      "pub_date": "2026-10-02",
+      "listed": true,
+      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-035.mp3"
+    },
+    {
       "id": "ep-029",
       "title": "EP 22.十八问重构一场访谈，用物理世界AI与机器人自我颠覆的外卖平台：十年后骑手会变多还是变少？DoorDash 专场",
       "file": "ep-029-v8.mp3",
