@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Oct 2026 03:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 10:57:48 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,99 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 24.Anthropic 增长负责人说他七成时间在救火「成功的副作用」：14 个月从 10 亿做到 190 亿美元年化收入，内部已经没人看线性图表</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-034.html</link>
+      <description>&lt;p&gt;原文：Amol Avasare - Head of Growth (Anthropic): “Claude is growing itself at this point”（播客《Lenny's Podcast》）。定位：Anthropic 首先是模型公司、智能公司；增长不是发动机。一门通用技术要飞出去，靠的是窄口——AI coding。卡住的不是能力本身，是把能力散到用户手上。&lt;/p&gt;
+&lt;p&gt;带走三句判断：他七成时间在扑 success disasters——不是做砸了，是做得太好，好到别的东西开始崩。传统增长把六七成压在中小实验上，他们倒过来七成押大注，因为两年后的产品价值大概是今天的一百到一千倍。CASH 用 Claude 自动化增长实验，胜率相当于一个干了两三年的初级 PM；跨部门对齐这一环，他说就算有了 AGI 也不会消失。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲《Lenny's Podcast》对 Anthropic 增长负责人 Amol Avasare 的访谈。检索日 2026-10-08。&lt;/p&gt;
+&lt;h3&gt;产品与功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-10-07 Anthropic 发布 Claude Haiku 5.5：自称目前最快、最便宜的小模型，面向高并发与子 agent；官方称多数任务成本大约比 Haiku 4.5 低七成五，并下调 Sonnet 5.5 的 cache read 价格。一手：&lt;a href="https://www.anthropic.com/claude-haiku-5-5"&gt;Anthropic · Claude Haiku 5.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;同日 AWS 宣布 Haiku 5.5 上 Amazon Bedrock。一手：&lt;a href="https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/"&gt;AWS · Haiku 5.5 on Bedrock&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-10-06 扩大 Cyber Verification Program：三档访问，面向核验过的安全团队，含 Opus 5.5 / Sonnet 5.5 / Mythos 5.1。一手：&lt;a href="https://www.anthropic.com/news/cyber-verification-program"&gt;Anthropic · Cyber Verification Program&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amol Avasare · Anthropic 增长负责人。此前在 Mercury、MasterClass 做增长；冷邮件写给 CPO Mike Krieger 进的公司&lt;/li&gt;
+&lt;li&gt;节目：《Lenny's Podcast》· Head of Growth (Anthropic): “Claude is growing itself at this point”&lt;/li&gt;
+&lt;li&gt;原访谈：&lt;a href="https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run"&gt;Lenny's Newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：成功的灾难、能力悬空、窄口 AI coding、把增长赌注翻过来、用 Claude 自动化增长实验&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；今天读 Lenny 对 Anthropic 增长负责人 Amol Avasare 的访谈。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0:17&lt;/td&gt;&lt;td&gt;课程导读：十四个月年化收入从十亿做到一百九十亿；七成时间扑成功的副作用；增长赌注倒过来。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;1:54&lt;/td&gt;&lt;td&gt;走进录音棚：当一家公司这样长，管增长的人一天到底在干什么。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:34&lt;/td&gt;&lt;td&gt;英文金句：他能进 Anthropic，是因为自己先是 Claude 的重度用户。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:04&lt;/td&gt;&lt;td&gt;英文金句：给 CPO Mike Krieger 发了一封冷邮件：你们非常需要一个增长团队。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:58&lt;/td&gt;&lt;td&gt;英文金句：当时对外没挂增长岗位，内部刚好开始想建这个团队。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:36&lt;/td&gt;&lt;td&gt;英文金句：真在意就跟进到对方说请别发了为止。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:24&lt;/td&gt;&lt;td&gt;英文金句：他是对方唯一一个从冷邮件招进来的产品经理。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:29&lt;/td&gt;&lt;td&gt;英文金句：增长团队不能揽太多功劳；Anthropic 首先是模型公司、智能公司。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;7:46&lt;/td&gt;&lt;td&gt;英文金句：发动机是研究、推理和算力，然后才是 Claude Code 和市场。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:14&lt;/td&gt;&lt;td&gt;英文金句：当年最小、钱最少、没有分发渠道，只能挑一个非常窄的口子，才能攒到逃逸速度。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:58&lt;/td&gt;&lt;td&gt;英文金句：增长大约四十人；横向是平台和变现，纵向按受众切。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:08&lt;/td&gt;&lt;td&gt;英文金句：四条纵线是 B2B、Code、知识工作者、API，没有普通消费者。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:49&lt;/td&gt;&lt;td&gt;英文金句：多产品不能只设一个统一的 activation 团队，受众和内部相关方都不一样。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;14:38&lt;/td&gt;&lt;td&gt;英文金句：Figma、Slack、Workday 既是客户，他们自己也在重度用。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:24&lt;/td&gt;&lt;td&gt;英文金句：Ben Mann 二零二一年就写了为什么应该只盯住 AI coding。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:41&lt;/td&gt;&lt;td&gt;英文金句：最好的模型会加速研究，从而加速整个研究闭环。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;17:55&lt;/td&gt;&lt;td&gt;英文金句：约束带来自由：劣势把「选什么」替你回答了。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:58&lt;/td&gt;&lt;td&gt;英文金句：行业最大的问题之一是 capability overhang：模型太快，产品来不及把好处散到人手里。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;21:10&lt;/td&gt;&lt;td&gt;英文金句：手里可能是 AGI，用户第一反应却是问旧金山天气。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;22:05&lt;/td&gt;&lt;td&gt;英文金句：你刚测完引导入口、上线新流程，下一个模型就把结论作废。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;23:59&lt;/td&gt;&lt;td&gt;进入收入形状：二零二五年初十亿，后来到大约一百九十亿；每年十倍从第一年就在。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:31&lt;/td&gt;&lt;td&gt;英文金句：大数定律到现在还没生效，用来描述他们的数字一直在过期。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:51&lt;/td&gt;&lt;td&gt;英文金句：他大约七成时间花在内部叫 success disasters 的事上。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;32:21&lt;/td&gt;&lt;td&gt;英文金句：工程从 Claude Code 拿到的杠杆，比产品和设计更高；五个工程师变成相当于十五到二十个。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;35:02&lt;/td&gt;&lt;td&gt;英文金句：两周以内的工程，产品和设计自己用 Claude Code 做。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;36:02&lt;/td&gt;&lt;td&gt;英文金句：队尾那一环是跨部门对齐；就算有了 AGI，六个人在一个房间里达成一致仍然很难。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;38:33&lt;/td&gt;&lt;td&gt;进入竞争：主持人说别人在学你们做少而深；他改口成我们凭什么没散。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;41:07&lt;/td&gt;&lt;td&gt;英文金句：ChatGPT 发布前他们已有聊天机器人，出于安全没发；对手被拉向消费端。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;43:23&lt;/td&gt;&lt;td&gt;英文金句：最守得住的是文化和人，别人复制不了。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;46:13&lt;/td&gt;&lt;td&gt;进入长期价值：传统增长六七成压中小实验；他们倒过来，七成押大注。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;48:51&lt;/td&gt;&lt;td&gt;英文金句：两年后他们能交付的产品价值，大概是今天的一百到一千倍。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;50:36&lt;/td&gt;&lt;td&gt;英文金句：agentic coding 一年半前还不存在，现在这块已经大过上一轮 AI 编码市场。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;52:01&lt;/td&gt;&lt;td&gt;英文金句：如果 AI 只是旁边几个功能，这套打法不适用。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;52:55&lt;/td&gt;&lt;td&gt;英文金句：增长团队自己做了 Chrome 扩展，后来撑起 Cowork 和 Claude Code 上的一批用例。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;54:37&lt;/td&gt;&lt;td&gt;英文金句：CASH，用 Claude 自动化增长实验；四个环节打分。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;56:32&lt;/td&gt;&lt;td&gt;英文金句：现在的胜率相当于一个干了两三年的初级 PM。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;58:04&lt;/td&gt;&lt;td&gt;主题升华：瓶颈从缺变成溢；指数曲线下把赌注翻过来；约束带来自由。订阅，把表达练成肌肉记忆。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Haiku 5.5 发布说明：速度、价格、effort control，以及 Sonnet 5.5 cache read 降价。一手：&lt;a href="https://www.anthropic.com/claude-haiku-5-5"&gt;Anthropic · Haiku 5.5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安全团队核验计划扩到三档。一手：&lt;a href="https://www.anthropic.com/news/cyber-verification-program"&gt;Anthropic · CVP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;原访谈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lenny 访谈全文与时间线。一手：&lt;a href="https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run"&gt;Lenny's Newsletter · Anthropic growth run&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-034.mp3" type="audio/mpeg" length="88243820" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-034.mp3</guid>
+      <itunes:duration>1:01:17</itunes:duration>
+      <itunes:title>EP 24.Anthropic 增长负责人说他七成时间在救火「成功的副作用」：14 个月从 10 亿做到 190 亿美元年化收入，内部已经没人看线性图表</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。Anthropic 增长负责人七成时间扑成功的副作用；14 个月从 10 亿做到 190 亿。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。Anthropic 增长负责人七成时间扑成功的副作用；14 个月从 10 亿做到 190 亿。</itunes:summary>
+    </item>
     <item>
       <title>EP 23.Instinct 创始人想让这东西永远免费：钱从商家那一端收，算力每周翻一倍</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-035.html</link>
