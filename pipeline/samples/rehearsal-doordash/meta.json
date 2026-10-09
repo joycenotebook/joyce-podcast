@@ -1,0 +1,13 @@
+{
+  "id": "ep-900",
+  "title": "[彩排] 十年后骑手会变多还是变少",
+  "desc": "彩排样本，不会写入线上 feed。DoorDash：十年后骑手更多，卡的是产能。",
+  "source": "播客《No Priors》对 DoorDash 联合创始人 Andy Fang 和 Stanley Tang 的访谈",
+  "guest": "Andy Fang、Stanley Tang，DoorDash 联合创始人",
+  "hook": "这一层不做模型。十年后骑手会更多，卡的是产能，不是少雇人。",
+  "reading": [
+    "DoorDash 投资者关系与公开新闻稿（彩排不核日期，正式上线前换成近一两周的另一条新闻）。"
+  ],
+  "pub_date": "2099-01-01",
+  "rehearsal": true
+}
