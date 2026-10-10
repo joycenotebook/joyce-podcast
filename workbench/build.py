@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 import hashlib
+import sys
 import html
 import json
 import re
@@ -18,6 +19,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WB = Path(__file__).resolve().parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from scripts.company_facts import load_companies  # noqa: E402
 SITE = "https://joycenotebook.github.io/joyce-podcast/"
 REPO = "https://github.com/joycenotebook/joyce-podcast"
 CST = timezone(timedelta(hours=8))
@@ -359,6 +363,7 @@ def main() -> None:
         "commitDays": dict(sorted(commit_days.items())),
         "totalCommits": sum(commit_days.values()),
         "audioFiles": len(all_audio),
+        "companies": load_companies(ROOT),
     }
     payload = json.dumps(data, ensure_ascii=False, indent=1)
     (WB / "data.json").write_text(payload, encoding="utf-8")

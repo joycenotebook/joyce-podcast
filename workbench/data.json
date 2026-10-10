@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-10-09T21:46:34+08:00",
+ "generatedAt": "2026-10-11T00:38:40+08:00",
  "repo": "https://github.com/joycenotebook/joyce-podcast",
  "site": "https://joycenotebook.github.io/joyce-podcast/",
  "head": {
-  "hash": "21953d0",
-  "date": "2026-10-09T00:29:39+08:00",
-  "subject": "Patch EP 24 CASH win-rate quote so the spoken English matches the cleaned lines."
+  "hash": "64f71b1",
+  "date": "2026-10-09T13:47:21+00:00",
+  "subject": "Add a dry-run path from an approved script to RSS."
  },
  "podcast": {
   "title": "发声 Taste, Out loud",
@@ -3072,8 +3072,5303 @@
   "2026-09-28": 13,
   "2026-10-02": 1,
   "2026-10-08": 1,
-  "2026-10-09": 1
+  "2026-10-09": 2
  },
- "totalCommits": 188,
- "audioFiles": 40
+ "totalCommits": 189,
+ "audioFiles": 40,
+ "companies": {
+  "schema": 1,
+  "disclaimer": "非投资建议。一句话论点、为什么是现在、驱动、护城河、风险、证伪和选题都是 AI 草稿，默认判断是「观察中」，给 Joyce 改，不是买卖建议。数字必须带单位、日期、来源和类型；没有公开数字的格子是「未公开」。预测只出现在来源自己写出指引或预测的时候。",
+  "staleDays": 90,
+  "asOf": "2026-10-10",
+  "types": [
+   "官方披露",
+   "财报",
+   "媒体报道",
+   "分析师预测",
+   "播客中嘉宾原话"
+  ],
+  "judgments": [
+   "看多",
+   "中性",
+   "看空",
+   "观察中"
+  ],
+  "omitted": [
+   {
+    "name": "Notion",
+    "why": "已发布的 episodes.json、Show Notes 和 queue 里都没有。不从仓库外的草稿名单补。"
+   },
+   {
+    "name": "Higgsfield",
+    "why": "同上，本仓库没有这一期。"
+   },
+   {
+    "name": "Andrew Ng / Coursera / DeepLearning.AI / AI Fund",
+    "why": "EP 08 同时写了多家机构，不猜一个雇主。"
+   },
+   {
+    "name": "My First Million",
+    "why": "EP 12 是主持人对谈，没有单一公司。"
+   }
+  ],
+  "pendingTopics": [
+   "queue/ 里没有待写选题。彩排样本是 DoorDash，已有公司卡，不另开。"
+  ],
+  "rivalries": [
+   {
+    "a": "anthropic",
+    "b": "openai",
+    "axis": "模型与年化口径",
+    "note": "媒体把两家 run-rate 放在一起，并写明算法不同。不是份额。",
+    "sourceTitle": "TechCrunch",
+    "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+    "type": "媒体报道",
+    "asOf": "2026-10-08"
+   },
+   {
+    "a": "nvidia",
+    "b": "groq",
+    "axis": "推理芯片",
+    "note": "节目把两边放在同一赛道。财报只有 NVIDIA Groq 3 LPX 产品名，没有收购对价。",
+    "sourceTitle": "EP 13 / NVIDIA Q2 FY2027",
+    "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+    "type": "财报",
+    "asOf": "2026-08-26"
+   },
+   {
+    "a": "cursor",
+    "b": "openai",
+    "axis": "编程产品",
+    "note": "EP 07 笔记把编辑器路径和 Codex 对照。",
+    "sourceTitle": "EP 07",
+    "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-007.html",
+    "type": "播客中嘉宾原话",
+    "asOf": "2026-08-29"
+   },
+   {
+    "a": "instinct",
+    "b": "meta",
+    "axis": "个人助理",
+    "note": "EP 23 点名 Meta Muse。",
+    "sourceTitle": "EP 23",
+    "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-035.html",
+    "type": "播客中嘉宾原话",
+    "asOf": "2026-10-02"
+   },
+   {
+    "a": "meta",
+    "b": "manus",
+    "axis": "已撤回的收购",
+    "note": "发改委要求撤销。Manus 其后称恢复独立运营。",
+    "sourceTitle": "发改委政府信息公开",
+    "sourceUrl": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623",
+    "type": "官方披露",
+    "asOf": "2026-04-27"
+   }
+  ],
+  "list": [
+   {
+    "id": "doordash",
+    "name": "DoorDash",
+    "nameZh": "DoorDash",
+    "listing": "上市",
+    "ticker": "DASH",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 22 标题和访谈嘉宾都是 DoorDash 联合创始人。",
+     "title": [
+      "DoorDash"
+     ],
+     "guest": [
+      "DoorDash"
+     ],
+     "lead": [],
+     "mention": [
+      "DoorDash"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "履约层的订单和 GOV 在 2026 年二季报里仍是两位数增长，GAAP 净利润同比下降。机器人故事还没有变成这份财报里的利润率。先观察，不把访谈里的十年判断当成估值。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "二季报在 2026-08-05 发出，离这张卡的核对日不到 90 天。EP 22 问的是十年后骑手变多还是变少，和这份仍在增长的订单表是同一家公司的两个时间尺度。",
+     "refs": [
+      "scale.企业收入",
+      "growth"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "订单、GOV、收入同比仍是两位数，范围含 Deliveroo。",
+      "refs": [
+       "scale.交易/付费用户数",
+       "scale.订阅/交易金额",
+       "scale.企业收入"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "GAAP 净利润同比下降三成，利润率不是这季的故事。",
+      "refs": [
+       "scale.企业利润"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "嘉宾的判断是产能天花板，所以十年后骑手更多。这是访谈原话，不是公司指引。",
+      "refs": [
+       "growth"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "本地履约把消费者、商家和骑手接在同一张网上。节目把它放在模型层下面：模型不送餐。竞争格局这张卡没有另一家外卖公司的份额数字，不编对手占比。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "平台抽成坐在 GOV 和净收入之间。二季报表上有 Net Revenue Margin，可以当单位经济的公开锚，不是每单贡献的完整拆分。",
+     "unitEconomics": "Net Revenue Margin 13.5%（截至 2026-06-30 那一列）。会员人数、每单贡献未在新闻稿里单列。",
+     "refs": [
+      "growth"
+     ]
+    },
+    "business": {
+     "text": "美国本地即时零售平台，连接消费者、商家和骑手，并从餐厅外卖延伸到食杂、零售、广告和商家软件。国际侧含 Wolt、Deliveroo。",
+     "source": {
+      "sourceTitle": "DoorDash 2026 年二季度业绩新闻稿",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "asOf": "2026-08-05",
+      "episodeId": "ep-029"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "2026-08-05 新闻稿只说 MAU 同比增长，没有人数。2025 年 10-K 写全美超过 900 万人做过骑手，那是骑手不是月活，也不能填进这一格。"
+     },
+     "交易/付费用户数": {
+      "facts": [
+       {
+        "value": "9.70",
+        "unit": "亿笔订单",
+        "period": "2026Q2（截至 2026-06-30）",
+        "asOf": "2026-08-05",
+        "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+        "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+        "type": "财报",
+        "episodeId": "ep-029",
+        "note": "Total Orders 970 million，同比 +27%（不含 Deliveroo 为 +17%）。这是订单数，不是 DashPass 会员数。会员人数新闻稿没给。"
+       }
+      ]
+     },
+     "订阅/交易金额": {
+      "facts": [
+       {
+        "value": "330.78",
+        "unit": "亿美元",
+        "period": "2026Q2 Marketplace GOV",
+        "asOf": "2026-08-05",
+        "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+        "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+        "type": "财报",
+        "currency": "USD",
+        "episodeId": "ep-029",
+        "note": "表格为 $33,078 million。标题四舍五入成 $33.1 billion。同比 +36%。"
+       }
+      ]
+     },
+     "企业收入": {
+      "facts": [
+       {
+        "value": "44.54",
+        "unit": "亿美元",
+        "period": "2026Q2",
+        "asOf": "2026-08-05",
+        "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+        "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+        "type": "财报",
+        "currency": "USD",
+        "episodeId": "ep-029",
+        "note": "表格为 $4,454 million。标题写 $4.5 billion。同比 +36%。"
+       }
+      ]
+     },
+     "企业利润": {
+      "facts": [
+       {
+        "value": "2",
+        "unit": "亿美元",
+        "period": "2026Q2 GAAP 归属于普通股股东的净利润",
+        "asOf": "2026-08-05",
+        "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+        "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+        "type": "财报",
+        "currency": "USD",
+        "episodeId": "ep-029",
+        "note": "$200 million，同比 -30%。Adjusted EBITDA $914 million（+40%）不是 GAAP 利润，不拿来填这一格。"
+       }
+      ]
+     }
+    },
+    "growth": {
+     "facts": [
+      {
+       "value": "27",
+       "unit": "%",
+       "period": "2026Q2 订单同比",
+       "asOf": "2026-08-05",
+       "sourceTitle": "DoorDash Q2 2026 results",
+       "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+       "type": "财报",
+       "episodeId": "ep-029",
+       "note": "不含 Deliveroo 为 17%。"
+      },
+      {
+       "value": "36",
+       "unit": "%",
+       "period": "2026Q2 GOV 与收入同比",
+       "asOf": "2026-08-05",
+       "sourceTitle": "DoorDash Q2 2026 results",
+       "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+       "type": "财报",
+       "episodeId": "ep-029"
+      },
+      {
+       "value": "-30",
+       "unit": "%",
+       "period": "2026Q2 GAAP 净利润同比",
+       "asOf": "2026-08-05",
+       "sourceTitle": "DoorDash Q2 2026 results",
+       "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+       "type": "财报"
+      },
+      {
+       "value": "13.5",
+       "unit": "%",
+       "period": "2026Q2 Net Revenue Margin",
+       "asOf": "2026-08-05",
+       "sourceTitle": "DoorDash Q2 2026 results",
+       "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+       "type": "财报",
+       "note": "新闻稿季度表里与营收同一组、截至 2026-06-30 的那一列。"
+      },
+      {
+       "value": "十年后骑手会更多",
+       "unit": "访谈判断",
+       "period": "访谈约 2026-07",
+       "asOf": "2026-07",
+       "sourceTitle": "EP 22 · DoorDash 专场",
+       "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-029.html",
+       "type": "播客中嘉宾原话",
+       "episodeId": "ep-029",
+       "note": "嘉宾把约束说成产能天花板，不是少雇人。没有数字指引，也不是财报预测。"
+      }
+     ]
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "需求在节目里被说成还没顶到骑手供给。公开材料没有给一张外卖 TAM。",
+     "tam": {
+      "status": "未公开",
+      "note": "二季报和 EP 22 都没有给出本地商业或外卖的 TAM / SAM 金额。"
+     },
+     "refs": [
+      "growth"
+     ]
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "新闻稿没有点名代表商家。平台两侧是消费者、商家和 Dasher，这不是一份客户名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "Marketplace",
+       "note": "餐厅、食杂、零售履约。",
+       "source": {
+        "sourceTitle": "DoorDash Q2 2026 results",
+        "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-05",
+        "episodeId": "ep-029"
+       }
+      },
+      {
+       "name": "DashPass / 会员",
+       "note": "新闻稿提到会员计划在增长，没有人数。",
+       "source": {
+        "sourceTitle": "DoorDash Q2 2026 results",
+        "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-05"
+       }
+      },
+      {
+       "name": "Dot / 机器人",
+       "note": "节目在讲的履约硬件。不把未在本季新闻稿里的机器人收入写成数字。",
+       "source": {
+        "sourceTitle": "EP 22 Show Notes",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-029.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-28",
+        "episodeId": "ep-029"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-08-05",
+       "text": "发布截至 2026-06-30 的二季度业绩。",
+       "source": {
+        "sourceTitle": "DoorDash Q2 2026 results",
+        "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-05"
+       }
+      },
+      {
+       "date": "2026-09-28",
+       "text": "节目上线：十年后骑手、DashBench、Dot。",
+       "source": {
+        "sourceTitle": "EP 22",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-029.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-28",
+        "episodeId": "ep-029"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "二季报没有市值，也没有本卡可核对的股价，因此没有倍数。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "净利润同比在降。订单增长若只靠并表，要看公司自己标出的 ex-Deliveroo。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "机器人若一直停在故事里，访谈里的产能判断不会自动变成毛利。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若下一季订单同比掉到个位数，且 ex-Deliveroo 更低，这张「还在增长」的草稿要改。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若公司开始把 MAU 或 DashPass 人数写进新闻稿，活跃用户这一格才能从「未公开」拿掉。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "Total Orders 与 ex-Deliveroo 增速",
+      "why": "区分并表和原有盘。"
+     },
+     {
+      "draft": true,
+      "kpi": "GAAP 净利润 vs Adjusted EBITDA",
+      "why": "避免只用调整后利润。"
+     },
+     {
+      "draft": true,
+      "kpi": "GOV 与 Net Revenue Margin",
+      "why": "看抽成有没有变薄。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "把二季报的 ex-Deliveroo 三行（订单、GOV、收入）和 EP 22 的骑手判断对读。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "DashBench 只在内部知识工作里出现。可以单做一期「履约公司怎么给内部 AI 打分」，不写未公开的会员数。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-029",
+      "role": "主线",
+      "publicNo": 22,
+      "title": "EP 22.十八问重构一场访谈，用物理世界AI与机器人自我颠覆的外卖平台：十年后骑手会变多还是变少？DoorDash 专场",
+      "pubDate": "2026-09-28",
+      "why": "EP 22 标题和访谈嘉宾都是 DoorDash 联合创始人。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 4,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "nameZh": "英伟达",
+    "listing": "上市",
+    "ticker": "NVDA",
+    "derive": {
+     "role": "正文点名",
+     "how": "没有嘉宾把 NVIDIA 当雇主。EP 16 延伸阅读有一手园区新闻稿，EP 11 / EP 13 在讲毛利和推理芯片。",
+     "title": [
+      "NVIDIA",
+      "英伟达"
+     ],
+     "guest": [],
+     "lead": [],
+     "mention": [
+      "NVIDIA",
+      "英伟达"
+     ],
+     "spotlight": [
+      "NVIDIA IR",
+      "NVIDIA 官方"
+     ]
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "最新一季收入和利润仍由数据中心拉动，公司自己给的下一季收入指引更高。这张卡没有市值，也没有用户数。先观察供给和指引，不把节目里的毛利口播当成另一套财报。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "FY2027 二季报在 2026-08-26 发布，核对日仍在 90 天内。EP 16 写了俄亥俄园区的一手合作，EP 13 把 Groq 放在同一张推理牌桌上。",
+     "refs": [
+      "scale.企业收入",
+      "growth"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "季度收入 962.21 亿美元，同比 +106%；数据中心 890 亿美元。",
+      "refs": [
+       "scale.企业收入"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "GAAP 净利润 596.88 亿美元。毛利率 75.0%，和 EP 11 口播的大约 75% 同量级，但口播不是这张表。",
+      "refs": [
+       "scale.企业利润",
+       "growth"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "公司指引下一季收入 1080 亿美元 ±2%，并写明不含中国数据中心计算收入。这是公司指引，不是分析师预测。",
+      "refs": [
+       "growth"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "节目把半导体层说成栈上最赚钱的一段。财报能对上的是毛利率和数据中心收入，对不上的是份额百分比——本卡没有写份额。Groq 的关系见竞争矩阵：财报出现了 NVIDIA Groq 3 LPX 这个产品名，没有收购对价。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "卖加速计算和网络，数据中心是收入主体。单位经济公开锚是毛利率，不是每颗芯片的成本和售价。",
+     "unitEconomics": "GAAP 毛利率 75.0%。没有公开的单芯片 ASP。",
+     "refs": [
+      "growth"
+     ]
+    },
+    "business": {
+     "text": "加速计算平台。FY2027 二季度收入几乎来自数据中心，其余为 Edge Computing 等。",
+     "source": {
+      "sourceTitle": "NVIDIA Q2 FY2027 results",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+      "type": "财报",
+      "asOf": "2026-08-26"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "财报没有消费者月活或开发者人数。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "没有订阅账户或付费客户数。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有订阅额或 GMV。数据中心收入放在企业收入，不填进这一格。"
+     },
+     "企业收入": {
+      "facts": [
+       {
+        "value": "962.21",
+        "unit": "亿美元",
+        "period": "FY2027 Q2（截至 2026-07-26）",
+        "asOf": "2026-08-26",
+        "sourceTitle": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "currency": "USD",
+        "note": "表格 Revenue $96,221 million。同比 +106%，环比 +18%。"
+       },
+       {
+        "value": "890",
+        "unit": "亿美元",
+        "period": "FY2027 Q2 数据中心",
+        "asOf": "2026-08-26",
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "currency": "USD",
+        "note": "新闻稿写 Data Center revenue of $89.0 billion，同比 +117%。没有更细的尾数。"
+       }
+      ]
+     },
+     "企业利润": {
+      "facts": [
+       {
+        "value": "596.88",
+        "unit": "亿美元",
+        "period": "FY2027 Q2 GAAP 净利润",
+        "asOf": "2026-08-26",
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "currency": "USD",
+        "note": "表格 Net income $59,688 million。GAAP 经营利润 $63,734 million，不重复填进利润格。"
+       }
+      ]
+     }
+    },
+    "growth": {
+     "facts": [
+      {
+       "value": "106",
+       "unit": "%",
+       "period": "FY2027 Q2 收入同比",
+       "asOf": "2026-08-26",
+       "sourceTitle": "NVIDIA Q2 FY2027 results",
+       "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+       "type": "财报"
+      },
+      {
+       "value": "75.0",
+       "unit": "%",
+       "period": "FY2027 Q2 GAAP 毛利率",
+       "asOf": "2026-08-26",
+       "sourceTitle": "NVIDIA Q2 FY2027 results",
+       "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+       "type": "财报"
+      },
+      {
+       "value": "1080",
+       "unit": "亿美元",
+       "period": "FY2027 Q3 收入指引",
+       "asOf": "2026-08-26",
+       "sourceTitle": "NVIDIA Q2 FY2027 results",
+       "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+       "type": "财报",
+       "currency": "USD",
+       "note": "公司指引 $108.0 billion ±2%。新闻稿写明不假设来自中国的数据中心计算收入。不是分析师模型。",
+       "forecast": true
+      },
+      {
+       "value": "约 75",
+       "unit": "%",
+       "period": "课上对数据中心毛利的口播",
+       "asOf": "2026-09-06",
+       "sourceTitle": "EP 11 · 斯坦福生成式 AI 经济学",
+       "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-011.html",
+       "type": "播客中嘉宾原话",
+       "episodeId": "ep-011",
+       "note": "嘉宾说 about 75%。与后来财报的 75.0% 同量级，但是课上的句子，不是公司披露。"
+      }
+     ]
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 11 把新增收入的大头放进半导体层。本卡不把那句口播换成 TAM 金额。",
+     "tam": {
+      "status": "未公开",
+      "note": "财报和节目都没有给出一张可引用的 AI 基础设施 TAM。"
+     }
+    },
+    "customers": {
+     "items": [
+      {
+       "name": "OpenAI（PORTS-Pike 客户）",
+       "note": "俄亥俄园区新闻稿：OpenAI 为客户，NVIDIA 为独家 AI 算力基础设施方。",
+       "source": {
+        "sourceTitle": "NVIDIA IR · PORTS-Pike",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx",
+        "type": "官方披露",
+        "asOf": "2026-08-17",
+        "episodeId": "ep-016"
+       }
+      },
+      {
+       "name": "Vera Rubin 机柜伙伴",
+       "note": "CoreWeave、Google Cloud、Microsoft Azure、Oracle Cloud Infrastructure、Nebius。这是生产爬坡伙伴，不是完整客户名单。",
+       "source": {
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-26"
+       }
+      }
+     ]
+    },
+    "products": {
+     "items": [
+      {
+       "name": "数据中心 / Vera Rubin",
+       "note": "新闻稿称已全面量产。",
+       "source": {
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-26"
+       }
+      },
+      {
+       "name": "NVIDIA Groq 3 LPX",
+       "note": "新闻稿称交互式推理加速卡已量产。这是产品名，不是 Groq 公司的收入，也不是收购对价。",
+       "source": {
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-013"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-08-17",
+       "text": "与 SB Energy 锁定俄亥俄 PORTS-Pike 土地、电力和壳体。",
+       "source": {
+        "sourceTitle": "NVIDIA IR · PORTS-Pike",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Guarantees-SB-Energys-PORTS-Pike-Technology-Campus-in-Ohio-to-Exclusively-Host-NVIDIA-AI-Compute/default.aspx",
+        "type": "官方披露",
+        "asOf": "2026-08-17",
+        "episodeId": "ep-016"
+       }
+      },
+      {
+       "date": "2026-08-26",
+       "text": "发布 FY2027 二季度业绩与三季度指引。",
+       "source": {
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-26"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "这份业绩稿没有市值。没有市值就不算倍数。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "指引明确不包含中国数据中心计算收入。地理限制若变化，要看公司改不改这句话，而不是看评论。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "毛利率 75% 是这一季的结果。节目里也有人说长期可能落到更普通的芯片毛利，那是口播不是指引。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若下一季收入落到公司自己 ±2% 的区间外面，观察的锚要从指引挪开。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若数据中心不再是收入主体，这句「仍由数据中心拉动」就不成立。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "数据中心收入及同比",
+      "why": "主体有没有变。"
+     },
+     {
+      "draft": true,
+      "kpi": "GAAP 毛利率",
+      "why": "和 EP 11 的口播对照，但不混成一条。"
+     },
+     {
+      "draft": true,
+      "kpi": "下一季指引里的中国假设",
+      "why": "公司白纸黑字写了不含。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 11 的 75% 口播和 8 月 26 日财报的 75.0% 对读，标明一个是嘉宾、一个是 GAAP。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 13 × Groq 3 LPX：产品命名和「公司是否被收购」分开讲。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-016",
+      "role": "主线",
+      "publicNo": 16,
+      "title": "EP 16.算力不是芯片，是整条供应链——斯坦福《AI 超周期经济学》Infrastructure Capstone 精读",
+      "pubDate": "2026-09-14",
+      "why": "没有嘉宾把 NVIDIA 当雇主。EP 16 延伸阅读有一手园区新闻稿，EP 11 / EP 13 在讲毛利和推理芯片。"
+     },
+     {
+      "id": "ep-015",
+      "role": "提及",
+      "publicNo": 15,
+      "title": "EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读",
+      "pubDate": "2026-09-10",
+      "why": "没有嘉宾把 NVIDIA 当雇主。EP 16 延伸阅读有一手园区新闻稿，EP 11 / EP 13 在讲毛利和推理芯片。"
+     },
+     {
+      "id": "ep-014",
+      "role": "提及",
+      "publicNo": 14,
+      "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
+      "pubDate": "2026-09-09",
+      "why": "没有嘉宾把 NVIDIA 当雇主。EP 16 延伸阅读有一手园区新闻稿，EP 11 / EP 13 在讲毛利和推理芯片。"
+     },
+     {
+      "id": "ep-013",
+      "role": "提及",
+      "publicNo": 13,
+      "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读",
+      "pubDate": "2026-09-08",
+      "why": "没有嘉宾把 NVIDIA 当雇主。EP 16 延伸阅读有一手园区新闻稿，EP 11 / EP 13 在讲毛利和推理芯片。"
+     },
+     {
+      "id": "ep-011",
+      "role": "提及",
+      "publicNo": 11,
+      "title": "EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读",
+      "pubDate": "2026-09-06",
+      "why": "没有嘉宾把 NVIDIA 当雇主。EP 16 延伸阅读有一手园区新闻稿，EP 11 / EP 13 在讲毛利和推理芯片。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 5,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "meta",
+    "name": "Meta",
+    "nameZh": "Meta",
+    "listing": "上市",
+    "ticker": "META",
+    "derive": {
+     "role": "新闻主体",
+     "how": "EP 18 标题就是 Meta 与 Manus。其他期只是正文点到。",
+     "title": [
+      "Meta"
+     ],
+     "guest": [],
+     "lead": [],
+     "mention": [
+      "Meta"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "广告机器的日活和收入还在涨，GAAP 净利润同比下降。Manus 交易已经撤回，那是另一条新闻，不是这季利润表的一行。先观察，不把撤回写成估值故事。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "二季报 2026-07-29，仍在 90 天内。EP 18 在 9 月讲了收购宣布和撤回。两件事情要分栏。",
+     "refs": [
+      "scale.企业收入",
+      "scale.活跃用户数"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "家庭日活 36.0 亿，收入 608.01 亿美元，同比 +28%。",
+      "refs": [
+       "scale.活跃用户数",
+       "scale.企业收入"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "GAAP 净利润 158.48 亿美元，同比 -14%。经营利润率 31%。",
+      "refs": [
+       "scale.企业利润"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "公司指引三季度收入 610–640 亿美元。这是公司指引。",
+      "refs": [
+       "growth"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "家庭应用的广告仍是收入主体。EP 35 把 Meta Muse 写成 Instinct 的对照，那是产品新闻不是份额。Manus 是已撤回的交易，见竞争矩阵。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "广告按展示和单价卖。日活是分母，广告收入是分子。Reality Labs 仍是亏损分部，不和家庭应用混成一个利润。",
+     "unitEconomics": "广告展示同比 +14%，单次展示价格同比 +12%。没有给出 ARPU 的单一官方数字，本卡不算。",
+     "refs": [
+      "scale.订阅/交易金额"
+     ]
+    },
+    "business": {
+     "text": "家庭应用（Facebook、Instagram、Messenger、WhatsApp 等）的广告，加上 Reality Labs。",
+     "source": {
+      "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+      "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "type": "财报",
+      "asOf": "2026-07-29",
+      "episodeId": "ep-018"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "facts": [
+       {
+        "value": "36.0",
+        "unit": "亿人",
+        "period": "2026 年 6 月 Family DAP 平均",
+        "asOf": "2026-07-29",
+        "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+        "type": "财报",
+        "episodeId": "ep-018",
+        "note": "DAP 3.60 billion，同比 +3%。"
+       }
+      ]
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "广告模型没有「付费用户」这一行。日活见上一格。"
+     },
+     "订阅/交易金额": {
+      "facts": [
+       {
+        "value": "593.63",
+        "unit": "亿美元",
+        "period": "2026Q2 广告收入",
+        "asOf": "2026-07-29",
+        "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+        "type": "财报",
+        "currency": "USD",
+        "note": "Advertising revenue $59,363 million。这是广告收入，不是 GMV。"
+       }
+      ]
+     },
+     "企业收入": {
+      "facts": [
+       {
+        "value": "608.01",
+        "unit": "亿美元",
+        "period": "2026Q2",
+        "asOf": "2026-07-29",
+        "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+        "type": "财报",
+        "currency": "USD",
+        "note": "表格 $60,801 million，同比 +28%。Reality Labs 收入 $431 million。"
+       }
+      ]
+     },
+     "企业利润": {
+      "facts": [
+       {
+        "value": "158.48",
+        "unit": "亿美元",
+        "period": "2026Q2 GAAP 净利润",
+        "asOf": "2026-07-29",
+        "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+        "type": "财报",
+        "currency": "USD",
+        "note": "$15,848 million，同比 -14%。经营利润 $18,775 million，经营利润率 31%。Reality Labs 经营亏损 $4,619 million。"
+       }
+      ]
+     }
+    },
+    "growth": {
+     "facts": [
+      {
+       "value": "28",
+       "unit": "%",
+       "period": "2026Q2 收入同比",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Q2 2026 results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报"
+      },
+      {
+       "value": "-14",
+       "unit": "%",
+       "period": "2026Q2 净利润同比",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Q2 2026 results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报"
+      },
+      {
+       "value": "610–640",
+       "unit": "亿美元",
+       "period": "2026Q3 收入指引",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Q2 2026 results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报",
+       "currency": "USD",
+       "note": "公司 CFO outlook：$61-64 billion。不是分析师区间。",
+       "forecast": true
+      }
+     ]
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "广告库存还在涨。本卡不把日活乘一个想象 ARPU 变成 TAM。",
+     "tam": {
+      "status": "未公开",
+      "note": "业绩稿没有数字广告 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "面向使用家庭应用的人，业绩稿没有企业客户名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "Family of Apps",
+       "note": "广告收入主体。",
+       "source": {
+        "sourceTitle": "Meta Q2 2026 results",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+        "type": "财报",
+        "asOf": "2026-07-29"
+       }
+      },
+      {
+       "name": "Reality Labs",
+       "note": "2026Q2 收入 4.31 亿美元，经营亏损 46.19 亿美元。",
+       "source": {
+        "sourceTitle": "Meta Q2 2026 results",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+        "type": "财报",
+        "asOf": "2026-07-29"
+       }
+      },
+      {
+       "name": "Muse",
+       "note": "EP 35 把它当作 Instinct 的对照产品，不是这季财报科目。",
+       "source": {
+        "sourceTitle": "EP 23 Show Notes",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-035.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-10-02",
+        "episodeId": "ep-035"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-04-27",
+       "text": "发改委禁止 Meta 投资 Manus 的交易。日期早于 90 天。",
+       "source": {
+        "sourceTitle": "国家发展改革委政府信息公开",
+        "sourceUrl": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623",
+        "type": "官方披露",
+        "asOf": "2026-04-27",
+        "episodeId": "ep-018"
+       }
+      },
+      {
+       "date": "2026-07-29",
+       "text": "发布二季度业绩。",
+       "source": {
+        "sourceTitle": "Meta Q2 2026 results",
+        "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+        "type": "财报",
+        "asOf": "2026-07-29"
+       }
+      },
+      {
+       "date": "2026-09-18",
+       "text": "节目上线：收购宣布与撤回。",
+       "source": {
+        "sourceTitle": "EP 18",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-018.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-18",
+        "episodeId": "ep-018"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "业绩稿没有市值，不算 P/E。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "净利润在降，费用里有诉讼和裁员相关项目。不能只看收入增速。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "Manus 的监管结果已经发生。若把撤回交易的金额写进「市值影响」，这份业绩稿里没有这一行。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若家庭日活转负，而这张卡仍写「日活还在涨」，判断就过时了。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若广告收入不再是几乎全部收入，商业模式那一句要改。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "Family DAP",
+      "why": "3% 的增速很薄。"
+     },
+     {
+      "draft": true,
+      "kpi": "广告展示与单价",
+      "why": "收入拆成量和价。"
+     },
+     {
+      "draft": true,
+      "kpi": "Reality Labs 经营亏损",
+      "why": "不要和家庭应用利润加总后忘掉。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 18 只讲交易撤回。财报数字用 7 月 29 日新闻稿，两套来源不要并成一句。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-018",
+      "role": "主线",
+      "publicNo": 18,
+      "title": "EP 18.二十亿买下，几周后撤回：Meta 收购 Manus 的大逆转——AI 新闻播客三集连读",
+      "pubDate": "2026-09-18",
+      "why": "EP 18 标题就是 Meta 与 Manus。其他期只是正文点到。"
+     },
+     {
+      "id": "ep-035",
+      "role": "提及",
+      "publicNo": 23,
+      "title": "EP 23.Instinct 创始人想让这东西永远免费：钱从商家那一端收，算力每周翻一倍",
+      "pubDate": "2026-10-02",
+      "why": "EP 18 标题就是 Meta 与 Manus。其他期只是正文点到。"
+     },
+     {
+      "id": "ep-020",
+      "role": "提及",
+      "publicNo": 20,
+      "title": "EP 20.十八问去访谈两位卖铲人：AI 生命科学专场重读——斯坦福《AI 超周期经济学》",
+      "pubDate": "2026-09-22",
+      "why": "EP 18 标题就是 Meta 与 Manus。其他期只是正文点到。"
+     },
+     {
+      "id": "ep-014",
+      "role": "提及",
+      "publicNo": 14,
+      "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
+      "pubDate": "2026-09-09",
+      "why": "EP 18 标题就是 Meta 与 Manus。其他期只是正文点到。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.交易/付费用户数",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 4,
+     "stale": [
+      {
+       "path": "iterations[0]",
+       "asOf": "2026-04-27",
+       "value": "发改委禁止 Meta 投资 Manus 的交易。日期早于 90 天。"
+      }
+     ],
+     "staleCount": 1,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "nameZh": "Anthropic",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。",
+     "title": [
+      "Anthropic",
+      "Claude"
+     ],
+     "guest": [
+      "Anthropic，",
+      "Anthropic 联合创始人",
+      "Anthropic 生命科学",
+      "Anthropic 增长"
+     ],
+     "lead": [],
+     "mention": [
+      "Anthropic"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "能写在官方稿上的 run-rate 是五月的「超过 470 亿美元」，已经超过 90 天。八月媒体说超过 650 亿，节目页自己标了待核实。利润未公开。EP 24 那段 10 亿到 190 亿是旧点，不能当成现在的收入。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "五月官方稿过期了，八月的媒体数字更新但未核实。EP 24 在 10 月 8 日上线，讲的却是一段嘉宾自己也说已经过时的增速。三套数字必须分栏。",
+     "refs": [
+      "scale.企业收入",
+      "growth"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "官方：五月初 run-rate 越过 470 亿美元。融资 650 亿美元，投后估值 9650 亿美元。这条已过 90 天。",
+      "refs": [
+       "scale.企业收入",
+       "valuation"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "媒体：彭博 8 月 17 日称截至 7 月底超过 650 亿美元。节目 Show Notes 写了待核实，未见官方稿。",
+      "refs": [
+       "scale.企业收入"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "播客：14 个月从 10 亿做到 190 亿美元年化。Lenny 链接标题是 1b to 19b，和中文「10 亿 / 190 亿」一致，不是 1900 亿美元。",
+      "refs": [
+       "growth"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "节目反复讲的是产品节奏和 Claude Code，不是份额。和 OpenAI 的对照只停留在媒体如何把两家 run-rate 放在一起，两家口径还不一样。不写谁领先几个点。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "卖模型和应用（Claude、Claude Code、Cowork），企业部署是官方稿里的主句。没有公开的单价或毛利率。",
+     "unitEconomics": "未公开。官方稿没有毛利率、没有每座位价格。",
+     "refs": [
+      "scale.企业利润"
+     ]
+    },
+    "business": {
+     "text": "做 Claude 系列模型和应用，卖给企业和个人。官方稿点名 Claude Code 与 Cowork。",
+     "source": {
+      "sourceTitle": "Anthropic raises $65B Series H",
+      "sourceUrl": "https://www.anthropic.com/news/series-h",
+      "type": "官方披露",
+      "asOf": "2026-05-28",
+      "episodeId": "ep-002"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "Series H 稿只说使用的人在变多，没有用户数。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "没有付费座位或企业客户数。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有订阅额或 GMV。run-rate 放在企业收入。"
+     },
+     "企业收入": {
+      "facts": [
+       {
+        "value": "超过 650",
+        "unit": "亿美元年化",
+        "period": "媒体称截至 2026-07",
+        "asOf": "2026-08-17",
+        "sourceTitle": "Bloomberg via EP 02 Show Notes",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo",
+        "type": "媒体报道",
+        "currency": "USD",
+        "episodeId": "ep-002",
+        "note": "节目 Show Notes 原文：未见到公司官方稿，并标了待核实。不当成官方披露。"
+       },
+       {
+        "value": "超过 470",
+        "unit": "亿美元年化",
+        "period": "2026 年 5 月上旬以前",
+        "asOf": "2026-05-28",
+        "sourceTitle": "Anthropic Series H",
+        "sourceUrl": "https://www.anthropic.com/news/series-h",
+        "type": "官方披露",
+        "currency": "USD",
+        "episodeId": "ep-034",
+        "note": "run-rate revenue crossed $47 billion earlier this month。发布日 2026-05-28，超过 90 天，界面上应标过期。"
+       }
+      ]
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "私人公司，Series H 稿和节目都没有利润。"
+     }
+    },
+    "growth": {
+     "facts": [
+      {
+       "value": "10 → 190",
+       "unit": "亿美元年化",
+       "period": "嘉宾讲述的历史区间，不是当前值",
+       "asOf": "2026-10-08",
+       "sourceTitle": "Lenny's Newsletter · Anthropic growth run",
+       "sourceUrl": "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run",
+       "type": "播客中嘉宾原话",
+       "episodeId": "ep-034",
+       "note": "节目标题写「10 亿做到 190 亿美元」。10 亿=1 个十亿美元，190 亿=19 个十亿美元，与链接标题 1b to 19b 一致。不要写成 1900 亿美元。节目上线日不是这段收入的截止日。"
+      }
+     ]
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "官方稿说需求很大，但没有 TAM。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有可引用的 TAM / SAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "官方稿没有点名客户名单。EP 20 后半转到药企合作，本卡不把药企名字安到 Anthropic 名下。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "Claude / Claude Code / Cowork",
+       "note": "Series H 稿里 CFO 点名的产品。",
+       "source": {
+        "sourceTitle": "Anthropic Series H",
+        "sourceUrl": "https://www.anthropic.com/news/series-h",
+        "type": "官方披露",
+        "asOf": "2026-05-28",
+        "episodeId": "ep-002"
+       }
+      },
+      {
+       "name": "Claude in Chrome",
+       "note": "2026-08-26 官方称对付费计划一般可用。",
+       "source": {
+        "sourceTitle": "Claude in Chrome is generally available",
+        "sourceUrl": "https://claude.com/blog/claude-in-chrome-generally-available",
+        "type": "官方披露",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-006"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-05-28",
+       "text": "Series H：融资 650 亿美元，投后 9650 亿美元，run-rate 超过 470 亿美元。",
+       "source": {
+        "sourceTitle": "Anthropic Series H",
+        "sourceUrl": "https://www.anthropic.com/news/series-h",
+        "type": "官方披露",
+        "asOf": "2026-05-28"
+       }
+      },
+      {
+       "date": "2026-08-17",
+       "text": "彭博称 run-rate 超过 650 亿美元。节目标待核实。",
+       "source": {
+        "sourceTitle": "Bloomberg",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo",
+        "type": "媒体报道",
+        "asOf": "2026-08-17",
+        "episodeId": "ep-002"
+       }
+      },
+      {
+       "date": "2026-08-26",
+       "text": "Claude in Chrome 对付费计划一般可用。",
+       "source": {
+        "sourceTitle": "Claude in Chrome",
+        "sourceUrl": "https://claude.com/blog/claude-in-chrome-generally-available",
+        "type": "官方披露",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-006"
+       }
+      },
+      {
+       "date": "2026-10-08",
+       "text": "EP 24 上线。增长负责人谈已经过时的年化区间。",
+       "source": {
+        "sourceTitle": "EP 24",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-034.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-10-08",
+        "episodeId": "ep-034"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "9650",
+       "unit": "亿美元",
+       "period": "Series H 投后",
+       "asOf": "2026-05-28",
+       "sourceTitle": "Anthropic Series H",
+       "sourceUrl": "https://www.anthropic.com/news/series-h",
+       "type": "官方披露",
+       "currency": "USD",
+       "note": "$965 billion post-money。超过 90 天。"
+      },
+      {
+       "value": "近 10000",
+       "unit": "亿美元",
+       "period": "媒体称私人市场",
+       "asOf": "2026-08-21",
+       "sourceTitle": "CNBC via EP 03 Show Notes",
+       "sourceUrl": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+       "type": "媒体报道",
+       "currency": "USD",
+       "episodeId": "ep-003",
+       "note": "节目写「私人市场估值报道口径近 1 万亿美元」，并标待核实、未见官方稿。不覆盖五月的官方投后估值。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "最新的收入数字来自媒体，而且节目编辑标了待核实。官方数字更旧。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "利润未公开。估值和收入之间没有本卡能算的倍数。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若公司自己更新 run-rate，五月和八月这两条都要降成历史。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若有人把 190 亿写成 1900 亿，这张卡的播客条就被用错了。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "公司自己的 run-rate 新闻稿日期",
+      "why": "五月那条已过期。"
+     },
+     {
+      "draft": true,
+      "kpi": "媒体数字有没有被官方确认",
+      "why": "650 亿现在是待核实。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "三栏对照：官方 470 亿、媒体 650 亿、播客 10→190 亿。每一栏带类型和日期。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-034",
+      "role": "主线",
+      "publicNo": 24,
+      "title": "EP 24.Anthropic 增长负责人说他七成时间在救火「成功的副作用」：14 个月从 10 亿做到 190 亿美元年化收入，内部已经没人看线性图表",
+      "pubDate": "2026-10-08",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-020",
+      "role": "主线",
+      "publicNo": 20,
+      "title": "EP 20.十八问去访谈两位卖铲人：AI 生命科学专场重读——斯坦福《AI 超周期经济学》",
+      "pubDate": "2026-09-22",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-006",
+      "role": "主线",
+      "publicNo": 6,
+      "title": "EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲",
+      "pubDate": "2026-08-28",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-003",
+      "role": "主线",
+      "publicNo": 3,
+      "title": "EP 03.从神经网络到 AGI：Dario Amodei 眼中的 AI 未来——访谈精讲",
+      "pubDate": "2026-08-25",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-002",
+      "role": "主线",
+      "publicNo": 2,
+      "title": "EP 02.Anthropic 产品团队如何做到比别人快？—— Cat Wu 访谈精讲",
+      "pubDate": "2026-08-22",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-026",
+      "role": "提及",
+      "publicNo": 21,
+      "title": "EP 21.十八问重构访谈AI推理公司：一块 GPU 的租金翻倍，还租得起吗？Baseten 专场",
+      "pubDate": "2026-09-23",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-018",
+      "role": "提及",
+      "publicNo": 18,
+      "title": "EP 18.二十亿买下，几周后撤回：Meta 收购 Manus 的大逆转——AI 新闻播客三集连读",
+      "pubDate": "2026-09-18",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-015",
+      "role": "提及",
+      "publicNo": 15,
+      "title": "EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读",
+      "pubDate": "2026-09-10",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-014",
+      "role": "提及",
+      "publicNo": 14,
+      "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
+      "pubDate": "2026-09-09",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     },
+     {
+      "id": "ep-013",
+      "role": "提及",
+      "publicNo": 13,
+      "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读",
+      "pubDate": "2026-09-08",
+      "why": "EP 02、EP 03、EP 20、EP 24 的嘉宾在 Anthropic。EP 06 标题是 Claude。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业利润",
+      "customers",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 7,
+     "stale": [
+      {
+       "path": "business",
+       "asOf": "2026-05-28",
+       "value": "做 Claude 系列模型和应用，卖给企业和个人。官方稿点名 Claude Code 与 Cowork。"
+      },
+      {
+       "path": "scale.企业收入[1]",
+       "asOf": "2026-05-28",
+       "value": "超过 470"
+      },
+      {
+       "path": "products[0]",
+       "asOf": "2026-05-28",
+       "value": "Claude / Claude Code / Cowork"
+      },
+      {
+       "path": "iterations[0]",
+       "asOf": "2026-05-28",
+       "value": "Series H：融资 650 亿美元，投后 9650 亿美元，run-rate 超过 470 亿美元。"
+      },
+      {
+       "path": "valuation[0]",
+       "asOf": "2026-05-28",
+       "value": "9650"
+      }
+     ],
+     "staleCount": 5,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "openai",
+    "name": "OpenAI",
+    "nameZh": "OpenAI",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。",
+     "title": [
+      "OpenAI"
+     ],
+     "guest": [
+      "OpenAI Codex",
+      "OpenAI 产品负责人",
+      "现 OpenAI"
+     ],
+     "lead": [],
+     "mention": [
+      "OpenAI"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "官方在 DevDay 写了合计 12 亿周活。收入没有出现在那一页，只出现在 10 月 8 日媒体对 FT 的转述里：接近 500 亿美元年化，而且和 Anthropic 的算法不同。利润和估值未公开。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "DevDay 是 9 月 29 日，收入报道是 10 月 8 日，都还新鲜。EP 07 和 EP 10 讲的是 Codex / 常驻同事，可以挂在产品上，不能挂成收入。",
+     "refs": [
+      "scale.活跃用户数",
+      "scale.企业收入"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "官方：合计 12 亿周活。",
+      "refs": [
+       "scale.活跃用户数"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "媒体转述 FT：公司告诉投资人年化收入接近 500 亿美元。TechCrunch 写他们向 OpenAI 求证。先前约 700 亿的比较口径被这篇文章说成低了约 200 亿，且两家算法不同。",
+      "refs": [
+       "scale.企业收入"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "同一篇报道写三月一轮融资 1220 亿美元。这是融资额，不是估值。",
+      "refs": [
+       "valuation"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "编程产品线在 EP 07 的笔记里被拿来和 Cursor 对照：一边是编辑器，一边是 Codex。这不是份额表。和 Anthropic 的收入对照只能引用媒体自己写明的口径差别。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "订阅（ChatGPT 计划）加 API 和企业承诺。DevDay 没有单价表。媒体强调 OpenAI 不把云伙伴的销售额算进年化，Anthropic 算。",
+     "unitEconomics": "未公开。没有官方 ARPU 或毛利率。",
+     "refs": [
+      "scale.企业收入"
+     ]
+    },
+    "business": {
+     "text": "ChatGPT、Codex、API 和企业部署。DevDay 2026 同时推了常驻代理、模型和插件。",
+     "source": {
+      "sourceTitle": "DevDay 2026 Recap",
+      "sourceUrl": "https://openai.com/index/devday-2026-recap/",
+      "type": "官方披露",
+      "asOf": "2026-09-29",
+      "episodeId": "ep-010"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "facts": [
+       {
+        "value": "12",
+        "unit": "亿人/周",
+        "period": "DevDay 2026 当日口径",
+        "asOf": "2026-09-29",
+        "sourceTitle": "DevDay 2026 Recap",
+        "sourceUrl": "https://openai.com/index/devday-2026-recap/",
+        "type": "官方披露",
+        "episodeId": "ep-010",
+        "note": "collective 1.2B weekly users。"
+       }
+      ]
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "DevDay 页没有付费订阅人数，也没有企业客户数。二次转述的座位数字本卡不用。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有订阅流水或 GMV。年化收入见下一格，且是媒体转述。"
+     },
+     "企业收入": {
+      "facts": [
+       {
+        "value": "接近 500",
+        "unit": "亿美元年化",
+        "period": "媒体称截至 2026-09",
+        "asOf": "2026-10-08",
+        "sourceTitle": "TechCrunch · OpenAI revenue reportedly $20B less",
+        "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+        "type": "媒体报道",
+        "currency": "USD",
+        "episodeId": "ep-010",
+        "note": "TechCrunch 转述 FT：公司告诉投资人 annualized revenue approaching $50 billion。文章说已向 OpenAI 求证。不是官方稿，也不是 700 亿美元那种比较口径。"
+       }
+      ]
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "DevDay 和这篇 TechCrunch 都没有利润。"
+     }
+    },
+    "growth": {
+     "facts": [
+      {
+       "value": "口径差约 200",
+       "unit": "亿美元",
+       "period": "媒体对先前比较口径的修正",
+       "asOf": "2026-10-08",
+       "sourceTitle": "TechCrunch",
+       "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+       "type": "媒体报道",
+       "currency": "USD",
+       "note": "文章说先前约 700 亿美元的数字比公司告诉投资人的数高约 200 亿美元，且那是投资人为了和 Anthropic 对比做的算法。不是公司指引。"
+      }
+     ]
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "周活是使用，不是市场空间。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "DevDay 列了 Marketplace 伙伴，没有付费客户名单。伙伴放在产品矩阵，不填成代表用户。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "ChatGPT / 周活",
+       "note": "合计 12 亿周活。",
+       "source": {
+        "sourceTitle": "DevDay 2026 Recap",
+        "sourceUrl": "https://openai.com/index/devday-2026-recap/",
+        "type": "官方披露",
+        "asOf": "2026-09-29",
+        "episodeId": "ep-010"
+       }
+      },
+      {
+       "name": "Codex",
+       "note": "EP 07 嘉宾负责的产品线。DevDay 页继续讲云端和代码审查。",
+       "source": {
+        "sourceTitle": "DevDay 2026 Recap",
+        "sourceUrl": "https://openai.com/index/devday-2026-recap/",
+        "type": "官方披露",
+        "asOf": "2026-09-29",
+        "episodeId": "ep-007"
+       }
+      },
+      {
+       "name": "Dots / GPT-6.1 Sol",
+       "note": "DevDay 2026 宣布的代理和模型。不把价格写成未出现的数字。",
+       "source": {
+        "sourceTitle": "DevDay 2026 Recap",
+        "sourceUrl": "https://openai.com/index/devday-2026-recap/",
+        "type": "官方披露",
+        "asOf": "2026-09-29"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-09-29",
+       "text": "DevDay 2026。官方写 12 亿周活。",
+       "source": {
+        "sourceTitle": "DevDay 2026 Recap",
+        "sourceUrl": "https://openai.com/index/devday-2026-recap/",
+        "type": "官方披露",
+        "asOf": "2026-09-29"
+       }
+      },
+      {
+       "date": "2026-10-08",
+       "text": "TechCrunch 转述 FT：年化接近 500 亿美元。",
+       "source": {
+        "sourceTitle": "TechCrunch",
+        "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+        "type": "媒体报道",
+        "asOf": "2026-10-08"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "1220",
+       "unit": "亿美元",
+       "period": "文章所述 2026 年 3 月一轮融资额",
+       "asOf": "2026-10-08",
+       "sourceTitle": "TechCrunch",
+       "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+       "type": "媒体报道",
+       "currency": "USD",
+       "note": "raised $122 billion during a March funding round。这是融资额，文章这一段没有给投后估值。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有估值，也没有官方收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "收入不是官方页。媒体还强调和 Anthropic 的年化算法不同，不能横比后宣布谁更大。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "利润未公开。融资额不是估值。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若 OpenAI 自己公布年化收入，10 月 8 日这条要降成转述。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若周活口径从「合计 12 亿」改成另一个定义，活跃用户格要跟着改日期。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "官方是否公布收入",
+      "why": "现在只有媒体。"
+     },
+     {
+      "draft": true,
+      "kpi": "周活的原句还在不在 DevDay 页",
+      "why": "12 亿是那一页的原句。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 10 的「常驻同事」只接产品，收入另附 10 月 8 日报道，并写明不是官方。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "和 Anthropic 并排时，先写两家年化算法不同，再放数字。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-016",
+      "role": "主线",
+      "publicNo": 16,
+      "title": "EP 16.算力不是芯片，是整条供应链——斯坦福《AI 超周期经济学》Infrastructure Capstone 精读",
+      "pubDate": "2026-09-14",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-010",
+      "role": "主线",
+      "publicNo": 10,
+      "title": "EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事",
+      "pubDate": "2026-09-03",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-007",
+      "role": "主线",
+      "publicNo": 7,
+      "title": "EP 07.产品工作的新形态—— OpenAI Codex 负责人谈品味与判断力",
+      "pubDate": "2026-08-29",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-020",
+      "role": "提及",
+      "publicNo": 20,
+      "title": "EP 20.十八问去访谈两位卖铲人：AI 生命科学专场重读——斯坦福《AI 超周期经济学》",
+      "pubDate": "2026-09-22",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-018",
+      "role": "提及",
+      "publicNo": 18,
+      "title": "EP 18.二十亿买下，几周后撤回：Meta 收购 Manus 的大逆转——AI 新闻播客三集连读",
+      "pubDate": "2026-09-18",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-015",
+      "role": "提及",
+      "publicNo": 15,
+      "title": "EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读",
+      "pubDate": "2026-09-10",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-014",
+      "role": "提及",
+      "publicNo": 14,
+      "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
+      "pubDate": "2026-09-09",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-013",
+      "role": "提及",
+      "publicNo": 13,
+      "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读",
+      "pubDate": "2026-09-08",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-011",
+      "role": "提及",
+      "publicNo": 11,
+      "title": "EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读",
+      "pubDate": "2026-09-06",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-009",
+      "role": "提及",
+      "publicNo": 9,
+      "title": "EP 09.让 B2B 产品也被热爱的秘密—— Linear 产品负责人谈速度、质量与产品品味",
+      "pubDate": "2026-09-02",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-006",
+      "role": "提及",
+      "publicNo": 6,
+      "title": "EP 06.Claude的2026：从智能体到编程未来的十五步—— 十五期短播客合集精讲",
+      "pubDate": "2026-08-28",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-003",
+      "role": "提及",
+      "publicNo": 3,
+      "title": "EP 03.从神经网络到 AGI：Dario Amodei 眼中的 AI 未来——访谈精讲",
+      "pubDate": "2026-08-25",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     },
+     {
+      "id": "ep-002",
+      "role": "提及",
+      "publicNo": 2,
+      "title": "EP 02.Anthropic 产品团队如何做到比别人快？—— Cat Wu 访谈精讲",
+      "pubDate": "2026-08-22",
+      "why": "EP 07、EP 10 的嘉宾在 OpenAI 做产品。EP 16 嘉宾现任工业计算。EP 09 只写他后来去了 OpenAI，主线仍是 Linear。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业利润",
+      "customers",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 6,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "linear",
+    "name": "Linear",
+    "nameZh": "Linear",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 09 标题和嘉宾职位都是 Linear 产品负责人。笔记写他后来去了 OpenAI，那一期的公司仍是 Linear。",
+     "title": [
+      "Linear"
+     ],
+     "guest": [
+      "Linear 产品负责人"
+     ],
+     "lead": [],
+     "mention": [
+      "Linear"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "2026-08-26 的官方帖说 ARR 今年早些时候过了 1 亿美元，付费公司超过 4 万，净收入留存 177%，而且现金流为正。利润金额没有。估值是 tender 的 25 亿美元，不是一轮新的 primary。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "官方帖和核对日相距不到 90 天。EP 09 讲的是速度和质量，可以挂产品，数字以帖子为准。Series C 的 12.5 亿美元是 2025 年 6 月，已过期，只作对照。",
+     "refs": [
+      "scale.企业收入",
+      "valuation"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "ARR 超过 1 亿美元。帖子没有给精确月份。",
+      "refs": [
+       "scale.企业收入"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "超过 4 万家付费公司，NRR 177%。",
+      "refs": [
+       "scale.交易/付费用户数",
+       "growth"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "9900 万美元 tender，估值 25 亿美元。公司说不需要再融 primary。",
+      "refs": [
+       "valuation"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "帖子把产品说成 AI 团队的 issue 跟踪和代理工作流。EP 09 讲的是品味和速度。没有份额数据。客户名单里有 OpenAI 和 Cursor，那是客户关系，不是竞争矩阵上的对手。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "B2B 订阅。公开的单位经济是 NRR，不是单座席价格。",
+     "unitEconomics": "NRR 177%。席位单价未公开。",
+     "refs": [
+      "growth"
+     ]
+    },
+    "business": {
+     "text": "给产品和工程团队用的 issue 跟踪与代理工作流。",
+     "source": {
+      "sourceTitle": "Sharing Linear’s growth",
+      "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+      "type": "官方披露",
+      "asOf": "2026-08-26",
+      "episodeId": "ep-009"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "帖子没有个人月活，只有付费公司数。"
+     },
+     "交易/付费用户数": {
+      "facts": [
+       {
+        "value": "超过 4",
+        "unit": "万家付费公司",
+        "period": "截至官方帖 2026-08-26",
+        "asOf": "2026-08-26",
+        "sourceTitle": "Sharing Linear’s growth",
+        "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+        "type": "官方披露",
+        "episodeId": "ep-009",
+        "note": "More than 40,000 companies now pay for Linear。"
+       }
+      ]
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有 GMV。ARR 放在企业收入。"
+     },
+     "企业收入": {
+      "facts": [
+       {
+        "value": "超过 1",
+        "unit": "亿美元 ARR",
+        "period": "2026 年早些时候，帖子未给月",
+        "asOf": "2026-08-26",
+        "sourceTitle": "Sharing Linear’s growth",
+        "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+        "type": "官方披露",
+        "currency": "USD",
+        "episodeId": "ep-009",
+        "note": "Earlier this year, we passed $100 million in annual recurring revenue。精确月份未写。"
+       }
+      ]
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "帖子称 cashflow positive，并说账上现金多于历史上融到的全部 primary。没有利润金额。"
+     }
+    },
+    "growth": {
+     "facts": [
+      {
+       "value": "177",
+       "unit": "%",
+       "period": "净收入留存",
+       "asOf": "2026-08-26",
+       "sourceTitle": "Sharing Linear’s growth",
+       "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+       "type": "官方披露",
+       "note": "net revenue retention to 177%。"
+      },
+      {
+       "value": "50",
+       "unit": "%",
+       "period": "代理创建的工作占比",
+       "asOf": "2026-08-26",
+       "sourceTitle": "Sharing Linear’s growth",
+       "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+       "type": "官方披露",
+       "note": "从一年前的 3% 到帖子发表时的 50%。付费工作区里代理安装率 95%。"
+      }
+     ]
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "企业客户在帖子里被说成 adoption 在加快。没有 TAM。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM / SAM。"
+     }
+    },
+    "customers": {
+     "items": [
+      {
+       "name": "Salesforce、Figma",
+       "note": "帖子说两家今年早些时候成为客户。",
+       "source": {
+        "sourceTitle": "Sharing Linear’s growth",
+        "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+        "type": "官方披露",
+        "asOf": "2026-08-26"
+       }
+      },
+      {
+       "name": "OpenAI、Cursor、Cognition、Harvey、Baseten 等",
+       "note": "帖子列举的 AI 公司客户，不是完整名单。",
+       "source": {
+        "sourceTitle": "Sharing Linear’s growth",
+        "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+        "type": "官方披露",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-009"
+       }
+      }
+     ]
+    },
+    "products": {
+     "items": [
+      {
+       "name": "Linear 与代理",
+       "note": "Coding Sessions、Loops。95% 付费工作区安装了代理。",
+       "source": {
+        "sourceTitle": "Sharing Linear’s growth",
+        "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+        "type": "官方披露",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-009"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2025-06-10",
+       "text": "Series C：8200 万美元，估值 12.5 亿美元。已过 90 天。",
+       "source": {
+        "sourceTitle": "Linear · Building our way",
+        "sourceUrl": "https://linear.app/now/building-our-way",
+        "type": "官方披露",
+        "asOf": "2025-06-10",
+        "episodeId": "ep-009"
+       }
+      },
+      {
+       "date": "2026-08-26",
+       "text": "9900 万美元 tender，估值 25 亿美元。",
+       "source": {
+        "sourceTitle": "Sharing Linear’s growth",
+        "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+        "type": "官方披露",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-009"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "25",
+       "unit": "亿美元",
+       "period": "2026-08-26 tender",
+       "asOf": "2026-08-26",
+       "sourceTitle": "Sharing Linear’s growth",
+       "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+       "type": "官方披露",
+       "currency": "USD",
+       "episodeId": "ep-009",
+       "note": "$99 million tender at a $2.5 billion valuation。不是新的 primary。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "ARR 超过 1 亿美元对估值 25 亿美元可以心算，但 ARR 没有精确月份，本卡不写死一个倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "现金流为正不等于有利润数字。不要把 Accel 或帖子的形容词写成净利润。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "ARR 的「今年早些时候」没有月，新鲜度只能挂在帖子日期上。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若下一次官方更新里付费公司或 NRR 明显掉下去，驱动第二条要改。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若公司改口需要 primary 融资，tender 那句「不需要再融」就过时。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "ARR 的下一次官方口径",
+      "why": "现在只有「超过 1 亿美元」。"
+     },
+     {
+      "draft": true,
+      "kpi": "付费公司数与 NRR",
+      "why": "帖子给了两个能跟踪的数。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 09 的产品品味和 8 月 26 日增长帖分开：一个是访谈，一个是官方数字。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-009",
+      "role": "主线",
+      "publicNo": 9,
+      "title": "EP 09.让 B2B 产品也被热爱的秘密—— Linear 产品负责人谈速度、质量与产品品味",
+      "pubDate": "2026-09-02",
+      "why": "EP 09 标题和嘉宾职位都是 Linear 产品负责人。笔记写他后来去了 OpenAI，那一期的公司仍是 Linear。"
+     },
+     {
+      "id": "ep-010",
+      "role": "提及",
+      "publicNo": 10,
+      "title": "EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事",
+      "pubDate": "2026-09-03",
+      "why": "EP 09 标题和嘉宾职位都是 Linear 产品负责人。笔记写他后来去了 OpenAI，那一期的公司仍是 Linear。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.订阅/交易金额",
+      "scale.企业利润",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 5,
+     "stale": [
+      {
+       "path": "iterations[0]",
+       "asOf": "2025-06-10",
+       "value": "Series C：8200 万美元，估值 12.5 亿美元。已过 90 天。"
+      }
+     ],
+     "staleCount": 1,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "cursor",
+    "name": "Cursor",
+    "nameZh": "Cursor（Anysphere）",
+    "listing": "已被收购",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 05 嘉宾是 Cursor / Anysphere 创始团队。EP 07 在竞品段点到 Cursor。",
+     "title": [
+      "Cursor"
+     ],
+     "guest": [
+      "Anysphere",
+      "Cursor"
+     ],
+     "lead": [],
+     "mention": [
+      "Cursor",
+      "Anysphere"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "交割对价在节目笔记里写成约 600 亿美元全股票，来源是 TechCrunch 和 The Verge，不是本卡读到的一份公司财报。收入、用户、利润都未公开。观察的是「价格已被媒体写过，经营数字没有」。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "交割报道在 2026-08-14 前后，节目 EP 05 的检索日是 8 月 27 日。到核对日仍在 90 天内。",
+     "refs": [
+      "valuation"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "媒体转述交割：约 600 亿美元全股票。",
+      "refs": [
+       "valuation"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "收入和利润没有公开材料。不要用收购价倒推倍数。",
+      "refs": [
+       "scale.企业收入",
+       "scale.企业利润"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 05 讲编程带宽从打字转到意图。EP 07 把 Cursor 和 Codex 放在两条产品路上。没有安装量或份额。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "编程产品，后来进入 SpaceX。订阅或用量价格本卡没有核对到一手。",
+     "unitEconomics": "未公开。",
+     "refs": [
+      "scale.企业利润"
+     ]
+    },
+    "business": {
+     "text": "AI 编程产品，法律实体是 Anysphere。2026 年 8 月媒体报道 SpaceX 完成收购。",
+     "source": {
+      "sourceTitle": "EP 05 Show Notes",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-005.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-08-27",
+      "episodeId": "ep-005"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "交割报道和节目都没有用户数。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "没有付费开发者人数。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有订阅额。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "没有收入。收购价不是收入。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "没有利润。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有可引用的增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "编程工具的需求在两期节目里都在讲，但没有金额。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有代表客户名单。Linear 的官方帖把 Cursor 列为自己的客户，那是 Linear 的客户，不是 Cursor 的客户。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "Cursor 编辑器",
+       "note": "EP 05 的产品。",
+       "source": {
+        "sourceTitle": "EP 05",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-005.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-08-27",
+        "episodeId": "ep-005"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-08-15",
+       "text": "TechCrunch：SpaceX 完成对 Cursor 的收购。节目笔记写约 600 亿美元全股票。",
+       "source": {
+        "sourceTitle": "TechCrunch · SpaceX closes Cursor acquisition",
+        "sourceUrl": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+        "type": "媒体报道",
+        "asOf": "2026-08-15",
+        "episodeId": "ep-005"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "约 600",
+       "unit": "亿美元",
+       "period": "媒体报道的收购对价",
+       "asOf": "2026-08-15",
+       "sourceTitle": "TechCrunch · SpaceX officially closes its Cursor acquisition",
+       "sourceUrl": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+       "type": "媒体报道",
+       "currency": "USD",
+       "episodeId": "ep-005",
+       "note": "节目 Show Notes 同时引了 The Verge。对价不要写成 Cursor 官方博客的原话；本卡读到的是媒体。The Verge：https://www.theverge.com/ai-artificial-intelligence/980274/cursor-is-officially-part-of-spacex"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有收入，收购价除不出倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "600 亿是媒体口径。若只存在于转述，就不能写成公司确认的数字。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "收购后的收入不会自动公开。未公开要保持未公开。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若出现 Cursor 或 SpaceX 的一手文件，对价和媒体不一致，以一手为准，这条改类型。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "有没有一手交割文件",
+      "why": "现在是媒体。"
+     },
+     {
+      "draft": true,
+      "kpi": "收入是否被披露",
+      "why": "现在未公开。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 05 的产品访谈和 8 月交割报道分成两节，对价标明媒体。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-005",
+      "role": "主线",
+      "publicNo": 5,
+      "title": "EP 05.Cursor创始团队谈编程的未来—— Lex Fridman #447 访谈精讲",
+      "pubDate": "2026-08-27",
+      "why": "EP 05 嘉宾是 Cursor / Anysphere 创始团队。EP 07 在竞品段点到 Cursor。"
+     },
+     {
+      "id": "ep-007",
+      "role": "提及",
+      "publicNo": 7,
+      "title": "EP 07.产品工作的新形态—— OpenAI Codex 负责人谈品味与判断力",
+      "pubDate": "2026-08-29",
+      "why": "EP 05 嘉宾是 Cursor / Anysphere 创始团队。EP 07 在竞品段点到 Cursor。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 9,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "whatnot",
+    "name": "Whatnot",
+    "nameZh": "Whatnot",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 04 嘉宾是 Whatnot CPO。",
+     "title": [
+      "Whatnot"
+     ],
+     "guest": [
+      "Whatnot"
+     ],
+     "lead": [],
+     "mention": [
+      "Whatnot"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "八月媒体写了 5.45 亿美元、估值 200 亿美元。六月的累计订单 10 亿已经超过 90 天。利润和 GMV 本卡没有核对到可以单列的数字，嘉宾简介里的「超 80 亿美元」不另写成事实。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "融资报道和 EP 04 同一周。订单条更旧，要标过期。",
+     "refs": [
+      "valuation",
+      "scale.交易/付费用户数"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "Series G：5.45 亿美元，估值 200 亿美元。节目笔记写未见完整公司新闻稿。",
+      "refs": [
+       "valuation"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "Fortune：累计订单突破 10 亿。日期是 6 月 18 日，已过期。",
+      "refs": [
+       "scale.交易/付费用户数"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "直播购物。节目笔记转述 CNBC：市场口径超 220 亿美元，Whatnot 称约占六成。这是媒体句子，不是财报份额。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "直播拍卖的市场。抽成比例本卡没有一手数字。",
+     "unitEconomics": "未公开。"
+    },
+    "business": {
+     "text": "美国直播购物平台。",
+     "source": {
+      "sourceTitle": "EP 04 Show Notes",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-004.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-08-26",
+      "episodeId": "ep-004"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "没有 MAU。"
+     },
+     "交易/付费用户数": {
+      "facts": [
+       {
+        "value": "10",
+        "unit": "亿笔累计订单",
+        "period": "截至 Fortune 报道",
+        "asOf": "2026-06-18",
+        "sourceTitle": "Fortune · Whatnot one billion orders",
+        "sourceUrl": "https://fortune.com/2026/06/18/whatnot-one-billion-orders/",
+        "type": "媒体报道",
+        "episodeId": "ep-004",
+        "note": "累计订单，不是付费用户。日期早于 90 天，应标过期。"
+       }
+      ]
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "嘉宾简介写报道口径 GMV 超 80 亿美元。本卡没有在 CNBC 原文里再核对到这一句，所以不填数字。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "没有收入。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "没有利润。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有收入增速。估值相对前一轮的比较若没有本卡读过的原文，不写。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "节目笔记把市场和份额都算在 CNBC 的转述上。",
+     "tam": {
+      "value": "超过 220",
+      "unit": "亿美元",
+      "period": "直播购物市场，媒体口径",
+      "asOf": "2026-08-07",
+      "sourceTitle": "CNBC via EP 04 Show Notes",
+      "sourceUrl": "https://www.cnbc.com/2026/08/07/whatnot-live-shopping-valuation-20-billion.html",
+      "type": "媒体报道",
+      "currency": "USD",
+      "episodeId": "ep-004",
+      "note": "Show Notes：Whatnot 称约占六成。这是媒体转述，不是公司财报里的 GMV。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有代表买家或卖家名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "直播购物市场",
+       "note": "EP 04 的公司。",
+       "source": {
+        "sourceTitle": "EP 04",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-004.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-004"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-06-18",
+       "text": "Fortune：累计订单 10 亿。",
+       "source": {
+        "sourceTitle": "Fortune",
+        "sourceUrl": "https://fortune.com/2026/06/18/whatnot-one-billion-orders/",
+        "type": "媒体报道",
+        "asOf": "2026-06-18",
+        "episodeId": "ep-004"
+       }
+      },
+      {
+       "date": "2026-08-07",
+       "text": "CNBC：Series G 与 200 亿美元估值。",
+       "source": {
+        "sourceTitle": "CNBC",
+        "sourceUrl": "https://www.cnbc.com/2026/08/07/whatnot-live-shopping-valuation-20-billion.html",
+        "type": "媒体报道",
+        "asOf": "2026-08-07",
+        "episodeId": "ep-004"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "200",
+       "unit": "亿美元",
+       "period": "Series G 报道口径",
+       "asOf": "2026-08-07",
+       "sourceTitle": "CNBC · Whatnot live shopping valuation",
+       "sourceUrl": "https://www.cnbc.com/2026/08/07/whatnot-live-shopping-valuation-20-billion.html",
+       "type": "媒体报道",
+       "currency": "USD",
+       "episodeId": "ep-004",
+       "note": "节目笔记：融资 5.45 亿美元。并写未见公司完整新闻稿。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "估值和订单都是媒体。GMV 故意留空。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "订单条已过期，不能当成当前规模。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若公司新闻稿给出 GMV 或收入，未公开的格子才能填，并换类型。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "有没有公司自己的 GMV 或收入稿",
+      "why": "现在没有。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 04 的组织论点和 8 月融资分开。GMV 80 亿先不要写进卡。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-004",
+      "role": "主线",
+      "publicNo": 4,
+      "title": "EP 04.我们后悔产品管理这个职能的存在—— Whatnot CPO 访谈精讲",
+      "pubDate": "2026-08-26",
+      "why": "EP 04 嘉宾是 Whatnot CPO。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 7,
+     "stale": [
+      {
+       "path": "scale.交易/付费用户数[0]",
+       "asOf": "2026-06-18",
+       "value": "10"
+      },
+      {
+       "path": "iterations[0]",
+       "asOf": "2026-06-18",
+       "value": "Fortune：累计订单 10 亿。"
+      }
+     ],
+     "staleCount": 2,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "databricks",
+    "name": "Databricks",
+    "nameZh": "Databricks",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 15 嘉宾是 Databricks 联合创始人兼 CEO。",
+     "title": [
+      "Databricks"
+     ],
+     "guest": [
+      "Databricks"
+     ],
+     "lead": [],
+     "mention": [
+      "Databricks"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "节目页引用的 CNBC 是约 50 亿美元融资、估值约 1900 亿美元。那不是利润表。收入和利润未公开。嘉宾口径的客户数约 2 万，和融资新闻不是同一条来源。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "CNBC 是 2026-08-13，EP 15 是 9 月 10 日。估值还在 90 天内，但性质是融资报道。",
+     "refs": [
+      "valuation"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "媒体：约 50 亿美元、估值约 1900 亿美元。",
+      "refs": [
+       "valuation"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "节目导读：约 2 万家客户。这是嘉宾经验的转述，不是新闻稿。",
+      "refs": [
+       "scale.交易/付费用户数"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 15 把护城河从软件许可挪到组织上下文和数据。没有和 Snowflake 的份额，本卡不补。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "企业数据平台。单位经济未公开。",
+     "unitEconomics": "未公开。"
+    },
+    "business": {
+     "text": "企业数据与 AI 平台，从数据到湖仓。",
+     "source": {
+      "sourceTitle": "EP 15",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-015.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-09-10",
+      "episodeId": "ep-015"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "没有个人用户数。"
+     },
+     "交易/付费用户数": {
+      "facts": [
+       {
+        "value": "约 2",
+        "unit": "万家客户",
+        "period": "节目导读口径",
+        "asOf": "2026-09-10",
+        "sourceTitle": "EP 15",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-015.html",
+        "type": "播客中嘉宾原话",
+        "episodeId": "ep-015",
+        "note": "导读写「一手约两万家客户的经验」。不是公司新闻稿，也不是名单。"
+       }
+      ]
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有消费额。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "CNBC 这条节目笔记只写了融资和估值，没有收入。不把别处未核对的 run-rate 填进来。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "没有利润。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有收入增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "企业软件的价值上移是这期的论点，不是一张 TAM。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "约 2 万是规模不是名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "湖仓 / 企业 AI",
+       "note": "节目里的公司主线。",
+       "source": {
+        "sourceTitle": "EP 15",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-015.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-10",
+        "episodeId": "ep-015"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-08-13",
+       "text": "CNBC：约 50 亿美元融资，估值约 1900 亿美元。",
+       "source": {
+        "sourceTitle": "CNBC · Databricks $190B",
+        "sourceUrl": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
+        "type": "媒体报道",
+        "asOf": "2026-08-13",
+        "episodeId": "ep-015"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "约 1900",
+       "unit": "亿美元",
+       "period": "CNBC 报道的融资估值",
+       "asOf": "2026-08-13",
+       "sourceTitle": "CNBC · Databricks funding round",
+       "sourceUrl": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
+       "type": "媒体报道",
+       "currency": "USD",
+       "episodeId": "ep-015",
+       "note": "节目笔记写「约五十亿美元融资、估值约一千九百亿美元」。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "估值是媒体的约数。收入空着，就不能写收入倍数。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若公司新闻稿给出收入，把 CNBC 估值和收入分成两条，再决定要不要写倍数。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "公司自己的收入稿",
+      "why": "现在没有。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 15 的「软件没死」不引用未核对的 run-rate。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-015",
+      "role": "主线",
+      "publicNo": 15,
+      "title": "EP 15.AGI 已到，价值何时移到应用层？——斯坦福《AI 超周期经济学》第十四讲精读",
+      "pubDate": "2026-09-10",
+      "why": "EP 15 嘉宾是 Databricks 联合创始人兼 CEO。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 8,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "vercel",
+    "name": "Vercel",
+    "nameZh": "Vercel",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 19 嘉宾是 Vercel 创始人兼 CEO。",
+     "title": [
+      "Vercel"
+     ],
+     "guest": [
+      "Vercel"
+     ],
+     "lead": [],
+     "mention": [
+      "Vercel"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "这期讲部署层比写代码稀缺。收入、利润、用户、估值都没有在本卡核对到可以引用的一手数字，所以规模整列未公开。观察的是产品位置，不是估值。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 19 在 2026-09-19。没有同期的已核对财务稿，就不补旧闻。"
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "产品位置来自节目：从页面到智能体，部署和 AI 网关。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "财务格子保持未公开。",
+      "refs": [
+       "scale.企业收入",
+       "valuation"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "节目把稀缺从「写出代码」挪到「把代码跑起来」。没有对手份额。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "前端云和 AI 网关。计价方式在节目里被提到，没有单价表。",
+     "unitEconomics": "未公开。"
+    },
+    "business": {
+     "text": "前端云与部署，Next.js 的公司。节目主题是从网页到智能体。",
+     "source": {
+      "sourceTitle": "EP 19",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-019.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-09-19",
+      "episodeId": "ep-019"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的数字。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的数字。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的数字。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的数字。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的数字。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "部署层的需求是节目论点。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "部署 / AI Gateway",
+       "note": "EP 19 的产品面。",
+       "source": {
+        "sourceTitle": "EP 19",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-019.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-19",
+        "episodeId": "ep-019"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-09-19",
+       "text": "节目上线。财务数字未在本卡另补。",
+       "source": {
+        "sourceTitle": "EP 19",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-019.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-19",
+        "episodeId": "ep-019"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "不使用未经本卡打开核对的旧融资稿。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "卡片会显得空。空着比写进未核对的 500 million run-rate 安全。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若补上一份打开过的官方融资或收入稿，再填估值格。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "官方收入或融资稿",
+      "why": "现在未公开。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 19 可以只做产品经济学，财务格明确写未公开。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-019",
+      "role": "主线",
+      "publicNo": 19,
+      "title": "EP 19.从网页到智能体：AI 编程如何重写软件经济学？——斯坦福《AI 超周期经济学》Coding AI 精读",
+      "pubDate": "2026-09-19",
+      "why": "EP 19 嘉宾是 Vercel 创始人兼 CEO。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 9,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "crusoe",
+    "name": "Crusoe",
+    "nameZh": "Crusoe",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 14 嘉宾是 Crusoe 创始人兼 CEO。EP 26 只是口头对照。",
+     "title": [
+      "Crusoe"
+     ],
+     "guest": [
+      "Crusoe 创始人"
+     ],
+     "lead": [],
+     "mention": [
+      "Crusoe"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "9 月 17 日官方稿给了 39 亿美元融资、309 亿美元投后、1400 亿美元以上合同总额，以及推理产品超过 1 亿美元 ARR。GAAP 收入和利润仍然没有。课上的每兆瓦账是教学账，Show Notes 写了不是财报。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "Series F 在节目检索日之后。EP 14 的每兆瓦数字不能升级成这笔融资的单位经济。",
+     "refs": [
+      "valuation",
+      "scale.订阅/交易金额"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "投后估值 309 亿美元，融资 39 亿美元。",
+      "refs": [
+       "valuation"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "合同总额超过 1400 亿美元；已签约毛容量超过 6 GW。",
+      "refs": [
+       "scale.订阅/交易金额"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "Managed Inference 已签约 ARR 超过 1 亿美元。这不是公司总收入。",
+      "refs": [
+       "growth"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "官方稿的句子是从电到 token 的竖切。节目用同一句。对手份额没有。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "能源、机房和云叠在一起。公开的经营数字是合同和容量，不是 GAAP 利润表。课上每兆瓦 6000 万美元前期、只出租约 1500 万美元年收入，标明是嘉宾教学账。",
+     "unitEconomics": "官方没有每兆瓦利润。教学账见增速格里的播客条。",
+     "refs": [
+      "growth"
+     ]
+    },
+    "business": {
+     "text": "竖切的 AI 基础设施：从发电、机房到云和推理。",
+     "source": {
+      "sourceTitle": "Crusoe Series F",
+      "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+      "type": "官方披露",
+      "asOf": "2026-09-17",
+      "episodeId": "ep-014"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "没有用户数。员工超过 1800 不是用户。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "没有客户数。点名客户放在代表用户。"
+     },
+     "订阅/交易金额": {
+      "facts": [
+       {
+        "value": "超过 1400",
+        "unit": "亿美元",
+        "period": "新闻稿所称合同总额 TCV",
+        "asOf": "2026-09-17",
+        "sourceTitle": "Crusoe Series F",
+        "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+        "type": "官方披露",
+        "currency": "USD",
+        "episodeId": "ep-014",
+        "note": "$140B+ total contracted value。不是单季收入。"
+       }
+      ]
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "没有 GAAP 收入。Managed Inference 超过 1 亿美元 ARR 放在增速，并注明只是产品线。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "没有利润。"
+     }
+    },
+    "growth": {
+     "facts": [
+      {
+       "value": "超过 20",
+       "unit": "倍",
+       "period": "Crusoe Cloud 预订额年初至今同比",
+       "asOf": "2026-09-17",
+       "sourceTitle": "Crusoe Series F",
+       "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+       "type": "官方披露",
+       "note": "20x+ year over year growth in Crusoe Cloud bookings YTD。"
+      },
+      {
+       "value": "超过 1",
+       "unit": "亿美元 ARR",
+       "period": "Managed Inference 已签约",
+       "asOf": "2026-09-17",
+       "sourceTitle": "Crusoe Series F",
+       "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+       "type": "官方披露",
+       "currency": "USD",
+       "note": "不是公司总收入。"
+      },
+      {
+       "value": "60 / 15",
+       "unit": "百万美元每兆瓦",
+       "period": "课上教学账：前期投入 / 只出租的年收入",
+       "asOf": "2026-09-09",
+       "sourceTitle": "EP 14",
+       "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-014.html",
+       "type": "播客中嘉宾原话",
+       "episodeId": "ep-014",
+       "note": "Show Notes 写明是课上原页核对后的教学账，不是 Crusoe 财报。"
+      }
+     ]
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "容量用 GW 而不是 TAM 金额。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM 金额。容量见官方稿的 6 GW+。"
+     }
+    },
+    "customers": {
+     "items": [
+      {
+       "name": "OpenAI",
+       "note": "新闻稿说 OpenAI 在 Crusoe 设计建造的 Abilene 园区训练 Astra。",
+       "source": {
+        "sourceTitle": "Crusoe Series F",
+        "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+        "type": "官方披露",
+        "asOf": "2026-09-17",
+        "episodeId": "ep-014"
+       }
+      },
+      {
+       "name": "Cognition、Figure、Perplexity",
+       "note": "新闻稿点名的 Crusoe Cloud 客户。",
+       "source": {
+        "sourceTitle": "Crusoe Series F",
+        "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+        "type": "官方披露",
+        "asOf": "2026-09-17"
+       }
+      }
+     ]
+    },
+    "products": {
+     "items": [
+      {
+       "name": "能源 / 机房 / Crusoe Cloud / Managed Inference",
+       "note": "竖切。Spark 是模块化机房。",
+       "source": {
+        "sourceTitle": "Crusoe Series F",
+        "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+        "type": "官方披露",
+        "asOf": "2026-09-17",
+        "episodeId": "ep-014"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-09-09",
+       "text": "EP 14 上线。财务检索当时没写这笔 Series F。",
+       "source": {
+        "sourceTitle": "EP 14",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-014.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-09",
+        "episodeId": "ep-014"
+       }
+      },
+      {
+       "date": "2026-09-17",
+       "text": "Series F 首关 39 亿美元，投后 309 亿美元。",
+       "source": {
+        "sourceTitle": "Crusoe Series F",
+        "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+        "type": "官方披露",
+        "asOf": "2026-09-17"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "309",
+       "unit": "亿美元",
+       "period": "Series F 投后",
+       "asOf": "2026-09-17",
+       "sourceTitle": "Crusoe Series F",
+       "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+       "type": "官方披露",
+       "currency": "USD",
+       "episodeId": "ep-014",
+       "note": "$30.9 billion post-money。融资额 $3.9 billion。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有 GAAP 收入，不算倍数。TCV 不是收入。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "合同总额和收入不是一回事。把 1400 亿写成收入就会错。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "教学账的每兆瓦和官方 ARR 不要加总。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若公司公布 GAAP 收入，企业收入格才能从「未公开」改成财报或官方。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "TCV 与已交付 GW",
+      "why": "官方现在给的是这两个。"
+     },
+     {
+      "draft": true,
+      "kpi": "Managed Inference ARR",
+      "why": "产品线，不是总收入。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 14 的教学账加一条 9 月 17 日官方更新，两套标签不要合并。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-014",
+      "role": "主线",
+      "publicNo": 14,
+      "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
+      "pubDate": "2026-09-09",
+      "why": "EP 14 嘉宾是 Crusoe 创始人兼 CEO。EP 26 只是口头对照。"
+     },
+     {
+      "id": "ep-026",
+      "role": "提及",
+      "publicNo": 21,
+      "title": "EP 21.十八问重构访谈AI推理公司：一块 GPU 的租金翻倍，还租得起吗？Baseten 专场",
+      "pubDate": "2026-09-23",
+      "why": "EP 14 嘉宾是 Crusoe 创始人兼 CEO。EP 26 只是口头对照。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.企业收入",
+      "scale.企业利润",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 6,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "baseten",
+    "name": "Baseten",
+    "nameZh": "Baseten",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 21 标题和嘉宾都是 Baseten。",
+     "title": [
+      "Baseten"
+     ],
+     "guest": [
+      "Baseten"
+     ],
+     "lead": [],
+     "mention": [
+      "Baseten"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "节目在问 GPU 租金翻倍还租不租得起。融资额和估值本卡没有打开过一份可引用的原文，所以不填。观察停在产品问题，不补一个估值。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 26 在 2026-09-23。财务格保持未公开。"
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "产品问题来自节目：生产推理和 GPU 小时租金。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "收入、利润、估值未公开。",
+      "refs": [
+       "scale.企业收入",
+       "valuation"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "节目比较的是软件黏性和能不能拿到卡。没有份额。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "生产推理基础设施，按算力出租。单价没有官方表。",
+     "unitEconomics": "未公开。节目里的租金翻倍是访谈问题，不是一张价目表。"
+    },
+    "business": {
+     "text": "生产推理基础设施。",
+     "source": {
+      "sourceTitle": "EP 21",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-026.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-09-23",
+      "episodeId": "ep-026"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的融资或经营数字。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的融资或经营数字。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的融资或经营数字。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的融资或经营数字。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "本卡没有核对到可引用的融资或经营数字。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "推理需求在节目里用租金来问，没有 TAM。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "生产推理",
+       "note": "EP 21。",
+       "source": {
+        "sourceTitle": "EP 21",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-026.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-23",
+        "episodeId": "ep-026"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-09-23",
+       "text": "节目上线。",
+       "source": {
+        "sourceTitle": "EP 21",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-026.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-23",
+        "episodeId": "ep-026"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "不写入未在本卡打开核对的估值报道。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "卡片财务是空的。空着是故意的。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "打开一份公司或通讯社原文之后再填估值。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "有没有打开过的融资原文",
+      "why": "现在未公开。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 21 围绕租金翻倍，不先写估值。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-026",
+      "role": "主线",
+      "publicNo": 21,
+      "title": "EP 21.十八问重构访谈AI推理公司：一块 GPU 的租金翻倍，还租得起吗？Baseten 专场",
+      "pubDate": "2026-09-23",
+      "why": "EP 21 标题和嘉宾都是 Baseten。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 9,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "instinct",
+    "name": "Instinct",
+    "nameZh": "Instinct",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 23 嘉宾是 Instinct 创始人。",
+     "title": [
+      "Instinct"
+     ],
+     "guest": [
+      "Instinct"
+     ],
+     "lead": [],
+     "mention": [
+      "Instinct"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "TechCrunch 在 9 月 28 日写 C 轮 10 亿美元、估值 100 亿美元，一个月前是 25 亿美元。用户数节目笔记写了公司没披露。商业模式是访谈里的「对用户免费，向商家收」。收入和利润未公开。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "融资报道和节目同一天进入公开材料。用户格必须保持未公开。",
+     "refs": [
+      "valuation"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "估值从媒体所说的 25 亿到 100 亿。",
+      "refs": [
+       "valuation"
+      ]
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "对用户免费、向商家收费。这是嘉宾的模式，不是费率表。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "用户数未披露。",
+      "refs": [
+       "scale.活跃用户数"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 23 把对照写成 Meta Muse：邀请制短信助手对上有社交图谱的 App。没有下载量对比的官方数字。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "个人代理。用户侧不收费，钱从商家来。抽成比例未公开。",
+     "unitEconomics": "未公开。",
+     "refs": [
+      "scale.企业收入"
+     ]
+    },
+    "business": {
+     "text": "邀请制个人助理，用短信、电话和电脑办事，没有新的独立界面。",
+     "source": {
+      "sourceTitle": "EP 23",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-035.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-10-02",
+      "episodeId": "ep-035"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "节目笔记写公司未披露用户数。TechCrunch 也没有给出可以填进来的人数。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "没有付费用户。模式是用户免费。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有 GMV 或抽成额。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "没有收入。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "没有利润。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "估值跳跃不是收入增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "个人代理的需求在访谈里用「算力每周翻倍」来讲。那不是 TAM。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有代表用户名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "邀请制个人助理",
+       "note": "官网口径接上邮件、消息、屏幕。用户数未披露。",
+       "source": {
+        "sourceTitle": "instinct.com via EP 23",
+        "sourceUrl": "https://instinct.com/",
+        "type": "官方披露",
+        "asOf": "2026-10-02",
+        "episodeId": "ep-035"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-09-28",
+       "text": "TechCrunch：C 轮 10 亿美元，估值 100 亿美元。",
+       "source": {
+        "sourceTitle": "TechCrunch · Instinct Series C",
+        "sourceUrl": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+        "type": "媒体报道",
+        "asOf": "2026-09-28",
+        "episodeId": "ep-035"
+       }
+      },
+      {
+       "date": "2026-10-02",
+       "text": "EP 23 上线。",
+       "source": {
+        "sourceTitle": "EP 23",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-035.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-10-02",
+        "episodeId": "ep-035"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "100",
+       "unit": "亿美元",
+       "period": "Series C",
+       "asOf": "2026-09-28",
+       "sourceTitle": "TechCrunch · Instinct raises $1B at a $10B valuation",
+       "sourceUrl": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+       "type": "媒体报道",
+       "currency": "USD",
+       "episodeId": "ep-035",
+       "note": "节目笔记：融资 10 亿美元。一个月前 B 轮估值 25 亿美元。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "估值一个月翻了四倍出现在媒体里。没有用户数和收入，倍数不存在。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "免费加商家抽成还没有费率。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若公司公布用户数，活跃用户才能从「未公开」改掉。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "用户数是否仍写未披露",
+      "why": "这是这张卡的缺口。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 23 的收费方向和 TechCrunch 的估值分成两节。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-035",
+      "role": "主线",
+      "publicNo": 23,
+      "title": "EP 23.Instinct 创始人想让这东西永远免费：钱从商家那一端收，算力每周翻一倍",
+      "pubDate": "2026-10-02",
+      "why": "EP 23 嘉宾是 Instinct 创始人。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 9,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "groq",
+    "name": "Groq",
+    "nameZh": "Groq",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾所在路线",
+     "how": "EP 13 嘉宾介绍写的是 Groq 推理芯片路线，并说后来与 NVIDIA 连接。不是 xAI 的 Grok。",
+     "title": [],
+     "guest": [
+      "Groq"
+     ],
+     "lead": [],
+     "mention": [
+      "Groq"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "节目把它放在 NVIDIA 对面的推理芯片上。NVIDIA 8 月财报出现了产品名 Groq 3 LPX，但没有 Groq 公司的收入、利润或收购对价。观察停在「关系被两边提到，价格没有」。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 13 在 9 月 8 日。NVIDIA 产品名在 8 月 26 日的财报里。两份材料都还新鲜，但都不是 Groq 的利润表。",
+     "refs": [
+      "products"
+     ]
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "节目：数据流推理芯片，和 NVIDIA、Cerebras 竞争。口播说同电下约两三倍 token。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "NVIDIA 财报只确认了自己的 Groq 3 LPX 产品名。"
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "低延迟的数据流架构是节目里的技术句子。份额未公开。不要把「并入」写成已经核对的收购价格。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "卖推理芯片和相关系统。单价未公开。",
+     "unitEconomics": "未公开。节目里的 2–3 倍 token 是口播，不是价目。"
+    },
+    "business": {
+     "text": "推理芯片公司，不是 xAI 的 Grok 模型。",
+     "source": {
+      "sourceTitle": "EP 13 Show Notes",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-013.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-09-08",
+      "episodeId": "ep-013"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "没有 Groq 公司的公开经营数字被本卡核对。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "没有 Groq 公司的公开经营数字被本卡核对。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有 Groq 公司的公开经营数字被本卡核对。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "没有 Groq 公司的公开经营数字被本卡核对。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "没有 Groq 公司的公开经营数字被本卡核对。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有收入增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "推理芯片赛道在 EP 13 里被点名。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "数据流推理芯片",
+       "note": "EP 13。同电约 2–3 倍 token 是口播。",
+       "source": {
+        "sourceTitle": "EP 13",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-013.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-08",
+        "episodeId": "ep-013"
+       }
+      },
+      {
+       "name": "NVIDIA Groq 3 LPX",
+       "note": "这是 NVIDIA 财报里的产品名，不是 Groq 的收入。",
+       "source": {
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-26",
+        "episodeId": "ep-013"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-08-26",
+       "text": "NVIDIA 称 Groq 3 LPX 量产。",
+       "source": {
+        "sourceTitle": "NVIDIA Q2 FY2027 results",
+        "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+        "type": "财报",
+        "asOf": "2026-08-26"
+       }
+      },
+      {
+       "date": "2026-09-08",
+       "text": "EP 13 上线。",
+       "source": {
+        "sourceTitle": "EP 13",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-013.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-08",
+        "episodeId": "ep-013"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "不写入未经本卡打开的 200 亿美元许可对价。财报没有这个数。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "最容易写错的是把产品名或诉讼传闻写成已确认的收购价。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若 NVIDIA 或 Groq 的一手文件给出对价，再填估值，并标明谁说的。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "一手是否出现对价",
+      "why": "现在未公开。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 13 更正 Grok / Groq，并说明财报里的产品名不等于收购价。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-013",
+      "role": "主线",
+      "publicNo": 13,
+      "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读",
+      "pubDate": "2026-09-08",
+      "why": "EP 13 嘉宾介绍写的是 Groq 推理芯片路线，并说后来与 NVIDIA 连接。不是 xAI 的 Grok。"
+     },
+     {
+      "id": "ep-014",
+      "role": "提及",
+      "publicNo": 14,
+      "title": "EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读",
+      "pubDate": "2026-09-09",
+      "why": "EP 13 嘉宾介绍写的是 Groq 推理芯片路线，并说后来与 NVIDIA 连接。不是 xAI 的 Grok。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 9,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "chai",
+    "name": "Chai Discovery",
+    "nameZh": "Chai Discovery",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 20 第二位嘉宾是 Chai Discovery 联合创始人。",
+     "title": [],
+     "guest": [
+      "Chai Discovery"
+     ],
+     "lead": [],
+     "mention": [
+      "Chai Discovery",
+      "Chai"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "节目里的角色是分子设计的卖铲人。融资、收入、利润、用户都未公开。观察只建立在产品角色上。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 20 在 2026-09-22。没有已核对的财务稿。"
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "产品是分子 CAD，嘉宾从 OpenAI、Meta 的蛋白质模型讲到现在的公司。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "财务未公开。",
+      "refs": [
+       "scale.企业收入"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "和 Anthropic 生命科学同台，但是另一家公司。不要把药企合作名单自动算到 Chai 或 Anthropic 任一边。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "把分子设计做成工具卖给做药的人。单价未公开。",
+     "unitEconomics": "未公开。"
+    },
+    "business": {
+     "text": "分子设计软件。",
+     "source": {
+      "sourceTitle": "EP 20",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-020.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-09-22",
+      "episodeId": "ep-020"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "未公开。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "生命科学工具的需求在课上，没有金额。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "不把课上提到的药企名字记成已核对的客户名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "分子 CAD",
+       "note": "EP 20 嘉宾自述。",
+       "source": {
+        "sourceTitle": "EP 20",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-020.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-22",
+        "episodeId": "ep-020"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-09-22",
+       "text": "节目上线。",
+       "source": {
+        "sourceTitle": "EP 20",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-020.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-22",
+        "episodeId": "ep-020"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "没有打开过的融资原文。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "和 Anthropic 同台，数字容易串。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "有一手融资稿再写估值。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "融资原文",
+      "why": "现在没有。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 20 把两位卖铲人分开：Claude 进实验室，和分子 CAD。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-020",
+      "role": "主线",
+      "publicNo": 20,
+      "title": "EP 20.十八问去访谈两位卖铲人：AI 生命科学专场重读——斯坦福《AI 超周期经济学》",
+      "pubDate": "2026-09-22",
+      "why": "EP 20 第二位嘉宾是 Chai Discovery 联合创始人。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 9,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "applied-compute",
+    "name": "Applied Compute",
+    "nameZh": "Applied Compute",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾雇主",
+     "how": "EP 17 导读写嘉宾 Yash Patil（Applied Compute）。访谈嘉宾一节是空的，所以用导读匹配。",
+     "title": [],
+     "guest": [],
+     "lead": [
+      "Applied Compute"
+     ],
+     "mention": [
+      "Applied Compute"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "这期的问题是企业自己的上下文，模型聪明但不懂这家公司的生意。Applied Compute 的收入、融资和用户都未公开。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 17 在 2026-09-15。财务保持未公开。"
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "节目问题：专有化、评测、企业上下文。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "公司数字未公开。",
+      "refs": [
+       "scale.企业收入"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "若护城河是客户自己的上下文，它不一定属于这家工具公司。节目在问这件事，没有结论性的份额。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "帮企业把模型用在自己的业务上。计价未公开。",
+     "unitEconomics": "未公开。"
+    },
+    "business": {
+     "text": "企业 AI 专有化。",
+     "source": {
+      "sourceTitle": "EP 17",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-017.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-09-15",
+      "episodeId": "ep-017"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "未公开。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "未公开。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "企业想让模型懂自己的生意。没有金额。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "企业专有化",
+       "note": "EP 17 导读。",
+       "source": {
+        "sourceTitle": "EP 17",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-017.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-15",
+        "episodeId": "ep-017"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-09-15",
+       "text": "节目上线。",
+       "source": {
+        "sourceTitle": "EP 17",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-017.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-15",
+        "episodeId": "ep-017"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "没有已核对的融资稿。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "公司很小，公开材料少。不要用行业故事填空。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "有一手数字再填。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "公司是否公布客户或收入",
+      "why": "现在没有。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 17 适合讲评测和上下文，财务节写未公开。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-017",
+      "role": "主线",
+      "publicNo": 17,
+      "title": "EP 17.企业自己的 AI：为什么聪明模型不\"懂\"你的生意？——斯坦福《AI 超周期经济学》精读",
+      "pubDate": "2026-09-15",
+      "why": "EP 17 导读写嘉宾 Yash Patil（Applied Compute）。访谈嘉宾一节是空的，所以用导读匹配。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 9,
+     "stale": [],
+     "staleCount": 0,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "altimeter",
+    "name": "Altimeter Capital",
+    "nameZh": "Altimeter",
+    "listing": "投资机构",
+    "ticker": "",
+    "derive": {
+     "role": "嘉宾所在机构",
+     "how": "EP 11 讲师、EP 13 嘉宾是 Altimeter。这是投资机构，不是运营公司。",
+     "title": [],
+     "guest": [
+      "Altimeter"
+     ],
+     "lead": [],
+     "mention": [
+      "Altimeter"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "两期课的嘉宾来自这家机构。管理规模未公开，所以不写 AUM，也不把它当成一家有收入利润表的公司。观察的是它在节目里怎么讲栈上的钱。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "EP 11、EP 13 在 9 月。Anthropic Series H 的官方稿把 Altimeter 写成领投方之一，那是被投公司的新闻，不是 Altimeter 的 AUM。"
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "两期课用这家机构的嘉宾讲栈上的钱，数字属于被讲到的公司，不属于 Altimeter。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "管理规模未公开。",
+      "refs": [
+       "scale.企业收入"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "机构的「护城河」不是产品份额。节目点名的持仓要以机构披露为准，本卡不编组合。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "投资机构。没有管理费和业绩报酬的公开拆分。",
+     "unitEconomics": "未公开。"
+    },
+    "business": {
+     "text": "投资机构。EP 11 / EP 13 的嘉宾来自这里。",
+     "source": {
+      "sourceTitle": "EP 11",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-011.html",
+      "type": "播客中嘉宾原话",
+      "asOf": "2026-09-06",
+      "episodeId": "ep-011"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "不把被投公司的收入写成机构的规模。AUM 未公开。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "不把被投公司的收入写成机构的规模。AUM 未公开。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "不把被投公司的收入写成机构的规模。AUM 未公开。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "不把被投公司的收入写成机构的规模。AUM 未公开。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "不把被投公司的收入写成机构的规模。AUM 未公开。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "机构没有可跟踪的收益率。课上关于 NVIDIA 毛利的句子记在 NVIDIA 卡，不记在这里。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "倒三角和钱进半导体层是课的结构。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有机构自己的 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "出资人名单未公开。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "投资",
+       "note": "不是软件产品。",
+       "source": {
+        "sourceTitle": "EP 13",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-013.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-08",
+        "episodeId": "ep-013"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-05-28",
+       "text": "Anthropic 官方稿把 Altimeter 列为 Series H 领投方之一。这不是 AUM。",
+       "source": {
+        "sourceTitle": "Anthropic Series H",
+        "sourceUrl": "https://www.anthropic.com/news/series-h",
+        "type": "官方披露",
+        "asOf": "2026-05-28",
+        "episodeId": "ep-011"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "status": "未公开",
+     "note": "投资机构没有这张卡要写的市值。",
+     "multiples": {
+      "status": "未公开",
+      "note": "没有同时公开、且本卡已核对的市值和收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "把 NVIDIA 或 Anthropic 的数字抄进 Altimeter 的收入格，是这张卡最需要防的错。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若机构文件给出 AUM，再单列，并注明日期。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "不要把被投公司指标混进来",
+      "why": "口径。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 11 的毛利口播挂在 NVIDIA 卡上，Altimeter 卡只保留「谁在讲」。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-013",
+      "role": "主线",
+      "publicNo": 13,
+      "title": "EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读",
+      "pubDate": "2026-09-08",
+      "why": "EP 11 讲师、EP 13 嘉宾是 Altimeter。这是投资机构，不是运营公司。"
+     },
+     {
+      "id": "ep-011",
+      "role": "主线",
+      "publicNo": 11,
+      "title": "EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读",
+      "pubDate": "2026-09-06",
+      "why": "EP 11 讲师、EP 13 嘉宾是 Altimeter。这是投资机构，不是运营公司。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation"
+     ],
+     "undisclosedCount": 9,
+     "stale": [
+      {
+       "path": "iterations[0]",
+       "asOf": "2026-05-28",
+       "value": "Anthropic 官方稿把 Altimeter 列为 Series H 领投方之一。这不是 AUM。"
+      }
+     ],
+     "staleCount": 1,
+     "missingDate": []
+    }
+   },
+   {
+    "id": "manus",
+    "name": "Manus",
+    "nameZh": "Manus",
+    "listing": "未上市",
+    "ticker": "",
+    "derive": {
+     "role": "新闻主体",
+     "how": "EP 18 标题是 Meta 收购 Manus 及撤回。",
+     "title": [
+      "Manus"
+     ],
+     "guest": [],
+     "lead": [],
+     "mention": [
+      "Manus"
+     ],
+     "spotlight": []
+    },
+    "thesis": {
+     "judgment": "观察中",
+     "draft": true,
+     "label": "AI草稿",
+     "oneLiner": "交易被监管要求撤销之后，公司在 9 月 1 日说恢复独立运营。约 20 亿美元是节目笔记里的公开报道口径，链接是节目页，不是另一篇报道。收入和利润未公开。"
+    },
+    "whyNow": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "独立运营的官方博客在 90 天内。禁止决定在 4 月，已过期，但仍然是事实。"
+    },
+    "drivers": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "2026-04-27 发改委禁止这项投资并要求撤销。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "2026-09-01 官方博客：恢复独立运营。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "约 20 亿美元只作为节目笔记的转述。",
+      "refs": [
+       "valuation"
+      ]
+     }
+    ],
+    "moat": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "产品是通用代理。和 Meta 的关系是一笔被撤回的交易，不是当前的子公司。"
+    },
+    "model": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "代理产品。定价未公开。",
+     "unitEconomics": "未公开。"
+    },
+    "business": {
+     "text": "通用 AI 代理。2026 年 9 月官方称恢复独立运营。",
+     "source": {
+      "sourceTitle": "Manus resumes independent operations",
+      "sourceUrl": "https://manus.im/blog/manus-resumes-independent-operations",
+      "type": "官方披露",
+      "asOf": "2026-09-01",
+      "episodeId": "ep-018"
+     }
+    },
+    "scale": {
+     "活跃用户数": {
+      "status": "未公开",
+      "note": "没有用户、收入或利润。"
+     },
+     "交易/付费用户数": {
+      "status": "未公开",
+      "note": "没有用户、收入或利润。"
+     },
+     "订阅/交易金额": {
+      "status": "未公开",
+      "note": "没有用户、收入或利润。"
+     },
+     "企业收入": {
+      "status": "未公开",
+      "note": "没有用户、收入或利润。"
+     },
+     "企业利润": {
+      "status": "未公开",
+      "note": "没有用户、收入或利润。"
+     }
+    },
+    "growth": {
+     "status": "未公开",
+     "note": "没有增速。"
+    },
+    "market": {
+     "draft": true,
+     "label": "AI草稿",
+     "text": "企业是否为代理付钱，是 EP 18 的问题之一，没有金额。",
+     "tam": {
+      "status": "未公开",
+      "note": "没有 TAM。"
+     }
+    },
+    "customers": {
+     "status": "未公开",
+     "note": "没有名单。"
+    },
+    "products": {
+     "items": [
+      {
+       "name": "Manus 代理",
+       "note": "恢复独立运营后部分用户要备份数据。",
+       "source": {
+        "sourceTitle": "Manus blog",
+        "sourceUrl": "https://manus.im/blog/manus-resumes-independent-operations",
+        "type": "官方披露",
+        "asOf": "2026-09-01",
+        "episodeId": "ep-018"
+       }
+      }
+     ]
+    },
+    "iterations": {
+     "items": [
+      {
+       "date": "2026-04-27",
+       "text": "发改委禁止投资并要求撤销收购。",
+       "source": {
+        "sourceTitle": "发改委政府信息公开",
+        "sourceUrl": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623",
+        "type": "官方披露",
+        "asOf": "2026-04-27",
+        "episodeId": "ep-018"
+       }
+      },
+      {
+       "date": "2026-09-01",
+       "text": "官方：恢复独立运营。",
+       "source": {
+        "sourceTitle": "Manus blog",
+        "sourceUrl": "https://manus.im/blog/manus-resumes-independent-operations",
+        "type": "官方披露",
+        "asOf": "2026-09-01",
+        "episodeId": "ep-018"
+       }
+      },
+      {
+       "date": "2026-09-18",
+       "text": "EP 18 上线。",
+       "source": {
+        "sourceTitle": "EP 18",
+        "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-018.html",
+        "type": "播客中嘉宾原话",
+        "asOf": "2026-09-18",
+        "episodeId": "ep-018"
+       }
+      }
+     ]
+    },
+    "valuation": {
+     "facts": [
+      {
+       "value": "约 20",
+       "unit": "亿美元",
+       "period": "节目笔记所称的公开报道口径",
+       "asOf": "2026-09-18",
+       "sourceTitle": "EP 18",
+       "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-018.html",
+       "type": "播客中嘉宾原话",
+       "currency": "USD",
+       "episodeId": "ep-018",
+       "note": "Show Notes 写 2025-12 双方曾宣布收购，公开报道口径约二十亿美元。本卡没有另附一篇报道 URL，不当成财报或官方对价。"
+      }
+     ],
+     "multiples": {
+      "status": "未公开",
+      "note": "没有收入，不算倍数。"
+     }
+    },
+    "risks": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "20 亿没有第二来源链接。使用时必须带着这个限制。"
+     },
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "监管决定已经做出，不要写成交易还在进行。"
+     }
+    ],
+    "falsify": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "若找到宣布收购的原文，把 20 亿的类型从节目页改成那篇报道。"
+     }
+    ],
+    "watch": [
+     {
+      "draft": true,
+      "kpi": "公司是否仍独立运营",
+      "why": "9 月 1 日博客是当前状态。"
+     }
+    ],
+    "catalysts": {
+     "status": "未公开",
+     "note": "已读材料没有写下一档财报或发布会的日期。最近一次披露日在迭代时间线里。"
+    },
+    "topics": [
+     {
+      "draft": true,
+      "label": "AI草稿",
+      "text": "EP 18 时间线：宣布、禁止、恢复独立。金额单独脚注。"
+     }
+    ],
+    "episodes": [
+     {
+      "id": "ep-018",
+      "role": "主线",
+      "publicNo": 18,
+      "title": "EP 18.二十亿买下，几周后撤回：Meta 收购 Manus 的大逆转——AI 新闻播客三集连读",
+      "pubDate": "2026-09-18",
+      "why": "EP 18 标题是 Meta 收购 Manus 及撤回。"
+     }
+    ],
+    "coverage": {
+     "leaves": 14,
+     "undisclosed": [
+      "scale.活跃用户数",
+      "scale.交易/付费用户数",
+      "scale.订阅/交易金额",
+      "scale.企业收入",
+      "scale.企业利润",
+      "growth",
+      "customers",
+      "market.tam",
+      "valuation.multiples"
+     ],
+     "undisclosedCount": 9,
+     "stale": [
+      {
+       "path": "iterations[0]",
+       "asOf": "2026-04-27",
+       "value": "发改委禁止投资并要求撤销收购。"
+      }
+     ],
+     "staleCount": 1,
+     "missingDate": []
+    }
+   }
+  ]
+ }
 }
