@@ -1,0 +1,111 @@
+name: podcast-pipeline
+
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - main
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: dry-run 只上传构件；publish 才会改仓库（还要 confirmed=yes）
+        type: choice
+        options:
+          - dry-run
+          - publish
+        default: dry-run
+      confirmed:
+        description: 真实上线填 yes（确认上线）。彩排保持 no
+        type: string
+        default: "no"
+      queue_path:
+        description: 队列目录，例如 queue/ep-036。留空则只跑内置彩排样本
+        type: string
+        default: ""
+      episode_id:
+        description: 可选，覆盖 meta.json 的 id
+        type: string
+        default: ""
+      title:
+        description: 可选，覆盖标题
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  rehearsal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Install pytest
+        run: python -m pip install pytest
+      - name: Tests
+        run: python -m pytest -q
+      - name: Company freshness
+        run: python scripts/companies_refresh.py
+      - name: Built-in dry run
+        run: python -m scripts.pipeline.publish --sample --mode dry-run --out artifacts/dry-run
+      - name: Queue dry run
+        if: github.event_name == 'workflow_dispatch' && inputs.queue_path != '' && inputs.mode != 'publish'
+        env:
+          CONFIRMED: "no"
+        run: python -m scripts.pipeline.publish --input "${{ inputs.queue_path }}" --mode dry-run --episode-id "${{ inputs.episode_id }}" --title "${{ inputs.title }}" --out artifacts/queue-dry-run
+      - name: Live catalog report
+        run: python -m scripts.pipeline.qc --root . --report-only --report artifacts/qc-live.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: podcast-dry-run
+          path: |
+            artifacts/dry-run
+            artifacts/qc-live.md
+          if-no-files-found: error
+
+  publish:
+    if: github.event_name == 'workflow_dispatch' && inputs.mode == 'publish' && inputs.confirmed == 'yes'
+    needs: rehearsal
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Publish confirmed episode
+        env:
+          LISTENHUB_API_KEY: ${{ secrets.LISTENHUB_API_KEY }}
+          LISTENHUB_CLIENT_ID: ${{ secrets.LISTENHUB_CLIENT_ID }}
+          CONFIRMED: ${{ inputs.confirmed }}
+          ALLOW_LISTENHUB: "yes"
+          PUBLISH_MODE: live
+        run: |
+          case "${{ inputs.queue_path }}" in
+            queue/*) ;;
+            *) echo "真上线的 queue_path 必须以 queue/ 开头"; exit 1 ;;
+          esac
+          case "${{ inputs.queue_path }}" in
+            *..*) echo "queue_path 不能包含 .."; exit 1 ;;
+          esac
+          python -m scripts.pipeline.publish \
+            --input "${{ inputs.queue_path }}" \
+            --mode live \
+            --episode-id "${{ inputs.episode_id }}" \
+            --title "${{ inputs.title }}" \
+            --out artifacts/live-work
+      - name: Commit episode
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio episodes.json feed.xml index.html shownotes ep-*.html
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "上线：${{ inputs.title || inputs.queue_path }}"
+          git push

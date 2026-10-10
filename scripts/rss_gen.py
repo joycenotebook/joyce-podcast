@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -232,8 +233,15 @@ def render_index(cfg: dict, episodes: list[dict], root: Path) -> str:
 """
 
 
+def site_root() -> Path:
+    override = os.environ.get("PODCAST_ROOT", "").strip()
+    if override:
+        return Path(override).resolve()
+    return Path(__file__).resolve().parent.parent
+
+
 def main() -> None:
-    root = Path(__file__).resolve().parent.parent
+    root = site_root()
     data = json.loads((root / "episodes.json").read_text(encoding="utf-8"))
     cfg = data["podcast"]
     episodes = [e for e in data["episodes"] if e.get("listed", True)]
