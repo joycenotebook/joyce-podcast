@@ -63,6 +63,40 @@ def test_stale_and_podcast_scale_are_not_rewritten():
     assert "非投资建议" in raw["disclaimer"]
 
 
+def test_unit_economics_sit_with_sources_and_mark_ratios():
+    rows = _by_id()
+    for co in rows.values():
+        model = co["model"]
+        assert model.get("text")
+        assert "streams" in model and "pricing" in model and "metrics" in model
+    door = rows["doordash"]["model"]
+    by_name = {row["name"]: row for row in door["metrics"]}
+    assert by_name["Net Revenue Margin"]["value"] == "13.5"
+    assert by_name["Net Revenue Margin"]["type"] == "财报"
+    assert by_name["Adjusted EBITDA / GOV"]["value"] == "2.8"
+    assert by_name["Adjusted EBITDA / GOV"].get("calculated") is not True
+    assert by_name["每单收入"]["value"] == "4.59"
+    assert by_name["每单收入"]["calculated"] is True
+    assert by_name["每单贡献"]["value"] == "1.69"
+    assert by_name["每单贡献"]["calculated"] is True
+    assert by_name["Contribution Profit / GOV"]["value"] == "4.96"
+    assert by_name["DashPass 会员人数"]["status"] == "未公开"
+    nv = rows["nvidia"]["model"]["streams"]["facts"]
+    assert any(item["value"] == "890" for item in nv)
+    assert any(item["value"] == "72" for item in nv)
+    margin = next(item for item in rows["nvidia"]["model"]["metrics"] if item["name"] == "毛利率")
+    assert margin["value"] == "75.0" and margin["type"] == "财报"
+    meta = rows["meta"]["model"]["streams"]["facts"]
+    assert any(item["value"] == "593.63" for item in meta)
+    assert any(item["value"] == "4.31" for item in meta)
+    openai_metrics = rows["openai"]["model"]["metrics"]
+    assert all(item.get("status") == "未公开" for item in openai_metrics)
+    assert rows["linear"]["model"]["metrics"]
+    nrr = next(item for item in rows["linear"]["model"]["metrics"] if item["name"] == "NRR")
+    assert nrr["value"] == "177"
+    assert nrr["type"] == "官方披露"
+
+
 def test_refresh_reports_without_failing():
     assert main(["--root", str(ROOT), "--as-of", "2026-10-10"]) == 0
 

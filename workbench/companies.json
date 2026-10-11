@@ -161,10 +161,161 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "平台抽成坐在 GOV 和净收入之间。二季报表上有 Net Revenue Margin，可以当单位经济的公开锚，不是每单贡献的完整拆分。",
-    "unitEconomics": "Net Revenue Margin 13.5%（截至 2026-06-30 那一列）。会员人数、每单贡献未在新闻稿里单列。",
-    "refs": [
-     "growth"
+    "text": "Net Revenue Margin 13.5% 是当季收入相对 GOV 的公开比例，不是合同抽佣表。每单收入和每单贡献是用营收或 Contribution Profit 除以订单数得到的推算，新闻稿没有单列这两个单价。",
+    "streams": {
+     "facts": [
+      {
+       "name": "总收入",
+       "value": "44.54",
+       "unit": "亿美元",
+       "period": "2026Q2（截至 2026-06-30）",
+       "asOf": "2026-08-05",
+       "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+       "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+       "type": "财报",
+       "note": "表格 Revenue $4,454 million。标题写 $4.5 billion。关键指标表没有再拆成美国、国际、餐厅、食杂或广告。",
+       "currency": "USD"
+      },
+      {
+       "name": "地区或品类拆分",
+       "status": "未公开",
+       "note": "正文只定性提到美国餐饮、食杂零售和国际，没有对应金额。"
+      }
+     ]
+    },
+    "pricing": {
+     "facts": [
+      {
+       "name": "Net Revenue Margin",
+       "value": "13.5",
+       "unit": "%",
+       "period": "2026Q2 Net Revenue Margin",
+       "asOf": "2026-08-05",
+       "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+       "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+       "type": "财报",
+       "note": "季度表截至 2026-06-30 的那一列。这是收入相对 Marketplace GOV 的比例，不是商家合同上的抽佣率。"
+      },
+      {
+       "name": "DashPass 会费",
+       "status": "未公开",
+       "note": "新闻稿写美国付费会员人数在增加，没有会费，也没有会员人数。"
+      }
+     ]
+    },
+    "metrics": [
+     {
+      "name": "Marketplace GOV",
+      "value": "330.78",
+      "unit": "亿美元",
+      "period": "2026Q2 Marketplace GOV",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "表格 $33,078 million。标题四舍五入成 $33.1 billion。",
+      "currency": "USD"
+     },
+     {
+      "name": "Net Revenue Margin",
+      "value": "13.5",
+      "unit": "%",
+      "period": "2026Q2 Net Revenue Margin",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "与定价格同一列。收入 $4,454 million，GOV $33,078 million。"
+     },
+     {
+      "name": "每单收入",
+      "value": "4.59",
+      "unit": "美元/单",
+      "period": "2026Q2（截至 2026-06-30）",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "推算：$4,454 million ÷ Total Orders 970 million = $4.59/单。新闻稿没有这一行。",
+      "currency": "USD",
+      "calculated": true
+     },
+     {
+      "name": "Contribution Profit",
+      "value": "16.41",
+      "unit": "亿美元",
+      "period": "2026Q2（截至 2026-06-30）",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "非 GAAP。关键指标表截至 2026-06-30 的 Contribution Profit 为 $1,641 million。",
+      "currency": "USD"
+     },
+     {
+      "name": "每单贡献",
+      "value": "1.69",
+      "unit": "美元/单",
+      "period": "2026Q2（截至 2026-06-30）",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "推算：Contribution Profit $1,641 million ÷ 970 million 订单 = $1.69/单。不是公司单列的每单贡献。",
+      "currency": "USD",
+      "calculated": true
+     },
+     {
+      "name": "Contribution Profit / GOV",
+      "value": "4.96",
+      "unit": "%",
+      "period": "2026Q2（截至 2026-06-30）",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "推算：$1,641 million ÷ Marketplace GOV $33,078 million = 4.96%。同一张表披露了分子和分母；本卡不把这个除法写成公司宣布的一位小数。",
+      "calculated": true
+     },
+     {
+      "name": "Adjusted EBITDA",
+      "value": "9.14",
+      "unit": "亿美元",
+      "period": "2026Q2（截至 2026-06-30）",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "非 GAAP。$914 million，同比 +40%。",
+      "currency": "USD"
+     },
+     {
+      "name": "Adjusted EBITDA / GOV",
+      "value": "2.8",
+      "unit": "%",
+      "period": "2026Q2 Adjusted EBITDA as a % of Marketplace GOV",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "新闻稿印出 2.8%。对应金额 $914 million，GOV $33,078 million。"
+     },
+     {
+      "name": "GAAP 毛利 / GOV",
+      "value": "6.7",
+      "unit": "%",
+      "period": "2026Q2 GAAP gross profit as a % of Marketplace GOV",
+      "asOf": "2026-08-05",
+      "sourceTitle": "DoorDash Releases Second Quarter 2026 Financial Results",
+      "sourceUrl": "https://ir.doordash.com/news/news-details/2026/DoorDash-Releases-Second-Quarter-2026-Financial-Results/default.aspx",
+      "type": "财报",
+      "note": "新闻稿印出 6.7%。对应 GAAP gross profit $2,223 million。这是占 GOV，不是占收入的毛利率。"
+     },
+     {
+      "name": "DashPass 会员人数",
+      "status": "未公开",
+      "note": "新闻稿没有会员人数。10-K 里的骑手人数不能填进这里。"
+     }
     ]
    },
    "business": {
@@ -518,10 +669,71 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "卖加速计算和网络，数据中心是收入主体。单位经济公开锚是毛利率，不是每颗芯片的成本和售价。",
-    "unitEconomics": "GAAP 毛利率 75.0%。没有公开的单芯片 ASP。",
-    "refs": [
-     "growth"
+    "text": "数据中心和 Edge Computing 是新闻稿里的两条收入分项。单位经济的公开锚是 GAAP 毛利率 75.0%，没有 ASP、NRR 或推理成本。",
+    "streams": {
+     "facts": [
+      {
+       "name": "数据中心",
+       "value": "890",
+       "unit": "亿美元",
+       "period": "FY2027 Q2 数据中心",
+       "asOf": "2026-08-26",
+       "sourceTitle": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+       "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+       "type": "财报",
+       "note": "新闻稿写 Data Center revenue of $89.0 billion，环比 +18%，同比 +117%。用的是十亿美元整数，不是利润表 $96,221 million 那种尾数。",
+       "currency": "USD"
+      },
+      {
+       "name": "Edge Computing",
+       "value": "72",
+       "unit": "亿美元",
+       "period": "FY2027 Q2 Edge Computing",
+       "asOf": "2026-08-26",
+       "sourceTitle": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+       "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+       "type": "财报",
+       "note": "新闻稿写 $7.2 billion，环比 +13%，同比 +27%。与数据中心 $89.0 billion 相加等于标题收入 $96.2 billion。",
+       "currency": "USD"
+      }
+     ]
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "新闻稿没有芯片 ASP，也没有抽成。"
+    },
+    "metrics": [
+     {
+      "name": "毛利率",
+      "value": "75.0",
+      "unit": "%",
+      "period": "FY2027 Q2 GAAP 毛利率",
+      "asOf": "2026-08-26",
+      "sourceTitle": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx",
+      "type": "财报",
+      "note": "GAAP 与 non-GAAP 毛利率都是 75.0%。"
+     },
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "FY2027 二季报没有这一行。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "FY2027 二季报没有这一行。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "FY2027 二季报没有这一行。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "FY2027 二季报没有这一行。"
+     }
     ]
    },
    "business": {
@@ -852,10 +1064,122 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "广告按展示和单价卖。日活是分母，广告收入是分子。Reality Labs 仍是亏损分部，不和家庭应用混成一个利润。",
-    "unitEconomics": "广告展示同比 +14%，单次展示价格同比 +12%。没有给出 ARPU 的单一官方数字，本卡不算。",
-    "refs": [
-     "scale.订阅/交易金额"
+    "text": "广告、其他收入和 Reality Labs 在分部表里分开列，经营利润率 31% 是公司自己写的。展示量和广告单价只有同比，没有 ARPU，新闻稿也没有标成毛利率的一行。",
+    "streams": {
+     "facts": [
+      {
+       "name": "广告",
+       "value": "593.63",
+       "unit": "亿美元",
+       "period": "2026Q2 广告收入",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报",
+       "note": "Advertising $59,363 million。",
+       "currency": "USD"
+      },
+      {
+       "name": "其他收入",
+       "value": "10.07",
+       "unit": "亿美元",
+       "period": "2026Q2 其他收入",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报",
+       "note": "Other revenue $1,007 million。与广告相加等于 Family of Apps。",
+       "currency": "USD"
+      },
+      {
+       "name": "Family of Apps",
+       "value": "603.70",
+       "unit": "亿美元",
+       "period": "2026Q2 Family of Apps",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报",
+       "note": "Family of Apps revenue $60,370 million。经营利润 $23,394 million，不重复填进利润率。",
+       "currency": "USD"
+      },
+      {
+       "name": "Reality Labs",
+       "value": "4.31",
+       "unit": "亿美元",
+       "period": "2026Q2 Reality Labs",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报",
+       "note": "Reality Labs revenue $431 million。经营亏损 $4,619 million。与 Family of Apps 相加等于总收入 $60,801 million。",
+       "currency": "USD"
+      }
+     ]
+    },
+    "pricing": {
+     "facts": [
+      {
+       "name": "广告展示量同比",
+       "value": "14",
+       "unit": "%",
+       "period": "2026Q2 广告展示同比",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报",
+       "note": "Ad impressions delivered across our Family of Apps increased by 14% year-over-year。这是增速，不是单价。"
+      },
+      {
+       "name": "平均单次广告价格同比",
+       "value": "12",
+       "unit": "%",
+       "period": "2026Q2 平均单次广告价格同比",
+       "asOf": "2026-07-29",
+       "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+       "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+       "type": "财报",
+       "note": "Average price per ad increased by 12% year-over-year。没有给出绝对价格。"
+      }
+     ]
+    },
+    "metrics": [
+     {
+      "name": "经营利润率",
+      "value": "31",
+      "unit": "%",
+      "period": "2026Q2 operating margin",
+      "asOf": "2026-07-29",
+      "sourceTitle": "Meta Reports Second Quarter 2026 Results",
+      "sourceUrl": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+      "type": "财报",
+      "note": "新闻稿表内 Operating margin 31%。经营利润 $18,775 million。"
+     },
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "新闻稿没有 ARPU。日活和广告收入不在这里相除。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "利润表有 cost of revenue $11,330 million，新闻稿没有单列毛利率，本卡不除。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "广告业务没有公开净收入留存。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "新闻稿没有获客成本或回收期。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "新闻稿没有推理成本。"
+     }
     ]
    },
    "business": {
@@ -1188,10 +1512,41 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "卖模型和应用（Claude、Claude Code、Cowork），企业部署是官方稿里的主句。没有公开的单价或毛利率。",
-    "unitEconomics": "未公开。官方稿没有毛利率、没有每座位价格。",
-    "refs": [
-     "scale.企业利润"
+    "text": "官方稿和媒体稿都只给年化收入，没有产品线拆分、单价或毛利率。5 月官方数已经过期，8 月的数字是媒体转述并标了待核实。",
+    "streams": {
+     "status": "未公开",
+     "note": "Series H 稿点了 Claude、Claude Code、Cowork，没有各产品线收入。https://www.anthropic.com/news/series-h"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "Series H 稿和节目都没有座位价或 API 单价。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "Series H 稿、Bloomberg 转述和节目都没有这一行。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "Series H 稿、Bloomberg 转述和节目都没有这一行。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "Series H 稿、Bloomberg 转述和节目都没有这一行。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "Series H 稿、Bloomberg 转述和节目都没有这一行。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "Series H 稿、Bloomberg 转述和节目都没有这一行。"
+     }
     ]
    },
    "business": {
@@ -1502,10 +1857,41 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "订阅（ChatGPT 计划）加 API 和企业承诺。DevDay 没有单价表。媒体强调 OpenAI 不把云伙伴的销售额算进年化，Anthropic 算。",
-    "unitEconomics": "未公开。没有官方 ARPU 或毛利率。",
-    "refs": [
-     "scale.企业收入"
+    "text": "DevDay 的周活和媒体转述的年化收入不是同一张表，不能相除成 ARPU。收入拆分、定价和毛利率都没有公开数字。",
+    "streams": {
+     "status": "未公开",
+     "note": "DevDay 2026 只给了周活。TechCrunch 2026-10-08 转述的年化收入没有按订阅、API 或企业拆开。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有核对到官方价目。周活和媒体年化收入不相除。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "DevDay 页和这篇 TechCrunch 都没有这一行。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "DevDay 页和这篇 TechCrunch 都没有这一行。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "DevDay 页和这篇 TechCrunch 都没有这一行。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "DevDay 页和这篇 TechCrunch 都没有这一行。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "DevDay 页和这篇 TechCrunch 都没有这一行。"
+     }
     ]
    },
    "business": {
@@ -1794,10 +2180,47 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "B2B 订阅。公开的单位经济是 NRR，不是单座席价格。",
-    "unitEconomics": "NRR 177%。席位单价未公开。",
-    "refs": [
-     "growth"
+    "text": "公开的单位经济是 NRR 177%，不是座席单价。ARR 和付费公司数都是「超过」，不能相除成 ARPU。",
+    "streams": {
+     "status": "未公开",
+     "note": "官方帖只给了总 ARR「超过 1 亿美元」，没有座席费和使用费的拆分。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "帖子没有席位单价。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "超过 1 亿美元 ARR 和超过 4 万家付费公司都是「超过」，帖子也没写精确月份，不能相除。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "帖子没有毛利率。"
+     },
+     {
+      "name": "NRR",
+      "value": "177",
+      "unit": "%",
+      "period": "净收入留存",
+      "asOf": "2026-08-26",
+      "sourceTitle": "Sharing Linear’s growth",
+      "sourceUrl": "https://linear.app/now/sharing-growth-with-the-people-building-linear",
+      "type": "官方披露",
+      "note": "net revenue retention to 177%。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "帖子没有获客成本或回收期。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "帖子没有推理成本。"
+     }
     ]
    },
    "business": {
@@ -2086,10 +2509,41 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "编程产品，后来进入 SpaceX。订阅或用量价格本卡没有核对到一手。",
-    "unitEconomics": "未公开。",
-    "refs": [
-     "scale.企业利润"
+    "text": "并入 SpaceX 之后，订阅价和用量价没有对到 Cursor 自己的价目。收入、毛利率和 NRR 都未公开。",
+    "streams": {
+     "status": "未公开",
+     "note": "TechCrunch 与 The Verge 写的是收购，不是收入拆分。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有核对到 Cursor 自己的价目。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "收购稿和节目都没有这一行。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "收购稿和节目都没有这一行。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "收购稿和节目都没有这一行。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "收购稿和节目都没有这一行。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "收购稿和节目都没有这一行。"
+     }
     ]
    },
    "business": {
@@ -2296,8 +2750,37 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "直播拍卖的市场。抽成比例本卡没有一手数字。",
-    "unitEconomics": "未公开。"
+    "text": "直播拍卖市场。抽成比例没有一手数字，累计订单和估值也不能倒推出单位经济。",
+    "streams": {
+     "status": "未公开",
+     "note": "已核对的 CNBC 与 Fortune 稿没有收入分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有公开抽佣率。"
+    },
+    "metrics": [
+     {
+      "name": "GMV",
+      "status": "未公开",
+      "note": "嘉宾口径的 GMV 没有在已打开的文章里核对到，不填。"
+     },
+     {
+      "name": "抽佣率",
+      "status": "未公开",
+      "note": "没有公开抽成。"
+     },
+     {
+      "name": "每单收入",
+      "status": "未公开",
+      "note": "没有可以相除的收入和订单金额。"
+     },
+     {
+      "name": "每单贡献",
+      "status": "未公开",
+      "note": "没有贡献利润。"
+     }
+    ]
    },
    "business": {
     "text": "美国直播购物平台。",
@@ -2527,8 +3010,42 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "企业数据平台。单位经济未公开。",
-    "unitEconomics": "未公开。"
+    "text": "企业数据平台。已打开的融资稿没有收入拆分、定价或毛利率。",
+    "streams": {
+     "status": "未公开",
+     "note": "CNBC 这篇写的是融资和估值，不是收入分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有公开单价。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "这篇 CNBC 和节目都没有这一行。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "这篇 CNBC 和节目都没有这一行。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "这篇 CNBC 和节目都没有这一行。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "这篇 CNBC 和节目都没有这一行。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "这篇 CNBC 和节目都没有这一行。"
+     }
+    ]
    },
    "business": {
     "text": "企业数据与 AI 平台，从数据到湖仓。",
@@ -2729,8 +3246,42 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "前端云和 AI 网关。计价方式在节目里被提到，没有单价表。",
-    "unitEconomics": "未公开。"
+    "text": "前端云和 AI 网关。节目提到计价方式，没有单价表，收入也未公开。",
+    "streams": {
+     "status": "未公开",
+     "note": "没有核对到一手收入拆分。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有单价表。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "没有核对到公开数字。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "没有核对到公开数字。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "没有核对到公开数字。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "没有核对到公开数字。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "没有核对到公开数字。"
+     }
+    ]
    },
    "business": {
     "text": "前端云与部署，Next.js 的公司。节目主题是从网页到智能体。",
@@ -2922,10 +3473,65 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "能源、机房和云叠在一起。公开的经营数字是合同和容量，不是 GAAP 利润表。课上每兆瓦 6000 万美元前期、只出租约 1500 万美元年收入，标明是嘉宾教学账。",
-    "unitEconomics": "官方没有每兆瓦利润。教学账见增速格里的播客条。",
-    "refs": [
-     "growth"
+    "text": "官方公开的是合同额和产品线 ARR，不是 GAAP 收入或抽成。课上每兆瓦的前期和租金是嘉宾教学账，不并进财报。",
+    "streams": {
+     "status": "未公开",
+     "note": "Series F 稿的 $140B+ 是合同总额 TCV，不是收入拆分。没有 GAAP 收入。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "新闻稿没有算力单价或抽成。"
+    },
+    "metrics": [
+     {
+      "name": "Managed Inference 合同 ARR",
+      "value": "超过 1",
+      "unit": "亿美元 ARR",
+      "period": "产品线已签约",
+      "asOf": "2026-09-17",
+      "sourceTitle": "Crusoe Series F",
+      "sourceUrl": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding",
+      "type": "官方披露",
+      "note": "只是 Managed Inference 这条产品线，不是公司总收入。",
+      "currency": "USD"
+     },
+     {
+      "name": "课上每兆瓦教学账",
+      "value": "60 / 15",
+      "unit": "百万美元每兆瓦",
+      "period": "课上教学账：前期投入 / 只出租的年收入",
+      "asOf": "2026-09-09",
+      "sourceTitle": "EP 14",
+      "sourceUrl": "https://joycenotebook.github.io/joyce-podcast/ep-014.html",
+      "type": "播客中嘉宾原话",
+      "note": "Show Notes 写明是课上核对过的教学账，不是 Crusoe 财报。",
+      "episodeId": "ep-014"
+     },
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "没有每用户收入。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "Series F 稿没有毛利率。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "没有净收入留存。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "没有获客成本或回收期。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "教学账不是 token 推理成本，不填进这一格。"
+     }
     ]
    },
    "business": {
@@ -3201,8 +3807,42 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "生产推理基础设施，按算力出租。单价没有官方表。",
-    "unitEconomics": "未公开。节目里的租金翻倍是访谈问题，不是一张价目表。"
+    "text": "按算力出租。官方帖没有单价，节目里的租金翻倍是访谈问题，不是价目。",
+    "streams": {
+     "status": "未公开",
+     "note": "没有公开的收入分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有官方价目。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "官方帖和节目都没有这一行。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "官方帖和节目都没有这一行。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "官方帖和节目都没有这一行。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "官方帖和节目都没有这一行。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "官方帖和节目都没有这一行。"
+     }
+    ]
    },
    "business": {
     "text": "生产推理基础设施。",
@@ -3390,10 +4030,36 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "个人代理。用户侧不收费，钱从商家来。抽成比例未公开。",
-    "unitEconomics": "未公开。",
-    "refs": [
-     "scale.企业收入"
+    "text": "用户侧不收费，钱从商家来。抽成比例、GMV 和收入都没有公开数字。",
+    "streams": {
+     "status": "未公开",
+     "note": "没有收入分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "节目说用户免费、向商家收费，但没有抽成比例。"
+    },
+    "metrics": [
+     {
+      "name": "GMV",
+      "status": "未公开",
+      "note": "没有交易额。"
+     },
+     {
+      "name": "抽佣率",
+      "status": "未公开",
+      "note": "没有公开抽成。"
+     },
+     {
+      "name": "每单收入",
+      "status": "未公开",
+      "note": "没有收入和订单。"
+     },
+     {
+      "name": "每单贡献",
+      "status": "未公开",
+      "note": "没有贡献利润。"
+     }
     ]
    },
    "business": {
@@ -3597,8 +4263,42 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "卖推理芯片和相关系统。单价未公开。",
-    "unitEconomics": "未公开。节目里的 2–3 倍 token 是口播，不是价目。"
+    "text": "卖推理芯片。单价未公开。节目里的能效倍数是口播，不是价目，也不是推理成本。",
+    "streams": {
+     "status": "未公开",
+     "note": "没有收入分项。NVIDIA 财报里的 Groq 3 LPX 是产品名，不是 Groq 的收入。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有芯片单价。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "没有每用户收入。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "没有 Groq 自己的毛利率。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "没有净收入留存。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "没有获客成本或回收期。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "节目里约 2–3 倍 token 是口播能效，不是每 token 成本。"
+     }
+    ]
    },
    "business": {
     "text": "推理芯片公司，不是 xAI 的 Grok 模型。",
@@ -3795,8 +4495,42 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "把分子设计做成工具卖给做药的人。单价未公开。",
-    "unitEconomics": "未公开。"
+    "text": "把分子设计做成工具。单价、毛利率和客户数都未公开。",
+    "streams": {
+     "status": "未公开",
+     "note": "没有收入分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有单价。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "没有公开数字。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "没有公开数字。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "没有公开数字。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "没有公开数字。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "没有公开数字。"
+     }
+    ]
    },
    "business": {
     "text": "分子设计软件。",
@@ -3971,8 +4705,42 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "帮企业把模型用在自己的业务上。计价未公开。",
-    "unitEconomics": "未公开。"
+    "text": "帮企业把模型用进自己的业务。计价和收入都未公开。",
+    "streams": {
+     "status": "未公开",
+     "note": "没有收入分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有单价。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "节目没有这一行数字。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "节目没有这一行数字。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "节目没有这一行数字。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "节目没有这一行数字。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "节目没有这一行数字。"
+     }
+    ]
    },
    "business": {
     "text": "企业 AI 专有化。",
@@ -4147,8 +4915,32 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "投资机构。没有管理费和业绩报酬的公开拆分。",
-    "unitEconomics": "未公开。"
+    "text": "投资机构，不是经营公司。管理费和业绩报酬没有公开拆分。",
+    "streams": {
+     "status": "未公开",
+     "note": "没有管理费和业绩报酬的分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有公开费率。"
+    },
+    "metrics": [
+     {
+      "name": "管理费",
+      "status": "未公开",
+      "note": "没有公开管理费率。"
+     },
+     {
+      "name": "业绩报酬",
+      "status": "未公开",
+      "note": "没有公开业绩报酬。"
+     },
+     {
+      "name": "AUM",
+      "status": "未公开",
+      "note": "管理规模未公开，不拿被投公司的毛利率来填。"
+     }
+    ]
    },
    "business": {
     "text": "投资机构。EP 11 / EP 13 的嘉宾来自这里。",
@@ -4328,8 +5120,42 @@
    "model": {
     "draft": true,
     "label": "AI草稿",
-    "text": "代理产品。定价未公开。",
-    "unitEconomics": "未公开。"
+    "text": "代理产品。定价、收入和用户都未公开。",
+    "streams": {
+     "status": "未公开",
+     "note": "复出稿没有收入分项。"
+    },
+    "pricing": {
+     "status": "未公开",
+     "note": "没有价目。"
+    },
+    "metrics": [
+     {
+      "name": "ARPU",
+      "status": "未公开",
+      "note": "复出稿和节目都没有这一行。"
+     },
+     {
+      "name": "毛利率",
+      "status": "未公开",
+      "note": "复出稿和节目都没有这一行。"
+     },
+     {
+      "name": "NRR",
+      "status": "未公开",
+      "note": "复出稿和节目都没有这一行。"
+     },
+     {
+      "name": "CAC / 回收期",
+      "status": "未公开",
+      "note": "复出稿和节目都没有这一行。"
+     },
+     {
+      "name": "推理成本",
+      "status": "未公开",
+      "note": "复出稿和节目都没有这一行。"
+     }
+    ]
    },
    "business": {
     "text": "通用 AI 代理。2026 年 9 月官方称恢复独立运营。",

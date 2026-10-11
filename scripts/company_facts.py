@@ -231,7 +231,13 @@ def leaf_undisclosed(node) -> bool:
     if isinstance(node, dict) and "tam" in node and _is_undisclosed(node["tam"]):
         # 市场空间文字可以是草稿，TAM 未公开单独计，不把整段算成未公开
         return False
-    if isinstance(node, dict) and (node.get("text") or node.get("unitEconomics")):
+    if isinstance(node, dict) and (
+        node.get("text")
+        or node.get("unitEconomics")
+        or node.get("streams")
+        or node.get("pricing")
+        or node.get("metrics")
+    ):
         return False
     return False
 

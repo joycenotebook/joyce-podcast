@@ -64,10 +64,11 @@
   }
   function asOfOf(f) { return f.asOf || (f.source && f.source.asOf) || ""; }
 
-  function factBits(f) {
+  function factBits(f, opts) {
     if (!f) return "";
     if (f.status === "未公开") {
-      return `<span class="pill miss">未公开</span>${f.note ? `<span class="dim"> ${esc(f.note)}</span>` : ""}`;
+      const showName = !(opts && opts.hideName) && f.name;
+      return `${showName ? `<span class="stream-name">${esc(f.name)}</span> ` : ""}<span class="pill miss">未公开</span>${f.note ? `<span class="dim"> ${esc(f.note)}</span>` : ""}`;
     }
     const when = asOfOf(f);
     const old = isStale(when);
@@ -76,9 +77,12 @@
     const title = f.sourceTitle || (f.source && f.source.sourceTitle) || "来源";
     const type = f.type || (f.source && f.source.type) || "";
     const ep = f.episodeId || (f.source && f.source.episodeId);
+    const showName = !(opts && opts.hideName) && f.name;
     return `<div class="fact${old ? " is-stale" : ""}">
-      <b>${esc(label || f.text || f.name || "")}</b>
+      ${showName ? `<span class="stream-name">${esc(f.name)}</span> ` : ""}
+      <b>${esc(label || f.text || (showName ? "" : f.name) || "")}</b>
       ${type ? `<span class="pill">${esc(type)}</span>` : ""}
+      ${f.calculated ? `<span class="pill draft">推算</span>` : ""}
       ${f.forecast ? `<span class="pill">预测</span>` : ""}
       ${old ? `<span class="pill bad">超过 90 天</span>` : ""}
       <span class="dim">${esc(f.period || "")}${when ? " · " + esc(when) : ""}</span>
@@ -178,8 +182,45 @@
     return `<table class="kpi">${rows.join("")}</table>`;
   }
 
-  function listBlock(title, items, renderItem) {
-    return `<div class="dr-sec"><h4>${esc(title)}</h4>${(items || []).map(renderItem).join("") || "<p class='dim'>—</p>"}</div>`;
+  function renderFactNode(node) {
+    const facts = nodeFacts(node);
+    if (!facts.length) return factBits(node || { status: "未公开", note: "" });
+    return facts.map(f => factBits(f)).join("");
+  }
+
+  const NAV = [
+    ["sec-why", "为什么是现在"],
+    ["sec-drivers", "核心驱动"],
+    ["sec-moat", "护城河"],
+    ["sec-scale", "规模与增速"],
+    ["sec-unit", "商业模式与单位经济"],
+    ["sec-market", "市场与用户"],
+    ["sec-products", "产品"],
+    ["sec-iter", "迭代"],
+    ["sec-value", "估值"],
+    ["sec-risk", "风险"],
+    ["sec-false", "证伪"],
+    ["sec-watch", "跟踪"],
+    ["sec-cat", "催化剂"],
+    ["sec-eps", "节目"],
+  ];
+
+  function sectionNav() {
+    return `<nav class="sec-nav" aria-label="论点章节">${NAV.map(([id, label]) =>
+      `<a href="#${id}" data-jump="${id}" class="${id === "sec-unit" ? "pin" : ""}">${esc(label)}</a>`
+    ).join("")}</nav>`;
+  }
+
+  function unitSection(co) {
+    const m = co.model || {};
+    const rows = (m.metrics || []).map(row =>
+      `<tr><th>${esc(row.name || "")}</th><td>${factBits(row, { hideName: true })}</td></tr>`
+    ).join("");
+    return `${draftBadge(m)}<p class="unit-draft">${esc(m.text || "")}</p>
+      <h4 class="unit-h">收入来源拆分</h4>${renderFactNode(m.streams)}
+      <h4 class="unit-h">定价 / 抽佣率</h4>${renderFactNode(m.pricing)}
+      <h4 class="unit-h">单位经济指标</h4>
+      ${rows ? `<table class="kpi unit-kpi">${rows}</table>` : `<p class="dim">未公开</p>`}`;
   }
 
   function renderDetail(root, co) {
@@ -206,22 +247,23 @@
         <p class="dim">${esc((co.derive || {}).how || "")}</p>
         ${episodesHtml(co)}
       </div>
-      ${section("为什么是现在", draftBadge(co.whyNow) + `<p>${esc((co.whyNow && co.whyNow.text) || "")}</p>` + refsHtml(co, co.whyNow && co.whyNow.refs))}
-      ${section("核心驱动", (co.drivers || []).map((d, i) => `<div class="issue"><span class="lv info"></span><div><b>${i + 1}.</b> ${draftBadge(d)} ${esc(d.text)}${refsHtml(co, d.refs)}</div></div>`).join(""))}
-      ${section("护城河与竞争格局", draftBadge(co.moat) + `<p>${esc((co.moat && co.moat.text) || "")}</p>`)}
-      ${section("商业模式与单位经济", draftBadge(co.model) + `<p>${esc((co.model && co.model.text) || "")}</p><p class="dim">${esc((co.model && co.model.unitEconomics) || "")}</p>` + refsHtml(co, co.model && co.model.refs))}
-      ${section("规模与增速", kpiTable(co) + `<p class="dim">主营：${esc((co.business && co.business.text) || "")}</p>`)}
-      ${section("市场空间与代表用户", `<p>${esc((co.market && co.market.text) || "")}</p>` + (co.customers && co.customers.items ? co.customers.items.map(it => factBits(it)).join("") : factBits(co.customers)))}
-      ${section("产品矩阵", (co.products && co.products.items || []).map(it => `<div class="fact"><b>${esc(it.name)}</b> <span class="dim">${esc(it.note || "")}</span>${factBits({ source: it.source })}</div>`).join("") || "<p class='dim'>—</p>")}
-      ${section("产品迭代", (co.iterations && co.iterations.items || []).map(it => `<div class="fact${isStale(it.date) ? " is-stale" : ""}"><b>${esc(it.date)}</b> ${esc(it.text)} ${isStale(it.date) ? `<span class="pill bad">超过 90 天</span>` : ""}<div>${factBits({ source: it.source })}</div></div>`).join(""))}
-      ${section("估值参考", `${nodeFacts(co.valuation).map(factBits).join("") || factBits(co.valuation)}
+      ${sectionNav()}
+      ${section("sec-why", "为什么是现在", draftBadge(co.whyNow) + `<p>${esc((co.whyNow && co.whyNow.text) || "")}</p>` + refsHtml(co, co.whyNow && co.whyNow.refs))}
+      ${section("sec-drivers", "核心驱动", (co.drivers || []).map((d, i) => `<div class="issue"><span class="lv info"></span><div><b>${i + 1}.</b> ${draftBadge(d)} ${esc(d.text)}${refsHtml(co, d.refs)}</div></div>`).join(""))}
+      ${section("sec-moat", "护城河与竞争格局", draftBadge(co.moat) + `<p>${esc((co.moat && co.moat.text) || "")}</p>`)}
+      ${section("sec-scale", "规模与增速", kpiTable(co) + `<p class="dim">主营：${esc((co.business && co.business.text) || "")}</p>`)}
+      ${section("sec-unit", "商业模式与单位经济", unitSection(co))}
+      ${section("sec-market", "市场空间与代表用户", `<p>${esc((co.market && co.market.text) || "")}</p>` + (co.customers && co.customers.items ? co.customers.items.map(it => factBits(it)).join("") : factBits(co.customers)))}
+      ${section("sec-products", "产品矩阵", (co.products && co.products.items || []).map(it => `<div class="fact"><b>${esc(it.name)}</b> <span class="dim">${esc(it.note || "")}</span>${factBits({ source: it.source })}</div>`).join("") || "<p class='dim'>—</p>")}
+      ${section("sec-iter", "产品迭代", (co.iterations && co.iterations.items || []).map(it => `<div class="fact${isStale(it.date) ? " is-stale" : ""}"><b>${esc(it.date)}</b> ${esc(it.text)} ${isStale(it.date) ? `<span class="pill bad">超过 90 天</span>` : ""}<div>${factBits({ source: it.source })}</div></div>`).join(""))}
+      ${section("sec-value", "估值参考", `${nodeFacts(co.valuation).map(factBits).join("") || factBits(co.valuation)}
         ${co.valuation && co.valuation.multiples ? factBits(co.valuation.multiples) : ""}
         ${co.market && co.market.tam ? `<div style="margin-top:8px"><span class="dim">市场空间 </span>${factBits(co.market.tam)}</div>` : ""}`)}
-      ${section("主要风险", (co.risks || []).map(r => `<div class="issue"><span class="lv warn"></span><div>${draftBadge(r)} ${esc(r.text)}</div></div>`).join(""))}
-      ${section("证伪信号", (co.falsify || []).map(r => `<div class="issue"><span class="lv error"></span><div>${draftBadge(r)} ${esc(r.text)}</div></div>`).join(""))}
-      ${section("关键跟踪指标", (co.watch || []).map(w => `<div class="issue"><span class="lv info"></span><div>${draftBadge(w)} <b>${esc(w.kpi)}</b> · ${esc(w.why || "")}</div></div>`).join(""))}
-      ${section("催化剂", factBits(co.catalysts))}
-      ${section("相关节目与选题", episodesHtml(co) + (co.topics || []).map(t => `<p>${draftBadge(t)} ${esc(t.text)}</p>`).join(""))}
+      ${section("sec-risk", "主要风险", (co.risks || []).map(r => `<div class="issue"><span class="lv warn"></span><div>${draftBadge(r)} ${esc(r.text)}</div></div>`).join(""))}
+      ${section("sec-false", "证伪信号", (co.falsify || []).map(r => `<div class="issue"><span class="lv error"></span><div>${draftBadge(r)} ${esc(r.text)}</div></div>`).join(""))}
+      ${section("sec-watch", "关键跟踪指标", (co.watch || []).map(w => `<div class="issue"><span class="lv info"></span><div>${draftBadge(w)} <b>${esc(w.kpi)}</b> · ${esc(w.why || "")}</div></div>`).join(""))}
+      ${section("sec-cat", "催化剂", factBits(co.catalysts))}
+      ${section("sec-eps", "相关节目与选题", episodesHtml(co) + (co.topics || []).map(t => `<p>${draftBadge(t)} ${esc(t.text)}</p>`).join(""))}
       <details class="panel glass" style="margin-top:14px" open>
         <summary>证据底稿 · 字段覆盖 未公开 ${esc((co.coverage || {}).undisclosedCount ?? "")} / ${esc((co.coverage || {}).leaves ?? "")}</summary>
         <p class="dim">${esc(((co.coverage || {}).undisclosed || []).join("、"))}</p>
@@ -229,14 +271,21 @@
       </details>`;
     // 估值节在上面 kpi 里已经有一行，这里再单独放是重复。去掉空的占位 section 已用估值 panel。
     $("#coBack").onclick = () => { state.view = "overview"; state.id = ""; render(); };
+    root.querySelectorAll("[data-jump]").forEach(a => {
+      a.addEventListener("click", ev => {
+        ev.preventDefault();
+        const el = document.getElementById(a.dataset.jump);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
     bindJudgment(root);
     $("#oneSave").onclick = () => patch(co.id, { thesis: { oneLiner: $("#oneEdit").value.trim() } });
     $("#markMine").onclick = () => patch(co.id, { thesis: { draft: th.draft === false } });
     $("#mdOne").onclick = () => download(co.name + "-投资论点.md", markdown(co));
   }
 
-  function section(title, html) {
-    return `<div class="panel glass" style="margin-top:14px"><h3>${esc(title)}</h3>${html}</div>`;
+  function section(id, title, html) {
+    return `<div class="panel glass thesis-sec" id="${esc(id)}" style="margin-top:14px"><h3>${esc(title)}</h3>${html}</div>`;
   }
   function $(s, el) { return (el || document).querySelector(s); }
 
@@ -312,13 +361,15 @@
     lines.push(`## 护城河与竞争格局`);
     lines.push((co.moat && co.moat.text) || "");
     lines.push("");
-    lines.push(`## 商业模式与单位经济`);
-    lines.push((co.model && co.model.text) || "");
-    lines.push((co.model && co.model.unitEconomics) || "");
-    lines.push("");
     lines.push(`## 规模与增速`);
     lines.push(`| 指标 | 内容 |`);
     lines.push(`| --- | --- |`);
+    const mdFact = f => {
+      if (!f || f.status === "未公开") return `未公开。${((f && f.note) || "").replace(/\|/g, "/")}`;
+      const who = f.name ? `${f.name}：` : "";
+      const calc = f.calculated ? "推算。" : "";
+      return `${calc}${who}${f.value || ""} ${f.unit || ""}；${f.period || ""}；${asOfOf(f)}；${f.type || ""}；${f.sourceTitle || ""} ${f.sourceUrl || ""}${f.note ? "。" + f.note : ""}`;
+    };
     const pushNode = (name, node) => {
       const facts = nodeFacts(node);
       if (!facts.length) facts.push(node || { status: "未公开" });
@@ -329,6 +380,24 @@
     };
     SCALE.forEach(k => pushNode(k, (co.scale || {})[k]));
     pushNode("增速及预测", co.growth);
+    lines.push("");
+    const model = co.model || {};
+    lines.push(`## 商业模式与单位经济`);
+    lines.push(model.draft === false ? "已由 Joyce 修改" : "AI草稿");
+    lines.push(model.text || "");
+    lines.push("");
+    lines.push(`### 收入来源拆分`);
+    nodeFacts(model.streams).forEach(f => lines.push(`- ${mdFact(f)}`));
+    if (!nodeFacts(model.streams).length) lines.push(`- ${mdFact(model.streams)}`);
+    lines.push("");
+    lines.push(`### 定价 / 抽佣率`);
+    nodeFacts(model.pricing).forEach(f => lines.push(`- ${mdFact(f)}`));
+    if (!nodeFacts(model.pricing).length) lines.push(`- ${mdFact(model.pricing)}`);
+    lines.push("");
+    lines.push(`### 单位经济指标`);
+    lines.push(`| 指标 | 内容 |`);
+    lines.push(`| --- | --- |`);
+    (model.metrics || []).forEach(row => lines.push(`| ${row.name || ""} | ${mdFact(row).replace(/\|/g, "/")} |`));
     lines.push("");
     lines.push(`## 市场空间与代表用户`);
     lines.push((co.market && co.market.text) || "");
@@ -417,7 +486,13 @@
       derive: { role: "手工添加", how: "工作台里新增，不从节目自动挂。" },
       thesis: { judgment: "观察中", draft: true, label: "AI草稿", oneLiner: ($("#coNewLine").value || "").trim() },
       whyNow: { draft: true, text: "" },
-      drivers: [], moat: { draft: true, text: "" }, model: { draft: true, text: "", unitEconomics: "" },
+      drivers: [], moat: { draft: true, text: "" },
+      model: {
+        draft: true, label: "AI草稿", text: "",
+        streams: { status: "未公开", note: "手工新增，尚未填写。" },
+        pricing: { status: "未公开", note: "手工新增，尚未填写。" },
+        metrics: [{ name: "单位经济", status: "未公开", note: "手工新增，尚未填写。" }],
+      },
       business: { text: "" }, scale, growth: { status: "未公开", note: "" },
       market: { draft: true, text: "", tam: { status: "未公开", note: "" } },
       customers: { status: "未公开", note: "" },
