@@ -13,6 +13,17 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-037",
+      "title": "EP 25.OpenAI 的 ChatGPT 负责人说他最想干掉模型选择器：12 亿用户的分发开始给插件开发者分钱，而多数互联网行为将由 agent 完成",
+      "file": "ep-037.mp3",
+      "duration_sec": 3202,
+      "size_bytes": 76851116,
+      "desc": "透过AI播客学英文课。最想干掉模型选择器；12 亿用户的分发开始给插件开发者分钱；多数互联网动作将由 agent 完成。",
+      "pub_date": "2026-10-11",
+      "listed": true,
+      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-037.mp3"
+    },
+    {
       "id": "ep-034",
       "title": "EP 24.Anthropic 增长负责人说他七成时间在救火「成功的副作用」：14 个月从 10 亿做到 190 亿美元年化收入，内部已经没人看线性图表",
       "file": "ep-034.mp3",

@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 08 Oct 2026 16:29:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 06:27:28 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,78 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 25.OpenAI 的 ChatGPT 负责人说他最想干掉模型选择器：12 亿用户的分发开始给插件开发者分钱，而多数互联网行为将由 agent 完成</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-037.html</link>
+      <description>&lt;p&gt;原文：OpenAI’s Head of ChatGPT: “We’re entering a new era of AI (again)” | Tibo Sottiaux（播客《Lenny's Podcast》，Dev Day 当天录制）。定位：OpenAI 在模型层和应用层是同一家；他管的这一段，卖的是持续在场的智能，不是某个 app 的席位。&lt;/p&gt;
+&lt;p&gt;带走三句判断：最想干掉模型选择器——你现在差不多得有个模型选择器的博士学位。12 亿用户的分发开始给插件开发者分钱，推不推看留存。多数互联网动作将由 agent 完成；为编排投入会随模型更新折旧，记忆、品味和用户关系才会增值。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲《Lenny's Podcast》对 OpenAI ChatGPT 负责人 Tibo Sottiaux 的访谈。检索日 2026-10-11。&lt;/p&gt;
+&lt;h3&gt;产品与功能&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;2026-10-07 OpenAI 把 GPT-6 和 Intelligent UI 铺到更多人：付费档用 GPT-6 Sol，免费与 Go 用 GPT-6 Luna；官方称服务每周超过 12 亿人。一手：&lt;a href="https://openai.com/index/gpt-6-for-everyone/"&gt;OpenAI · GPT-6 and Intelligent UI for everyone&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2026-09-29 Dev Day：发布 Dots、插件扩展与发现、Sign in with ChatGPT、MCP events。一手：&lt;a href="https://openai.com/index/devday-2026-recap/"&gt;OpenAI · DevDay 2026 Recap&lt;/a&gt; · &lt;a href="https://openai.com/index/introducing-dots/"&gt;Introducing dots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tibo Sottiaux · OpenAI ChatGPT 负责人&lt;/li&gt;
+&lt;li&gt;节目：《Lenny's Podcast》· OpenAI’s Head of ChatGPT: “We’re entering a new era of AI (again)”&lt;/li&gt;
+&lt;li&gt;原访谈：&lt;a href="https://www.youtube.com/watch?v=MM-C3JqCXBk"&gt;YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：干掉模型选择器、插件分成与留存、agent 接管互联网动作、瓶颈会呼吸、睡着的黑马是生态&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；今天读 Lenny 对 OpenAI ChatGPT 负责人 Tibo Sottiaux 的访谈，录制当天是 Dev Day。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0:17&lt;/td&gt;&lt;td&gt;课程导读：12 亿人；插件开发者按留存拿分成；API 投入大部分进 safety；能力过剩和选项过剩是同一枚硬币。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;3:41&lt;/td&gt;&lt;td&gt;走进录音棚：当一家公司手里握着 12 亿用户，下一步不是加功能，而是让这个 app 慢慢消失。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;4:20&lt;/td&gt;&lt;td&gt;英文金句：现在有 Codex、ChatGPT Work、消费端 ChatGPT 和 Dots，主持人问入口是不是 Dots。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:13&lt;/td&gt;&lt;td&gt;英文金句：不管是不是 Dots，核心都是从技术里挣脱，拥有一种持续在场的智能，任何屏幕都能用。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:27&lt;/td&gt;&lt;td&gt;英文金句：走进会议室它出现，邮件里接着聊，不需要时让开；笔记本像砖头一样到处拎着。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:50&lt;/td&gt;&lt;td&gt;英文金句：能力上超过 Astra 的下一步还没发布；有一个六点一 Astra 他们按住没发。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:30&lt;/td&gt;&lt;td&gt;英文金句：开放为 ChatGPT 建的基础设施，让人通过 12 亿用户把东西发出去。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:43&lt;/td&gt;&lt;td&gt;英文金句：主题演讲没讲的条款——用量大的插件会拿到收入分成。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:39&lt;/td&gt;&lt;td&gt;英文金句：ChatGPT Work 里用 Notion、Figma 插件，第三方会被付酬。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:23&lt;/td&gt;&lt;td&gt;英文金句：推不推看留存和质量；不够好就不再推荐。不是把词弄对、让别人写你。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:12&lt;/td&gt;&lt;td&gt;英文金句：OpenAI 现在有超过 120 位前 YC 创始人，像一家超级创业公司。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:27&lt;/td&gt;&lt;td&gt;英文金句：互联网上的多数动作将由 agent 完成；模型会以惊人的速率变得更便宜、更快。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;21:55&lt;/td&gt;&lt;td&gt;英文金句：即使到了今天用起来还是有点笨拙，会一直笨拙到它不再笨拙的那天。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;25:54&lt;/td&gt;&lt;td&gt;英文金句：做产品还要不要建界面？你可以往后压，但大多数东西终归要被 agent 使用。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:01&lt;/td&gt;&lt;td&gt;英文金句：Notion 接上 MCP 之后，agent 流量涌进来，系统吃紧，经济账要重算。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;28:41&lt;/td&gt;&lt;td&gt;英文金句：Dots 的 harness 不跑在你的机器上，它有自己的电脑，有点像章鱼；专业型有的跑在 Mac mini 上。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;31:41&lt;/td&gt;&lt;td&gt;英文金句：并行跑的 agent 会随边界扩张、随模型突破收缩；自己搭 loops 不是终点。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;39:48&lt;/td&gt;&lt;td&gt;英文金句：打字快正在过时，正在走高的是品味；他想尽快弄掉模型选择器，让 app 几乎消失。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;43:26&lt;/td&gt;&lt;td&gt;英文金句：Dots 最炫，但睡着的黑马是生态；对开放的承诺、16 家登录合作伙伴、第二次做应用商店这次是对的。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;47:57&lt;/td&gt;&lt;td&gt;主题升华：消失清单；能力过剩就是选项过剩；别为会折旧的编排花钱。订阅，把表达练成肌肉记忆。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Dots 发布说明：全天在场、自带云电脑、插件接四千多个应用。一手：&lt;a href="https://openai.com/index/introducing-dots/"&gt;OpenAI · Introducing dots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GPT-6 铺到免费档与 Intelligent UI。一手：&lt;a href="https://openai.com/index/gpt-6-for-everyone/"&gt;OpenAI · GPT-6 for everyone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;原访谈&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lenny 现场访谈录像。一手：&lt;a href="https://www.youtube.com/watch?v=MM-C3JqCXBk"&gt;YouTube · Tibo Sottiaux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-037.mp3" type="audio/mpeg" length="76851116" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-037.mp3</guid>
+      <itunes:duration>53:22</itunes:duration>
+      <itunes:title>EP 25.OpenAI 的 ChatGPT 负责人说他最想干掉模型选择器：12 亿用户的分发开始给插件开发者分钱，而多数互联网行为将由 agent 完成</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。最想干掉模型选择器；12 亿用户的分发开始给插件开发者分钱；多数互联网动作将由 agent 完成。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。最想干掉模型选择器；12 亿用户的分发开始给插件开发者分钱；多数互联网动作将由 agent 完成。</itunes:summary>
+    </item>
     <item>
       <title>EP 24.Anthropic 增长负责人说他七成时间在救火「成功的副作用」：14 个月从 10 亿做到 190 亿美元年化收入，内部已经没人看线性图表</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-034.html</link>
