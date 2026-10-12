@@ -21,7 +21,8 @@
       "desc": "透过AI播客学英文课。最想干掉模型选择器；12 亿用户的分发开始给插件开发者分钱；多数互联网动作将由 agent 完成。",
       "pub_date": "2026-10-11",
       "listed": true,
-      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-037.mp3"
+      "resync": "2026-10-12",
+      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-037.mp3?resync=2026-10-12"
     },
     {
       "id": "ep-034",
