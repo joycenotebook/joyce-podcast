@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-038",
+      "title": "EP 26.一个月做出 Grok Bot：给每个 AI 同事一台自己的云端电脑，再把多余的按钮删掉",
+      "file": "ep-038.mp3",
+      "duration_sec": 1889,
+      "size_bytes": 45337004,
+      "desc": "透过AI播客学英文课。两个早期决定：运行在云端、每个 bot 一台自己的电脑；产品变强靠删；护城河是被发现的。",
+      "pub_date": "2026-10-14",
+      "listed": true
+    },
+    {
       "id": "ep-037",
       "title": "EP 25.OpenAI 的 ChatGPT 负责人说他最想干掉模型选择器：12 亿用户的分发开始给插件开发者分钱，而多数互联网行为将由 agent 完成",
       "file": "ep-037.mp3",

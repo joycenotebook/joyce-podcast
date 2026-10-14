@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 12 Oct 2026 08:40:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 02:22:25 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,77 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 26.一个月做出 Grok Bot：给每个 AI 同事一台自己的云端电脑，再把多余的按钮删掉</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-038.html</link>
+      <description>&lt;p&gt;原文：How we built Grok Bot in a month | Roman Ugarte（播客《Lenny's Podcast》，2026-09-08）。定位：SpaceX AI 旗下知识工作产品；把 AI 当成有自己电脑的同事来委派，而不是又一个聊天窗口。&lt;/p&gt;
+&lt;p&gt;带走三句判断：定义产品的是用户心里那个框——同事，不是聊天加连接。变强靠删，不靠加：不给看工具调用，自动化一句话建成，功能先过发布推文。护城河是交付中被发现的，不是战略图倒推出来的。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 公司近况&lt;/h2&gt;
+&lt;p&gt;本期精讲《Lenny's Podcast》对 SpaceX AI 旗下 Grok Bot 产品负责人 Roman Ugarte 的访谈。检索日 2026-10-14。&lt;/p&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SpaceX AI 三根支柱：编程（Cursor / Grok Build）、通用知识工作（Grok Bot）、通用模型。&lt;/li&gt;
+&lt;li&gt;Grok Bot：从第一行代码到内测约一个月，内测到公开发布约三周；录制时离公开发布又约三周。&lt;/li&gt;
+&lt;li&gt;原访谈：&lt;a href="https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"&gt;Lenny's Newsletter · How we built Grok Bot in a month&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 访谈嘉宾&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Roman Ugarte · Grok Bot 产品负责人；Cursor 第十五号员工，做过增长和市场方向&lt;/li&gt;
+&lt;li&gt;节目：《Lenny's Podcast》· How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)&lt;/li&gt;
+&lt;li&gt;原访谈：&lt;a href="https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"&gt;Lenny's Newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：洞穴里的一个月、两个早期决定、百分之九十与百分之百、删产品、护城河是被发现的&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；今天读 Lenny 对 SpaceX AI 旗下 Grok Bot 产品负责人 Roman Ugarte 的访谈。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0:17&lt;/td&gt;&lt;td&gt;课程导读：一个月从零到发布；两个早期决定；删的方法论；护城河是被发现的。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:42&lt;/td&gt;&lt;td&gt;板块一 · 管理层选择&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:42&lt;/td&gt;&lt;td&gt;第一问：怎么走到 Grok Bot 这一步——从 Cursor 第十五号员工到「洞穴里的一个月」&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:11&lt;/td&gt;&lt;td&gt;板块二 · 公司在哪一层 / 业务定位&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:05&lt;/td&gt;&lt;td&gt;第三问：在产业链上卖的是什么——不是聊天，是「委派」工作任务&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:37&lt;/td&gt;&lt;td&gt;第四问：自研还是站在别人的模型上&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:17&lt;/td&gt;&lt;td&gt;板块三 · 谁买单&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;9:17&lt;/td&gt;&lt;td&gt;第五问：真正的用户是谁——咖啡店主和销售团队&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;11:36&lt;/td&gt;&lt;td&gt;第六问：为什么是你们，为什么是现在——两个早期决定&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:05&lt;/td&gt;&lt;td&gt;第七问：AI 打穿了哪里，又卡在哪里——把活干完百分之九十和百分之百是两个物种&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:53&lt;/td&gt;&lt;td&gt;板块四 · 供给与瓶颈&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;18:53&lt;/td&gt;&lt;td&gt;第十问：核心瓶颈是什么——「能用」靠的是在后台的重要问题上爬坡&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:23&lt;/td&gt;&lt;td&gt;板块五 · 竞争与机会判断&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;20:23&lt;/td&gt;&lt;td&gt;第十一问：最大的竞争在哪&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;24:05&lt;/td&gt;&lt;td&gt;第十二问：长期价值落在哪——护城河是回看时被发现的、不是事先规划出来的。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;25:34&lt;/td&gt;&lt;td&gt;题库之外的两段&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;26:20&lt;/td&gt;&lt;td&gt;第一段：删产品——「Grok Bot now has」改成「Grok Bot can now」&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;28:58&lt;/td&gt;&lt;td&gt;第二段：两个用例——招聘的「常驻寻源」和信息的「首席幕僚」&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;30:19&lt;/td&gt;&lt;td&gt;主题升华：用户心里的框；变强靠删；护城河在交付中被发现。订阅，把表达练成肌肉记忆。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;h3&gt;产品与组织&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;原访谈全文与音频。一手：&lt;a href="https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month"&gt;Lenny's Newsletter · How we built Grok Bot in a month&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;相关精读&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;上一期 EP 25：OpenAI ChatGPT 负责人谈模型选择器、插件分成与 agent 接管互联网动作。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-038.mp3" type="audio/mpeg" length="45337004" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-038.mp3</guid>
+      <itunes:duration>31:29</itunes:duration>
+      <itunes:title>EP 26.一个月做出 Grok Bot：给每个 AI 同事一台自己的云端电脑，再把多余的按钮删掉</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。两个早期决定：运行在云端、每个 bot 一台自己的电脑；产品变强靠删；护城河是被发现的。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。两个早期决定：运行在云端、每个 bot 一台自己的电脑；产品变强靠删；护城河是被发现的。</itunes:summary>
+    </item>
     <item>
       <title>EP 25.OpenAI 的 ChatGPT 负责人说他最想干掉模型选择器：12 亿用户的分发开始给插件开发者分钱，而多数互联网行为将由 agent 完成</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-037.html</link>
