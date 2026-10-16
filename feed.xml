@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 14 Oct 2026 02:35:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 08:01:31 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,67 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 27.合上电脑它也不停：常驻 AI 同事，靠的不是更聪明，是一整圈工程</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-039.html</link>
+      <description>&lt;p&gt;原文：Stanford CS146S · How always-on agents work（讲者 Lee / leerob；YouTube 转写）。定位：常驻、主动、可断点续跑的 agent 工程图纸——能睡的云端电脑、外置的循环与状态、可续跑的工作流、只留消息通道的行为边界，以及把缓存与记忆当一等公民。&lt;/p&gt;
+&lt;p&gt;带走三句判断：合上电脑就停，说明缺的是能被委派的同事，不是更聪明的单次推理。可靠性主要靠一整圈工程（能睡的电脑→外置状态→断点续跑→行为边界→成本与记忆）。默认今天的模型最差，所以要敢删；真正未解的是月级评测，以及它何时该安静。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 课程近况&lt;/h2&gt;
+&lt;p&gt;本期精讲斯坦福 CS146S 课堂演讲「How always-on agents work」。检索日 2026-10-16。&lt;/p&gt;
+&lt;h3&gt;课程与产品&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;讲者 Lee（频道 leerob；课上自述先后在 Cursor 与 SpaceX 工作）。&lt;/li&gt;
+&lt;li&gt;主题：always-on / proactive / persistent agent 的产品、基础设施与 harness。&lt;/li&gt;
+&lt;li&gt;原演讲：&lt;a href="https://youtube.com/watch?v=L1OBRtfPS34"&gt;YouTube · How always-on agents work&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 讲者与来源&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Lee · Stanford CS146S 客座演讲；Cursor / SpaceX AI 相关工程实践&lt;/li&gt;
+&lt;li&gt;节目：《发声 Taste, Out loud》· EP 27 精读&lt;/li&gt;
+&lt;li&gt;原演讲：&lt;a href="https://youtube.com/watch?v=L1OBRtfPS34"&gt;YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：休眠与唤醒、thick server、持久化工作流、单消息通道、缓存即正确性、删产品&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；今天读斯坦福 CS146S，Lee 讲常驻 agent 怎么工作。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0:17&lt;/td&gt;&lt;td&gt;课程导读：合上电脑就停 vs 后台干几周；与 EP 26 产品判断互补的工程图纸。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:32&lt;/td&gt;&lt;td&gt;一 · 终端里的 agent 一合上笔记本就停，说明「调用工具」还不够，缺的是能被委派的那一圈&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;6:38&lt;/td&gt;&lt;td&gt;二 · 人退出审批环、模型具备长上下文与工具调用之后，常驻才从想法变成可做的产品&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:26&lt;/td&gt;&lt;td&gt;三 · 常驻的第一层工程：电脑在云端，且默认休眠，有事件才唤醒&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;24:29&lt;/td&gt;&lt;td&gt;四 · 第二层工程：云端电脑可被回收或重建，因此 agent 的循环与状态必须放在更稳的服务端&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;28:09&lt;/td&gt;&lt;td&gt;五 · 第三层工程：服务端也会故障，因此任务必须写成可从断点续跑的持久化工作流&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;31:40&lt;/td&gt;&lt;td&gt;六 · 工程让「能续跑」成立之后，还要定行为边界：对外只留消息通道，对内先自助、问人放最后&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;46:28&lt;/td&gt;&lt;td&gt;七 · 行为可委派之后，还要守住两样硬约束：提示缓存当作正确性，记忆分层以应对有损压缩&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;55:09&lt;/td&gt;&lt;td&gt;主题升华：框架让委派成立；删产品、默认今天模型最差；评测与何时该安静仍未解。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;h3&gt;原演讲&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一手：&lt;a href="https://youtube.com/watch?v=L1OBRtfPS34"&gt;Stanford CS146S · How always-on agents work&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;相关精读&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;上一期 EP 26：Roman Ugarte 讲 Grok Bot 的两个早期决定与「删」的方法论。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-039.mp3" type="audio/mpeg" length="83405420" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-039.mp3</guid>
+      <itunes:duration>57:55</itunes:duration>
+      <itunes:title>EP 27.合上电脑它也不停：常驻 AI 同事，靠的不是更聪明，是一整圈工程</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。常驻 AI 同事靠一整圈工程成立：能睡的电脑、外置状态、断点续跑、行为边界、成本与记忆；默认今天模型最差，所以要敢删。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。常驻 AI 同事靠一整圈工程成立：能睡的电脑、外置状态、断点续跑、行为边界、成本与记忆；默认今天模型最差，所以要敢删。</itunes:summary>
+    </item>
     <item>
       <title>EP 26.一个月做出 Grok Bot：给每个 AI 同事一台自己的云端电脑，再把多余的按钮删掉</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-038.html</link>

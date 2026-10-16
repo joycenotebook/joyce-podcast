@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-039",
+      "title": "EP 27.合上电脑它也不停：常驻 AI 同事，靠的不是更聪明，是一整圈工程",
+      "file": "ep-039.mp3",
+      "duration_sec": 3475,
+      "size_bytes": 83405420,
+      "desc": "透过AI播客学英文课。常驻 AI 同事靠一整圈工程成立：能睡的电脑、外置状态、断点续跑、行为边界、成本与记忆；默认今天模型最差，所以要敢删。",
+      "pub_date": "2026-10-16",
+      "listed": true
+    },
+    {
       "id": "ep-038",
       "title": "EP 26.一个月做出 Grok Bot：给每个 AI 同事一台自己的云端电脑，再把多余的按钮删掉",
       "file": "ep-038.mp3",

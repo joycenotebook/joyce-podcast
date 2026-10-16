@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EP 27.合上电脑它也不停：常驻 AI 同事，靠的不是更聪明，是一整圈工程 · 发声 Taste, Out loud</title>
+  <link rel="alternate" type="application/rss+xml" title="发声 Taste, Out loud" href="./feed.xml" />
+  <style>
+    :root { color-scheme: dark; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; background: #1c1917; color: #fafaf9; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    img.cover { width: 100%; max-width: 360px; border-radius: 16px; display: block; }
+    h1 { font-weight: 600; font-size: 28px; margin: 24px 0 8px; }
+    h2 { font-weight: 600; font-size: 18px; margin: 32px 0 12px; }
+    h3 { font-weight: 600; font-size: 15px; margin: 20px 0 8px; color: #e7e5e4; }
+    p, li { color: #a8a29e; line-height: 1.65; }
+    a { color: #c4a574; }
+    .ep { margin-top: 28px; padding-top: 20px; border-top: 1px solid #292524; }
+    audio { width: 100%; margin-top: 8px; }
+    .notes ul { padding-left: 1.2em; }
+    .notes li { margin: 0.45em 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0 24px; }
+    th, td { border-bottom: 1px solid #292524; padding: 8px 6px; text-align: left; vertical-align: top; color: #a8a29e; }
+    th { color: #fafaf9; font-weight: 600; }
+    .back { font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="back"><a href="./">← 发声 Taste, Out loud</a></p>
+    <h1>EP 27.合上电脑它也不停：常驻 AI 同事，靠的不是更聪明，是一整圈工程</h1>
+    <audio controls preload="none" src="./audio/ep-039.mp3"></audio>
+    <div class="notes">
+<p>原文：Stanford CS146S · How always-on agents work（讲者 Lee / leerob；YouTube 转写）。定位：常驻、主动、可断点续跑的 agent 工程图纸——能睡的云端电脑、外置的循环与状态、可续跑的工作流、只留消息通道的行为边界，以及把缓存与记忆当一等公民。</p>
+<p>带走三句判断：合上电脑就停，说明缺的是能被委派的同事，不是更聪明的单次推理。可靠性主要靠一整圈工程（能睡的电脑→外置状态→断点续跑→行为边界→成本与记忆）。默认今天的模型最差，所以要敢删；真正未解的是月级评测，以及它何时该安静。</p>
+
+<h2>1. 课程导读 · 课程近况</h2>
+<p>本期精讲斯坦福 CS146S 课堂演讲「How always-on agents work」。检索日 2026-10-16。</p>
+<h3>课程与产品</h3>
+<ul>
+<li>讲者 Lee（频道 leerob；课上自述先后在 Cursor 与 SpaceX 工作）。</li>
+<li>主题：always-on / proactive / persistent agent 的产品、基础设施与 harness。</li>
+<li>原演讲：<a href="https://youtube.com/watch?v=L1OBRtfPS34">YouTube · How always-on agents work</a></li>
+</ul>
+
+<h2>2. 讲者与来源</h2>
+<ul>
+<li>Lee · Stanford CS146S 客座演讲；Cursor / SpaceX AI 相关工程实践</li>
+<li>节目：《发声 Taste, Out loud》· EP 27 精读</li>
+<li>原演讲：<a href="https://youtube.com/watch?v=L1OBRtfPS34">YouTube</a></li>
+<li>主题：休眠与唤醒、thick server、持久化工作流、单消息通道、缓存即正确性、删产品</li>
+</ul>
+
+<h2>3. 主要话题时间线</h2>
+<table>
+<thead><tr><th>时间</th><th>话题</th></tr></thead>
+<tbody>
+<tr><td>0:06</td><td>开场：发声；今天读斯坦福 CS146S，Lee 讲常驻 agent 怎么工作。</td></tr>
+<tr><td>0:17</td><td>课程导读：合上电脑就停 vs 后台干几周；与 EP 26 产品判断互补的工程图纸。</td></tr>
+<tr><td>2:32</td><td>一 · 终端里的 agent 一合上笔记本就停，说明「调用工具」还不够，缺的是能被委派的那一圈</td></tr>
+<tr><td>6:38</td><td>二 · 人退出审批环、模型具备长上下文与工具调用之后，常驻才从想法变成可做的产品</td></tr>
+<tr><td>19:26</td><td>三 · 常驻的第一层工程：电脑在云端，且默认休眠，有事件才唤醒</td></tr>
+<tr><td>24:29</td><td>四 · 第二层工程：云端电脑可被回收或重建，因此 agent 的循环与状态必须放在更稳的服务端</td></tr>
+<tr><td>28:09</td><td>五 · 第三层工程：服务端也会故障，因此任务必须写成可从断点续跑的持久化工作流</td></tr>
+<tr><td>31:40</td><td>六 · 工程让「能续跑」成立之后，还要定行为边界：对外只留消息通道，对内先自助、问人放最后</td></tr>
+<tr><td>46:28</td><td>七 · 行为可委派之后，还要守住两样硬约束：提示缓存当作正确性，记忆分层以应对有损压缩</td></tr>
+<tr><td>55:09</td><td>主题升华：框架让委派成立；删产品、默认今天模型最差；评测与何时该安静仍未解。</td></tr>
+</tbody>
+</table>
+
+<h2>4. 延伸阅读</h2>
+<h3>原演讲</h3>
+<ul>
+<li>一手：<a href="https://youtube.com/watch?v=L1OBRtfPS34">Stanford CS146S · How always-on agents work</a></li>
+</ul>
+<h3>相关精读</h3>
+<ul>
+<li>上一期 EP 26：Roman Ugarte 讲 Grok Bot 的两个早期决定与「删」的方法论。</li>
+</ul>
+
+<h2>5. 听友群</h2>
+<p>加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。</p>
+<p><img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /></p>
+    </div>
+  </main>
+</body>
+</html>
