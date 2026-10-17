@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 16 Oct 2026 08:01:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 16:31:51 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,71 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 28.在美国个人付费订阅上，Claude 超过了 Gemini：a16z 第七版消费级 AI 百强精读</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-040.html</link>
+      <description>&lt;p&gt;原文：a16z Podcast · The Top 100 Consumer AI Apps: Who's Actually Paying?（嘉宾 Olivia Moore / Josh Elman）。定位：第七版消费级 AI 百强第一次加进刷卡收入——流量榜在定型，付钱的是一小撮高级用户；订阅倒挂、广告起来、价值回到软件层，「省时间」之外「花时间」的品类还空着。&lt;/p&gt;
+&lt;p&gt;带走三句判断：一半美国人在用 AI，只有约百分之四点五付钱，付钱的人里前百分之一每月花九百零三美元。订阅独大是成本逼出来的倒挂，广告年化十亿美元说明老路开始通。大厂舍不得旧界面、顾不上所有模态；初创靠搬不走的上下文，而更大空白在约会、社交、娱乐这些「花时间」的品类。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 课程近况&lt;/h2&gt;
+&lt;p&gt;本期精读 a16z 第七版《消费级 AI 应用百强》报告访谈。检索日 2026-10-17。&lt;/p&gt;
+&lt;h3&gt;报告与节目&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;报告作者：Olivia Moore（a16z 合伙人）；同场：Josh Elman（a16z 消费团队）；主持：Elena Burger。&lt;/li&gt;
+&lt;li&gt;节目：《a16z Podcast》· The Top 100 Consumer AI Apps: Who's Actually Paying?&lt;/li&gt;
+&lt;li&gt;本节目：《发声 Taste, Out loud》· EP 28 精读&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 讲者与来源&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Olivia Moore · a16z 合伙人，《消费级 AI 应用百强》报告作者&lt;/li&gt;
+&lt;li&gt;Josh Elman · a16z 消费团队&lt;/li&gt;
+&lt;li&gt;一手：&lt;a href="https://a16z.com/100-gen-ai-apps-7/"&gt;a16z · Top 100 Gen AI Consumer Apps（第七版）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：流量 vs 付费、个人 agent、订阅倒挂、广告、三大助手、创意工具、消费转企业、软件层、空白品类&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；今天读 a16z 第七版消费级 AI 百强，问谁在付钱。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0:17&lt;/td&gt;&lt;td&gt;课程导读：一半人在用、百分之四点五付钱；订阅倒挂、广告起来、价值回软件层。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:20&lt;/td&gt;&lt;td&gt;一 · 这份榜单换了尺子：从流量到真金白银&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:00&lt;/td&gt;&lt;td&gt;二 · 谁在付钱：一个高级用户的游戏&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:55&lt;/td&gt;&lt;td&gt;三 · 个人 agent：火得很快，热度集中在科技圈；真正的瓶颈不在能力，在普通人想不想交出权限&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;16:45&lt;/td&gt;&lt;td&gt;四 · 订阅独大，是一种不自然的倒挂&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:47&lt;/td&gt;&lt;td&gt;五 · 广告：十亿美元年化收入，和一把钥匙扣&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;24:01&lt;/td&gt;&lt;td&gt;六 · 三大助手分化：ChatGPT、Claude、Gemini&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:06&lt;/td&gt;&lt;td&gt;七 · 创意工具：大厂没布局音频模态， Midjourney掉出流量榜、回到收入榜&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:48&lt;/td&gt;&lt;td&gt;八 · 消费 AI 公司以后怎么长大？&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;32:26&lt;/td&gt;&lt;td&gt;九 · 价值回到软件层：别再叫它「套壳」&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;35:58&lt;/td&gt;&lt;td&gt;十 · 还空着的品类&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;38:05&lt;/td&gt;&lt;td&gt;主题升华：幂律付费、订阅倒挂与广告、软件层与「花时间」空白；save time / spend time。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;h3&gt;报告与节目&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;一手报告：&lt;a href="https://a16z.com/100-gen-ai-apps-7/"&gt;a16z Top 100 Gen AI Consumer Apps · 7th Edition&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;相关精读&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Instinct（Noah Shinn）、Anthropic 增长（Amol Avasare）两期，正好对应本榜「谁在付钱」的两端。&lt;/li&gt;
+&lt;li&gt;上一期 EP 27：Lee 讲常驻 agent 的工程图纸。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-040.mp3" type="audio/mpeg" length="58878371" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-040.mp3</guid>
+      <itunes:duration>40:53</itunes:duration>
+      <itunes:title>EP 28.在美国个人付费订阅上，Claude 超过了 Gemini：a16z 第七版消费级 AI 百强精读</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。a16z 第七版消费级 AI 百强第一次加进刷卡收入：一半人在用、约百分之四点五付钱；订阅倒挂、广告起来、价值回软件层，「花时间」的品类还空着。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。a16z 第七版消费级 AI 百强第一次加进刷卡收入：一半人在用、约百分之四点五付钱；订阅倒挂、广告起来、价值回软件层，「花时间」的品类还空着。</itunes:summary>
+    </item>
     <item>
       <title>EP 27.合上电脑它也不停：常驻 AI 同事，靠的不是更聪明，是一整圈工程</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-039.html</link>

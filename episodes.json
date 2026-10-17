@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-040",
+      "title": "EP 28.在美国个人付费订阅上，Claude 超过了 Gemini：a16z 第七版消费级 AI 百强精读",
+      "file": "ep-040.mp3",
+      "duration_sec": 2453,
+      "size_bytes": 58878371,
+      "desc": "透过AI播客学英文课。a16z 第七版消费级 AI 百强第一次加进刷卡收入：一半人在用、约百分之四点五付钱；订阅倒挂、广告起来、价值回软件层，「花时间」的品类还空着。",
+      "pub_date": "2026-10-18",
+      "listed": true
+    },
+    {
       "id": "ep-039",
       "title": "EP 27.合上电脑它也不停：常驻 AI 同事，靠的不是更聪明，是一整圈工程",
       "file": "ep-039.mp3",
