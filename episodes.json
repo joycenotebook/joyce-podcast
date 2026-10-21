@@ -13,6 +13,16 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-041",
+      "title": "EP 29.Notion 联合创始人说他已经不写代码了：这一年，公司多了一个不睡觉的客户",
+      "file": "ep-041.mp3",
+      "duration_sec": 1311,
+      "size_bytes": 31473836,
+      "desc": "透过AI播客学英文课。Notion 联合创始人 Simon Last：客户名单多了 agent；站在别人模型上还能换；夹层拼手艺；人从写代码挪到管 agent。",
+      "pub_date": "2026-10-22",
+      "listed": true
+    },
+    {
       "id": "ep-040",
       "title": "EP 28.在美国个人付费订阅上，Claude 超过了 Gemini：a16z 第七版消费级 AI 百强精读",
       "file": "ep-040.mp3",
