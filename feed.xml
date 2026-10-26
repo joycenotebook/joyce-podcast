@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>发声 Taste, Out loud</title>
     <link>https://joycenotebook.github.io/joyce-podcast/</link>
@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 24 Oct 2026 05:12:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 14:11:39 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,69 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 31.增长｜增长负责人怎么拆漏斗：Perplexity 怎么守口碑、盯三次查询</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-043.html</link>
+      <description>&lt;p&gt;原文：20VC with Harry Stebbings · Inside Perplexity’s Growth Machine: What Worked, What Did Not Work（E1226，嘉宾 Raman Malik，Perplexity 增长负责人）。定位：增长负责人管的是整条用户漏斗，不是投放预算；顶部流量已经够多时，第一刀常是早期激活与留存。&lt;/p&gt;
+&lt;p&gt;带走四句判断：获客大约八成靠口碑，合作分发比自己站在山顶喊更有效。第一次 session 打满三次查询，才算摸到价值。第六个月留存大约百分之四十五是老实靶心。付费买量要慎用、别当主引擎——常带不来增量，还伤留存；水位抬起来之后，才轮到盯 CAC 比 LTV。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 课程近况&lt;/h2&gt;
+&lt;p&gt;本期精读《20VC》第 1226 期对 Perplexity 增长负责人 Raman Malik 的访谈。&lt;/p&gt;
+&lt;h3&gt;节目&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;嘉宾：Raman Malik（Perplexity 增长负责人；前 Lyft 增长；创过业）&lt;/li&gt;
+&lt;li&gt;节目：《20VC with Harry Stebbings》· Inside Perplexity’s Growth Machine&lt;/li&gt;
+&lt;li&gt;本节目：《发声 Taste, Out loud》· EP 31 精读 · 增长系列&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 讲者与来源&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Raman Malik · Perplexity 增长负责人&lt;/li&gt;
+&lt;li&gt;一手：&lt;a href="https://youtube.com/watch?v=MDPmVw1HA1o"&gt;20VC E1226 · Raman Malik&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;主题：增长产品与增长营销共用漏斗、三次查询激活、月六留存靶、口碑与合作分发、付费后置、校园权力用户&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;0:06&lt;/td&gt;&lt;td&gt;开场：发声；今天听 Perplexity 增长负责人怎么拆漏斗。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;0:17&lt;/td&gt;&lt;td&gt;课程导读：增长负责人管整条漏斗；大约八成口碑；三次查询；第六个月留存大约百分之四十五。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2:36&lt;/td&gt;&lt;td&gt;整体框架：增长拆成产品与营销两条线，目标是同一条用户漏斗，不是投放小组。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;5:47&lt;/td&gt;&lt;td&gt;建职能看留存火种：第三、第四个月大约百分之三十留存，才值得浇油。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;8:01&lt;/td&gt;&lt;td&gt;诊断：合作分发已经灌满顶部时，第一刀常是早期激活与留存，不是再加买量。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10:12&lt;/td&gt;&lt;td&gt;激活：第一次 session 打满三次查询，才算摸到价值；第五次弹登录闸是另一套实验。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;12:31&lt;/td&gt;&lt;td&gt;A/B 的好、坏与丑：校正方向，而不是为绩效表凑一个百分之十二。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;15:05&lt;/td&gt;&lt;td&gt;留存靶：第六个月大约百分之四十五；微优化抬水位，每季还要敢打大动作。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;19:04&lt;/td&gt;&lt;td&gt;抬水位三杠杆：提升用户质量、增加硬件入口、改善产品体验功能。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;23:18&lt;/td&gt;&lt;td&gt;变现后置：先抬水位，递减之后再盯获客成本比生命周期价值。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;23:37&lt;/td&gt;&lt;td&gt;获客：大约八成口碑；合作分发比自己站在山顶喊更有效。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;24:55&lt;/td&gt;&lt;td&gt;付费买量要慎用、别当主引擎：顶部数字会好看，却常常带不来增量，还伤留存。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;27:31&lt;/td&gt;&lt;td&gt;品牌要三到七次触达，真正值钱的是可传播的增量曝光。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;29:17&lt;/td&gt;&lt;td&gt;校园渠道：把权力用户武装成地面部队，而不是先铺全国广告。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;31:24&lt;/td&gt;&lt;td&gt;后悔做过的获客实验：网红长尾翻车，简报广告位塞不进两句话。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;31:46&lt;/td&gt;&lt;td&gt;招人：招敢失败的前创始人，用 taste 与战争故事验深度。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;35:54&lt;/td&gt;&lt;td&gt;主题升华：先诊断漏斗卡在哪，再决定要不要碰 CAC 和 LTV。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;YouTube：20VC E1226 · Raman Malik / Perplexity&lt;/li&gt;
+&lt;li&gt;相关：EP 24 Anthropic 增长；EP 30 Nikita Bier 拉新&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v3.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-043.mp3" type="audio/mpeg" length="35707820" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-043.mp3</guid>
+      <itunes:duration>37:12</itunes:duration>
+      <itunes:title>EP 31.增长｜增长负责人怎么拆漏斗：Perplexity 怎么守口碑、盯三次查询</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。增长系列：增长负责人管整条漏斗；三次查询才算摸到价值；大约八成口碑，付费买量要慎用。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。增长系列：增长负责人管整条漏斗；三次查询才算摸到价值；大约八成口碑，付费买量要慎用。</itunes:summary>
+    </item>
     <item>
       <title>EP 30.增长｜谁会帮你拉新：Nikita Bier 的机会雷达、一校测试，和广告怎么铺进学校</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-042.html</link>
@@ -1531,8 +1594,6 @@
       <itunes:title>EP 14.建 AI 工厂：数据中心一年烧掉多少钱？——斯坦福《AI 超周期经济学》第十三讲精读</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第十三讲。精读讲解稿直出。资本开支花在哪、每兆瓦怎么拆、四年还是两年回本。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第十三讲。精读讲解稿直出。资本开支花在哪、每兆瓦怎么拆、四年还是两年回本。</itunes:summary>
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-014.srt" type="application/srt" rel="captions" />
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-014.vtt" type="text/vtt" rel="captions" />
     </item>
     <item>
       <title>EP 13.GPU 经济：为什么 AI 天生这么能吃算力？—— 斯坦福《AI 超周期经济学》第十二讲精读</title>
@@ -1744,8 +1805,6 @@
       <itunes:title>EP 11.AI 的钱在哪里？—— 斯坦福《生成式 AI 经济学》第一讲精读</itunes:title>
       <itunes:subtitle>透过AI播客学英文课第十期。从半导体到应用的倒三角、为什么 AI 应用必须烧掉 GPU，以及消费 AI 的变现逻辑。</itunes:subtitle>
       <itunes:summary>透过AI播客学英文课第十期。从半导体到应用的倒三角、为什么 AI 应用必须烧掉 GPU，以及消费 AI 的变现逻辑。</itunes:summary>
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.srt" type="application/srt" rel="captions" />
-      <podcast:transcript url="https://joycenotebook.github.io/joyce-podcast/transcripts/ep-011.vtt" type="text/vtt" rel="captions" />
     </item>
     <item>
       <title>EP 10.AI 产品的第三时代—— OpenAI 产品负责人谈常驻 AI 同事</title>
