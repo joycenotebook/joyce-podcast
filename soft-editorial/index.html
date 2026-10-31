@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI × 投研：已替代什么，还空着什么 · Soft Editorial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Work+Sans:wght@400;500&family=LXGW+WenKai+TC&family=Noto+Serif+SC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+    --paper: #F2EEDF;
+    --paper-2: #ECE6D2;
+    --ink: #2A241B;
+    --ink-soft: #5C5345;
+    --pink: #E1A4C2;
+    --lemon: #D6DD63;
+    --blush: #E8C9B6;
+    --sage: #B7C7A8;
+    --lilac: #C9BEDC;
+    --card-fill: rgba(255,255,255,0.55);
+    --rule-soft: rgba(42,36,27,0.18);
+    --rule-medium: rgba(42,36,27,0.35);
+    --stage-bg: #2A241B;
+    --slide-bg: #F2EEDF;
+    --font-display: "Cormorant Garamond", "LXGW WenKai TC", "Noto Serif SC", serif;
+    --font-body: "Work Sans", "Noto Serif SC", sans-serif;
+    --font-eyebrow: "Work Sans", "Noto Sans SC", sans-serif;
+    --pad-outer: 80px;
+    --pad-top: 60px;
+    --pad-bottom: 50px;
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --duration-normal: 0.55s;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* --- viewport-base.css FULL --- */
+html, body {
+    width: 100%; height: 100%; margin: 0; overflow: hidden;
+    background: var(--stage-bg, #000);
+}
+.deck-viewport {
+    position: fixed; inset: 0; overflow: hidden;
+    background: var(--stage-bg, #000);
+}
+.deck-stage {
+    position: absolute; left: 0; top: 0;
+    width: 1920px; height: 1080px; overflow: hidden;
+    transform-origin: 0 0; background: var(--slide-bg, #fff);
+}
+.slide {
+    position: absolute; inset: 0; width: 1920px; height: 1080px;
+    overflow: hidden; display: block; visibility: hidden; opacity: 0;
+    pointer-events: none; background: var(--slide-bg, #fff);
+}
+.slide.active, .slide.visible {
+    visibility: visible; opacity: 1; pointer-events: auto; z-index: 1;
+}
+img, video, canvas, svg { max-width: 100%; max-height: 100%; }
+.deck-controls {
+    position: fixed; left: 50%; bottom: 22px;
+    transform: translateX(-50%); z-index: 1000;
+}
+@media print {
+    html, body { width: 1920px; height: auto; overflow: visible; background: #fff; }
+    .deck-viewport { position: static; overflow: visible; background: #fff; }
+    .deck-stage { position: static; width: auto; height: auto; transform: none !important; background: none; }
+    .slide {
+        position: relative; display: block !important; visibility: visible !important;
+        opacity: 1 !important; pointer-events: auto !important;
+        width: 1920px; height: 1080px; break-after: page; page-break-after: always;
+    }
+    .slide:last-child { break-after: auto; page-break-after: auto; }
+    .deck-controls { display: none !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.2s !important;
+    }
+}
+
+.slide {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+}
+.slide > * { position: relative; z-index: 2; }
+.cjk { letter-spacing: 0; text-transform: none; }
+em {
+    font-style: italic;
+    font-weight: 400;
+    color: var(--ink-soft);
+}
+
+.eyebrow {
+    position: absolute; top: 48px; left: 80px;
+    font-family: var(--font-eyebrow); font-size: 26px; font-weight: 400;
+    letter-spacing: 0; color: var(--ink); z-index: 5;
+}
+.pagedot {
+    position: absolute; top: 48px; right: 80px;
+    font-family: var(--font-display); font-size: 28px; font-weight: 400;
+    font-style: italic; color: var(--ink-soft); z-index: 5; letter-spacing: 0;
+}
+.footer {
+    position: absolute; bottom: 34px; left: 80px; right: 80px;
+    display: flex; justify-content: space-between;
+    font-family: var(--font-display); font-size: 24px; font-weight: 400;
+    font-style: italic; color: var(--ink-soft); z-index: 5; letter-spacing: 0;
+}
+
+.frame {
+    position: absolute;
+    top: 96px; left: var(--pad-outer); right: var(--pad-outer); bottom: 70px;
+    display: flex; flex-direction: column; z-index: 3;
+}
+
+.reveal {
+    opacity: 0; transform: translateY(16px);
+    transition: opacity var(--duration-normal) var(--ease-out-expo),
+                transform var(--duration-normal) var(--ease-out-expo);
+}
+.slide.visible .reveal { opacity: 1; transform: translateY(0); }
+.reveal-d1 { transition-delay: 0.06s !important; }
+.reveal-d2 { transition-delay: 0.12s !important; }
+.reveal-d3 { transition-delay: 0.18s !important; }
+.reveal-d4 { transition-delay: 0.24s !important; }
+.reveal-d5 { transition-delay: 0.30s !important; }
+.reveal-d6 { transition-delay: 0.36s !important; }
+
+/* Cover */
+.swatch-row {
+    position: absolute; top: 56px; right: 80px;
+    display: flex; gap: 12px; z-index: 5;
+}
+.swatch-dot {
+    width: 48px; height: 48px; border-radius: 50%;
+}
+.swatch-dot.pink { background: var(--pink); }
+.swatch-dot.lemon { background: var(--lemon); }
+.swatch-dot.blush { background: var(--blush); }
+.swatch-dot.sage { background: var(--sage); }
+.swatch-dot.lilac { background: var(--lilac); }
+
+.slide-title .title-wrap {
+    position: absolute; left: 80px; right: 80px; top: 200px; bottom: 120px;
+    display: flex; flex-direction: column; justify-content: center;
+}
+.kicker-it {
+    font-family: var(--font-display); font-size: 40px; font-weight: 400;
+    font-style: italic; letter-spacing: 0; color: var(--ink-soft); margin-bottom: 18px;
+}
+.display-hero {
+    font-family: var(--font-display); font-weight: 500; font-size: 104px;
+    line-height: 1.12; letter-spacing: 0; color: var(--ink); max-width: 1400px;
+    padding-bottom: 4px;
+}
+.display-hero em { font-style: italic; font-weight: 400; color: var(--ink-soft); }
+.opener {
+    font-family: var(--font-display); font-size: 40px; font-weight: 400;
+    font-style: italic; line-height: 1.3; letter-spacing: 0;
+    color: var(--ink-soft); margin-top: 24px; max-width: 900px;
+}
+.byline {
+    margin-top: 32px; display: flex; gap: 24px; align-items: baseline;
+}
+.byline .who {
+    font-family: var(--font-display); font-size: 34px; font-weight: 500;
+    letter-spacing: 0;
+}
+.byline .meta {
+    font-family: var(--font-display); font-size: 28px; font-style: italic;
+    color: var(--ink-soft); letter-spacing: 0;
+}
+
+.page-h {
+    font-family: var(--font-display); font-weight: 500; font-size: 58px;
+    line-height: 1.08; letter-spacing: 0; margin-bottom: 4px; flex-shrink: 0;
+}
+.page-h em { font-style: italic; font-weight: 400; color: var(--ink-soft); }
+
+.card {
+    background: var(--card-fill);
+    border-radius: 28px;
+    padding: 18px 22px;
+}
+.card-color { border-radius: 28px; padding: 20px 24px; color: var(--ink); }
+.card-color.pink { background: var(--pink); }
+.card-color.lemon { background: var(--lemon); }
+.card-color.blush { background: var(--blush); }
+.card-color.sage { background: var(--sage); }
+.card-color.lilac { background: var(--lilac); }
+
+.pill {
+    display: inline-block; border-radius: 999px;
+    padding: 4px 14px; font-family: var(--font-display);
+    font-size: 20px; font-weight: 500; letter-spacing: 0;
+}
+.pill.yes { background: var(--lemon); }
+.pill.partial { background: var(--blush); }
+.pill.no { background: var(--pink); }
+.pill.note { background: var(--card-fill); border: 1px solid var(--rule-medium); }
+.pill.open { background: var(--lilac); }
+
+/* Stages */
+.stages {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px;
+    margin-bottom: 6px; flex-shrink: 0;
+}
+.stage-card {
+    border-radius: 20px; padding: 8px 12px; background: var(--card-fill);
+}
+.stage-card .n {
+    font-family: var(--font-display); font-style: italic; font-size: 28px;
+    color: var(--ink-soft); margin-bottom: 4px; letter-spacing: 0;
+}
+.stage-card .t {
+    font-family: var(--font-display); font-weight: 500; font-size: 30px;
+    letter-spacing: 0; line-height: 1.2;
+}
+.stage-card:nth-child(1) { background: var(--sage); }
+.stage-card:nth-child(2) { background: var(--blush); }
+.stage-card:nth-child(3) { background: var(--lilac); }
+
+.section-label {
+    font-family: var(--font-display); font-size: 28px; font-style: italic;
+    letter-spacing: 0; color: var(--ink-soft); margin: 4px 0 2px;
+    display: flex; align-items: baseline; gap: 14px;
+}
+.section-label .hint {
+    font-family: var(--font-body); font-size: 17px; font-style: normal;
+    color: var(--ink-soft); opacity: 0.85;
+}
+
+.ledger {
+    background: var(--card-fill); border-radius: 22px; padding: 4px 16px 2px;
+    display: flex; flex-direction: column; flex: 1; min-height: 0;
+}
+.ledger.primary { flex: 0 0 auto; }
+.ledger-row {
+    display: grid; grid-template-columns: 52px 160px 1fr 140px;
+    gap: 8px; align-items: center;
+    padding: 4px 0;
+    border-bottom: 1px dashed var(--rule-soft);
+}
+.ledger-row:last-child { border-bottom: none; }
+.ledger-row.head {
+    border-bottom: 1.5px solid var(--rule-medium); padding-bottom: 8px;
+}
+.ledger-row.head span {
+    font-family: var(--font-eyebrow); font-size: 16px; color: var(--ink-soft);
+    letter-spacing: 0;
+}
+.ledger-row .num {
+    font-family: var(--font-display); font-style: italic; font-size: 22px;
+    color: var(--ink-soft); letter-spacing: 0;
+}
+.ledger-row .name {
+    font-family: var(--font-display); font-weight: 500; font-size: 26px;
+    letter-spacing: 0; line-height: 1.2;
+}
+.ledger-row .desc {
+    font-family: var(--font-body); font-size: 17px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.ledger-row .tag { text-align: right; }
+.ledger-row.highlight {
+    background: var(--lemon);
+    margin: 2px -10px; padding: 8px 10px; border-radius: 14px;
+    border-bottom: none;
+}
+.ledger-row.highlight .name { font-size: 28px; }
+.interact-mark { margin-right: 4px; }
+
+.prompt-bar {
+    margin-top: 4px; padding: 7px 14px;
+    background: var(--lemon); border-radius: 24px;
+    display: flex; align-items: flex-start; gap: 12px; flex-shrink: 0;
+}
+.prompt-bar .q-mark {
+    font-family: var(--font-display); font-style: italic; font-size: 36px;
+    line-height: 1; color: var(--ink);
+}
+.prompt-bar .q-text {
+    font-family: var(--font-display); font-weight: 500; font-size: 26px;
+    line-height: 1.25; letter-spacing: 0;
+}
+
+/* Podcast / category grid (slide 03) — 5 cards */
+.conc-note {
+    font-family: var(--font-display); font-size: 24px; font-style: italic;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 8px; flex-shrink: 0;
+}
+.conc-note strong { font-style: normal; font-weight: 500; color: var(--ink); }
+.cat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px;
+    flex: 1; min-height: 0; margin-bottom: 8px;
+    overflow: hidden;
+}
+/* Bottom row: two cards centered spanning the 3-col grid */
+.cat-grid .cat-card:nth-child(4) { grid-column: 1 / 2; }
+.cat-grid .cat-card:nth-child(5) { grid-column: 2 / 3; }
+/* Better: place 4+5 centered — use a nested approach via grid-column */
+.cat-grid.five {
+    grid-template-columns: repeat(6, 1fr);
+}
+.cat-grid.five .cat-card:nth-child(1) { grid-column: 1 / 3; }
+.cat-grid.five .cat-card:nth-child(2) { grid-column: 3 / 5; }
+.cat-grid.five .cat-card:nth-child(3) { grid-column: 5 / 7; }
+.cat-grid.five .cat-card:nth-child(4) { grid-column: 2 / 4; }
+.cat-grid.five .cat-card:nth-child(5) { grid-column: 4 / 6; }
+.cat-card {
+    border-radius: 22px; padding: 12px 14px 10px;
+    display: flex; flex-direction: column; gap: 5px; min-height: 0;
+    overflow: hidden;
+}
+.cat-card:nth-child(1) { background: var(--sage); }
+.cat-card:nth-child(2) { background: var(--lemon); }
+.cat-card:nth-child(3) { background: var(--blush); }
+.cat-card:nth-child(4) { background: var(--lilac); }
+.cat-card:nth-child(5) { background: var(--pink); }
+.cat-card .cc-top {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 8px;
+    flex-shrink: 0;
+}
+.cat-card .cc-n {
+    font-family: var(--font-display); font-style: italic; font-weight: 500;
+    font-size: 22px; letter-spacing: 0; color: var(--ink-soft); line-height: 1;
+}
+.cat-card .cc-name {
+    font-family: var(--font-display); font-weight: 500; font-size: 26px;
+    letter-spacing: 0; line-height: 1.15; flex: 1;
+}
+.cat-card .cc-badge {
+    font-family: var(--font-display); font-size: 15px; font-weight: 500;
+    letter-spacing: 0; padding: 3px 10px; border-radius: 999px;
+    background: rgba(255,255,255,0.55); color: var(--ink); flex-shrink: 0;
+    white-space: nowrap;
+}
+.cat-card .cc-badge.high { background: rgba(255,255,255,0.7); }
+.cat-card .cc-badge.mid { background: rgba(255,255,255,0.45); }
+.cat-card .cc-badge.low { background: rgba(42,36,27,0.08); color: var(--ink-soft); }
+.cat-card .cc-badge.tool { background: rgba(255,255,255,0.75); }
+.cat-card .cc-shows {
+    font-family: var(--font-body); font-size: 15px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink); flex-shrink: 0;
+}
+.cat-card .cc-meta {
+    display: grid; grid-template-columns: 64px 1fr; gap: 4px 8px;
+    margin-top: 2px; flex: 1; align-content: start; min-height: 0;
+}
+.cat-card .cc-k {
+    font-family: var(--font-eyebrow); font-size: 13px; letter-spacing: 0;
+    color: var(--ink-soft); padding-top: 1px;
+}
+.cat-card .cc-v {
+    font-family: var(--font-body); font-size: 15px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.cat-card .cc-link {
+    font-family: var(--font-eyebrow); font-size: 13px; letter-spacing: 0;
+    color: var(--ink-soft); margin-top: auto; flex-shrink: 0;
+}
+.slide[data-slide="3"] .page-h { margin-bottom: 2px; }
+.slide[data-slide="3"] .prompt-bar { margin-top: 2px; padding: 6px 14px; }
+
+/* Pain */
+.pain-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+    flex: 1; min-height: 0;
+}
+.pain-card {
+    border-radius: 24px; padding: 14px 18px;
+    display: flex; flex-direction: column; gap: 4px;
+}
+.pain-card:nth-child(1) { background: var(--blush); }
+.pain-card:nth-child(2) { background: var(--lilac); }
+.pain-card:nth-child(3) { background: var(--sage); }
+.pain-card:nth-child(4) { background: var(--pink); }
+.pain-card .pn {
+    font-family: var(--font-display); font-style: italic; font-weight: 500;
+    font-size: 56px; line-height: 1.05; letter-spacing: 0; color: var(--ink);
+}
+.pain-card .pt {
+    font-family: var(--font-display); font-weight: 500; font-size: 36px;
+    letter-spacing: 0; line-height: 1.25;
+}
+.pain-card .pd {
+    font-family: var(--font-body); font-size: 17px; line-height: 1.4;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+
+/* Why */
+.why-list { display: flex; flex-direction: column; gap: 14px; flex: 1; }
+.why-row {
+    display: grid; grid-template-columns: 90px 1fr; gap: 20px;
+    border-radius: 28px; padding: 18px 24px; align-items: start;
+    background: var(--card-fill);
+}
+.why-row:nth-child(1) { background: var(--blush); }
+.why-row:nth-child(2) { background: var(--sage); }
+.why-row:nth-child(3) { background: var(--lilac); }
+.why-row .wn {
+    font-family: var(--font-display); font-style: italic; font-weight: 500;
+    font-size: 56px; line-height: 0.95; letter-spacing: 0;
+}
+.why-row .wt {
+    font-family: var(--font-display); font-weight: 500; font-size: 34px;
+    letter-spacing: 0; line-height: 1.25; margin-bottom: 6px;
+}
+.why-row .wd {
+    font-family: var(--font-body); font-size: 18px; line-height: 1.5;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.why-conclude {
+    margin-top: 4px; padding: 16px 24px;
+    background: var(--lemon); border-radius: 24px;
+    display: flex; align-items: center; gap: 16px; flex-shrink: 0;
+}
+.why-conclude .arrow {
+    font-family: var(--font-display); font-style: italic; font-size: 36px;
+}
+.why-conclude .ct {
+    font-family: var(--font-display); font-weight: 500; font-size: 32px;
+    letter-spacing: 0; line-height: 1.3;
+}
+
+
+/* Why timeline (dense, 2-slide split) */
+.thesis-strip {
+    padding: 10px 18px;
+    background: var(--lemon);
+    border-radius: 22px;
+    margin-bottom: 6px;
+    flex-shrink: 0;
+}
+.thesis-strip .ts-k {
+    font-family: var(--font-display); font-style: italic; font-size: 22px;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 6px;
+}
+.thesis-strip .ts-t {
+    font-family: var(--font-display); font-weight: 500; font-size: 28px;
+    letter-spacing: 0; line-height: 1.35;
+}
+.thesis-strip .ts-t strong {
+    font-weight: 500; background: rgba(255,255,255,0.55);
+    padding: 0 6px; border-radius: 6px;
+}
+.era-label {
+    font-family: var(--font-display); font-size: 28px; font-style: italic;
+    letter-spacing: 0; color: var(--ink-soft); margin: 0 0 6px; flex-shrink: 0;
+}
+.era-label strong { font-style: normal; font-weight: 500; color: var(--ink); }
+.why-dense {
+    display: flex; flex-direction: column; gap: 5px;
+    flex: 1; min-height: 0;
+}
+.wd-row {
+    display: grid; grid-template-columns: 56px 1fr;
+    gap: 10px; align-items: start;
+    border-radius: 20px; padding: 7px 14px;
+    background: var(--card-fill);
+}
+.wd-row:nth-child(5n+1) { background: var(--blush); }
+.wd-row:nth-child(5n+2) { background: var(--sage); }
+.wd-row:nth-child(5n+3) { background: var(--lilac); }
+.wd-row:nth-child(5n+4) { background: var(--pink); }
+.wd-row:nth-child(5n+5) { background: var(--card-fill); border: 1px solid var(--rule-soft); }
+.wd-row .wn {
+    font-family: var(--font-display); font-style: italic; font-weight: 500;
+    font-size: 40px; line-height: 1; letter-spacing: 0; padding-top: 2px;
+}
+.wd-row .wt {
+    font-family: var(--font-display); font-weight: 500; font-size: 28px;
+    letter-spacing: 0; line-height: 1.2; margin-bottom: 2px;
+}
+.wd-row .wd {
+    font-family: var(--font-body); font-size: 17px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.wd-row .wd .num {
+    font-family: var(--font-display); font-weight: 500; font-style: italic;
+    color: var(--ink); background: rgba(255,255,255,0.55);
+    padding: 0 5px; border-radius: 5px;
+}
+.why-dense.six .wd-row { padding: 5px 12px; }
+.why-dense.six .wd-row .wn { font-size: 34px; }
+.why-dense.six .wd-row .wt { font-size: 26px; }
+.why-dense.six .wd-row .wd { font-size: 16px; line-height: 1.3; }
+.why-dense.six .wd-row:nth-child(6n+1) { background: var(--sage); }
+.why-dense.six .wd-row:nth-child(6n+2) { background: var(--blush); }
+.why-dense.six .wd-row:nth-child(6n+3) { background: var(--lemon); }
+.why-dense.six .wd-row:nth-child(6n+4) { background: var(--lilac); }
+.why-dense.six .wd-row:nth-child(6n+5) { background: var(--pink); }
+.why-dense.six .wd-row:nth-child(6n+6) { background: var(--card-fill); border: 1px solid var(--rule-soft); }
+
+/* Pipeline */
+.pipe {
+    display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px;
+    margin-bottom: 12px; flex-shrink: 0;
+}
+.pipe-step {
+    border-radius: 24px; padding: 14px 12px;
+    display: flex; flex-direction: column; gap: 6px; min-height: 160px;
+}
+.pipe-step:nth-child(1) { background: var(--sage); }
+.pipe-step:nth-child(2) { background: var(--blush); }
+.pipe-step:nth-child(3) { background: var(--lemon); }
+.pipe-step:nth-child(4) { background: var(--lilac); }
+.pipe-step:nth-child(5) { background: var(--pink); }
+.pipe-step:nth-child(6) { background: var(--card-fill); border: 1px dashed var(--rule-medium); }
+.pipe-step .ps-n {
+    font-family: var(--font-display); font-style: italic; font-size: 28px;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.pipe-step .ps-t {
+    font-family: var(--font-display); font-weight: 500; font-size: 26px;
+    letter-spacing: 0; line-height: 1.25;
+}
+.pipe-step .ps-d {
+    font-family: var(--font-body); font-size: 16px; line-height: 1.45;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.not-app {
+    background: var(--card-fill); border-radius: 28px; padding: 18px 24px;
+    flex-shrink: 0; margin-bottom: 10px;
+}
+.not-app .na-k {
+    font-family: var(--font-display); font-style: italic; font-size: 26px;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 8px;
+}
+.not-app .na-t {
+    font-family: var(--font-display); font-weight: 500; font-size: 36px;
+    letter-spacing: 0; line-height: 1.3; margin-bottom: 8px;
+}
+.not-app .na-d {
+    font-family: var(--font-body); font-size: 18px; line-height: 1.5;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+
+/* Interaction examples (slide 07) */
+.ix-ask {
+    font-family: var(--font-display); font-size: 28px; font-style: italic;
+    letter-spacing: 0; color: var(--ink-soft); margin: -2px 0 8px; flex-shrink: 0;
+}
+.ix-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px;
+    flex: 1; min-height: 0; margin-bottom: 8px;
+}
+.ix-card {
+    border-radius: 26px; padding: 14px 16px 14px;
+    display: flex; flex-direction: column; gap: 6px; min-height: 0;
+}
+.ix-card:nth-child(1) { background: var(--sage); }
+.ix-card:nth-child(2) { background: var(--blush); }
+.ix-card:nth-child(3) { background: var(--lilac); }
+.ix-card .ix-n {
+    font-family: var(--font-display); font-style: italic; font-size: 26px;
+    letter-spacing: 0; color: var(--ink-soft); line-height: 1; flex-shrink: 0;
+}
+.ix-card .ix-t {
+    font-family: var(--font-display); font-weight: 500; font-size: 28px;
+    letter-spacing: 0; line-height: 1.2; flex-shrink: 0;
+}
+.ix-card .ix-sub {
+    font-family: var(--font-eyebrow); font-size: 16px; letter-spacing: 0;
+    color: var(--ink-soft); margin-top: -2px; flex-shrink: 0;
+}
+.ix-card .ix-d {
+    font-family: var(--font-body); font-size: 16px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft); flex-shrink: 0;
+    margin-bottom: 2px;
+}
+/* Schematic fills remaining card space — no margin-top:auto pin */
+.ix-ui {
+    flex: 1 1 auto;
+    min-height: 220px;
+    display: flex; flex-direction: column; gap: 8px;
+    background: rgba(255,255,255,0.62);
+    border-radius: 18px; padding: 14px 14px 12px;
+    border: 1px solid var(--rule-soft);
+    margin-top: 4px;
+}
+.ix-ui .ui-bar {
+    display: flex; align-items: center; gap: 7px; margin-bottom: 2px; flex-shrink: 0;
+}
+.ix-ui .ui-dot {
+    width: 10px; height: 10px; border-radius: 50%; background: var(--rule-medium);
+}
+.ix-ui .ui-title {
+    font-family: var(--font-eyebrow); font-size: 15px; color: var(--ink-soft);
+    letter-spacing: 0; margin-left: 4px;
+}
+.ix-ui .ui-body {
+    flex: 1; display: flex; flex-direction: column; gap: 10px; justify-content: center;
+    min-height: 0;
+}
+.ix-ui .ui-row {
+    display: flex; align-items: center; gap: 10px;
+}
+.ix-ui .ui-chip {
+    font-family: var(--font-display); font-size: 18px; font-weight: 500;
+    letter-spacing: 0; padding: 6px 14px; border-radius: 999px;
+    background: var(--lemon); flex-shrink: 0;
+}
+.ix-ui .ui-chip.soft { background: var(--card-fill); border: 1px solid var(--rule-soft); }
+.ix-ui .ui-line {
+    height: 14px; border-radius: 7px; background: rgba(42,36,27,0.14); flex: 1;
+}
+.ix-ui .ui-line.short { flex: 0.45; }
+.ix-ui .ui-line.mid { flex: 0.7; }
+.ix-ui .ui-block {
+    height: 44px; border-radius: 12px; background: rgba(42,36,27,0.10);
+}
+.ix-ui .ui-block.tall { height: 72px; }
+.ix-ui .ui-block.mid { height: 36px; }
+.ix-ui .ui-input {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 16px; border-radius: 999px;
+    background: rgba(255,255,255,0.85); border: 1px solid var(--rule-soft);
+}
+.ix-ui .ui-input span {
+    font-family: var(--font-body); font-size: 16px; color: var(--ink-soft);
+    letter-spacing: 0; flex: 1;
+}
+.ix-ui .ui-send {
+    width: 26px; height: 26px; border-radius: 50%; background: var(--lemon);
+    flex-shrink: 0;
+}
+.ix-ui .ui-spark {
+    font-family: var(--font-display); font-style: italic; font-size: 15px;
+    color: var(--ink-soft); margin-top: auto; flex-shrink: 0;
+}
+
+.close-q {
+    padding: 8px 16px; background: var(--lemon); border-radius: 20px;
+    display: flex; align-items: baseline; gap: 14px; flex-shrink: 0; margin-top: auto;
+}
+.close-q .cq-mark {
+    font-family: var(--font-display); font-style: italic; font-size: 40px;
+}
+.close-q .cq-t {
+    font-family: var(--font-display); font-weight: 500; font-size: 32px;
+    letter-spacing: 0; line-height: 1.25;
+}
+
+.edit-hotzone { position: fixed; top: 0; left: 0; width: 80px; height: 80px; z-index: 10000; cursor: pointer; }
+.edit-toggle {
+    position: fixed; top: 16px; left: 16px; width: 44px; height: 44px;
+    border: 1.5px solid var(--ink); background: var(--paper); color: var(--ink);
+    font-size: 18px; cursor: pointer; opacity: 0; pointer-events: none;
+    transition: opacity 0.3s ease; z-index: 10001; border-radius: 12px;
+}
+.edit-toggle.show, .edit-toggle.active { opacity: 1; pointer-events: auto; }
+body.edit-mode .slide [contenteditable="true"] {
+    outline: 1px dashed rgba(42,36,27,0.35); outline-offset: 2px; cursor: text;
+}
+.save-toast {
+    position: fixed; bottom: 28px; right: 28px;
+    background: var(--ink); color: var(--paper);
+    font-family: var(--font-display); font-style: italic; font-size: 16px;
+    padding: 10px 16px; border-radius: 999px; opacity: 0; pointer-events: none;
+    transition: opacity 0.3s; z-index: 10002;
+}
+.save-toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+<div class="deck-viewport">
+<main class="deck-stage" id="deckStage">
+
+<!-- SLIDE 01 -->
+<section class="slide slide-title active" data-slide="1">
+    <div class="swatch-row" aria-hidden="true">
+        <div class="swatch-dot pink"></div>
+        <div class="swatch-dot lemon"></div>
+        <div class="swatch-dot blush"></div>
+        <div class="swatch-dot sage"></div>
+        <div class="swatch-dot lilac"></div>
+    </div>
+    <div class="title-wrap">
+        <p class="kicker-it reveal reveal-d1">投研工作流 · 一手信息空白</p>
+        <h1 class="display-hero reveal reveal-d2">AI × 投研：<br>已替代什么，<em>还空着什么</em></h1>
+        <p class="opener reveal reveal-d3">一手信息 · Podcast 待开发空白</p>
+        <div class="byline reveal reveal-d4">
+            <span class="who">Joyce</span>
+            <span class="meta">内部分享</span>
+        </div>
+    </div>
+    <div class="footer"><span>2026</span><span>发声 · 投研笔记</span></div>
+</section>
+
+<!-- SLIDE 02 -->
+<section class="slide" data-slide="2">
+    <div class="eyebrow">矩阵</div>
+    <div class="pagedot">ii</div>
+    <div class="frame">
+        <h2 class="page-h reveal">AI 在投研链路的<em>辅助与变化</em></h2>
+        <div class="stages reveal reveal-d1">
+            <div class="stage-card"><div class="n">i.</div><div class="t">二手桌面研究</div></div>
+            <div class="stage-card"><div class="n">ii.</div><div class="t">一手研究 / 信息整理</div></div>
+            <div class="stage-card"><div class="n">iii.</div><div class="t">报告洞察生成</div></div>
+        </div>
+        <div class="section-label reveal reveal-d2">
+            <span>二手桌面研究</span>
+            <span class="hint">AI 基本可替代实习生桌面 · 注意幻觉与信息缺失</span>
+        </div>
+        <div class="ledger primary reveal reveal-d2">
+            <div class="ledger-row head"><span>#</span><span>环节</span><span>辅助作用 / 形式变化</span><span>替代度</span></div>
+            <div class="ledger-row"><span class="num">01</span><span class="name">行业新闻</span><span class="desc">日更实时追踪；多源汇总，实习生全职桌面可收缩</span><span class="tag"><span class="pill yes">↑ 可替代</span></span></div>
+            <div class="ledger-row"><span class="num">02</span><span class="name">行业数据</span><span class="desc">直接梳理进表格；多 source 比对 + 置信度判断</span><span class="tag"><span class="pill yes">↑ 可替代</span></span></div>
+            <div class="ledger-row"><span class="num">03</span><span class="name">企业新闻</span><span class="desc">日更追踪企业动态；信息缺失时仍可能出现幻觉</span><span class="tag"><span class="pill yes">↑ 可替代</span></span></div>
+            <div class="ledger-row"><span class="num">04</span><span class="name">企业数据</span><span class="desc">多源入表比对；不再需要实习生全部时间铺底</span><span class="tag"><span class="pill yes">↑ 可替代</span></span></div>
+        </div>
+        <div class="section-label reveal reveal-d3">
+            <span>一手研究 / 信息整理</span>
+            <span class="hint">人机分工更细 · Podcast 是空白</span>
+        </div>
+        <div class="ledger reveal reveal-d3">
+            <div class="ledger-row"><span class="num">05</span><span class="name">专家付费访谈</span><span class="desc">提纲 / 录音 / 逐字 / 纪要可 agent 化；人留提问与批判性追问</span><span class="tag"><span class="pill partial">→ 半替代</span></span></div>
+            <div class="ledger-row"><span class="num">06</span><span class="name">行业 Network</span><span class="desc">关系与信任链路；当前不可被 AI 替代</span><span class="tag"><span class="pill no">— 不可替代</span></span></div>
+            <div class="ledger-row"><span class="num">07</span><span class="name">付费 Data Source</span><span class="desc">供应商增多、主动来试用（久谦、闻道 AI 等）</span><span class="tag"><span class="pill note">↑ 供给变多</span></span></div>
+            <div class="ledger-row highlight"><span class="num">08</span><span class="name"><span class="interact-mark">◆</span>Podcast</span><span class="desc">一手信息价值久已存在，尚未被充分挖掘 · 有待开发</span><span class="tag"><span class="pill open">◆ 待开发</span></span></div>
+        </div>
+        <div class="prompt-bar reveal reveal-d4">
+            <span class="q-mark">?</span>
+            <p class="q-text">交互：大家对「播客里一手信息价值」的认知到哪一步？</p>
+        </div>
+    </div>
+    <div class="footer"><span>矩阵</span><span>02 / 07</span></div>
+</section>
+
+<!-- SLIDE 03 -->
+<section class="slide" data-slide="3">
+    <div class="eyebrow">细分</div>
+    <div class="pagedot">iii</div>
+    <div class="frame">
+        <h2 class="page-h reveal">投资财经播客细分 · <em>一手浓度</em></h2>
+        <p class="conc-note reveal reveal-d1">按一手信息浓度与来源类型，大致是：产品 / 平台构建者 ≈ GP / 出资人视角 ≥ 财报 / IR · 公司史分化 · 卖方较低。</p>
+        <div class="cat-grid five">
+            <div class="cat-card reveal reveal-d1">
+                <div class="cc-top">
+                    <span class="cc-n">i.</span>
+                    <span class="cc-name">产品 / 平台构建者</span>
+                    <span class="cc-badge high">高</span>
+                </div>
+                <div class="cc-shows">Lenny's · Hard Fork · No Priors · BG2 · DeepMind The Podcast</div>
+                <div class="cc-meta">
+                    <span class="cc-k">覆盖</span>
+                    <span class="cc-v">AI · 产品 · 平台与监管</span>
+                    <span class="cc-k">一手价值</span>
+                    <span class="cc-v">当事人原话：产品 / 增长 / 模型路线；时效与操作一手最高</span>
+                </div>
+            </div>
+            <div class="cat-card reveal reveal-d2">
+                <div class="cc-top">
+                    <span class="cc-n">ii.</span>
+                    <span class="cc-name">GP / 出资人视角</span>
+                    <span class="cc-badge high">高</span>
+                </div>
+                <div class="cc-shows">a16z · 20VC · Invest Like the Best · Code Call</div>
+                <div class="cc-meta">
+                    <span class="cc-k">覆盖</span>
+                    <span class="cc-v">VC / 成长 · AI · 软件 · 部分机构与代码向访谈</span>
+                    <span class="cc-k">一手价值</span>
+                    <span class="cc-v">GP / 创始人框架与募投管退判断；Code Call 补机构侧一手</span>
+                </div>
+            </div>
+            <div class="cat-card reveal reveal-d2">
+                <div class="cc-top">
+                    <span class="cc-n">iii.</span>
+                    <span class="cc-name">财报 / IR 播客化</span>
+                    <span class="cc-badge tool">高 · 工具型</span>
+                </div>
+                <div class="cc-shows">Stock Earnings Calls</div>
+                <div class="cc-meta">
+                    <span class="cc-k">覆盖</span>
+                    <span class="cc-v">Earnings / IR call 原声订阅</span>
+                    <span class="cc-k">一手价值</span>
+                    <span class="cc-v">把管理层口述做成可订阅播客；形态偏工具型节目，而非传统 show</span>
+                </div>
+                <div class="cc-link">stockearningscalls.com</div>
+            </div>
+            <div class="cat-card reveal reveal-d3">
+                <div class="cc-top">
+                    <span class="cc-n">iv.</span>
+                    <span class="cc-name">公司史 / 经营叙事</span>
+                    <span class="cc-badge mid">分化</span>
+                </div>
+                <div class="cc-shows">Acquired · Founders · How I Built This</div>
+                <div class="cc-meta">
+                    <span class="cc-k">覆盖</span>
+                    <span class="cc-v">跨行业公司史</span>
+                    <span class="cc-k">一手价值</span>
+                    <span class="cc-v">Acquired 机制深挖；Founders / HIBT 偏叙事 · 类内分化大</span>
+                </div>
+            </div>
+            <div class="cat-card reveal reveal-d4">
+                <div class="cc-top">
+                    <span class="cc-n">v.</span>
+                    <span class="cc-name">卖方机构观点</span>
+                    <span class="cc-badge low">较低</span>
+                </div>
+                <div class="cc-shows">Thoughts on the Market · GS Exchanges</div>
+                <div class="cc-meta">
+                    <span class="cc-k">覆盖</span>
+                    <span class="cc-v">宏观 · 板块 · 机构观点</span>
+                    <span class="cc-k">一手价值</span>
+                    <span class="cc-v">卖方口径与情景；当事人一手相对最低</span>
+                </div>
+            </div>
+        </div>
+        <div class="prompt-bar reveal reveal-d5">
+            <span class="q-mark">?</span>
+            <p class="q-text">交互：你们还常听哪些「含一手」的播客？</p>
+        </div>
+    </div>
+    <div class="footer"><span>细分</span><span>03 / 07</span></div>
+</section>
+
+<!-- SLIDE 04 -->
+<section class="slide" data-slide="4">
+    <div class="eyebrow">卡点</div>
+    <div class="pagedot">iv</div>
+    <div class="frame">
+        <h2 class="page-h reveal">吸收一手判断的<em>卡点</em></h2>
+        <div class="pain-grid">
+            <div class="pain-card reveal reveal-d1">
+                <div class="pn">i.</div>
+                <div class="pt">没听说过价值</div>
+                <div class="pd">不知道播客里藏着可入 thesis 的一手判断；没进过这个信息源地图。</div>
+            </div>
+            <div class="pain-card reveal reveal-d2">
+                <div class="pn">ii.</div>
+                <div class="pt">语言卡点</div>
+                <div class="pd">英文原声 + 金融黑话；听懂成本高，中英工作流几乎缺位。</div>
+            </div>
+            <div class="pain-card reveal reveal-d3">
+                <div class="pn">iii.</div>
+                <div class="pt">太耗时 / 要筛选记录</div>
+                <div class="pd">时长长、集数多；筛选、收听、记笔记本身就是一门工。</div>
+            </div>
+            <div class="pain-card reveal reveal-d4">
+                <div class="pn">iv.</div>
+                <div class="pt">更爱文字不爱声音</div>
+                <div class="pd">效率偏好文字交互；声音形态本身就拦了一批重度投研用户。</div>
+            </div>
+        </div>
+        <div class="prompt-bar reveal reveal-d5">
+            <span class="q-mark">?</span>
+            <p class="q-text">交互：若用工具吸收这些一手判断，希望什么交互？或你会怎么写一个 skill 需求？</p>
+        </div>
+    </div>
+    <div class="footer"><span>卡点</span><span>04 / 07</span></div>
+</section>
+
+<!-- SLIDE 05 -->
+<section class="slide" data-slide="5">
+    <div class="eyebrow">空白 · 更早</div>
+    <div class="pagedot">v</div>
+    <div class="frame">
+        <h2 class="page-h reveal">空白<em>为何存在</em> · 更早没有</h2>
+        <div class="thesis-strip reveal reveal-d1">
+            <div class="ts-k">一句话</div>
+            <p class="ts-t">播客内容早就在；卡点是<strong>「音频不可搜、不可引、不可规模监控」</strong>。2022–2023 廉价准转录 + ChatGPT/RAG 同时成熟，才在 <strong>2024–2026</strong> 挤出产品。</p>
+        </div>
+        <p class="era-label reveal reveal-d2">更早没有 · <strong>约 2018–2022</strong></p>
+        <div class="why-dense">
+            <div class="wd-row reveal reveal-d2">
+                <div class="wn">i.</div>
+                <div>
+                    <div class="wt">ASR 贵且不准</div>
+                    <div class="wd">人工约 <span class="num">$1.5–2/分钟</span>，一小时近 <span class="num">百美元</span>；百万集回填不成立。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">ii.</div>
+                <div>
+                    <div class="wt">没有长稿语义检索</div>
+                    <div class="wd">顶多搜标题 / shownotes；TREC 2020 就写「按说了什么搜」还不成熟。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">iii.</div>
+                <div>
+                    <div class="wt">Google / LLM 不听 MP3</div>
+                    <div class="wd">多数集只有 RSS 元数据，网页答引擎几乎看不见。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d4">
+                <div class="wn">iv.</div>
+                <div>
+                    <div class="wt">产品停在人工 clip / 学习浓缩</div>
+                    <div class="wd">不能当 IC 证据层，也做不了全库 alerts。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d4">
+                <div class="wn">v.</div>
+                <div>
+                    <div class="wt">分析师习惯不「搜播客」</div>
+                    <div class="wd">默认 filing、研报、专家 call。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><span>空白 · 更早</span><span>05 / 07</span></div>
+</section>
+
+<!-- SLIDE 06 -->
+<section class="slide" data-slide="6">
+    <div class="eyebrow">空白 · 解锁</div>
+    <div class="pagedot">vi</div>
+    <div class="frame">
+        <h2 class="page-h reveal">这两年<em>解锁</em></h2>
+        <p class="era-label reveal reveal-d1">解锁条件叠齐 · <strong>约 2022 起 → 产品挤出 2024–2026</strong></p>
+        <div class="why-dense six">
+            <div class="wd-row reveal reveal-d1">
+                <div class="wn">i.</div>
+                <div>
+                    <div class="wt">Whisper（2022–23）</div>
+                    <div class="wd">API 约 <span class="num">$0.006/分钟</span>，约比人工低 <span class="num">300×</span>；全库回填才经济。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d2">
+                <div class="wn">ii.</div>
+                <div>
+                    <div class="wt">ChatGPT + embeddings / RAG</div>
+                    <div class="wd">从「存稿」变成「问 → 总结 → 切片」；Podscan 创始人直言：早三四年单人做不了。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d2">
+                <div class="wn">iii.</div>
+                <div>
+                    <div class="wt">供给到位</div>
+                    <div class="wd">商业 / CEO 长访谈密度高，全球听众约 <span class="num">5 亿</span> 量级，年更集数大幅上涨。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">iv.</div>
+                <div>
+                    <div class="wt">买方压力</div>
+                    <div class="wd">专家 call / AlphaSense 仍贵；另类数据预算上行；OPC / 小团队要可支付一手。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">v.</div>
+                <div>
+                    <div class="wt">LLM 做研究把缺口照亮</div>
+                    <div class="wd">一试就发现播客判断覆盖差 → 产品机会。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d4">
+                <div class="wn">vi.</div>
+                <div>
+                    <div class="wt">入局时间本身是证据</div>
+                    <div class="wd">Matterfact、Podscan 约 <span class="num">2024</span>；Seraphina、Podket 约 <span class="num">2026</span>。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><span>空白 · 解锁</span><span>06 / 07</span></div>
+</section>
+
+<!-- SLIDE 07 -->
+<section class="slide" data-slide="7">
+    <div class="eyebrow">互动</div>
+    <div class="pagedot">vii</div>
+    <div class="frame">
+        <h2 class="page-h reveal">你希望怎样的<em>产品交互</em>？</h2>
+        <p class="ix-ask reveal reveal-d1">如果想吸收播客中的一手信息，你希望是怎样的产品交互形式？</p>
+        <div class="ix-grid">
+            <div class="ix-card reveal reveal-d1">
+                <div class="ix-n">i.</div>
+                <div class="ix-t">Public market · ticker tracking</div>
+                <div class="ix-sub">类似 Podket</div>
+                <div class="ix-d">针对个股相关议题的争论与观点演变做追踪；面向 public market。</div>
+                <div class="ix-ui" aria-hidden="true">
+                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Ticker feed</span></div>
+                    <div class="ui-body">
+                        <div class="ui-row"><span class="ui-chip">NVDA</span><div class="ui-line"></div></div>
+                        <div class="ui-row"><span class="ui-chip soft">TSLA</span><div class="ui-line mid"></div></div>
+                        <div class="ui-row"><span class="ui-chip soft">META</span><div class="ui-line short"></div></div>
+                        <div class="ui-row"><span class="ui-chip soft">AAPL</span><div class="ui-line"></div></div>
+                    </div>
+                    <div class="ui-spark">争论时间线 · 观点演变</div>
+                </div>
+            </div>
+            <div class="ix-card reveal reveal-d2">
+                <div class="ix-n">ii.</div>
+                <div class="ix-t">Private market · 单期交付</div>
+                <div class="ix-sub">类似 VCpodIQ</div>
+                <div class="ix-d">针对单期播客做内容总结与交付；面向 private market。</div>
+                <div class="ix-ui" aria-hidden="true">
+                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Episode brief</span></div>
+                    <div class="ui-body">
+                        <div class="ui-block tall"></div>
+                        <div class="ui-block mid"></div>
+                        <div class="ui-block"></div>
+                    </div>
+                    <div class="ui-spark">单期总结 · 结构化交付</div>
+                </div>
+            </div>
+            <div class="ix-card reveal reveal-d3">
+                <div class="ix-n">iii.</div>
+                <div class="ix-t">自然语言提问 · 交互式研究</div>
+                <div class="ix-sub">类似 Matterfact / Stances</div>
+                <div class="ix-d">不以固定股票或单期内容为中心，而以用户问题为中心重构信息排布。</div>
+                <div class="ix-ui" aria-hidden="true">
+                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Ask research</span></div>
+                    <div class="ui-body">
+                        <div class="ui-input"><span>为何本季毛利率承压？</span><span class="ui-send"></span></div>
+                        <div class="ui-block tall"></div>
+                        <div class="ui-block mid"></div>
+                    </div>
+                    <div class="ui-spark">问题中心 · 跨源重排</div>
+                </div>
+            </div>
+        </div>
+        <div class="close-q reveal reveal-d4">
+            <span class="cq-mark">?</span>
+            <p class="cq-t">收口：你希望 AI 怎么帮你吸收？</p>
+        </div>
+    </div>
+    <div class="footer"><span>互动</span><span>07 / 07</span></div>
+</section>
+
+</main>
+</div>
+
+<div class="edit-hotzone"></div>
+<button class="edit-toggle" id="editToggle" title="Edit mode (E)" type="button">✏️</button>
+<div class="save-toast" id="saveToast">saved</div>
+
+<script>
+class SlidePresentation {
+    constructor() {
+        this.slides = Array.from(document.querySelectorAll('.slide'));
+        this.currentSlide = 0;
+        this.stage = document.getElementById('deckStage');
+        this.setupStageScale();
+        this.setupKeyboardNav();
+        this.setupTouchNav();
+        this.setupWheelNav();
+        this.showSlide(0);
+    }
+    setupStageScale() {
+        const scale = () => {
+            const factor = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+            const x = (window.innerWidth - 1920 * factor) / 2;
+            const y = (window.innerHeight - 1080 * factor) / 2;
+            this.stage.style.transform = `translate(${x}px, ${y}px) scale(${factor})`;
+        };
+        scale();
+        window.addEventListener('resize', scale);
+    }
+    setupKeyboardNav() {
+        document.addEventListener('keydown', (e) => {
+            if (e.target && e.target.getAttribute('contenteditable') === 'true') return;
+            if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); this.next(); }
+            else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); this.prev(); }
+            else if (e.key === 'Home') { e.preventDefault(); this.showSlide(0); }
+            else if (e.key === 'End') { e.preventDefault(); this.showSlide(this.slides.length - 1); }
+        });
+    }
+    setupTouchNav() {
+        let startX = 0;
+        document.addEventListener('touchstart', (e) => { startX = e.changedTouches[0].screenX; }, { passive: true });
+        document.addEventListener('touchend', (e) => {
+            const dx = e.changedTouches[0].screenX - startX;
+            if (Math.abs(dx) < 50) return;
+            if (dx < 0) this.next(); else this.prev();
+        }, { passive: true });
+    }
+    setupWheelNav() {
+        let cool = false;
+        document.addEventListener('wheel', (e) => {
+            if (cool) return;
+            if (Math.abs(e.deltaY) < 20) return;
+            cool = true;
+            if (e.deltaY > 0) this.next(); else this.prev();
+            setTimeout(() => { cool = false; }, 500);
+        }, { passive: true });
+    }
+    showSlide(index) {
+        this.currentSlide = Math.max(0, Math.min(index, this.slides.length - 1));
+        this.slides.forEach((slide, i) => {
+            const on = i === this.currentSlide;
+            slide.classList.toggle('active', on);
+            slide.classList.toggle('visible', on);
+        });
+    }
+    next() { this.showSlide(this.currentSlide + 1); }
+    prev() { this.showSlide(this.currentSlide - 1); }
+}
+class InlineEditor {
+    constructor(deck) {
+        this.deck = deck; this.isActive = false;
+        this.storageKey = 'frontend-slides:ai-ir-podcast-soft-editorial';
+        this.toggleBtn = document.getElementById('editToggle');
+        this.toast = document.getElementById('saveToast');
+        this.restore(); this.bind();
+    }
+    bind() {
+        this.toggleBtn.addEventListener('click', () => this.toggleEditMode());
+        const hotzone = document.querySelector('.edit-hotzone');
+        let hideTimeout = null;
+        const show = () => { clearTimeout(hideTimeout); this.toggleBtn.classList.add('show'); };
+        const hide = () => { hideTimeout = setTimeout(() => { if (!this.isActive) this.toggleBtn.classList.remove('show'); }, 400); };
+        hotzone.addEventListener('mouseenter', show);
+        hotzone.addEventListener('mouseleave', hide);
+        this.toggleBtn.addEventListener('mouseenter', () => clearTimeout(hideTimeout));
+        this.toggleBtn.addEventListener('mouseleave', hide);
+        hotzone.addEventListener('click', () => this.toggleEditMode());
+        document.addEventListener('keydown', (e) => {
+            if ((e.key === 'e' || e.key === 'E') && !e.target.getAttribute('contenteditable')) this.toggleEditMode();
+            if ((e.metaKey || e.ctrlKey) && e.key === 's' && this.isActive) { e.preventDefault(); this.save(); }
+        });
+    }
+    toggleEditMode() {
+        this.isActive = !this.isActive;
+        document.body.classList.toggle('edit-mode', this.isActive);
+        this.toggleBtn.classList.toggle('active', this.isActive);
+        this.toggleBtn.classList.add('show');
+        document.querySelectorAll('.slide h1, .slide h2, .slide p, .slide .name, .slide .desc, .slide .cat, .slide .shows, .slide .cov, .slide .val, .slide .cc-name, .slide .cc-shows, .slide .cc-v, .slide .cc-k, .slide .pt, .slide .pd, .slide .wt, .slide .wd, .slide .ts-t, .slide .era-label, .slide .ps-t, .slide .ps-d, .slide .na-t, .slide .na-d, .slide .ix-t, .slide .ix-d, .slide .ix-sub, .slide .ix-ask, .slide .q-text, .slide .cq-t, .slide .ct, .slide .t, .slide .kicker-it, .slide .opener, .slide .who, .slide .na-k, .slide .page-h').forEach((el) => {
+            el.setAttribute('contenteditable', this.isActive ? 'true' : 'false');
+        });
+        if (!this.isActive) this.save();
+    }
+    save() {
+        const data = {};
+        this.deck.slides.forEach((slide, si) => { data[si] = slide.innerHTML; });
+        try {
+            localStorage.setItem(this.storageKey, JSON.stringify(data));
+            this.toast.classList.add('show');
+            setTimeout(() => this.toast.classList.remove('show'), 1200);
+        } catch (err) { console.warn('save failed', err); }
+    }
+    restore() {
+        try {
+            const raw = localStorage.getItem(this.storageKey);
+            if (!raw) return;
+            const data = JSON.parse(raw);
+            this.deck.slides.forEach((slide, si) => { if (data[si]) slide.innerHTML = data[si]; });
+        } catch (err) { console.warn('restore failed', err); }
+    }
+}
+const deck = new SlidePresentation();
+const editor = new InlineEditor(deck);
+window.__deck = deck;
+</script>
+</body>
+</html>
