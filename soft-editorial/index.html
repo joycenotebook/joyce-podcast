@@ -526,6 +526,161 @@ em {
 .slide[data-slide="5"] .page-h { font-size: 52px; margin-bottom: 4px; line-height: 1.15; }
 .slide[data-slide="5"] .frame { bottom: 68px; }
 
+
+/* === CONTENT MATRIX / 规划 SLIDE === */
+.mx-thesis {
+    box-sizing: border-box;
+    padding: 6px 14px;
+    background: var(--lemon);
+    border-radius: 16px;
+    border: 3px solid rgba(42,36,27,0.28);
+    margin-bottom: 6px;
+    flex-shrink: 0;
+}
+.mx-thesis .mx-t {
+    font-family: var(--font-display); font-weight: 500; font-size: 24px;
+    letter-spacing: 0; line-height: 1.3;
+}
+.mx-cols {
+    display: grid; grid-template-columns: 1fr 1.12fr 1fr; gap: 10px;
+    flex: 1; min-height: 0; overflow: visible;
+    align-items: stretch;
+}
+.mx-col {
+    box-sizing: border-box;
+    display: flex; flex-direction: column; gap: 5px;
+    min-height: 0; overflow: hidden;
+    border-radius: 20px;
+    padding: 10px 12px;
+    border: 3px solid rgba(42,36,27,0.42);
+    background: var(--card-fill);
+    height: 100%;
+}
+.mx-col.c1 { background: rgba(183,199,168,0.45); }
+.mx-col.c2 { background: rgba(232,201,182,0.50); }
+.mx-col.c3 { background: rgba(201,190,220,0.50); }
+.mx-col-top {
+    flex-shrink: 0;
+}
+.mx-kicker {
+    font-family: var(--font-display); font-style: italic; font-size: 20px;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 2px;
+}
+.mx-name {
+    font-family: var(--font-display); font-weight: 500; font-size: 28px;
+    letter-spacing: 0; line-height: 1.15; margin-bottom: 2px;
+}
+.mx-sub {
+    font-family: var(--font-body); font-size: 15px; line-height: 1.3;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.mx-block {
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.62);
+    border: 2.5px solid rgba(42,36,27,0.32);
+    flex-shrink: 0;
+}
+.mx-block.grow {
+    flex: 1; min-height: 0; overflow: hidden;
+    display: flex; flex-direction: column; gap: 4px;
+}
+.mx-lh {
+    font-family: var(--font-display); font-style: italic; font-size: 18px;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 4px;
+}
+.mx-src {
+    font-family: var(--font-display); font-weight: 500; font-size: 20px;
+    letter-spacing: 0; line-height: 1.3;
+}
+.mx-layer {
+    box-sizing: border-box;
+    border-radius: 11px;
+    padding: 5px 8px;
+    background: rgba(255,255,255,0.55);
+    border: 2px solid rgba(42,36,27,0.28);
+}
+.mx-layer .mx-lt {
+    font-family: var(--font-display); font-weight: 500; font-size: 17px;
+    letter-spacing: 0; line-height: 1.25; margin-bottom: 1px;
+}
+.mx-layer .mx-ld {
+    font-family: var(--font-body); font-size: 14px; line-height: 1.3;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 2px;
+}
+.mx-layer .mx-ls {
+    font-family: var(--font-display); font-weight: 500; font-size: 16px;
+    letter-spacing: 0; line-height: 1.25;
+}
+.mx-chips {
+    display: flex; flex-wrap: wrap; gap: 5px; margin-top: 2px;
+}
+.mx-chip {
+    display: inline-block;
+    font-family: var(--font-display); font-size: 15px; font-weight: 500;
+    letter-spacing: 0; line-height: 1.2;
+    padding: 3px 9px; border-radius: 999px;
+    background: var(--sage);
+    border: 2px solid rgba(42,36,27,0.28);
+}
+.mx-chip.alt { background: var(--blush); }
+.mx-chip.alt2 { background: var(--lilac); }
+.mx-chip.alt3 { background: var(--lemon); }
+.mx-body {
+    font-family: var(--font-body); font-size: 15px; line-height: 1.38;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.mx-body strong {
+    font-family: var(--font-display); font-weight: 500; color: var(--ink);
+    font-size: 16px;
+}
+.mx-foot {
+    box-sizing: border-box;
+    margin-top: auto;
+    border-radius: 12px;
+    padding: 6px 10px;
+    background: rgba(42,36,27,0.07);
+    border: 2.5px solid rgba(42,36,27,0.32);
+    flex-shrink: 0;
+    display: flex; flex-direction: column; gap: 2px;
+}
+.mx-foot .mx-fr {
+    font-family: var(--font-display); font-weight: 500; font-size: 18px;
+    letter-spacing: 0; line-height: 1.25;
+}
+.mx-foot .mx-fm {
+    font-family: var(--font-body); font-size: 14px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.slide[data-slide="6"] .page-h { font-size: 42px; margin-bottom: 4px; line-height: 1.15; }
+.slide[data-slide="6"] .frame { bottom: 70px; }
+.slide[data-slide="6"] .mx-cols { overflow: visible; align-items: stretch; }
+.slide[data-slide="6"] .mx-col {
+    gap: 6px; padding: 12px 13px;
+    justify-content: stretch;
+}
+.slide[data-slide="6"] .mx-kicker { font-size: 20px; }
+.slide[data-slide="6"] .mx-name { font-size: 30px; margin-bottom: 4px; }
+.slide[data-slide="6"] .mx-sub { font-size: 16px; line-height: 1.35; }
+.slide[data-slide="6"] .mx-src { font-size: 20px; }
+.slide[data-slide="6"] .mx-body { font-size: 15px; line-height: 1.38; }
+.slide[data-slide="6"] .mx-lh { font-size: 18px; margin-bottom: 4px; }
+.slide[data-slide="6"] .mx-lt { font-size: 17px; }
+.slide[data-slide="6"] .mx-ld { font-size: 14px; }
+.slide[data-slide="6"] .mx-ls { font-size: 16px; }
+.slide[data-slide="6"] .mx-fr { font-size: 18px; }
+.slide[data-slide="6"] .mx-fm { font-size: 14px; }
+.slide[data-slide="6"] .mx-chip { font-size: 15px; padding: 3px 9px; }
+.slide[data-slide="6"] .mx-block { padding: 8px 11px; }
+.slide[data-slide="6"] .mx-block.grow { flex: 1 1 auto; }
+.slide[data-slide="6"] .mx-layer { padding: 6px 9px; }
+.slide[data-slide="6"] .mx-foot { padding: 8px 11px; }
+.slide[data-slide="6"] .mx-thesis { padding: 8px 16px; margin-bottom: 8px; }
+.slide[data-slide="6"] .mx-thesis .mx-t { font-size: 25px; }
+
+
+
 /* Why */
 .why-list { display: flex; flex-direction: column; gap: 14px; flex: 1; }
 .why-row {
@@ -863,7 +1018,7 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="q-text">交互：大家对「播客里一手信息价值」的认知到哪一步？</p>
         </div>
     </div>
-    <div class="footer"><span>矩阵</span><span>02 / 08</span></div>
+    <div class="footer"><span>矩阵</span><span>02 / 09</span></div>
 </section>
 
 <!-- SLIDE 03 -->
@@ -951,7 +1106,7 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="q-text">交互：你们还常听哪些「含一手」的播客？</p>
         </div>
     </div>
-    <div class="footer"><span>细分</span><span>03 / 08</span></div>
+    <div class="footer"><span>细分</span><span>03 / 09</span></div>
 </section>
 
 <!-- SLIDE 04 -->
@@ -987,7 +1142,7 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="q-text">交互：若用工具吸收这些一手判断，希望什么交互？或你会怎么写一个 skill 需求？</p>
         </div>
     </div>
-    <div class="footer"><span>卡点</span><span>04 / 08</span></div>
+    <div class="footer"><span>卡点</span><span>04 / 09</span></div>
 </section>
 
 <!-- SLIDE 05 · 筛 · 独有 × 有价值 -->
@@ -1074,13 +1229,114 @@ body.edit-mode .slide [contenteditable="true"] {
             </div>
         </div>
     </div>
-    <div class="footer"><span>筛 · 独有 × 有价值</span><span>05 / 08</span></div>
+    <div class="footer"><span>筛 · 独有 × 有价值</span><span>05 / 09</span></div>
 </section>
 
-<!-- SLIDE 06 -->
+
+<!-- SLIDE 06 · 规划 · 内容矩阵 -->
 <section class="slide" data-slide="6">
-    <div class="eyebrow">空白 · 更早</div>
+    <div class="eyebrow">规划</div>
     <div class="pagedot">vi</div>
+    <div class="frame">
+        <h2 class="page-h reveal">三类内容怎么规划：<em>Ticker Tracking · 单期重构 · 提问专题</em></h2>
+        <div class="mx-thesis reveal reveal-d1">
+            <p class="mx-t">按即时性、重构深度和提问密度拆成三条产线，信源和更新节奏分开定。</p>
+        </div>
+        <div class="mx-cols">
+            <div class="mx-col c1 reveal reveal-d2">
+                <div class="mx-col-top">
+                    <div class="mx-kicker">产线 i · 短消息</div>
+                    <div class="mx-name">Ticker Tracking</div>
+                    <p class="mx-sub">这一类用来跟踪上市公司与巨头的最新动向</p>
+                </div>
+                <div class="mx-block">
+                    <div class="mx-lh">代表性信源</div>
+                    <div class="mx-src">Hard Fork · AI（播客）</div>
+                </div>
+                <div class="mx-block">
+                    <div class="mx-lh">跟踪标的</div>
+                    <div class="mx-chips">
+                        <span class="mx-chip">Anthropic（IPO）</span>
+                        <span class="mx-chip alt">SpaceX / Tesla</span>
+                        <span class="mx-chip alt2">Microsoft</span>
+                        <span class="mx-chip alt3">Amazon</span>
+                        <span class="mx-chip">Apple &amp; Meta（Muse）</span>
+                        <span class="mx-chip alt">Google / Gemini</span>
+                    </div>
+                </div>
+                <div class="mx-block grow">
+                    <div class="mx-lh">用法</div>
+                    <p class="mx-body">单期短、即时性最强；了解上市公司与巨头最新消息。先复刻／课龙式概括，再做简短重构。</p>
+                </div>
+                <div class="mx-foot">
+                    <div class="mx-fr">频率 · daily+</div>
+                    <div class="mx-fm">时间久了把短消息按时间轴串联，叠加判断。</div>
+                </div>
+            </div>
+
+            <div class="mx-col c2 reveal reveal-d3">
+                <div class="mx-col-top">
+                    <div class="mx-kicker">产线 ii · 长访谈</div>
+                    <div class="mx-name">单期重构</div>
+                    <p class="mx-sub">这一类把长访谈压成可落地的框架笔记</p>
+                </div>
+                <div class="mx-block grow">
+                    <div class="mx-lh">三类代表性信源</div>
+                    <div class="mx-layer">
+                        <div class="mx-lt">CEO 一手心路</div>
+                        <div class="mx-ld">企业经营与决策细节（PayPal 帮自传／CEO 秘籍气质）</div>
+                        <div class="mx-ls">Acquired · How I Built This · Lenny’s Podcast</div>
+                    </div>
+                    <div class="mx-layer">
+                        <div class="mx-lt">投资机构趋势／宏观视角</div>
+                        <div class="mx-ls">a16z · 20VC</div>
+                    </div>
+                    <div class="mx-layer">
+                        <div class="mx-lt">General lessons</div>
+                        <div class="mx-ld">管理／创业／投资经验</div>
+                        <div class="mx-ls">The Diary of a CEO · Lex Fridman · Tim Ferriss · Invest Like the Best</div>
+                    </div>
+                </div>
+                <div class="mx-block">
+                    <div class="mx-lh">用法</div>
+                    <p class="mx-body">内容相对滞后，但细致、可敲落地。用框架思维做单期重构，提高<strong>信息密度</strong>与<strong>可预测性</strong>——这是文字产品相对声音产品的重构价值。</p>
+                </div>
+                <div class="mx-foot">
+                    <div class="mx-fr">频率 · 一周 2–3 期</div>
+                    <div class="mx-fm">方法：框架思维重构。</div>
+                </div>
+            </div>
+
+            <div class="mx-col c3 reveal reveal-d4">
+                <div class="mx-col-top">
+                    <div class="mx-kicker">产线 iii · 高密度提问</div>
+                    <div class="mx-name">提问／专题</div>
+                    <p class="mx-sub">这一类服务高密度提问的 power user，而不是普通听友的日常刷信</p>
+                </div>
+                <div class="mx-block">
+                    <div class="mx-lh">代表性信源</div>
+                    <div class="mx-src">No Priors · Goldman Sachs Exchanges</div>
+                </div>
+                <div class="mx-block grow">
+                    <div class="mx-lh">用法</div>
+                    <p class="mx-body">更依赖前期输入。普通用户相对低频；对创业者、从业者、CEO、一二级研究员可以很密，甚至 daily。</p>
+                    <div class="mx-lh" style="margin-top:6px;">问题来源</div>
+                    <p class="mx-body">业务增长与运营；科技安全；AI 泡沫——会牵动组织节奏、投融资与业务规划。</p>
+                </div>
+                <div class="mx-foot">
+                    <div class="mx-fr">方法 · showcase 系列</div>
+                    <div class="mx-fm">围绕核心关切做 showcase；单题可做成系列（分 → 总）。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><span>规划 · 内容矩阵</span><span>06 / 09</span></div>
+</section>
+
+<!-- SLIDE 07 -->
+<section class="slide" data-slide="7">
+    <div class="eyebrow">空白 · 更早</div>
+    <div class="pagedot">vii</div>
     <div class="frame">
         <h2 class="page-h reveal">空白<em>为何存在</em> · 更早没有</h2>
         <div class="thesis-strip reveal reveal-d1">
@@ -1126,13 +1382,13 @@ body.edit-mode .slide [contenteditable="true"] {
             </div>
         </div>
     </div>
-    <div class="footer"><span>空白 · 更早</span><span>06 / 08</span></div>
+    <div class="footer"><span>空白 · 更早</span><span>07 / 09</span></div>
 </section>
 
-<!-- SLIDE 07 -->
-<section class="slide" data-slide="7">
+<!-- SLIDE 08 -->
+<section class="slide" data-slide="8">
     <div class="eyebrow">空白 · 解锁</div>
-    <div class="pagedot">vii</div>
+    <div class="pagedot">viii</div>
     <div class="frame">
         <h2 class="page-h reveal">这两年<em>解锁</em></h2>
         <p class="era-label reveal reveal-d1">解锁条件叠齐 · <strong>约 2022 起 → 产品挤出 2024–2026</strong></p>
@@ -1181,13 +1437,13 @@ body.edit-mode .slide [contenteditable="true"] {
             </div>
         </div>
     </div>
-    <div class="footer"><span>空白 · 解锁</span><span>07 / 08</span></div>
+    <div class="footer"><span>空白 · 解锁</span><span>08 / 09</span></div>
 </section>
 
-<!-- SLIDE 08 -->
-<section class="slide" data-slide="8">
+<!-- SLIDE 09 -->
+<section class="slide" data-slide="9">
     <div class="eyebrow">互动</div>
-    <div class="pagedot">viii</div>
+    <div class="pagedot">ix</div>
     <div class="frame">
         <h2 class="page-h reveal">你希望怎样的<em>产品交互</em>？</h2>
         <p class="ix-ask reveal reveal-d1">如果想吸收播客中的一手信息，你希望是怎样的产品交互形式？</p>
@@ -1244,7 +1500,7 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="cq-t">收口：你希望 AI 怎么帮你吸收？</p>
         </div>
     </div>
-    <div class="footer"><span>互动</span><span>08 / 08</span></div>
+    <div class="footer"><span>互动</span><span>09 / 09</span></div>
 </section>
 
 </main>
@@ -1344,7 +1600,7 @@ class InlineEditor {
         document.body.classList.toggle('edit-mode', this.isActive);
         this.toggleBtn.classList.toggle('active', this.isActive);
         this.toggleBtn.classList.add('show');
-        document.querySelectorAll('.slide h1, .slide h2, .slide p, .slide .name, .slide .desc, .slide .cat, .slide .shows, .slide .cov, .slide .val, .slide .cc-name, .slide .cc-shows, .slide .cc-v, .slide .cc-k, .slide .pt, .slide .pd, .slide .wt, .slide .wd, .slide .ts-t, .slide .uv-t, .slide .uv-title, .slide .uv-d, .slide .uv-gt, .slide .uv-gd, .slide .uv-note, .slide .uv-col-h, .slide .era-label, .slide .ps-t, .slide .ps-d, .slide .na-t, .slide .na-d, .slide .ix-t, .slide .ix-d, .slide .ix-sub, .slide .ix-ask, .slide .q-text, .slide .cq-t, .slide .ct, .slide .t, .slide .kicker-it, .slide .opener, .slide .who, .slide .na-k, .slide .page-h').forEach((el) => {
+        document.querySelectorAll('.slide h1, .slide h2, .slide p, .slide .name, .slide .desc, .slide .cat, .slide .shows, .slide .cov, .slide .val, .slide .cc-name, .slide .cc-shows, .slide .cc-v, .slide .cc-k, .slide .pt, .slide .pd, .slide .wt, .slide .wd, .slide .ts-t, .slide .uv-t, .slide .uv-title, .slide .uv-d, .slide .uv-gt, .slide .uv-gd, .slide .uv-note, .slide .uv-col-h, .slide .mx-t, .slide .mx-name, .slide .mx-sub, .slide .mx-src, .slide .mx-body, .slide .mx-lt, .slide .mx-ld, .slide .mx-ls, .slide .mx-fr, .slide .mx-fm, .slide .era-label, .slide .ps-t, .slide .ps-d, .slide .na-t, .slide .na-d, .slide .ix-t, .slide .ix-d, .slide .ix-sub, .slide .ix-ask, .slide .q-text, .slide .cq-t, .slide .ct, .slide .t, .slide .kicker-it, .slide .opener, .slide .who, .slide .na-k, .slide .page-h').forEach((el) => {
             el.setAttribute('contenteditable', this.isActive ? 'true' : 'false');
         });
         if (!this.isActive) this.save();
