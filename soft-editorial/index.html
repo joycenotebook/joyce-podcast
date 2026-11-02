@@ -653,29 +653,29 @@ em {
     font-family: var(--font-body); font-size: 14px; line-height: 1.35;
     letter-spacing: 0; color: var(--ink-soft);
 }
-.slide[data-slide="6"] .page-h { font-size: 42px; margin-bottom: 4px; line-height: 1.15; }
-.slide[data-slide="6"] .frame { bottom: 72px; overflow: hidden; }
-.slide[data-slide="6"] .mx-col {
+.slide[data-slide="9"] .page-h { font-size: 42px; margin-bottom: 4px; line-height: 1.15; }
+.slide[data-slide="9"] .frame { bottom: 72px; overflow: hidden; }
+.slide[data-slide="9"] .mx-col {
     gap: 6px; padding: 12px 13px;
 }
-.slide[data-slide="6"] .mx-kicker { font-size: 20px; }
-.slide[data-slide="6"] .mx-name { font-size: 30px; margin-bottom: 4px; }
-.slide[data-slide="6"] .mx-sub { font-size: 16px; line-height: 1.35; }
-.slide[data-slide="6"] .mx-src { font-size: 20px; }
-.slide[data-slide="6"] .mx-body { font-size: 15px; line-height: 1.38; }
-.slide[data-slide="6"] .mx-lh { font-size: 18px; margin-bottom: 4px; }
-.slide[data-slide="6"] .mx-lt { font-size: 17px; }
-.slide[data-slide="6"] .mx-ld { font-size: 14px; }
-.slide[data-slide="6"] .mx-ls { font-size: 16px; }
-.slide[data-slide="6"] .mx-fr { font-size: 18px; }
-.slide[data-slide="6"] .mx-fm { font-size: 14px; }
-.slide[data-slide="6"] .mx-chip { font-size: 15px; padding: 3px 9px; }
-.slide[data-slide="6"] .mx-block { padding: 8px 11px; }
-.slide[data-slide="6"] .mx-block.grow { flex: 1 1 auto; }
-.slide[data-slide="6"] .mx-layer { padding: 6px 9px; }
-.slide[data-slide="6"] .mx-foot { padding: 8px 11px; }
-.slide[data-slide="6"] .mx-thesis { padding: 8px 16px; margin-bottom: 8px; }
-.slide[data-slide="6"] .mx-thesis .mx-t { font-size: 25px; }
+.slide[data-slide="9"] .mx-kicker { font-size: 20px; }
+.slide[data-slide="9"] .mx-name { font-size: 30px; margin-bottom: 4px; }
+.slide[data-slide="9"] .mx-sub { font-size: 16px; line-height: 1.35; }
+.slide[data-slide="9"] .mx-src { font-size: 20px; }
+.slide[data-slide="9"] .mx-body { font-size: 15px; line-height: 1.38; }
+.slide[data-slide="9"] .mx-lh { font-size: 18px; margin-bottom: 4px; }
+.slide[data-slide="9"] .mx-lt { font-size: 17px; }
+.slide[data-slide="9"] .mx-ld { font-size: 14px; }
+.slide[data-slide="9"] .mx-ls { font-size: 16px; }
+.slide[data-slide="9"] .mx-fr { font-size: 18px; }
+.slide[data-slide="9"] .mx-fm { font-size: 14px; }
+.slide[data-slide="9"] .mx-chip { font-size: 15px; padding: 3px 9px; }
+.slide[data-slide="9"] .mx-block { padding: 8px 11px; }
+.slide[data-slide="9"] .mx-block.grow { flex: 1 1 auto; }
+.slide[data-slide="9"] .mx-layer { padding: 6px 9px; }
+.slide[data-slide="9"] .mx-foot { padding: 8px 11px; }
+.slide[data-slide="9"] .mx-thesis { padding: 8px 16px; margin-bottom: 8px; }
+.slide[data-slide="9"] .mx-thesis .mx-t { font-size: 25px; }
 
 
 
@@ -1231,10 +1231,180 @@ body.edit-mode .slide [contenteditable="true"] {
 </section>
 
 
-<!-- SLIDE 06 · 规划 · 内容矩阵 -->
+<!-- SLIDE 06 -->
 <section class="slide" data-slide="6">
-    <div class="eyebrow">规划</div>
+    <div class="eyebrow">空白 · 更早</div>
     <div class="pagedot">vi</div>
+    <div class="frame">
+        <h2 class="page-h reveal">空白<em>为何存在</em> · 更早没有</h2>
+        <div class="thesis-strip reveal reveal-d1">
+            <div class="ts-k">一句话</div>
+            <p class="ts-t">播客内容早就在；卡点是<strong>「音频不可搜、不可引、不可规模监控」</strong>。2022–2023 廉价准转录 + ChatGPT/RAG 同时成熟，才在 <strong>2024–2026</strong> 挤出产品。</p>
+        </div>
+        <p class="era-label reveal reveal-d2">更早没有 · <strong>约 2018–2022</strong></p>
+        <div class="why-dense">
+            <div class="wd-row reveal reveal-d2">
+                <div class="wn">i.</div>
+                <div>
+                    <div class="wt">ASR 贵且不准</div>
+                    <div class="wd">人工约 <span class="num">$1.5–2/分钟</span>，一小时近 <span class="num">百美元</span>；百万集回填不成立。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">ii.</div>
+                <div>
+                    <div class="wt">没有长稿语义检索</div>
+                    <div class="wd">顶多搜标题 / shownotes；TREC 2020 就写「按说了什么搜」还不成熟。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">iii.</div>
+                <div>
+                    <div class="wt">Google / LLM 不听 MP3</div>
+                    <div class="wd">多数集只有 RSS 元数据，网页答引擎几乎看不见。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d4">
+                <div class="wn">iv.</div>
+                <div>
+                    <div class="wt">产品停在人工 clip / 学习浓缩</div>
+                    <div class="wd">不能当 IC 证据层，也做不了全库 alerts。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d4">
+                <div class="wn">v.</div>
+                <div>
+                    <div class="wt">分析师习惯不「搜播客」</div>
+                    <div class="wd">默认 filing、研报、专家 call。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><span>空白 · 更早</span><span>06 / 09</span></div>
+</section>
+
+<!-- SLIDE 07 -->
+<section class="slide" data-slide="7">
+    <div class="eyebrow">空白 · 解锁</div>
+    <div class="pagedot">vii</div>
+    <div class="frame">
+        <h2 class="page-h reveal">这两年<em>解锁</em></h2>
+        <p class="era-label reveal reveal-d1">解锁条件叠齐 · <strong>约 2022 起 → 产品挤出 2024–2026</strong></p>
+        <div class="why-dense six">
+            <div class="wd-row reveal reveal-d1">
+                <div class="wn">i.</div>
+                <div>
+                    <div class="wt">Whisper（2022–23）</div>
+                    <div class="wd">API 约 <span class="num">$0.006/分钟</span>，约比人工低 <span class="num">300×</span>；全库回填才经济。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d2">
+                <div class="wn">ii.</div>
+                <div>
+                    <div class="wt">ChatGPT + embeddings / RAG</div>
+                    <div class="wd">从「存稿」变成「问 → 总结 → 切片」；Podscan 创始人直言：早三四年单人做不了。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d2">
+                <div class="wn">iii.</div>
+                <div>
+                    <div class="wt">供给到位</div>
+                    <div class="wd">商业 / CEO 长访谈密度高，全球听众约 <span class="num">5 亿</span> 量级，年更集数大幅上涨。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">iv.</div>
+                <div>
+                    <div class="wt">买方压力</div>
+                    <div class="wd">专家 call / AlphaSense 仍贵；另类数据预算上行；OPC / 小团队要可支付一手。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d3">
+                <div class="wn">v.</div>
+                <div>
+                    <div class="wt">LLM 做研究把缺口照亮</div>
+                    <div class="wd">一试就发现播客判断覆盖差 → 产品机会。</div>
+                </div>
+            </div>
+            <div class="wd-row reveal reveal-d4">
+                <div class="wn">vi.</div>
+                <div>
+                    <div class="wt">入局时间本身是证据</div>
+                    <div class="wd">Matterfact、Podscan 约 <span class="num">2024</span>；Seraphina、Podket 约 <span class="num">2026</span>。</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><span>空白 · 解锁</span><span>07 / 09</span></div>
+</section>
+
+<!-- SLIDE 08 -->
+<section class="slide" data-slide="8">
+    <div class="eyebrow">互动</div>
+    <div class="pagedot">viii</div>
+    <div class="frame">
+        <h2 class="page-h reveal">你希望怎样的<em>产品交互</em>？</h2>
+        <p class="ix-ask reveal reveal-d1">如果想吸收播客中的一手信息，你希望是怎样的产品交互形式？</p>
+        <div class="ix-grid">
+            <div class="ix-card reveal reveal-d1">
+                <div class="ix-n">i.</div>
+                <div class="ix-t">Public market · ticker tracking</div>
+                <div class="ix-sub">类似 Podket</div>
+                <div class="ix-d">针对个股相关议题的争论与观点演变做追踪；面向 public market。</div>
+                <div class="ix-ui" aria-hidden="true">
+                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Ticker feed</span></div>
+                    <div class="ui-body">
+                        <div class="ui-row"><span class="ui-chip">NVDA</span><div class="ui-line"></div></div>
+                        <div class="ui-row"><span class="ui-chip soft">TSLA</span><div class="ui-line mid"></div></div>
+                        <div class="ui-row"><span class="ui-chip soft">META</span><div class="ui-line short"></div></div>
+                        <div class="ui-row"><span class="ui-chip soft">AAPL</span><div class="ui-line"></div></div>
+                    </div>
+                    <div class="ui-spark">争论时间线 · 观点演变</div>
+                </div>
+            </div>
+            <div class="ix-card reveal reveal-d2">
+                <div class="ix-n">ii.</div>
+                <div class="ix-t">Private market · 单期交付</div>
+                <div class="ix-sub">类似 VCpodIQ</div>
+                <div class="ix-d">针对单期播客做内容总结与交付；面向 private market。</div>
+                <div class="ix-ui" aria-hidden="true">
+                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Episode brief</span></div>
+                    <div class="ui-body">
+                        <div class="ui-block tall"></div>
+                        <div class="ui-block mid"></div>
+                        <div class="ui-block"></div>
+                    </div>
+                    <div class="ui-spark">单期总结 · 结构化交付</div>
+                </div>
+            </div>
+            <div class="ix-card reveal reveal-d3">
+                <div class="ix-n">iii.</div>
+                <div class="ix-t">自然语言提问 · 交互式研究</div>
+                <div class="ix-sub">类似 Matterfact / Stances</div>
+                <div class="ix-d">不以固定股票或单期内容为中心，而以用户问题为中心重构信息排布。</div>
+                <div class="ix-ui" aria-hidden="true">
+                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Ask research</span></div>
+                    <div class="ui-body">
+                        <div class="ui-input"><span>为何本季毛利率承压？</span><span class="ui-send"></span></div>
+                        <div class="ui-block tall"></div>
+                        <div class="ui-block mid"></div>
+                    </div>
+                    <div class="ui-spark">问题中心 · 跨源重排</div>
+                </div>
+            </div>
+        </div>
+        <div class="close-q reveal reveal-d4">
+            <span class="cq-mark">?</span>
+            <p class="cq-t">收口：你希望 AI 怎么帮你吸收？</p>
+        </div>
+    </div>
+    <div class="footer"><span>互动</span><span>08 / 09</span></div>
+</section>
+
+<!-- SLIDE 09 · 规划 · 内容矩阵 -->
+<section class="slide" data-slide="9">
+    <div class="eyebrow">规划</div>
+    <div class="pagedot">ix</div>
     <div class="frame">
         <h2 class="page-h reveal">三类内容怎么规划：<em>Ticker Tracking · 单期重构 · 提问专题</em></h2>
         <div class="mx-thesis reveal reveal-d1">
@@ -1328,177 +1498,7 @@ body.edit-mode .slide [contenteditable="true"] {
             </div>
         </div>
     </div>
-    <div class="footer"><span>规划 · 内容矩阵</span><span>06 / 09</span></div>
-</section>
-
-<!-- SLIDE 07 -->
-<section class="slide" data-slide="7">
-    <div class="eyebrow">空白 · 更早</div>
-    <div class="pagedot">vii</div>
-    <div class="frame">
-        <h2 class="page-h reveal">空白<em>为何存在</em> · 更早没有</h2>
-        <div class="thesis-strip reveal reveal-d1">
-            <div class="ts-k">一句话</div>
-            <p class="ts-t">播客内容早就在；卡点是<strong>「音频不可搜、不可引、不可规模监控」</strong>。2022–2023 廉价准转录 + ChatGPT/RAG 同时成熟，才在 <strong>2024–2026</strong> 挤出产品。</p>
-        </div>
-        <p class="era-label reveal reveal-d2">更早没有 · <strong>约 2018–2022</strong></p>
-        <div class="why-dense">
-            <div class="wd-row reveal reveal-d2">
-                <div class="wn">i.</div>
-                <div>
-                    <div class="wt">ASR 贵且不准</div>
-                    <div class="wd">人工约 <span class="num">$1.5–2/分钟</span>，一小时近 <span class="num">百美元</span>；百万集回填不成立。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d3">
-                <div class="wn">ii.</div>
-                <div>
-                    <div class="wt">没有长稿语义检索</div>
-                    <div class="wd">顶多搜标题 / shownotes；TREC 2020 就写「按说了什么搜」还不成熟。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d3">
-                <div class="wn">iii.</div>
-                <div>
-                    <div class="wt">Google / LLM 不听 MP3</div>
-                    <div class="wd">多数集只有 RSS 元数据，网页答引擎几乎看不见。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d4">
-                <div class="wn">iv.</div>
-                <div>
-                    <div class="wt">产品停在人工 clip / 学习浓缩</div>
-                    <div class="wd">不能当 IC 证据层，也做不了全库 alerts。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d4">
-                <div class="wn">v.</div>
-                <div>
-                    <div class="wt">分析师习惯不「搜播客」</div>
-                    <div class="wd">默认 filing、研报、专家 call。</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer"><span>空白 · 更早</span><span>07 / 09</span></div>
-</section>
-
-<!-- SLIDE 08 -->
-<section class="slide" data-slide="8">
-    <div class="eyebrow">空白 · 解锁</div>
-    <div class="pagedot">viii</div>
-    <div class="frame">
-        <h2 class="page-h reveal">这两年<em>解锁</em></h2>
-        <p class="era-label reveal reveal-d1">解锁条件叠齐 · <strong>约 2022 起 → 产品挤出 2024–2026</strong></p>
-        <div class="why-dense six">
-            <div class="wd-row reveal reveal-d1">
-                <div class="wn">i.</div>
-                <div>
-                    <div class="wt">Whisper（2022–23）</div>
-                    <div class="wd">API 约 <span class="num">$0.006/分钟</span>，约比人工低 <span class="num">300×</span>；全库回填才经济。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d2">
-                <div class="wn">ii.</div>
-                <div>
-                    <div class="wt">ChatGPT + embeddings / RAG</div>
-                    <div class="wd">从「存稿」变成「问 → 总结 → 切片」；Podscan 创始人直言：早三四年单人做不了。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d2">
-                <div class="wn">iii.</div>
-                <div>
-                    <div class="wt">供给到位</div>
-                    <div class="wd">商业 / CEO 长访谈密度高，全球听众约 <span class="num">5 亿</span> 量级，年更集数大幅上涨。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d3">
-                <div class="wn">iv.</div>
-                <div>
-                    <div class="wt">买方压力</div>
-                    <div class="wd">专家 call / AlphaSense 仍贵；另类数据预算上行；OPC / 小团队要可支付一手。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d3">
-                <div class="wn">v.</div>
-                <div>
-                    <div class="wt">LLM 做研究把缺口照亮</div>
-                    <div class="wd">一试就发现播客判断覆盖差 → 产品机会。</div>
-                </div>
-            </div>
-            <div class="wd-row reveal reveal-d4">
-                <div class="wn">vi.</div>
-                <div>
-                    <div class="wt">入局时间本身是证据</div>
-                    <div class="wd">Matterfact、Podscan 约 <span class="num">2024</span>；Seraphina、Podket 约 <span class="num">2026</span>。</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer"><span>空白 · 解锁</span><span>08 / 09</span></div>
-</section>
-
-<!-- SLIDE 09 -->
-<section class="slide" data-slide="9">
-    <div class="eyebrow">互动</div>
-    <div class="pagedot">ix</div>
-    <div class="frame">
-        <h2 class="page-h reveal">你希望怎样的<em>产品交互</em>？</h2>
-        <p class="ix-ask reveal reveal-d1">如果想吸收播客中的一手信息，你希望是怎样的产品交互形式？</p>
-        <div class="ix-grid">
-            <div class="ix-card reveal reveal-d1">
-                <div class="ix-n">i.</div>
-                <div class="ix-t">Public market · ticker tracking</div>
-                <div class="ix-sub">类似 Podket</div>
-                <div class="ix-d">针对个股相关议题的争论与观点演变做追踪；面向 public market。</div>
-                <div class="ix-ui" aria-hidden="true">
-                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Ticker feed</span></div>
-                    <div class="ui-body">
-                        <div class="ui-row"><span class="ui-chip">NVDA</span><div class="ui-line"></div></div>
-                        <div class="ui-row"><span class="ui-chip soft">TSLA</span><div class="ui-line mid"></div></div>
-                        <div class="ui-row"><span class="ui-chip soft">META</span><div class="ui-line short"></div></div>
-                        <div class="ui-row"><span class="ui-chip soft">AAPL</span><div class="ui-line"></div></div>
-                    </div>
-                    <div class="ui-spark">争论时间线 · 观点演变</div>
-                </div>
-            </div>
-            <div class="ix-card reveal reveal-d2">
-                <div class="ix-n">ii.</div>
-                <div class="ix-t">Private market · 单期交付</div>
-                <div class="ix-sub">类似 VCpodIQ</div>
-                <div class="ix-d">针对单期播客做内容总结与交付；面向 private market。</div>
-                <div class="ix-ui" aria-hidden="true">
-                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Episode brief</span></div>
-                    <div class="ui-body">
-                        <div class="ui-block tall"></div>
-                        <div class="ui-block mid"></div>
-                        <div class="ui-block"></div>
-                    </div>
-                    <div class="ui-spark">单期总结 · 结构化交付</div>
-                </div>
-            </div>
-            <div class="ix-card reveal reveal-d3">
-                <div class="ix-n">iii.</div>
-                <div class="ix-t">自然语言提问 · 交互式研究</div>
-                <div class="ix-sub">类似 Matterfact / Stances</div>
-                <div class="ix-d">不以固定股票或单期内容为中心，而以用户问题为中心重构信息排布。</div>
-                <div class="ix-ui" aria-hidden="true">
-                    <div class="ui-bar"><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-dot"></span><span class="ui-title">Ask research</span></div>
-                    <div class="ui-body">
-                        <div class="ui-input"><span>为何本季毛利率承压？</span><span class="ui-send"></span></div>
-                        <div class="ui-block tall"></div>
-                        <div class="ui-block mid"></div>
-                    </div>
-                    <div class="ui-spark">问题中心 · 跨源重排</div>
-                </div>
-            </div>
-        </div>
-        <div class="close-q reveal reveal-d4">
-            <span class="cq-mark">?</span>
-            <p class="cq-t">收口：你希望 AI 怎么帮你吸收？</p>
-        </div>
-    </div>
-    <div class="footer"><span>互动</span><span>09 / 09</span></div>
+    <div class="footer"><span>规划 · 内容矩阵</span><span>09 / 09</span></div>
 </section>
 
 </main>
