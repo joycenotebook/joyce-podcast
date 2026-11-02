@@ -394,6 +394,122 @@ em {
     letter-spacing: 0; color: var(--ink-soft);
 }
 
+/* === UNIQUE × VALUE SLIDE === */
+.uv-thesis {
+    padding: 8px 16px;
+    background: var(--lemon);
+    border-radius: 20px;
+    margin-bottom: 6px;
+    flex-shrink: 0;
+}
+.uv-thesis .uv-k {
+    font-family: var(--font-display); font-style: italic; font-size: 20px;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 4px;
+}
+.uv-thesis .uv-t {
+    font-family: var(--font-display); font-weight: 500; font-size: 26px;
+    letter-spacing: 0; line-height: 1.35;
+}
+.uv-cols {
+    display: grid; grid-template-columns: 1.08fr 0.92fr; gap: 10px;
+    flex: 1; min-height: 0; overflow: hidden;
+}
+.uv-col {
+    display: flex; flex-direction: column; gap: 5px; min-height: 0; overflow: hidden;
+}
+.uv-col-h {
+    font-family: var(--font-display); font-weight: 500; font-size: 24px;
+    letter-spacing: 0; line-height: 1.2; flex-shrink: 0;
+    display: flex; align-items: baseline; gap: 10px;
+}
+.uv-col-h .uv-sub {
+    font-family: var(--font-display); font-style: italic; font-weight: 400;
+    font-size: 18px; color: var(--ink-soft);
+}
+.uv-note {
+    font-family: var(--font-body); font-size: 15px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft); flex-shrink: 0;
+    margin-bottom: 2px;
+}
+.uv-rank {
+    display: flex; flex-direction: column; gap: 4px;
+    flex: 1; min-height: 0; overflow: hidden;
+}
+.uv-item {
+    border-radius: 16px; padding: 6px 12px;
+    display: grid; grid-template-columns: 36px 1fr; gap: 8px;
+    align-items: start; flex-shrink: 0;
+}
+.uv-item:nth-child(1) { background: var(--sage); }
+.uv-item:nth-child(2) { background: var(--blush); }
+.uv-item:nth-child(3) { background: var(--lilac); }
+.uv-item:nth-child(4) { background: var(--card-fill); border: 1px solid var(--rule-soft); }
+.uv-item .uv-n {
+    font-family: var(--font-display); font-style: italic; font-weight: 500;
+    font-size: 28px; line-height: 1.1; letter-spacing: 0; color: var(--ink-soft);
+    padding-top: 1px;
+}
+.uv-item .uv-title {
+    font-family: var(--font-display); font-weight: 500; font-size: 20px;
+    letter-spacing: 0; line-height: 1.25; margin-bottom: 2px;
+}
+.uv-item .uv-d {
+    font-family: var(--font-body); font-size: 14px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.uv-checks {
+    margin-top: 2px; padding: 6px 12px;
+    background: var(--card-fill); border-radius: 16px;
+    border: 1px dashed var(--rule-medium); flex-shrink: 0;
+}
+.uv-checks .uv-ck-h {
+    font-family: var(--font-display); font-style: italic; font-size: 18px;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 3px;
+}
+.uv-checks ol {
+    margin: 0; padding-left: 18px;
+    font-family: var(--font-body); font-size: 13px; line-height: 1.4;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.uv-checks li { margin-bottom: 2px; }
+.uv-good {
+    display: flex; flex-direction: column; gap: 4px;
+    flex: 1; min-height: 0; overflow: hidden;
+}
+.uv-good-item {
+    border-radius: 16px; padding: 6px 12px;
+    background: var(--card-fill); flex-shrink: 0;
+}
+.uv-good-item:nth-child(1) { background: var(--lemon); }
+.uv-good-item:nth-child(2) { background: var(--sage); }
+.uv-good-item:nth-child(3) { background: var(--blush); }
+.uv-good-item:nth-child(4) { background: var(--lilac); }
+.uv-good-item .uv-gt {
+    font-family: var(--font-display); font-weight: 500; font-size: 20px;
+    letter-spacing: 0; line-height: 1.25; margin-bottom: 1px;
+}
+.uv-good-item .uv-gd {
+    font-family: var(--font-body); font-size: 14px; line-height: 1.35;
+    letter-spacing: 0; color: var(--ink-soft);
+}
+.uv-bad {
+    margin-top: 2px; padding: 6px 12px;
+    background: rgba(42,36,27,0.06); border-radius: 16px; flex-shrink: 0;
+}
+.uv-bad .uv-bad-h {
+    font-family: var(--font-display); font-style: italic; font-size: 18px;
+    letter-spacing: 0; color: var(--ink-soft); margin-bottom: 3px;
+}
+.uv-bad ul {
+    margin: 0; padding-left: 16px;
+    font-family: var(--font-body); font-size: 13px; line-height: 1.4;
+    letter-spacing: 0; color: var(--ink-soft);
+    columns: 2; column-gap: 12px;
+}
+.uv-bad li { margin-bottom: 1px; break-inside: avoid; }
+.slide[data-slide="5"] .page-h { font-size: 48px; margin-bottom: 2px; }
+.slide[data-slide="5"] .frame { bottom: 66px; }
+
 /* Why */
 .why-list { display: flex; flex-direction: column; gap: 14px; flex: 1; }
 .why-row {
@@ -731,7 +847,7 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="q-text">交互：大家对「播客里一手信息价值」的认知到哪一步？</p>
         </div>
     </div>
-    <div class="footer"><span>矩阵</span><span>02 / 07</span></div>
+    <div class="footer"><span>矩阵</span><span>02 / 08</span></div>
 </section>
 
 <!-- SLIDE 03 -->
@@ -819,7 +935,7 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="q-text">交互：你们还常听哪些「含一手」的播客？</p>
         </div>
     </div>
-    <div class="footer"><span>细分</span><span>03 / 07</span></div>
+    <div class="footer"><span>细分</span><span>03 / 08</span></div>
 </section>
 
 <!-- SLIDE 04 -->
@@ -855,13 +971,100 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="q-text">交互：若用工具吸收这些一手判断，希望什么交互？或你会怎么写一个 skill 需求？</p>
         </div>
     </div>
-    <div class="footer"><span>卡点</span><span>04 / 07</span></div>
+    <div class="footer"><span>卡点</span><span>04 / 08</span></div>
 </section>
 
-<!-- SLIDE 05 -->
+<!-- SLIDE 05 · 筛 · 独有 × 有价值 -->
 <section class="slide" data-slide="5">
-    <div class="eyebrow">空白 · 更早</div>
+    <div class="eyebrow">筛</div>
     <div class="pagedot">v</div>
+    <div class="frame">
+        <h2 class="page-h reveal">判断播客信息值不值得进精读：<em>独有 × 有价值</em></h2>
+        <div class="uv-thesis reveal reveal-d1">
+            <p class="uv-t">核心就两层：别处有没有，以及听完会不会改你对这件事的判断。</p>
+        </div>
+        <div class="uv-cols">
+            <div class="uv-col reveal reveal-d2">
+                <div class="uv-col-h">先判「独有」<span class="uv-sub">这条信息从哪来 · 越靠前越可能只在播客里</span></div>
+                <div class="uv-rank">
+                    <div class="uv-item">
+                        <div class="uv-n">i.</div>
+                        <div>
+                            <div class="uv-title">当事人一手口述</div>
+                            <div class="uv-d">CEO／增长负责人／投资人讲内部数、决策当时、翻车过程——飞书、年报、博客通常不会写到这种粒度。</div>
+                        </div>
+                    </div>
+                    <div class="uv-item">
+                        <div class="uv-n">ii.</div>
+                        <div>
+                            <div class="uv-title">未公开或半公开的运营细节</div>
+                            <div class="uv-d">某渠道 CAC 区间、实验停掉原因、组织怎么排优先级——公开材料多写结果，少写过程与取舍。</div>
+                        </div>
+                    </div>
+                    <div class="uv-item">
+                        <div class="uv-n">iii.</div>
+                        <div>
+                            <div class="uv-title">对公开信息的现场解读</div>
+                            <div class="uv-d">嘉宾用私有语境解释同一组公开数——数字本身别处有，解释框架可能独有。</div>
+                        </div>
+                    </div>
+                    <div class="uv-item">
+                        <div class="uv-n">iv.</div>
+                        <div>
+                            <div class="uv-title">二手复述公开报道</div>
+                            <div class="uv-d">几乎不算独有，顶多算整理。</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uv-checks">
+                    <div class="uv-ck-h">快速自检三问</div>
+                    <ol>
+                        <li>用嘉宾姓名 + 关键数字／产品名去搜：年报、IR、官方博客、Newsletter、X／LinkedIn、同类访谈——有同口径原文吗？</li>
+                        <li>若有：差异在哪——更新了、口径不同，还是只换了说法？</li>
+                        <li>若无：是从未公开，还是公开了但检索不到？后者仍稀缺，标「待核实」。</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="uv-col reveal reveal-d3">
+                <div class="uv-col-h">再判「有价值」<span class="uv-sub">独有不等于有用</span></div>
+                <p class="uv-note">有用通常至少满足一条：</p>
+                <div class="uv-good">
+                    <div class="uv-good-item">
+                        <div class="uv-gt">改判断</div>
+                        <div class="uv-gd">听完你对默认答案会变（例如该不该做付费获客／何时测 PMF）。</div>
+                    </div>
+                    <div class="uv-good-item">
+                        <div class="uv-gt">可迁移机制</div>
+                        <div class="uv-gd">可复用的因果：漏斗哪一层、谁付钱、约束条件是什么。</div>
+                    </div>
+                    <div class="uv-good-item">
+                        <div class="uv-gt">可核对的锚</div>
+                        <div class="uv-gd">有时点、口径、量级；能对照公开财报／官方博客做量级核对。</div>
+                    </div>
+                    <div class="uv-good-item">
+                        <div class="uv-gt">时效窗口</div>
+                        <div class="uv-gd">现在决策相关；六个月后变成常识，价值会掉。</div>
+                    </div>
+                </div>
+                <div class="uv-bad">
+                    <div class="uv-bad-h">反过来 · 听着稀缺、用不值钱</div>
+                    <ul>
+                        <li>没有口径的大数</li>
+                        <li>已成行业口号的框架只换案例</li>
+                        <li>无法证伪的事后合理化</li>
+                        <li>与公开稿高度同构的访谈复述</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><span>筛 · 独有 × 有价值</span><span>05 / 08</span></div>
+</section>
+
+<!-- SLIDE 06 -->
+<section class="slide" data-slide="6">
+    <div class="eyebrow">空白 · 更早</div>
+    <div class="pagedot">vi</div>
     <div class="frame">
         <h2 class="page-h reveal">空白<em>为何存在</em> · 更早没有</h2>
         <div class="thesis-strip reveal reveal-d1">
@@ -907,13 +1110,13 @@ body.edit-mode .slide [contenteditable="true"] {
             </div>
         </div>
     </div>
-    <div class="footer"><span>空白 · 更早</span><span>05 / 07</span></div>
+    <div class="footer"><span>空白 · 更早</span><span>06 / 08</span></div>
 </section>
 
-<!-- SLIDE 06 -->
-<section class="slide" data-slide="6">
+<!-- SLIDE 07 -->
+<section class="slide" data-slide="7">
     <div class="eyebrow">空白 · 解锁</div>
-    <div class="pagedot">vi</div>
+    <div class="pagedot">vii</div>
     <div class="frame">
         <h2 class="page-h reveal">这两年<em>解锁</em></h2>
         <p class="era-label reveal reveal-d1">解锁条件叠齐 · <strong>约 2022 起 → 产品挤出 2024–2026</strong></p>
@@ -962,13 +1165,13 @@ body.edit-mode .slide [contenteditable="true"] {
             </div>
         </div>
     </div>
-    <div class="footer"><span>空白 · 解锁</span><span>06 / 07</span></div>
+    <div class="footer"><span>空白 · 解锁</span><span>07 / 08</span></div>
 </section>
 
-<!-- SLIDE 07 -->
-<section class="slide" data-slide="7">
+<!-- SLIDE 08 -->
+<section class="slide" data-slide="8">
     <div class="eyebrow">互动</div>
-    <div class="pagedot">vii</div>
+    <div class="pagedot">viii</div>
     <div class="frame">
         <h2 class="page-h reveal">你希望怎样的<em>产品交互</em>？</h2>
         <p class="ix-ask reveal reveal-d1">如果想吸收播客中的一手信息，你希望是怎样的产品交互形式？</p>
@@ -1025,7 +1228,7 @@ body.edit-mode .slide [contenteditable="true"] {
             <p class="cq-t">收口：你希望 AI 怎么帮你吸收？</p>
         </div>
     </div>
-    <div class="footer"><span>互动</span><span>07 / 07</span></div>
+    <div class="footer"><span>互动</span><span>08 / 08</span></div>
 </section>
 
 </main>
@@ -1125,7 +1328,7 @@ class InlineEditor {
         document.body.classList.toggle('edit-mode', this.isActive);
         this.toggleBtn.classList.toggle('active', this.isActive);
         this.toggleBtn.classList.add('show');
-        document.querySelectorAll('.slide h1, .slide h2, .slide p, .slide .name, .slide .desc, .slide .cat, .slide .shows, .slide .cov, .slide .val, .slide .cc-name, .slide .cc-shows, .slide .cc-v, .slide .cc-k, .slide .pt, .slide .pd, .slide .wt, .slide .wd, .slide .ts-t, .slide .era-label, .slide .ps-t, .slide .ps-d, .slide .na-t, .slide .na-d, .slide .ix-t, .slide .ix-d, .slide .ix-sub, .slide .ix-ask, .slide .q-text, .slide .cq-t, .slide .ct, .slide .t, .slide .kicker-it, .slide .opener, .slide .who, .slide .na-k, .slide .page-h').forEach((el) => {
+        document.querySelectorAll('.slide h1, .slide h2, .slide p, .slide .name, .slide .desc, .slide .cat, .slide .shows, .slide .cov, .slide .val, .slide .cc-name, .slide .cc-shows, .slide .cc-v, .slide .cc-k, .slide .pt, .slide .pd, .slide .wt, .slide .wd, .slide .ts-t, .slide .uv-t, .slide .uv-title, .slide .uv-d, .slide .uv-gt, .slide .uv-gd, .slide .uv-note, .slide .uv-col-h, .slide .era-label, .slide .ps-t, .slide .ps-d, .slide .na-t, .slide .na-d, .slide .ix-t, .slide .ix-d, .slide .ix-sub, .slide .ix-ask, .slide .q-text, .slide .cq-t, .slide .ct, .slide .t, .slide .kicker-it, .slide .opener, .slide .who, .slide .na-k, .slide .page-h').forEach((el) => {
             el.setAttribute('contenteditable', this.isActive ? 'true' : 'false');
         });
         if (!this.isActive) this.save();
