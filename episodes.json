@@ -13,6 +13,18 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-069",
+      "title": "EP 34.答案越来越容易，焦虑为什么没少｜Stances 综评",
+      "file": "ep-069.mp3",
+      "duration_sec": 1291,
+      "size_bytes": 30985388,
+      "desc": "透过AI播客学英文课。Stances 综评：答案变多不等于判断力变强；稀缺是提问、筛选、边界与行动；信息焦虑来自失控／替代／误解；AI 主动用才减压。",
+      "pub_date": "2026-11-07",
+      "listed": true,
+      "resync": "doubao-202611071836",
+      "guid": "https://joycenotebook.github.io/joyce-podcast/audio/ep-069.mp3?resync=doubao-202611071836"
+    },
+    {
       "id": "ep-068",
       "title": "EP 33.增长｜增长先是信任问题：Lovable 增长负责人怎么拆渠道、测试与变现",
       "file": "ep-068.mp3",
