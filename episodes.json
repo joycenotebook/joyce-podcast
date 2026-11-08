@@ -13,6 +13,19 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-076",
+      "title": "EP 35.哪个Personal Agent 更好用，取决于架构是否匹配你要它做什么｜Stances 综评",
+      "file": "ep-076.mp3",
+      "duration_sec": 1994,
+      "size_bytes": 47866220,
+      "desc": "透过AI播客学英文课。Stances 综评：好用看架构配不配任务；本地优先、主动记忆、确定性流程与开放式多智能体分流；长期运行先要单一事实源。",
+      "pub_date": "2026-11-08",
+      "listed": true,
+      "duration": 1994,
+      "duration_mmss": "33:14",
+      "size": 47866220
+    },
+    {
       "id": "ep-069",
       "title": "EP 34.明明 AI 有问必答，我怎么还总是信息焦虑？｜Stances 综评",
       "file": "ep-069.mp3",

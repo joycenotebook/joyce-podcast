@@ -12,7 +12,7 @@
 
 如果你希望继续收到这类筛选，把表达练成肌肉记忆，可以订阅，节目微信听友群【好事发声听友群】。</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 07 Nov 2026 10:40:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 14:20:17 +0000</lastBuildDate>
     <generator>dai-kexing</generator>
     <itunes:owner>
       <email>lijiexin2010@163.com</email>
@@ -40,6 +40,74 @@
       <title>发声 Taste, Out loud</title>
       <link>https://joycenotebook.github.io/joyce-podcast/</link>
     </image>
+    <item>
+      <title>EP 35.哪个Personal Agent 更好用，取决于架构是否匹配你要它做什么｜Stances 综评</title>
+      <link>https://joycenotebook.github.io/joyce-podcast/ep-076.html</link>
+      <description>&lt;p&gt;【欢迎订阅】&lt;/p&gt;
+&lt;p&gt;本期不是单期英文播客内容精讲，而是基于「个人智能体好不好用，到底是看产品名字，还是看架构配不配你手头的任务？」这一问题，由 Stances 帮忙筛选出的六个播客来源相关论点（Opinion Analysis Report，2026.11.06）。&lt;/p&gt;
+&lt;p&gt;定位：真正好用的个人智能体，更取决于架构与任务匹配，而不是单一产品名。实用性来自三件事：接触真实工作环境，保留个人上下文，把任务拆成可持续执行的流程。分歧不在它有没有用，而在该让它自由探索，还是用确定性流程把它约束住。&lt;/p&gt;
+&lt;p&gt;带走几句判断：选型时先问任务要的是本地权限、主动提醒，还是不能跑偏的流程。记得住你，不等于能自己发现该改进什么；持续运行仍要人先给出检查标准。若希望助手不再每次从头开始，先建立单一事实源。以上判断来自这份综评，不构成投资建议，也不构成对某一款产品的购买建议。&lt;/p&gt;
+
+&lt;h2&gt;1. 课程导读 · 课程近况&lt;/h2&gt;
+&lt;p&gt;本期精读一份 Stances 意见分析报告：把六段播客声音叠在一起，看个人智能体什么时候真正好用。按内容脊柱展开——好用看架构配不配任务；本地优先为什么能力更完整；主动记忆与持续运行的条件；生活审计仍需人给元提示；确定性流程对开放式与多子智能体；哪些日常工作适合交给个人智能体；如何选择，以及如何用单一事实源让助手接着跑。&lt;/p&gt;
+&lt;h3&gt;节目&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;材料：Stances Opinion Analysis Report（意见分析报告；非单集面对面访谈）&lt;/li&gt;
+&lt;li&gt;本节目：《发声 Taste, Out loud》· EP 35 精读&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;2. 讲者与来源&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;材料：Stances Opinion Analysis Report · 六个播客来源综评&lt;/li&gt;
+&lt;li&gt;来源期：
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://podcasts.apple.com/us/podcast/openclaw-and-the-future-of-personal-ai-agents/id1236907421?i=1000748675694"&gt;Y Combinator Startup Podcast — OpenClaw And The Future Of Personal AI Agents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://open.spotify.com/episode/1ZzDYF0CZBDjGs7ppUX35X"&gt;BG2Pod — Coatue Pt2. Open AI's Kevin Weil Dives into All Things ChatGPT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://podcasts.apple.com/us/podcast/the-%241m-solo-ai-agent-business-full-course/id1593424985?i=1000767436638"&gt;The Startup Ideas Podcast — The $1M+ Solo AI Agent Business (Full Course)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://a16z.com/podcast/how-openai-builds-for-800-million-weekly-users-model-specialization-and-fine-tuning/"&gt;a16z Podcast — How OpenAI Builds for 800 Million Weekly Users: Model Specialization and Fine-Tuning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://podcasts.apple.com/us/podcast/how-i-use-obsidian-claude-code-to-run-my-life/id1593424985?i=1000751070268"&gt;The Startup Ideas Podcast — How I Use Obsidian + Claude Code to Run My Life&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://podcasts.apple.com/us/podcast/hermes-agent-clearly-explained-and-how-to-use-it/id1593424985?i=1000762440356"&gt;The Startup Ideas Podcast — Hermes Agent clearly explained (and how to use it)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;关键声音：Kevin Weil、Nick-Orgo、Internet Vin；BG2 主持 Brad Gerstner、Bill Gurley&lt;/li&gt;
+&lt;li&gt;主题：local-first、architecture-task fit、proactive context、deterministic node-based agents、sub-agent、single source of truth、Personal OS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;开场：发声；今天听 Stances 综评——个人智能体好不好用，先看架构配不配任务。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;听友群固定句：扫码加入听友群，回复「笔记」领取完整原文及精读笔记。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;课程导读：实用性三件事；看产品名，还是看架构配不配任务；长期助手先要本地权限、主动提醒，还是单一事实源。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;好用看架构配不配任务：本地优先、主动记忆、确定性流程、云端多智能体、个人知识库，是五类任务，不是五个产品名。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;本地优先：直接使用电脑、文件、应用和命令行；能力来自接触面，所有权来自数据留在自己这边。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;主动记忆：先记住家庭、偏好和日程，再在提问前建议或排队；同时要问隐私、信任和代理权。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;生活审计：历史任务用得上，触发仍由人给出元提示，智能体执行检查。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;确定性流程对开放式／多子智能体：标准作业要约束；编程、部署、调研和知识型任务要灵活。没有一种智能体适合所有工作。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;适合交给个人智能体的工作：跨资料检索、日程与邮件、文档、桌面、命令行，以及重复性自动化。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;单一事实源：维护一份 Markdown 笔记库，助手才不用每次从头开始。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;主题升华：三句判断；先问任务要什么架构。不构成投资建议，也不构成购买建议。&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;时间线为口播结构示意，精确秒数以成片为准。成片时长 33:14，含片头。&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;4. 延伸阅读&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Stances Opinion Analysis Report，2026.11.06&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;5. 听友群&lt;/h2&gt;
+&lt;p&gt;加入听友群获取课程逐字稿、精读讲解稿、行业金句与核心思维模型等学习素材。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://joycenotebook.github.io/joyce-podcast/assets/listen-group-poster-v5.png" alt="加入好事发声听友群" /&gt;&lt;/p&gt;</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://joycenotebook.github.io/joyce-podcast/audio/ep-076.mp3" type="audio/mpeg" length="47866220" />
+      <guid isPermaLink="true">https://joycenotebook.github.io/joyce-podcast/audio/ep-076.mp3</guid>
+      <itunes:duration>33:14</itunes:duration>
+      <itunes:title>EP 35.哪个Personal Agent 更好用，取决于架构是否匹配你要它做什么｜Stances 综评</itunes:title>
+      <itunes:subtitle>透过AI播客学英文课。Stances 综评：好用看架构配不配任务；本地优先、主动记忆、确定性流程与开放式多智能体分流；长期运行先要单一事实源。</itunes:subtitle>
+      <itunes:summary>透过AI播客学英文课。Stances 综评：好用看架构配不配任务；本地优先、主动记忆、确定性流程与开放式多智能体分流；长期运行先要单一事实源。</itunes:summary>
+    </item>
     <item>
       <title>EP 34.明明 AI 有问必答，我怎么还总是信息焦虑？｜Stances 综评</title>
       <link>https://joycenotebook.github.io/joyce-podcast/ep-069.html</link>
