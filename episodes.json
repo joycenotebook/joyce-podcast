@@ -13,6 +13,19 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-075",
+      "title": "EP 36.Anthropic S-1：史上最伟大的生意？｜All In 第 295 集",
+      "file": "ep-075.mp3",
+      "duration_sec": 2381,
+      "size_bytes": 57164588,
+      "desc": "透过AI播客学英文课。All In 第295集：四人读 Anthropic 的 S-1；「史上最大」听成节目口述和市场赔率；收入、年化速度和账面亏损拆开。",
+      "pub_date": "2026-11-11",
+      "listed": true,
+      "duration": 2381,
+      "duration_mmss": "39:41",
+      "size": 57164588
+    },
+    {
       "id": "ep-076",
       "title": "EP 35.哪个Personal Agent 更好用，取决于架构是否匹配你要它做什么｜Stances 综评",
       "file": "ep-076.mp3",
