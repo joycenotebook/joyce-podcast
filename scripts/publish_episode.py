@@ -13,7 +13,8 @@ from datetime import date
 from pathlib import Path
 
 API_BASE = "https://api.marswave.ai/openapi/v1"
-CLIENT_ID = "PJBkELS1o_q9nJ~NzF2_Fmr21TNX&~eoJR49FFdFhD3U"
+# 公开仓库不放 client id。GitHub Actions / 本机用 LISTENHUB_CLIENT_ID。
+CLIENT_ID = os.environ.get("LISTENHUB_CLIENT_ID", "").strip()
 DEFAULT_SPEAKER = "voice-clone-6a0326b627c53bd759c30acb"
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -27,6 +28,8 @@ def api(method: str, path: str, body: dict | None = None) -> dict:
     key = os.environ.get("LISTENHUB_API_KEY") or ""
     if not key:
         die("缺少 LISTENHUB_API_KEY")
+    if not CLIENT_ID:
+        die("缺少 LISTENHUB_CLIENT_ID")
     data = None if body is None else json.dumps(body).encode("utf-8")
     req = urllib.request.Request(
         f"{API_BASE}/{path}",
@@ -91,8 +94,10 @@ def next_episode_id(episodes: list[dict]) -> str:
 
 
 def main() -> None:
+    if (os.environ.get("DRY_RUN") or "").strip().lower() in {"1", "yes", "true"}:
+        die("DRY_RUN 已打开。彩排用 python -m scripts.pipeline，本脚本不会出声。")
     confirmed = (os.environ.get("CONFIRMED") or "").strip().lower()
-    if confirmed not in {"yes", "true", "1", "confirmed"}:
+    if confirmed not in {"yes", "true", "1", "confirmed", "确认上线"}:
         die("未确认脚本，拒绝出声。需要 Joyce 明确「确认上线」。")
 
     title = (os.environ.get("EPISODE_TITLE") or "").strip()
