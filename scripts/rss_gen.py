@@ -239,19 +239,23 @@ def main() -> None:
     root = Path(__file__).resolve().parent.parent
     data = json.loads((root / "episodes.json").read_text(encoding="utf-8"))
     cfg = data["podcast"]
-    episodes = [e for e in data["episodes"] if e.get("listed", True)]
-    episodes = sorted(episodes, key=lambda e: e["pub_date"], reverse=True)
-    (root / "feed.xml").write_text(build_rss(cfg, episodes, root), encoding="utf-8")
-    (root / "index.html").write_text(render_index(cfg, episodes, root), encoding="utf-8")
+    site_eps = [e for e in data["episodes"] if e.get("listed", True)]
+    site_eps = sorted(site_eps, key=lambda e: e["pub_date"], reverse=True)
+    rss_eps = [e for e in site_eps if e.get("rss", True)]
+    (root / "feed.xml").write_text(build_rss(cfg, rss_eps, root), encoding="utf-8")
+    (root / "index.html").write_text(render_index(cfg, site_eps, root), encoding="utf-8")
     pages = 0
-    for ep in episodes:
+    for ep in site_eps:
         notes = load_shownotes(root, ep)
         if notes:
             (root / f"{ep['id']}.html").write_text(
                 render_episode_page(cfg, ep, notes), encoding="utf-8"
             )
             pages += 1
-    print(f"feed.xml + index.html + {pages} 期 Show Notes ({len(episodes)} 期)")
+    print(
+        f"feed.xml ({len(rss_eps)} rss) + index.html + {pages} 期 Show Notes "
+        f"({len(site_eps)} listed)"
+    )
 
 
 if __name__ == "__main__":
