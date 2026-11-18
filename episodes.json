@@ -13,6 +13,19 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-078",
+      "title": "EP 38.打造投资超级智能｜Rogo 创始人 Gabe Stengel",
+      "file": "ep-078.mp3",
+      "duration_sec": 1952,
+      "size_bytes": 46868012,
+      "desc": "透过AI播客学英文课。Rogo：可审计优先于准确；产品要懂人怎么干活；垂直要深，终局是给资产和交易定价。",
+      "pub_date": "2026-11-18T17:47:04+08:00",
+      "listed": true,
+      "duration": 1952,
+      "duration_mmss": "32:32",
+      "size": 46868012
+    },
+    {
       "id": "ep-077",
       "title": "EP 37.搜索广告为什么这么赚钱，这套赚钱能力到了人工智能时代还能不能延续？",
       "file": "ep-077.mp3",
