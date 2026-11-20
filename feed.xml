@@ -45,17 +45,18 @@
       <link>https://joycenotebook.github.io/joyce-podcast/ep-079.html</link>
       <description>&lt;p&gt;【欢迎订阅】&lt;/p&gt;
 &lt;p&gt;原文：《Business Breakdowns》EP.240 · How Investors Are Using AI。主持人 Matt Reustle，嘉宾 David Plon，Portrait Analytics 联合创始人。Portrait 是一家面向投资机构做人工智能研究工具的公司；David 此前自己也做过投资研究。&lt;/p&gt;
-&lt;p&gt;定位：这一集讲的是，投资研究该怎样使用人工智能：少搬资料，别跳过判断。研究最后要交的，不是更多报告，而是一个靠谱的决策。特别容易看走眼的，是那种好看的标签——终端显示一家公司每个季度都超出管理层预期，看着像预测保守、执行力强。可把时间线拆开：第一季度给了全年目标，年中一路下调，第四季度超过的，是已经调低后的目标。超出指引，英文叫 beat guidance；下调目标，叫 revise down。两件事可以同时发生，只是时间不同、比较基础不同。基础没对齐，真实情况就被一个好看的结论盖住了。&lt;/p&gt;
+&lt;p&gt;定位：这一集讲投资研究该怎样使用人工智能。今天分成两部分来读。两部分展开之前，先明确一个前提：研究最终要帮助人作出决策，而不是只增加报告。先看人工智能可以用在哪些研究场景：寻找机会、开展尽调、跟踪持仓。再看投资人怎样把它用好：研究任务怎么交代，答案和工具怎么检验，哪些记录要留给下一轮研究。&lt;/p&gt;
 &lt;p&gt;带走几句判断：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;超出指引和下调目标可以同时发生，只是比较基础不同；基础没对齐，好看的结论就会把真实情况盖住。&lt;/li&gt;
-&lt;li&gt;你今天估未来一年，参考的也许正是管理层此刻给的全年预期，不能只凭「总能超预期」就放心。&lt;/li&gt;
-&lt;li&gt;再往远处看，人工智能最该砍掉的是搬资料的重复劳动，而不是你理解企业、建立起投资确信所必需的那段思考。&lt;/li&gt;
-&lt;li&gt;信息处理完了，决策不会自动完成；把为什么研究、为什么投资、为什么改变看法记下来，下一轮才用得上。&lt;/li&gt;
+&lt;li&gt;研究最后要拍板的，是这家公司值不值得继续看、投不投，以及新来的信息够不够改掉原来的判断；报告、财务模型和会议都是过程。搬资料的时间可以交给工具，可亲手弄清公司靠什么赚钱、哪条假设最要紧，是建立投资确信的学习过程，不能一并拆掉。&lt;/li&gt;
+&lt;li&gt;找机会不是让模型先拉一张股票清单：同一事件落到不同公司身上，方向可以完全相反；面对底子不错却遇到麻烦的公司，要判断把它们拖进去的因素会持续多久。模型把查找范围放大了，你到底在找什么，还是得自己说清楚。&lt;/li&gt;
+&lt;li&gt;开展尽调，是先发现足以让你停止研究的问题，而不是一上来把所有材料读完；过了初筛，深入思考的时间才该花下去。这一步里，管理层激励和历史业绩指引都是可以提前做的核查：薪酬指标能看出董事会想让管理层盯哪儿，历次指引则要对照后来的结果，看经营预期靠不靠谱。&lt;/li&gt;
+&lt;li&gt;跟踪持仓时，要听的不只有公司自己，客户、供应商和竞争对手里，可能藏着会动摇原判断的线索。&lt;/li&gt;
+&lt;li&gt;把工具用好，先把任务和为什么做都交代清楚，再拿自己真正想用上的难题去检验答案和新模型，并把为什么研究、为什么投资、为什么改变看法记下来，留给下一轮。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;1. 课程导读 · 课程近况&lt;/h2&gt;
-&lt;p&gt;本期精读《Business Breakdowns》第 240 期，主持人 Matt Reustle 对 Portrait Analytics 联合创始人 David Plon 的访谈。先从那个好看的标签说起：每个季度都超出管理层预期，拆开时间线之后，超过的可能只是已经调低后的目标。顺着这个前提，这一集分两部分看投资研究怎么用人工智能——它能用在找机会、初筛尽调、盯持仓这些场景里，投资人又该怎样把任务交代清楚、检验答案，并把判断和理由留给下一轮。今天听的，是一把尺子：它帮你省掉的，到底是搬资料，还是理解企业所必需的思考。&lt;/p&gt;
+&lt;p&gt;本期精读《Business Breakdowns》第 240 期，主持人 Matt Reustle 对 Portrait Analytics 联合创始人 David Plon 的访谈。David 做过跨行业投资研究，谈人工智能的起点不是模型能写多长，而是研究怎样真正帮人作出判断。少搬资料，别跳过判断——工具可以更快补背景、提前做检查、把上下游线索和历史变化整理出来，但这些依据只有挂在具体的投资判断上才有用。信息处理完了，决策不会自动完成。&lt;/p&gt;
 &lt;h3&gt;节目&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;主持：Matt Reustle&lt;/li&gt;
@@ -69,7 +70,7 @@
 &lt;li&gt;David Plon，Portrait Analytics 联合创始人；此前在巴克莱、Slate Path Capital 和 Baupost 做过投资研究&lt;/li&gt;
 &lt;li&gt;主持：Matt Reustle&lt;/li&gt;
 &lt;li&gt;来源期：&lt;a href="https://colossus.com/episode/how-investors-are-using-ai/"&gt;Business Breakdowns · EP.240 · How Investors Are Using AI&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;主题：研究产出是决策而不是更多报告、投资研究的核心场景、怎样交代和检验人工智能任务、把判断理由留给下一轮&lt;/li&gt;
+&lt;li&gt;主题：研究最终要帮助人作出决策，而不是只增加报告；人工智能可用在寻找机会、开展尽调、跟踪持仓；投资人怎样交代任务、检验答案和工具，并把记录留给下一轮研究&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2&gt;3. 主要话题时间线&lt;/h2&gt;
@@ -77,7 +78,7 @@
 &lt;thead&gt;&lt;tr&gt;&lt;th&gt;时间&lt;/th&gt;&lt;th&gt;话题&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;&lt;td&gt;00:00&lt;/td&gt;&lt;td&gt;片头/开场。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;00:05&lt;/td&gt;&lt;td&gt;课程导读：终端上「每个季度都超预期」，拆开时间线后，超过的可能只是已经调低的目标；研究最后要交的是决策，不是更多报告。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;00:05&lt;/td&gt;&lt;td&gt;课程导读：先立前提——研究最终要帮助人作出决策，而不是只增加报告；再分成两部分，先看研究场景，再看怎样用好人工智能。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;02:04&lt;/td&gt;&lt;td&gt;听友群领取方式：扫码加入听友群，回复「笔记」领取完整原文及精读笔记。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;02:18&lt;/td&gt;&lt;td&gt;英文原文与讲解：进入投资研究怎样使用人工智能。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;02:20&lt;/td&gt;&lt;td&gt;先确定研究的产出：你需要的是决策，不是更多报告；费时间要分开看，别把建立确信的学习过程一起拆掉。&lt;/td&gt;&lt;/tr&gt;
@@ -85,7 +86,7 @@
 &lt;tr&gt;&lt;td&gt;05:42&lt;/td&gt;&lt;td&gt;寻找投资机会：先把你喜欢什么公司说清楚。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;09:02&lt;/td&gt;&lt;td&gt;初步尽调：先发现足以让你停止研究的问题。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;11:14&lt;/td&gt;&lt;td&gt;核查管理层激励：薪酬指标透露董事会重视什么。&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;13:04&lt;/td&gt;&lt;td&gt;复盘历史业绩指引：超额完成之前，目标有没有降低；超出指引和下调目标可以同时发生，基础没对齐，就会被好看的结论盖住。&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;13:04&lt;/td&gt;&lt;td&gt;复盘历史业绩指引：超额完成之前，目标有没有降低；把历次说法和后来的结果对照，看经营预期靠不靠谱。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;15:53&lt;/td&gt;&lt;td&gt;持仓跟踪：你持有一家公司的股票，要听的不只有它自己。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;18:31&lt;/td&gt;&lt;td&gt;第二部分：投资人怎样用好人工智能。&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;td&gt;18:47&lt;/td&gt;&lt;td&gt;怎样把研究任务交代清楚。&lt;/td&gt;&lt;/tr&gt;
