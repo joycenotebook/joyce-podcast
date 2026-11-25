@@ -13,6 +13,19 @@
   "speaker_id": "voice-clone-6a89685731af54c9011c09c7",
   "episodes": [
     {
+      "id": "ep-081",
+      "title": "EP 41.餐饮业年倒闭15%，它的软件留存却高到离谱：拆解Toast｜Business Breakdowns",
+      "file": "ep-081.mp3",
+      "duration_sec": 1831,
+      "size_bytes": 43962092,
+      "desc": "透过AI播客学英文课。Toast：高淘汰行业里留存高到离谱；先看经常性毛利和支付抽成，再看客户关掉会怎样。",
+      "pub_date": "2026-11-25T22:00:33+08:00",
+      "listed": true,
+      "duration": 1831,
+      "duration_mmss": "30:31",
+      "size": 43962092
+    },
+    {
       "id": "ep-080",
       "title": "EP 40.时隔一月再盘点个人智能体赛道，亲测147款：新产品会购物、会规划、会八卦｜a16z",
       "file": "ep-080-v2.mp3",
